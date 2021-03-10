@@ -21,10 +21,6 @@ test:
 pages:
   stage: deploy
   interruptible: true
-  before_script:
-    - rm Gemfile.lock
-    - apk add --update curl
-    - rm -rf /var/cache/apk/*
   script:
     - bundle exec jekyll build -d public
   artifacts:

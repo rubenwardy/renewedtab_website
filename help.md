@@ -3,15 +3,6 @@ title: Help and FAQ
 layout: article
 ---
 
-<style>
-	h2:not(:first-child) {
-		margin-top: 2em !important;
-	}
-	h3 {
-		font-size: 1.2em !important;
-	}
-</style>
-
 # Help and FAQ
 
 ## Frequently Asked Questions
