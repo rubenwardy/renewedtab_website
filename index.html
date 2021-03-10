@@ -1,0 +1,96 @@
+---
+title: Homescreen
+layout: default
+---
+
+<a name="top"></a>
+
+<header class="section content mt-5">
+	<h1>Homescreen</h1>
+	<p>
+		{{ site.description }}
+	</p>
+	<p>
+		<a class="button is-firefox" href="">
+			<span class="icon">
+				<i class="fab fa-firefox-browser"></i>
+			</span>
+			<span>Firefox</span>
+		</a>
+		<a class="button is-chrome" href="">
+			<span class="icon">
+				<i class="fab fa-chrome"></i>
+			</span>
+			<span>Chrome</span>
+		</a>
+		<a class="button" href="https://homescreen.rubenwardy.com/web/">
+			<span class="icon">
+				<i class="fas fa-globe-europe"></i>
+			</span>
+			<span>Web</span>
+		</a>
+	</p>
+</header>
+
+{% for item in site.data.features %}
+	<section class="section">
+		{% if item.image_link %}
+			{% assign image_link = item.image_link %}
+		{% else %}
+			{% assign image_link = item.image | replace: '.png', '_full.png' %}
+		{% endif %}
+
+		{% capture side %}{% cycle "left", "right" %}{% endcapture %}
+		{% capture text %}
+			<div class="column is-half content">
+				<h2>{{ item.title }}</h2>
+
+				{{ item.desc | markdownify }}
+			</div>
+		{% endcapture %}
+		{% capture image %}
+			<figure class="column is-half">
+				<a class="image is-4by3" href="{{ image_link }}">
+					<img src="{{ item.image }}" alt="{{ item.title }}">
+				</a>
+			</figure>
+		{% endcapture %}
+
+		<div class="columns">
+			{% if side == "left" %}
+				{{ text }}
+				{{ image}}
+			{% else %}
+				{{ image}}
+				{{ text }}
+			{% endif %}
+		</div>
+	</section>
+{% endfor %}
+
+<section id="install" class="section is-medium has-text-centered">
+	<p class="mb-5">
+		Like what you see?<br>
+		Available for:
+	</p>
+	<p>
+		<a class="button is-firefox is-large" href="">
+			<span class="icon">
+				<i class="fab fa-firefox-browser"></i>
+			</span>
+			<span>Firefox</span>
+		</a>
+		<a class="button is-chrome is-large" href="">
+			<span class="icon">
+				<i class="fab fa-chrome"></i>
+			</span>
+			<span>Chrome</span>
+		</a>
+		<a class="button is-large" href="https://homescreen.rubenwardy.com/web/">
+			<span class="icon">
+				<i class="fas fa-globe-europe"></i>
+			</span>
+			<span>Web</span>
+		</a>
+	</p>
+</section>

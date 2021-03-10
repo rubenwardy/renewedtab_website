@@ -1,0 +1,39 @@
+- title: Powerful Widgets System
+  image: static/images/widgets.png
+  desc: |
+    The core of Homescreen is the widget system.
+    You can add, move, resize, and configure widgets on a grid using intuitive
+    controls.
+
+    Choose from many widgets, including:
+    RSS and Atom feeds, Quick Links, Notes, IFrames, Buttons, Clocks,
+    your current Age, Search, upcoming Space Flights, and the Weather.
+
+- title: Beautiful Backgrounds
+  image: static/images/focus.png
+  desc: |
+    See a random high quality background every 15 minutes,
+    powered by [Unsplash](https://unsplash.com).
+
+    You can also choose solid colors or a custom background image.
+
+- title: Customisable
+  image: static/images/backgrounds.png
+  desc: |
+    Each widget can be configured, and background settings can also be changed.
+
+    Customisation is at the heart of Homescreen, and it will continue to be
+    developed to increase the possibilities.
+
+- title: Open Source
+  image: static/images/opensource.png
+  image_link: https://gitlab.com/rubenwardy/homescreen
+  desc: |
+    Homescreen is open source, under the GPLv3 license. This means that anyone
+    can read the code, modify it, and contribute to development.
+
+    It's written in TypeScript and React.
+
+    <a class="button" href="https://gitlab.com/rubenwardy/homescreen">
+      Source code
+    </a>
