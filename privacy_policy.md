@@ -8,20 +8,34 @@ layout: article
 
 ## What information is collected and how is it used?
 
-HTTP requests are logged, with the following information:
+Your client will contact this server in order to retrieve information in
+order to perform its function. Any HTTP requests to this server are logged,
+with the following information:
 
 * Time
 * IP address
 * Page URL and query arguments
-* Response status code
+* Response status code and size
 
-Logged HTTP requests may be used for debugging.
+Logged HTTP requests may be used for debugging, or for very anonymous statistics
+(such as view counters).
+
+Background image ratings are stored anonymously on the server, and used to refine
+background choices. Whether or not you've rated a particular background is
+stored against IP address, to avoid duplicate ratings.
 
 In order to look up latitude and longitude, the weather widget will send
 location queries to the API server. The API server will then use
 [OpenStreetMap](https://www.openstreetmap.org) to look up this information,
 but does so in a way only the location query is sent - user IP addresses aren't
-shared. Location queries will be logged as above.
+shared. The weather widget will then request weather by latitude and longitude;
+the API server will use [OpenWeatherMap](https://openweathermap.org/).
+Location queries and weather look ups will be logged as above.
+
+Settings, including widgets, are stored in your browser. They are not sent
+online unless needed to provide functionality, such as fetching weather
+information. Custom background images you "upload" never leave your computer,
+they are stored locally.
 
 
 ## Third-party Services
@@ -33,7 +47,7 @@ from the URL you specify.
 See [Unsplash's Privacy Policy](https://unsplash.com/privacy).
 
 Widgets such as the Feed widget may fetch
-information directly from the specified website.
+information directly from the specified URL.
 
 
 ## Location
@@ -50,6 +64,11 @@ forgotten about within a week.
 
 ## Future Changes to Privacy Policy
 
-We will alert you to any future changes to the privacy policy on this website.
+Changes to the privacy policy will be alerted on this website.
 
 By continuing to use this service, you agree to the privacy policy.
+
+
+## Removal Requests and Queries
+
+[Contact me](https://rubenwardy.com/contact/)
