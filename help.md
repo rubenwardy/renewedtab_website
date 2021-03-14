@@ -7,9 +7,56 @@ layout: article
 
 ## Frequently Asked Questions
 
-### Why is this section empty?
+### How can I place widgets outside of the grid / at the bottom of the screen?
 
-Because I haven't been asked any questions yet.
+Homescreen requires all widgets to be placed on the grid. This is great for
+the User Experience, as it's simple, but makes it harder to do certain things.
+
+To make a widget appear to be at the bottom of the screen, you can use the
+Invisible widget to add vertical spacing between widgets. This will work well
+for specific screen resolutions.
+
+### Why don't you support X browser?
+
+We only support the latest 2 versions of Firefox and Chrome; it is hard to test
+and provide support for every browser.
+
+Homescreen is built using cross-platform technologies, meaning that it is likely
+that it will work on your browser despite not being supported.
+You can download .zips of the browser extension from
+[GitLab pipelines](https://gitlab.com/rubenwardy/homescreen/-/jobs/artifacts/master/raw/?job=webext).
+
+If you have a problem with an unsupported browser, then we are unlikely to be
+able to help. However, we may accept patches/PRs to fix issues on unsupported
+platforms as long as it doesn't introduce architectural problems, and the
+problem is not due to the browser incorrectly implementing web standards.
+
+### Why do I get an error when entering a custom URL in the web version?
+
+If you try to enter a custom URL that is not allowed in the web version, you
+will get the following error:
+
+> Accessing host example.com is not allowed on the web version. For
+> security reasons, the web version may only access pre-approved domains.
+> Consider using the Chrome/Firefox extension instead.
+
+The web version uses a proxy to access URLs, rather than contacting them
+directly. This is to get around
+[Cross Origin Resource Sharing](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
+(CORS) restrictions: web pages can't make requests to other websites without the
+other website giving permission.
+
+The web version's proxy restricts the domains you can use for
+[security reasons](https://owasp.org/www-community/attacks/Server_Side_Request_Forgery).
+If any domain were allowed, malicious users could mess with DNS records to allow
+accessing internal services on the server.
+
+You may be able to ask for a website to be allowed by the proxy. However, you
+should use the Chrome/Firefox extension instead, as it doesn't have this
+restriction
+
+Note: If you get the error whilst using the browser extension, there's something
+_wrong_. Please report it below.
 
 
 ## Feature Requests, Bug Reports, and Support
@@ -18,5 +65,14 @@ Making an issue on the
 [Issue Tracker](https://gitlab.com/rubenwardy/homescreen/-/issues)
 is the preferred way of discussing Homescreen.
 
-You can also [Contact Me](https://rubenwardy.com/content/) by email and various
-other methods.
+You can also contact me by email and various other methods, or join the Discord
+server.
+
+<a href="https://rubenwardy.com/contact/" class="button is-info">
+	<i class="fas fa-envelope mr-2"></i>
+	Contact Me
+</a>
+<a href="https://discord.gg/zYjR54b" class="button">
+	<i class="fab fa-discord mr-2"></i>
+	Discord
+</a>
