@@ -61,14 +61,17 @@ _wrong_. Please report it below.
 
 ## Feature Requests, Bug Reports, and Support
 
-Making an issue on the
-[Issue Tracker](https://gitlab.com/rubenwardy/homescreen/-/issues)
-is the preferred way of discussing Homescreen.
+Making an issue on the Issue Tracker is the preferred way of discussing
+Homescreen bugs and feature requests.
 
-You can also contact me by email and various other methods, or join the Discord
-server.
+If you need help, you can use any of these options. Discord is likely to be the
+quickest.
 
-<a href="https://rubenwardy.com/contact/" class="button is-info">
+<a href="https://gitlab.com/rubenwardy/homescreen/-/issues" class="button is-info">
+	<i class="fas fa-bug mr-2"></i>
+	Issue Tracker
+</a>
+<a href="https://rubenwardy.com/contact/" class="button">
 	<i class="fas fa-envelope mr-2"></i>
 	Contact Me
 </a>
