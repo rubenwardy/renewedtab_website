@@ -6,13 +6,15 @@
     controls.
 
     Choose from many widgets, including:
-    RSS and Atom feeds, Quick Links, Notes, IFrames, Buttons, Clocks,
-    your current Age, Search, upcoming Space Flights, and the Weather.
+    RSS and Atom feeds, the Weather, Quick Links, Top Sites, Notes,
+    your current Age, Search bars, Web Comics, and upcoming Space Flights.
+
+    You can place the same type of widget multiple times, with different settings.
 
 - title: Beautiful Backgrounds
   image: static/images/focus.png
   desc: |
-    See a random high quality background every 15 minutes,
+    See a random curated background every 15 minutes,
     powered by [Unsplash](https://unsplash.com).
 
     You can also choose solid colors or a custom background image.
@@ -20,17 +22,17 @@
 - title: Customisable
   image: static/images/backgrounds.png
   desc: |
-    Each widget can be configured, and background settings can also be changed.
+    Each widget can be configured, and background settings can be changed.
 
     Customisation is at the heart of Homescreen, and it will continue to be
     developed to increase the possibilities.
 
-- title: Open Source
+- title: Free and Open Source
   image: static/images/opensource.png
   image_link: https://gitlab.com/rubenwardy/homescreen
   desc: |
-    Homescreen is open source, under the GPLv3 license. This means that anyone
-    can read the code, modify it, and contribute to development.
+    Homescreen is open source - this means that anyone can read the code,
+    modify it, and contribute to development.
 
     It's written in TypeScript and React.
 
