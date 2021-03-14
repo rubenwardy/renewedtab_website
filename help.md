@@ -13,8 +13,7 @@ Homescreen requires all widgets to be placed on the grid. This is great for
 the User Experience, as it's simple, but makes it harder to do certain things.
 
 To make a widget appear to be at the bottom of the screen, you can use the
-Invisible widget to add vertical spacing between widgets. This will work well
-for specific screen resolutions.
+Invisible widget to add vertical spacing between widgets.
 
 ### Why don't you support X browser?
 
