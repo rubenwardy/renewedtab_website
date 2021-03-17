@@ -7,6 +7,28 @@ layout: article
 
 ## Frequently Asked Questions
 
+### Why isn't Homescreen on the Firefox / Chrome stores yet?
+
+Because a name is still being chosen.
+Please [join the Discord](https://discord.gg/zYjR54b) if you have any ideas.
+
+### How do I set Homescreen as my New Tab / Homepage?
+
+It is recommended that you install the extension, as it sets the New Tab page
+automatically and also unlocks more features.
+
+For the Web version, you may be able to set your browser to use
+`https://homescreen.rubenwardy.com/web/`.
+
+* Firefox:
+	* New Tab: You need an extension.
+	* Homepage: Preferences > Home > "Homepage and new Windows" > Custom.
+		Enter the URL.
+* Chrome:
+	* New Tab: You need an extension.
+	* Homepage: Settings > Appearance. Enable "Show Home button" and enter the
+		URL in "custom web address".
+
 ### How can I place widgets outside of the grid / at the bottom of the screen?
 
 Homescreen requires all widgets to be placed on the grid. This is great for
@@ -56,6 +78,15 @@ restriction
 
 Note: If you get the error whilst using the browser extension, there's something
 _wrong_. Please report it below.
+
+### Why does a background that I've blocked still appear?
+
+The Homescreen API server only has 4 images available to choose from at a time.
+If you've blocked a lot of images, then it's possible that you may end up with
+all of these available images being blocked - if this is the case, then the
+first image will be used.
+
+The reason this is done is to avoid hitting the Unsplash API too much.
 
 
 ## Feature Requests, Bug Reports, and Support
