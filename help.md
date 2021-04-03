@@ -7,18 +7,13 @@ layout: article
 
 ## Frequently Asked Questions
 
-### Why isn't Homescreen on the Firefox / Chrome stores yet?
-
-Because a name is still being chosen.
-Please [join the Discord](https://discord.gg/zYjR54b) if you have any ideas.
-
-### How do I set Homescreen as my New Tab / Homepage?
+### How do I set Renewed Tab as my New Tab / Homepage?
 
 It is recommended that you install the extension, as it sets the New Tab page
 automatically and also unlocks more features.
 
 For the Web version, you may be able to set your browser to use
-`https://homescreen.rubenwardy.com/web/`.
+`https://renewedtab.rubenwardy.com/web/`.
 
 * Firefox:
 	* New Tab: You need an extension.
@@ -31,7 +26,7 @@ For the Web version, you may be able to set your browser to use
 
 ### How can I place widgets outside of the grid / at the bottom of the screen?
 
-Homescreen requires all widgets to be placed on the grid. This is great for
+Renewed Tab requires all widgets to be placed on the grid. This is great for
 the User Experience, as it's simple, but makes it harder to do certain things.
 
 To make a widget appear to be at the bottom of the screen, you can use the
@@ -42,10 +37,10 @@ Invisible widget to add vertical spacing between widgets.
 We only support the latest 2 versions of Firefox and Chrome; it is hard to test
 and provide support for every browser.
 
-Homescreen is built using cross-platform technologies, meaning that it is likely
+Renewed Tab is built using cross-platform technologies, meaning that it is likely
 that it will work on your browser despite not being supported.
 You can download .zips of the browser extension from
-[GitLab pipelines](https://gitlab.com/rubenwardy/homescreen/-/jobs/artifacts/master/raw/?job=webext).
+[GitLab pipelines](https://gitlab.com/rubenwardy/renewedtab/-/jobs/artifacts/master/raw/?job=webext).
 
 If you have a problem with an unsupported browser, then we are unlikely to be
 able to help. However, we may accept patches/PRs to fix issues on unsupported
@@ -81,7 +76,7 @@ _wrong_. Please report it below.
 
 ### Why does a background that I've blocked still appear?
 
-The Homescreen API server only has 4 images available to choose from at a time.
+The Renewed Tab API server only has 4 images available to choose from at a time.
 If you've blocked a lot of images, then it's possible that you may end up with
 all of these available images being blocked - if this is the case, then the
 first image will be used.
@@ -92,12 +87,12 @@ The reason this is done is to avoid hitting the Unsplash API too much.
 ## Feature Requests, Bug Reports, and Support
 
 Making an issue on the Issue Tracker is the preferred way of discussing
-Homescreen bugs and feature requests.
+Renewed Tab bugs and feature requests.
 
 If you need help, you can use any of these options. Discord is likely to be the
 quickest.
 
-<a href="https://gitlab.com/rubenwardy/homescreen/-/issues" class="button is-info">
+<a href="https://gitlab.com/rubenwardy/renewedtab/-/issues" class="button is-info">
 	<i class="fas fa-bug mr-2"></i>
 	Issue Tracker
 </a>

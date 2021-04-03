@@ -1,7 +1,7 @@
 - title: Powerful Widgets System
   image: static/images/widgets.png
   desc: |
-    The core of Homescreen is the widget system.
+    The core of Renewed Tab is the widget system.
     You can add, move, resize, and configure widgets on a grid using intuitive
     controls.
 
@@ -25,18 +25,18 @@
   desc: |
     Each widget can be configured, and background settings can be changed.
 
-    Customisation is at the heart of Homescreen, and it will continue to be
+    Customisation is at the heart of Renewed Tab, and it will continue to be
     developed to increase the possibilities.
 
 - title: Free and Open Source
   image: static/images/opensource.png
-  image_link: https://gitlab.com/rubenwardy/homescreen
+  image_link: https://gitlab.com/rubenwardy/renewedtab
   desc: |
-    Homescreen is open source - this means that anyone can read the code,
+    Renewed Tab is open source - this means that anyone can read the code,
     modify it, and contribute to development.
 
     It's written in TypeScript and React.
 
-    <a class="button" href="https://gitlab.com/rubenwardy/homescreen">
+    <a class="button" href="https://gitlab.com/rubenwardy/renewedtab">
       Source code
     </a>
