@@ -5,6 +5,8 @@ layout: article
 
 # Privacy Policy
 
+Last updated: 2021-04-04.
+
 
 ## What information is collected and how is it used?
 
@@ -30,24 +32,31 @@ location queries to the API server. The API server will then use
 but does so in a way only the location query is sent - user IP addresses aren't
 shared. The weather widget will then request weather by latitude and longitude;
 the API server will use [OpenWeatherMap](https://openweathermap.org/).
-Location queries and weather look ups will be logged as above.
+Location queries and weather look ups will be logged as above, as this is done
+for all HTTP requests.
 
 Settings, including widgets, are stored in your browser. They are not sent
 online unless needed to provide functionality, such as fetching weather
 information. Custom background images you "upload" never leave your computer,
 they are stored locally.
 
+All communications with our server is done using strong encryption.
+
 
 ## Third-party Services
 
-Your computer may directly contact third-party websites as part of this service.
+Your computer may directly contact third-party services as part of this service.
 
 Background images will load directly from [Unsplash](https://unsplash.com) or
 from the URL you specify.
 See [Unsplash's Privacy Policy](https://unsplash.com/privacy).
 
-Widgets such as the Feed widget may fetch
-information directly from the specified URL.
+Widgets such as the Feed widget may fetch information directly from the
+specified URL.
+
+We do not share information with third-party services except where necessary to
+perform the extension's function, such as looking up locations and getting
+weather information.
 
 
 ## Location
