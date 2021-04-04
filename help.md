@@ -7,6 +7,12 @@ layout: article
 
 ## Frequently Asked Questions
 
+### Why aren't the browser extensions available yet?
+
+Mozilla and Google both have in-depth review processes for their browser stores.
+The extensions have been submitted, but are awaiting review before they can be
+made public.
+
 ### How do I set Renewed Tab as my New Tab / Homepage?
 
 It is recommended that you install the extension, as it sets the New Tab page
