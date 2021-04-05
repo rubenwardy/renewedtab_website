@@ -86,7 +86,7 @@
 				</div>
 
 				{%- capture twitter_url -%}
-					https://twitter.com/intent/tweet?text=Renewed+Tab:+{{ site.description | uri_escape }}&amp;hashtags=renewedtab,firefox,chrome&amp;url=https://renewedtab.rubenwardy.com/
+					https://twitter.com/intent/tweet?text={{ "Renewed Tab: " | append: site.description | uri_escape }}&amp;hashtags=renewedtab,firefox,chrome&amp;url=https://renewedtab.rubenwardy.com/
 				{%- endcapture -%}
 				<div class="navbar-end">
 					<div class="navbar-item">
