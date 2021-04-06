@@ -95,8 +95,8 @@ The reason this is done is to avoid hitting the Unsplash API too much.
 Making an issue on the Issue Tracker is the preferred way of discussing
 Renewed Tab bugs and feature requests.
 
-If you need help, you can use any of these options. Discord is likely to be the
-quickest.
+If you need help, you can use any of these options. Discord or Matrix is likely
+to be the quickest.
 
 <a href="https://gitlab.com/rubenwardy/renewedtab/-/issues" class="button is-info">
 	<i class="fas fa-bug mr-2"></i>
@@ -109,4 +109,8 @@ quickest.
 <a href="https://discord.gg/zYjR54b" class="button">
 	<i class="fab fa-discord mr-2"></i>
 	Discord
+</a>
+<a href="https://matrix.to/#/#renewedtab:matrix.org" class="button" >
+	<i class="fas fa-hashtag mr-2"></i>
+	Matrix
 </a>
