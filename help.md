@@ -13,6 +13,21 @@ Mozilla and Google both have in-depth review processes for their browser stores.
 The extensions have been submitted, but are awaiting review before they can be
 made public.
 
+### How do I enable the blur on Firefox?
+
+The blur requires an experimental feature in Firefox to be enabled, called
+`backdrop-filter`:
+
+1. Open a new tab and type `about:config` as the address.
+2. Accept the warning.
+3. Enable `layout.css.backdrop-filter.enabled` and `gfx.webrender.all`.
+4. Close and reopen Firefox.
+
+Please note that you may get visual glitches with this, it is an unstable
+Firefox feature, which is why it's not enabled by default.
+
+Source: https://dev.to/rethinkprogramming/how-to-enable-backdrop-filter-in-firefox-2n8e
+
 ### How do I set Renewed Tab as my New Tab / Homepage?
 
 It is recommended that you install the extension, as it sets the New Tab page
