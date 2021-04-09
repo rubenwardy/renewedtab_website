@@ -7,12 +7,6 @@ layout: article
 
 ## Frequently Asked Questions
 
-### Why aren't the browser extensions available yet?
-
-Mozilla and Google both have in-depth review processes for their browser stores.
-The extensions have been submitted, but are awaiting review before they can be
-made public.
-
 ### How do I enable the blur on Firefox?
 
 The blur requires an experimental feature in Firefox to be enabled, called
