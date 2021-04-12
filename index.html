@@ -130,9 +130,7 @@ chrome: https://chrome.google.com/webstore/detail/renewed-tab/laljofodhebajcajog
 	if (urlParams.has("utm_source")) {
 		for (let link of document.getElementsByClassName("utm-link")) {
 			const url = new URL(link.getAttribute("href"));
-			for (let [key, value] of urlParams) {
-				url.searchParams.set(key, value);
-			}
+			url.search = urlParams.toString();
 			link.setAttribute("href", url.toString());
 		}
 	}
