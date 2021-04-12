@@ -1,10 +1,11 @@
 ---
-title: Uninstall Survey
+title: Uninstall Feedback
 layout: article
 reasons:
-  missing_features: Didn't have the features I desired
-  buggy: Was buggy or unstable
-  no_need: I don't need a New Tab page
+  missing_features: Didn't have the feature(s) I desired
+  difficult: It was too difficult to use
+  buggy: It was buggy or unstable, or didn't work at all
+  no_need: I don't need a New Tab page extension
 ---
 
 <h1>We'd appreciate your feedback</h1>
@@ -20,7 +21,7 @@ reasons:
 	<input type="hidden" name="browser" disabled />
 
 	<div class="field mt-5">
-		<span class="label">Uninstall reason</span>
+		<span class="label">Uninstall reason(s)</span>
 		<p class="help">
 			Check all that apply.
 		</p>
@@ -44,8 +45,8 @@ reasons:
 	<div class="field mt-5">
 		<label class="label">Comments</label>
 		<p class="help">
-			Include any information that may be useful, such as descriptions of
-			missing features or bugs.
+			Optional. Put any further comments that may help us improve, such as
+			any missing features or bugs.
 		</p>
 		<div class="control">
 			<textarea class="textarea" name="comments"></textarea>
@@ -58,6 +59,28 @@ reasons:
 		</div>
 	</div>
 </form>
+
+
+<h2>Didn't mean to uninstall?</h2>
+
+<p>
+	Install again:
+</p>
+<p>
+	<a class="button is-firefox utm-link" href="{{ site.firefox }}&utm_content=reinstall">
+		<span class="icon">
+			<i class="fab fa-firefox-browser"></i>
+		</span>
+		<span>Firefox</span>
+	</a>
+	<a class="button is-chrome utm-link" href="{{ site.chrome }}&utm_content=reinstall">
+		<span class="icon">
+			<i class="fab fa-chrome"></i>
+		</span>
+		<span>Chrome</span>
+	</a>
+</p>
+
 
 <script>
 	// @license magnet:?xt=urn:btih:1f739d935676111cfff4b4693e3816e664797050&dn=gpl-3.0.txt GPL-v3-or-Later
@@ -92,24 +115,3 @@ reasons:
 
 	// @license-end
 </script>
-
-
-<h2>Didn't mean to uninstall?</h2>
-
-<p>
-	Reinstall now:
-</p>
-<p>
-	<a class="button is-firefox utm-link" href="{{ site.firefox }}&utm_content=reinstall">
-		<span class="icon">
-			<i class="fab fa-firefox-browser"></i>
-		</span>
-		<span>Firefox</span>
-	</a>
-	<a class="button is-chrome utm-link" href="{{ site.chrome }}&utm_content=reinstall">
-		<span class="icon">
-			<i class="fab fa-chrome"></i>
-		</span>
-		<span>Chrome</span>
-	</a>
-</p>
