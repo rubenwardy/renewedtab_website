@@ -2,26 +2,28 @@
 title: Uninstall Survey
 layout: article
 reasons:
-  features: Didn't have the features I desired
+  missing_features: Didn't have the features I desired
   buggy: Was buggy or unstable
-  noneed: I don't need a New Tab page
-  preferother: I prefer another extension
+  no_need: I don't need a New Tab page
 ---
 
-<h1>We're sorry to see you go</h1>
+<h1>We'd appreciate your feedback</h1>
 
 <p>
 	Thanks for trying out Renewed Tab.
-	We'd appreciate it if you gave us feedback.
+	Please help us make Renewed Tab better by giving feedback.
 </p>
 
 <form action="https://renewedtab.rubenwardy.com/api/feedback/?r=1" method="post">
-	<input type="hidden" name="reason" value="uninstall" />
+	<input type="hidden" name="event" value="uninstall" />
 	<input type="hidden" name="platform" disabled />
 	<input type="hidden" name="browser" disabled />
 
 	<div class="field mt-5">
 		<span class="label">Uninstall reason</span>
+		<p class="help">
+			Check all that apply.
+		</p>
 		{% for item in page.reasons %}
 			<div class="control my-2">
 				<label class="checkbox">
@@ -42,7 +44,7 @@ reasons:
 	<div class="field mt-5">
 		<label class="label">Comments</label>
 		<p class="help">
-			Any more information that may be useful, such as descriptions of
+			Include any information that may be useful, such as descriptions of
 			missing features or bugs.
 		</p>
 		<div class="control">
@@ -72,13 +74,16 @@ reasons:
 	// Get platform / browser info
 	{
 		const urlParams = new URLSearchParams(window.location.search);
+
 		const platform = urlParams.get("platform");
-		const browser = urlParams.get("browser");
-		if (platform || browser) {
+		if (platform) {
 			const inputPlatform = document.querySelector("input[name='platform']");
 			inputPlatform.value = platform ? platform : "";
 			inputPlatform.removeAttribute("disabled");
+		}
 
+		const browser = urlParams.get("browser");
+		if (browser) {
 			const inputBrowser = document.querySelector("input[name='browser']");
 			inputBrowser.value = browser ? browser : "";
 			inputBrowser.removeAttribute("disabled");
