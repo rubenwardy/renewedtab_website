@@ -13,13 +13,13 @@ chrome: https://chrome.google.com/webstore/detail/renewed-tab/laljofodhebajcajog
 		{{ site.description }}
 	</p>
 	<p>
-		<a class="button is-firefox" href="{{ page.firefox }}&utm_content=topbtn">
+		<a class="button is-firefox utm-link" href="{{ page.firefox }}&utm_content=topbtn">
 			<span class="icon">
 				<i class="fab fa-firefox-browser"></i>
 			</span>
 			<span>Firefox</span>
 		</a>
-		<a class="button is-chrome" href="{{ page.chrome }}&utm_content=topbtn">
+		<a class="button is-chrome utm-link" href="{{ page.chrome }}&utm_content=topbtn">
 			<span class="icon">
 				<i class="fab fa-chrome"></i>
 			</span>
@@ -103,13 +103,13 @@ chrome: https://chrome.google.com/webstore/detail/renewed-tab/laljofodhebajcajog
 		Available for:
 	</p>
 	<p>
-		<a class="button is-firefox is-large" href="{{ page.firefox }}&utm_content=bottombtn">
+		<a class="button is-firefox is-large utm-link" href="{{ page.firefox }}&utm_content=bottombtn">
 			<span class="icon">
 				<i class="fab fa-firefox-browser"></i>
 			</span>
 			<span>Firefox</span>
 		</a>
-		<a class="button is-chrome is-large" href="{{ page.chrome }}&utm_content=bottombtn">
+		<a class="button is-chrome is-large utm-link" href="{{ page.chrome }}&utm_content=bottombtn">
 			<span class="icon">
 				<i class="fab fa-chrome"></i>
 			</span>
@@ -123,3 +123,18 @@ chrome: https://chrome.google.com/webstore/detail/renewed-tab/laljofodhebajcajog
 		</a>
 	</p>
 </section>
+
+<script>
+	// @license magnet:?xt=urn:btih:1f739d935676111cfff4b4693e3816e664797050&dn=gpl-3.0.txt GPL-v3-or-Later
+	const urlParams = new URLSearchParams(window.location.search);
+	if (urlParams.has("utm_source")) {
+		for (let link of document.getElementsByClassName("utm-link")) {
+			const url = new URL(link.getAttribute("href"));
+			for (let [key, value] of urlParams) {
+				url.searchParams.set(key, value);
+			}
+			link.setAttribute("href", url.toString());
+		}
+	}
+	// @license-end
+</script>
