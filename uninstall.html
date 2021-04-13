@@ -19,6 +19,7 @@ reasons:
 	<input type="hidden" name="event" value="uninstall" />
 	<input type="hidden" name="platform" disabled />
 	<input type="hidden" name="browser" disabled />
+	<input type="hidden" name="version" disabled />
 
 	<div class="field mt-5">
 		<span class="label">Uninstall reason(s)</span>
@@ -94,23 +95,22 @@ reasons:
 		});
 	}
 
-	// Get platform / browser info
+	// Get platform / browser / version info
 	{
 		const urlParams = new URLSearchParams(window.location.search);
 
-		const platform = urlParams.get("platform");
-		if (platform) {
-			const inputPlatform = document.querySelector("input[name='platform']");
-			inputPlatform.value = platform ? platform : "";
-			inputPlatform.removeAttribute("disabled");
+		function copyField(name) {
+			const value = urlParams.get(name);
+			if (value) {
+				const input = document.querySelector(`input[name='${name}']`);
+				input.value = value ? value : "";
+				input.removeAttribute("disabled");
+			}
 		}
 
-		const browser = urlParams.get("browser");
-		if (browser) {
-			const inputBrowser = document.querySelector("input[name='browser']");
-			inputBrowser.value = browser ? browser : "";
-			inputBrowser.removeAttribute("disabled");
-		}
+		copyField("platform");
+		copyField("browser");
+		copyField("version");
 	}
 
 	// @license-end
