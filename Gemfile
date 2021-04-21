@@ -1,7 +1,8 @@
 source "https://rubygems.org"
 
 gem "jekyll"
+gem "webrick"
 
 group :jekyll_plugins do
-	# None
+	gem "jekyll-redirect-from"
 end
