@@ -1,0 +1,76 @@
+---
+title: Feedback
+layout: article
+---
+
+<h1>We'd appreciate your feedback</h1>
+
+<p>
+	Thanks for trying out Renewed Tab.
+	Please help us make Renewed Tab better by giving feedback.
+</p>
+
+<form action="https://renewedtab.rubenwardy.com/api/feedback/?r=1" method="post">
+	<input type="hidden" name="event" value="feedback" />
+	<input type="hidden" name="platform" disabled />
+	<input type="hidden" name="browser" disabled />
+	<input type="hidden" name="version" disabled />
+
+	<div class="field mt-5">
+		<label class="label">Email Address</label>
+		<p class="help">
+			Optional. Needed if you'd like a response.
+		</p>
+		<div class="control">
+			<input type="email" name="email" />
+		</div>
+	</div>
+
+	<div class="field mt-5">
+		<label class="label">Comments</label>
+		<p class="help">
+			Required.
+		</p>
+		<div class="control">
+			<textarea class="textarea" name="comments" required minlength="3"></textarea>
+		</div>
+	</div>
+
+	<div class="field mt-5">
+		<div class="control">
+			<input type="submit" value="Submit" class="button is-info" />
+		</div>
+	</div>
+</form>
+
+
+<h2>Have you read the FAQ?</h2>
+
+
+<p>
+	You may also wish to speak directly to the developer on the Discord or
+	Matrix chat rooms.
+</p>
+
+
+<p>
+	<a class="button is-info" href="/help/">
+		<span>Frequently Asked Questions</span>
+	</a>
+	<a href="https://gitlab.com/rubenwardy/renewedtab/-/issues" class="button">
+		<i class="fas fa-bug mr-2"></i>
+		Issue Tracker
+	</a>
+	<a href="https://discord.gg/zYjR54b" class="button">
+		<i class="fab fa-discord mr-2"></i>
+		Discord
+	</a>
+	<a href="https://matrix.to/#/#renewedtab:matrix.org" class="button" >
+		<i class="fas fa-hashtag mr-2"></i>
+		Matrix
+	</a>
+
+</p>
+
+
+<script src="/static/feedback.js"></script>
