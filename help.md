@@ -22,23 +22,6 @@ Firefox feature, which is why it's not enabled by default.
 
 Source: https://dev.to/rethinkprogramming/how-to-enable-backdrop-filter-in-firefox-2n8e
 
-### How do I set Renewed Tab as my New Tab / Homepage?
-
-It is recommended that you install the extension, as it sets the New Tab page
-automatically and also unlocks more features.
-
-For the Web version, you may be able to set your browser to use
-`https://renewedtab.rubenwardy.com/web/`.
-
-* Firefox:
-	* New Tab: You need an extension.
-	* Homepage: Preferences > Home > "Homepage and new Windows" > Custom.
-		Enter the URL.
-* Chrome:
-	* New Tab: You need an extension.
-	* Homepage: Settings > Appearance. Enable "Show Home button" and enter the
-		URL in "custom web address".
-
 ### How can I place widgets outside of the grid / at the bottom of the screen?
 
 Renewed Tab requires all widgets to be placed on the grid. This is great for
@@ -54,8 +37,14 @@ and provide support for every browser.
 
 Renewed Tab is built using cross-platform technologies, meaning that it is likely
 that it will work on your browser despite not being supported.
-You can download .zips of the browser extension from
-[GitLab pipelines](https://gitlab.com/rubenwardy/renewedtab/-/jobs/artifacts/master/raw/?job=webext).
+
+You can download .zips of the browser extension:
+
+1. Go to [GitLab pipelines](https://gitlab.com/rubenwardy/renewedtab/-/pipelines).
+2. Find the commit you're interested in. Typically, you want a release commit
+   like "Release 1.2.3".
+3. Click the download button (<i class="tag fas fa-ellipsis-v"></i>) to the right of the row.
+4. Select "Download webext:archive artifact".
 
 If you have a problem with an unsupported browser, then we are unlikely to be
 able to help. However, we may accept patches/PRs to fix issues on unsupported
@@ -88,6 +77,30 @@ restriction
 
 Note: If you get the error whilst using the browser extension, there's something
 _wrong_. Please report it below.
+
+### Why does the extension request to read all the data for a website?
+
+Some widgets, such as Feed, require loading information from a URL.
+Web browsers tend to have strict permission systems, such that a browser
+extension needs to request permission to do certain things.
+Contacting a website is one of those things.
+
+For example, in order to load a news feed from bbc.co.uk, the extension needs
+to be granted permission to access bbc.co.uk.
+
+Renewed Tab doesn't read any of your personal information or history for the
+websites you grant access to. It just makes a web request to the website to load
+the content.
+
+Example messages:
+
+> "Renewed Tab" has requested additional permissions.\\
+> It could:
+> - Read and change your data on feeds.bbci.co.uk
+
+> Renewed Tab requests additional permissions.\\
+> It wants to:
+> - Access your data for feeds.bbci.co.uk
 
 ### Why does a background that I've blocked still appear?
 
