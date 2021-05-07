@@ -53,6 +53,7 @@ You don't need to donate to support Renewed Tab.
 You can also:
 
 * [Contribute a bug fix or a new feature](https://gitlab.com/rubenwardy/renewedtab/).
+* [Translate Renewed Tab into your language](https://renewedtab.rubenwardy.com/translations/).
 * Tell your friends about Renewed Tab.
 * Review Renewed Tab on the [Firefox]({{ site.firefox }}&utm_content=review)
   and [Chrome]({{ site.chrome }}&utm_content=review) stores. I appreciate seeing
