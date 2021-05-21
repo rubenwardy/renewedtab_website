@@ -21,12 +21,12 @@
     or a custom background image.
 
 - title: Customisable
-  image: static/images/backgrounds.png
+  image: static/images/settings.png
   desc: |
-    Each widget can be configured, and background settings can be changed.
+    Each widget has settings for behaviour and theming.
 
-    Customisation is at the heart of Renewed Tab, and it will continue to be
-    developed to increase the possibilities.
+    There are also global settings, allowing you to customise the theme,
+    change language, or choose a background.
 
 - title: Free and Open Source
   image: static/images/opensource.png
