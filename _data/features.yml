@@ -5,11 +5,12 @@
     You can add, move, resize, and configure widgets on a grid using intuitive
     controls.
 
-    Choose from many widgets, including:
-    RSS and Atom feeds, the Weather, Quick Links, Top Sites, Daily Goals, Notes,
-    your current Age, Search bars, Web Comics, and upcoming Space Flights.
-
     You can place the same type of widget multiple times, with different settings.
+
+    Some widgets are Internet connected, allowing you to load an RSS/Atom
+    feed or see the weather.
+
+    <a href="#widgets" class="button">Widget types</a>
 
 - title: Beautiful Backgrounds
   image: static/images/focus.png
@@ -39,4 +40,18 @@
 
     <a class="button" href="https://gitlab.com/rubenwardy/renewedtab">
       Source code
+    </a>
+
+- title: Multilingual
+  image: static/images/languages.png
+  desc: |
+    Renewed Tab fully supports translations, allowing you to experience it
+    in your own language.
+
+    Translations are community-maintained. Currently, only English and
+    Turkish translations are available - we're looking for contributors
+    for other languages!
+
+    <a class="button" href="https://renewedtab.rubenwardy.com/translations/">
+      Translation
     </a>

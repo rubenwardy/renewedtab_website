@@ -33,41 +33,51 @@ layout: default
 </header>
 
 
-{% for item in site.data.features %}
-	<section class="section">
+<section class="section columns is-6 is-multiline is-variable" id="features">
+	{% for item in site.data.features %}
 		{% if item.image_link %}
 			{% assign image_link = item.image_link %}
 		{% else %}
 			{% assign image_link = item.image | replace: '.png', '_full.png' %}
 		{% endif %}
 
-		{% capture side %}{% cycle "left", "right" %}{% endcapture %}
-		{% capture text %}
-			<div class="column is-half content">
-				<h2>{{ item.title }}</h2>
-
-				{{ item.desc | markdownify }}
-			</div>
-		{% endcapture %}
-		{% capture image %}
-			<figure class="column is-half">
+		<div class="column is-half">
+			<figure>
 				<a class="image is-4by3" href="{{ image_link }}">
 					<img src="{{ item.image }}" alt="{{ item.title }}">
 				</a>
 			</figure>
-		{% endcapture %}
+			<div class="content mt-5">
+				<h2 class="is-4">{{ item.title }}</h2>
 
-		<div class="columns">
-			{% if side == "left" %}
-				{{ text }}
-				{{ image}}
-			{% else %}
-				{{ image}}
-				{{ text }}
-			{% endif %}
+				{{ item.desc | markdownify }}
+			</div>
 		</div>
-	</section>
-{% endfor %}
+	{% endfor %}
+</section>
+
+<section class="section">
+	<h2 id="widgets" class="title is-2">Widgets</h2>
+	<div class="content">
+		<ul>
+			<li><b>RSS and Atom feeds</b>: can be used to see the news or follow a website.</li>
+			<li><b>Weather</b></li>
+			<li><b>To do list</b>: track things you need to do.</li>
+			<li><b>Quick Links</b>: show links, with optional icons and subheadings.</li>
+			<li><b>Top Sites</b>: shows your most frequent websites.</li>
+			<li><b>Daily Goals</b>: enter a daily goal.</li>
+			<li><b>Bookmarks</b>: shows bookmarks from the bookmark toolbar.</li>
+			<li><b>Greeting</b>: be greeted based on the time of day.</li>
+			<li><b>Clock</b>: show the current time, choose between 12 and 24 hours.</li>
+			<li><b>Notes</b>: jot down notes in a freeform text area.</li>
+			<li><b>Age</b>: shows your current age with way too much precision.</li>
+			<li><b>Search</b>: a search bar, with support for changing the search engine.</li>
+			<li><b>Web Comics</b>: show the most recent panel from a web comic.</li>
+			<li><b>Upcoming Space Flights</b></li>
+			<li>and more: buttons, images, and iframes.</li>
+		</ul>
+	</div>
+</section>
 
 
 <section class="section">
