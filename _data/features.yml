@@ -10,7 +10,7 @@
     Some widgets are Internet connected, allowing you to load an RSS/Atom
     feed or see the weather.
 
-    <a href="#widgets" class="button">Widget types</a>
+    <a href="#widgets" class="button is-info">Widget types</a>
 
 - title: Beautiful Backgrounds
   image: static/images/focus.png
@@ -58,6 +58,6 @@
     Turkish translations are available - we're looking for contributors
     for other languages!
 
-    <a class="button" href="https://renewedtab.rubenwardy.com/translations/">
+    <a class="button is-info" href="https://renewedtab.rubenwardy.com/translations/">
       Translation
     </a>
