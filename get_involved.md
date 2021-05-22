@@ -41,7 +41,7 @@ also a way to say thank you.
 
 For a one-off donation, you can use Patreon and cancel after one month.
 
-<a href="https://www.patreon.com/rubenwardy/" class="button is-info is-medium">
+<a href="https://www.patreon.com/rubenwardy/" class="button is-info">
 	<i class="fab fa-patreon mr-2"></i>
 	Patreon
 </a>
@@ -58,3 +58,14 @@ You can also:
 * Review Renewed Tab on the [Firefox]({{ site.firefox }}&utm_content=review)
   and [Chrome]({{ site.chrome }}&utm_content=review) stores. I appreciate seeing
   reviews, and it helps inform potential new users.
+
+You can submit code or issues using GitLab, GitHub, email, or Discord/Matrix.
+
+<a href="https://gitlab.com/rubenwardy/renewedtab" class="button is-info">
+	<i class="fab fa-gitlab mr-2"></i>
+	GitLab
+</a>
+<a href="https://github.com/rubenwardy/renewedtab" class="button">
+	<i class="fab fa-github mr-2"></i>
+	GitHub (mirror)
+</a>

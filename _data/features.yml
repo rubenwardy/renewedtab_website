@@ -38,11 +38,17 @@
 
     It's written in TypeScript and React.
 
-    <a class="button" href="https://gitlab.com/rubenwardy/renewedtab">
-      Source code
+    <a href="https://gitlab.com/rubenwardy/renewedtab" class="button is-info">
+      <i class="fab fa-gitlab mr-2"></i>
+      GitLab
+    </a>
+    <a href="https://github.com/rubenwardy/renewedtab" class="button">
+      <i class="fab fa-github mr-2"></i>
+      GitHub (mirror)
     </a>
 
-- title: Multilingual
+
+- title: Multi-lingual
   image: static/images/languages.png
   desc: |
     Renewed Tab fully supports translations, allowing you to experience it

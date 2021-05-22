@@ -121,7 +121,7 @@ If you need help, you can use any of these options. Discord or Matrix is likely
 to be the quickest.
 
 <a href="https://gitlab.com/rubenwardy/renewedtab/-/issues" class="button is-info">
-	<i class="fas fa-bug mr-2"></i>
+	<i class="fab fa-gitlab mr-2"></i>
 	Issue Tracker
 </a>
 <a href="https://rubenwardy.com/contact/" class="button">
@@ -135,4 +135,8 @@ to be the quickest.
 <a href="https://matrix.to/#/#renewedtab:matrix.org" class="button" >
 	<i class="fas fa-hashtag mr-2"></i>
 	Matrix
+</a>
+<a href="https://github.com/rubenwardy/renewedtab" class="button">
+	<i class="fab fa-github mr-2"></i>
+	GitHub (mirror)
 </a>
