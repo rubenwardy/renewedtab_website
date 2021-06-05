@@ -30,6 +30,47 @@ the User Experience, as it's simple, but makes it harder to do certain things.
 To make a widget appear to be at the bottom of the screen, you can use the
 Invisible widget to add vertical spacing between widgets.
 
+### Why does the extension request to read all the data for a website?
+
+Some widgets, such as Feed, require loading information from a URL.
+Web browsers tend to have strict permission systems, such that a browser
+extension needs to request permission to do certain things.
+Contacting a website is one of those things.
+
+For example, in order to load a news feed from bbc.co.uk, the extension needs
+to be granted permission to access bbc.co.uk.
+
+Renewed Tab doesn't read any of your personal information or history for the
+websites you grant access to. It just makes a web request to the website to load
+the content.
+
+Example messages:
+
+> "Renewed Tab" has requested additional permissions.\\
+> It could:
+> - Read and change your data on feeds.bbci.co.uk
+
+> Renewed Tab requests additional permissions.\\
+> It wants to:
+> - Access your data for feeds.bbci.co.uk
+
+### Why does a background that I've blocked still appear?
+
+The Renewed Tab API server only has 4 images available to choose from at a time.
+If you've blocked a lot of images, then it's possible that you may end up with
+all of these available images being blocked - if this is the case, then the
+first image will be used.
+
+The reason this is done is to avoid hitting the Unsplash API too much.
+
+### Why isn't the background image appearing?
+
+Extensions like DarkReader can conflict with the background image, you can
+disable it per-site.
+
+Alternatively, it may be a connection issue with the Renewed Tab API or unsplash,
+or a configuration issue.
+
 ### Why don't you support X browser?
 
 We only support the latest 2 versions of Firefox and Chrome; it is hard to test
@@ -77,39 +118,6 @@ restriction
 
 Note: If you get the error whilst using the browser extension, there's something
 _wrong_. Please report it below.
-
-### Why does the extension request to read all the data for a website?
-
-Some widgets, such as Feed, require loading information from a URL.
-Web browsers tend to have strict permission systems, such that a browser
-extension needs to request permission to do certain things.
-Contacting a website is one of those things.
-
-For example, in order to load a news feed from bbc.co.uk, the extension needs
-to be granted permission to access bbc.co.uk.
-
-Renewed Tab doesn't read any of your personal information or history for the
-websites you grant access to. It just makes a web request to the website to load
-the content.
-
-Example messages:
-
-> "Renewed Tab" has requested additional permissions.\\
-> It could:
-> - Read and change your data on feeds.bbci.co.uk
-
-> Renewed Tab requests additional permissions.\\
-> It wants to:
-> - Access your data for feeds.bbci.co.uk
-
-### Why does a background that I've blocked still appear?
-
-The Renewed Tab API server only has 4 images available to choose from at a time.
-If you've blocked a lot of images, then it's possible that you may end up with
-all of these available images being blocked - if this is the case, then the
-first image will be used.
-
-The reason this is done is to avoid hitting the Unsplash API too much.
 
 
 ## Feature Requests, Bug Reports, and Support
