@@ -7,5 +7,5 @@ sass:
 plugins:
   - jekyll-redirect-from
 
-firefox: https://addons.mozilla.org/addon/renewed-tab/?utm_source=renewedtab.rubenwardy.com&utm_medium=referral
-chrome: https://chrome.google.com/webstore/detail/renewed-tab/laljofodhebajcajogbolahbjdcnfgkf?utm_source=renewedtab.rubenwardy.com&utm_medium=referral
+firefox: https://addons.mozilla.org/addon/renewed-tab/?utm_source=renewedtab.com&utm_medium=referral
+chrome: https://chrome.google.com/webstore/detail/renewed-tab/laljofodhebajcajogbolahbjdcnfgkf?utm_source=renewedtab.com&utm_medium=referral
