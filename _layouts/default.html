@@ -11,6 +11,7 @@
 	</title>
 	<link rel="stylesheet" href="/static/css/bulma.min.css">
 	<link rel="stylesheet" href="/static/css/all.min.css">
+	<link rel="stylesheet" href="/static/style.css">
 	<link rel="icon" href="/static/icon.svg">
 
 	{% if page.url == "/" %}
@@ -20,69 +21,10 @@
 		<meta name="og:url" content="{{ '/' | absolute_url }}"/>
 		<meta name="og:image" content="{{ '/static/images/widgets.png' | absolute_url }}"/>
 	{% endif %}
-
-	<style>
-		.navbar-brand .navbar-item {
-			font-size: 120%;
-			font-weight: bold;
-		}
-
-		.button.is-firefox {
-			background-color: transparent;
-			background-image: linear-gradient(to right, #ff3c61, #fe7c38);
-			border-color: transparent;
-			color: #fff;
-		}
-
-		.button.is-chrome {
-			background-color: #1a73e8;
-			border-color: transparent;
-			color: #fff;
-		}
-
-		.button.is-firefox.is-hovered, .button.is-firefox:hover,
-				.button.is-chrome.is-hovered, .button.is-chrome:hover {
-			filter: brightness(0.95) saturate(0.95);
-			border-color: transparent;
-		}
-
-		figure figcaption {
-			margin: 1em 0;
-		}
-
-		figure img {
-			object-fit: cover;
-		}
-
-		a.card {
-			transition: transform 200ms ease;
-			cursor: pointer;
-		}
-
-		a.card:hover {
-			transform: scale(1.05, 1.05);
-			z-index: 2;
-		}
-
-		.color {
-			display: inline-block;
-			border-radius: 0.2rem;
-			padding: 1.8rem 0.5rem;
-			margin: 0 0.1rem;
-			color: white;
-		}
-
-		article h2:not(:first-child), .content h2:not(:first-child) {
-			margin-top: 2em !important;
-		}
-		article h3 {
-			font-size: 1.2em !important;
-		}
-	</style>
 </head>
 <body>
 	<nav class="navbar is-info">
-		<div class="container is-max-widescreen">
+		<div class="container">
 			<div class="navbar-brand">
 				<a class="navbar-item" href="/">
 					Renewed Tab
@@ -138,7 +80,7 @@
 		</div>
 	</nav>
 
-	<main class="container is-max-widescreen">
+	<main class="container">
 		{{ content }}
 	</main>
 

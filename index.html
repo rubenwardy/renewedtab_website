@@ -23,15 +23,11 @@ layout: default
 			</span>
 			<span>Chrome</span>
 		</a>
-		<a class="button" href="https://web.renewedtab.com/">
-			<span class="icon">
-				<i class="fas fa-globe-europe"></i>
-			</span>
-			<span>Web</span>
+		<a class="button is-white" href="https://web.renewedtab.com/">
+			<span>Try it online</span>
 		</a>
 	</p>
 </header>
-
 
 <section class="section columns is-6 is-multiline is-variable" id="features">
 	{% for item in site.data.features %}
@@ -41,7 +37,7 @@ layout: default
 			{% assign image_link = item.image | replace: '.png', '_full.png' %}
 		{% endif %}
 
-		<div class="column is-half">
+		<div class="column is-one-third">
 			<figure>
 				<a class="image is-4by3" href="{{ image_link }}">
 					<img src="{{ item.image }}" alt="{{ item.title }}">
