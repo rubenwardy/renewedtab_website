@@ -13,14 +13,16 @@ redirect_from:
 
 You can chat with other Renewed Tab users using either Discord or Matrix.
 
-<a href="https://discord.gg/zYjR54b" class="button is-info">
-	<i class="fab fa-discord mr-2"></i>
-	Discord
-</a>
-<a href="https://matrix.to/#/#renewedtab:matrix.org" class="button is-info" >
-	<i class="fas fa-hashtag mr-2"></i>
-	Matrix
-</a>
+<div class="buttons">
+	<a href="https://discord.gg/zYjR54b" class="button is-primary">
+		<i class="fab fa-discord mr-2"></i>
+		Discord
+	</a>
+	<a href="https://matrix.to/#/#renewedtab:matrix.org" class="button is-primary" >
+		<i class="fas fa-hashtag mr-2"></i>
+		Matrix
+	</a>
+</div>
 
 
 ## Donate
@@ -41,7 +43,7 @@ also a way to say thank you.
 
 For a one-off donation, you can use Patreon and cancel after one month.
 
-<a href="https://www.patreon.com/rubenwardy/" class="button is-info">
+<a href="https://www.patreon.com/rubenwardy/" class="button is-primary">
 	<i class="fab fa-patreon mr-2"></i>
 	Patreon
 </a>
@@ -61,11 +63,13 @@ You can also:
 
 You can submit code or issues using GitLab, GitHub, email, or Discord/Matrix.
 
-<a href="https://gitlab.com/rubenwardy/renewedtab" class="button is-info">
-	<i class="fab fa-gitlab mr-2"></i>
-	GitLab
-</a>
-<a href="https://github.com/rubenwardy/renewedtab" class="button">
-	<i class="fab fa-github mr-2"></i>
-	GitHub (mirror)
-</a>
+<div class="buttons">
+	<a href="https://gitlab.com/rubenwardy/renewedtab" class="button is-primary">
+		<i class="fab fa-gitlab mr-2"></i>
+		GitLab
+	</a>
+	<a href="https://github.com/rubenwardy/renewedtab" class="button">
+		<i class="fab fa-github mr-2"></i>
+		GitHub (mirror)
+	</a>
+</div>

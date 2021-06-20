@@ -1,11 +1,11 @@
+- title: Widgets
+  image: /static/images/gallery/screenshot.png
+
 - title: Top Sites / Icon Links
-  image: /static/images/icons.png
+  image: /static/images/gallery/icons.png
 
 - title: Web Comic and Image
-  image: /static/images/images.png
-
-- title: Widgets
-  image: /static/images/widgets.png
+  image: /static/images/gallery/images.png
 
 - title: Focused
-  image: /static/images/focus.png
+  image: /static/images/gallery/focus.png

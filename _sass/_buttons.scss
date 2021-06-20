@@ -1,0 +1,29 @@
+
+.button.is-firefox {
+	background-color: transparent;
+	background-image: linear-gradient(to right, #ff3c61, #fe7c38);
+	border-color: transparent;
+	color: #fff;
+}
+
+.button.is-chrome {
+	background-color: #1a73e8;
+	border-color: transparent;
+	color: #fff;
+}
+
+.button.is-navlike {
+	background-color: transparent;
+	border-color: transparent;
+	color: #fff;
+
+	&:hover {
+		background-color: rgba(200, 200, 200, 0.1);
+	}
+}
+
+.button.is-firefox.is-hovered, .button.is-firefox:hover,
+		.button.is-chrome.is-hovered, .button.is-chrome:hover {
+	filter: brightness(1.1) saturate(0.95);
+	border-color: transparent;
+}

@@ -5,128 +5,161 @@ layout: default
 
 <a name="top"></a>
 
-<header class="section content">
-	<h1>Renewed Tab</h1>
-	<p>
-		{{ site.description }}
-	</p>
-	<p>
-		<a class="button is-firefox utm-link" href="{{ site.firefox }}&utm_content=topbtn">
-			<span class="icon">
-				<i class="fab fa-firefox-browser"></i>
-			</span>
-			<span>Firefox</span>
-		</a>
-		<a class="button is-chrome utm-link" href="{{ site.chrome }}&utm_content=topbtn">
-			<span class="icon">
-				<i class="fab fa-chrome"></i>
-			</span>
-			<span>Chrome</span>
-		</a>
-		<a class="button is-white" href="https://web.renewedtab.com/">
-			<span>Try it online</span>
-		</a>
-	</p>
-</header>
-
-<section class="section columns is-6 is-multiline is-variable" id="features">
-	{% for item in site.data.features %}
-		{% if item.image_link %}
-			{% assign image_link = item.image_link %}
-		{% else %}
-			{% assign image_link = item.image | replace: '.png', '_full.png' %}
-		{% endif %}
-
-		<div class="column is-one-third">
-			<figure>
-				<a class="image is-4by3" href="{{ image_link }}">
-					<img src="{{ item.image }}" alt="{{ item.title }}">
-				</a>
-			</figure>
-			<div class="content mt-5">
-				<h2 class="is-4 mt-0">{{ item.title }}</h2>
-
-				{{ item.desc | markdownify }}
+<header class="hero is-slanted">
+	<div class="hero-header">
+		{% include navbar.html hide_brand=true %}
+	</div>
+	<div class="hero-body px-0">
+		<div class="container">
+			<div class="columns">
+				<div class="column content is-half is-size-4">
+					<h1>Renewed Tab</h1>
+					<p>
+						{{ site.description }}
+					</p>
+					<div class="buttons mt-6">
+						<a class="button is-firefox utm-link" href="{{ site.firefox }}&utm_content=topbtn">
+							<span class="icon">
+								<i class="fab fa-firefox-browser"></i>
+							</span>
+							<span>Firefox</span>
+						</a>
+						<a class="button is-chrome utm-link" href="{{ site.chrome }}&utm_content=topbtn">
+							<span class="icon">
+								<i class="fab fa-chrome"></i>
+							</span>
+							<span>Chrome</span>
+						</a>
+						<a class="button is-navlike" href="https://web.renewedtab.com/">
+							Try it online
+						</a>
+					</div>
+				</div>
+				<figure class="column is-half">
+					<a class="image is-4by3" href="/static/images/gallery/screenshot_full.png">
+						<img src="/static/images/gallery/screenshot_main.png" alt="">
+					</a>
+					<figcaption>
+					</figcaption>
+				</figure>
 			</div>
 		</div>
-	{% endfor %}
-</section>
-
-<section class="section">
-	<h2 id="widgets" class="title is-2">Widgets</h2>
-	<div class="content">
-		<ul>
-			<li><b>RSS and Atom feeds</b>: can be used to see the news or follow a website.</li>
-			<li><b>Weather</b></li>
-			<li><b>To do list</b>: track things you need to do.</li>
-			<li><b>Quick Links</b>: show links, with optional icons and subheadings.</li>
-			<li><b>Top Sites</b>: shows your most frequent websites.</li>
-			<li><b>Daily Goals</b>: enter a daily goal.</li>
-			<li><b>Bookmarks</b>: shows bookmarks from the bookmark toolbar.</li>
-			<li><b>Greeting</b>: be greeted based on the time of day.</li>
-			<li><b>Clock</b>: show the current time, choose between 12 and 24 hours.</li>
-			<li><b>Notes</b>: jot down notes in a freeform text area.</li>
-			<li><b>Age</b>: shows your current age with way too much precision.</li>
-			<li><b>Search</b>: a search bar, with support for changing the search engine.</li>
-			<li><b>Web Comics</b>: show the most recent panel from a web comic.</li>
-			<li><b>Upcoming Space Flights</b></li>
-			<li>and more: buttons, images, and iframes.</li>
-		</ul>
 	</div>
-</section>
+</header>
 
+<main class="container">
+	<section class="section">
+		{% for item in site.data.features %}
+			{% if item.image %}
+				{% if item.image_link %}
+					{% assign image_link = item.image_link %}
+				{% else %}
+					{% assign image_link = item.image | replace: '.png', '_full.png' %}
+				{% endif %}
 
-<section class="section">
-	<h2 class="title is-2" id="gallery">Gallery</h2>
+				{% capture side %}{% cycle "left", "right" %}{% endcapture %}
 
-	<div class="columns is-multiline">
-		{% for item in site.data.gallery %}
-			{% if item.image_link %}
-				{% assign image_link = item.image_link %}
-			{% else %}
-				{% assign image_link = item.image | replace: '.png', '_full.png' %}
+				<div class="columns is-variable is-8 py-6 {% if side=='left' %}is-reversed{% endif %}">
+					<figure class="column is-two-thirds">
+						<a class="image is-golden" href="{{ image_link }}">
+							<img src="{{ item.image }}" alt="{{ item.title }}"
+								{% if item.no_shadow %}class="no-shadow"{% endif %}>
+						</a>
+					</figure>
+					<div class="column is-one-third content is-size-4">
+						<h2 class="is-4 mt-0 is-size-3">{{ item.title }}</h2>
+
+						{{ item.desc | markdownify }}
+					</div>
+				</div>
 			{% endif %}
-
-
-			<figure class="column is-one-third">
-				<a class="image is-4by3" href="{{ image_link }}">
-					<img src="{{ item.image }}" alt="{{ item.title }}">
-				</a>
-				<figcaption>
-					{{ item.title }}
-				</figcaption>
-			</figure>
 		{% endfor %}
-	</div>
-</section>
+
+		<h2 class="my-6 title is-3 has-text-weight-semibold">And more...</h2>
+
+		<div class="columns is-multiline">
+		{% for item in site.data.features %}
+			{% unless item.image %}
+				<div class="column is-one-third content">
+					<h2 class="mt-0 is-size-4">{{ item.title }}</h2>
+
+					{{ item.desc | markdownify }}
+				</div>
+			{% endunless %}
+		{% endfor %}
+	</section>
+
+	<section class="section">
+		<h2 id="widgets" class="title is-2">Widgets</h2>
+		<div class="content">
+			<ul>
+				<li><b>RSS and Atom feeds</b>: can be used to see the news or follow a website.</li>
+				<li><b>Weather</b></li>
+				<li><b>To do list</b>: track things you need to do.</li>
+				<li><b>Quick Links</b>: show links, with optional icons and subheadings.</li>
+				<li><b>Top Sites</b>: shows your most frequent websites.</li>
+				<li><b>Daily Goals</b>: enter a daily goal.</li>
+				<li><b>Bookmarks</b>: shows bookmarks from the bookmark toolbar.</li>
+				<li><b>Greeting</b>: be greeted based on the time of day.</li>
+				<li><b>Clock</b>: show the current time, choose between 12 and 24 hours.</li>
+				<li><b>Notes</b>: jot down notes in a freeform text area.</li>
+				<li><b>Age</b>: shows your current age with way too much precision.</li>
+				<li><b>Search</b>: a search bar, with support for changing the search engine.</li>
+				<li><b>Web Comics</b>: show the most recent panel from a web comic.</li>
+				<li><b>Upcoming Space Flights</b></li>
+				<li>and more: buttons, images, and iframes.</li>
+			</ul>
+		</div>
+	</section>
+
+	<section class="section">
+		<h2 class="title is-2" id="gallery">Gallery</h2>
+
+		<div class="columns is-multiline is-variable is-5">
+			{% for item in site.data.gallery %}
+				{% if item.image_link %}
+					{% assign image_link = item.image_link %}
+				{% else %}
+					{% assign image_link = item.image | replace: '.png', '_full.png' %}
+				{% endif %}
+
+				<figure class="column is-half">
+					<a class="image is-4by3" href="{{ image_link }}">
+						<img src="{{ item.image }}" alt="{{ item.title }}">
+					</a>
+					<figcaption>
+						{{ item.title }}
+					</figcaption>
+				</figure>
+			{% endfor %}
+		</div>
+	</section>
 
 
-<section id="install" class="section is-medium has-text-centered">
-	<p class="mb-5">
-		Like what you see?<br>
-		Available for:
-	</p>
-	<p>
-		<a class="button is-firefox is-large utm-link" href="{{ site.firefox }}&utm_content=bottombtn">
-			<span class="icon">
-				<i class="fab fa-firefox-browser"></i>
-			</span>
-			<span>Firefox</span>
-		</a>
-		<a class="button is-chrome is-large utm-link" href="{{ site.chrome }}&utm_content=bottombtn">
-			<span class="icon">
-				<i class="fab fa-chrome"></i>
-			</span>
-			<span>Chrome</span>
-		</a>
-		<a class="button is-large" href="https://web.renewedtab.com/">
-			<span class="icon">
-				<i class="fas fa-globe-europe"></i>
-			</span>
-			<span>Web</span>
-		</a>
-	</p>
-</section>
+	<section id="install" class="section is-medium">
+		<p class="mb-5 has-text-centered">
+			Like what you see?<br>
+			Available for:
+		</p>
+		<div class="buttons is-justify-content-center">
+			<a class="button is-firefox is-large utm-link" href="{{ site.firefox }}&utm_content=bottombtn">
+				<span class="icon">
+					<i class="fab fa-firefox-browser"></i>
+				</span>
+				<span>Firefox</span>
+			</a>
+			<a class="button is-chrome is-large utm-link" href="{{ site.chrome }}&utm_content=bottombtn">
+				<span class="icon">
+					<i class="fab fa-chrome"></i>
+				</span>
+				<span>Chrome</span>
+			</a>
+			<a class="button is-navlike is-large" href="https://web.renewedtab.com/">
+				Try it online
+			</a>
+		</div>
+	</section>
+</main>
 
 <script>
 	// @license magnet:?xt=urn:btih:1f739d935676111cfff4b4693e3816e664797050&dn=gpl-3.0.txt GPL-v3-or-Later

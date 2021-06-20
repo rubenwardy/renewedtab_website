@@ -128,23 +128,25 @@ Renewed Tab bugs and feature requests.
 If you need help, you can use any of these options. Discord or Matrix is likely
 to be the quickest.
 
-<a href="https://gitlab.com/rubenwardy/renewedtab/-/issues" class="button is-info">
-	<i class="fab fa-gitlab mr-2"></i>
-	Issue Tracker
-</a>
-<a href="https://rubenwardy.com/contact/" class="button">
-	<i class="fas fa-envelope mr-2"></i>
-	Contact Me
-</a>
-<a href="https://discord.gg/zYjR54b" class="button">
-	<i class="fab fa-discord mr-2"></i>
-	Discord
-</a>
-<a href="https://matrix.to/#/#renewedtab:matrix.org" class="button" >
-	<i class="fas fa-hashtag mr-2"></i>
-	Matrix
-</a>
-<a href="https://github.com/rubenwardy/renewedtab" class="button">
-	<i class="fab fa-github mr-2"></i>
-	GitHub (mirror)
-</a>
+<div class="buttons">
+	<a href="https://gitlab.com/rubenwardy/renewedtab/-/issues" class="button is-primary">
+		<i class="fab fa-gitlab mr-2"></i>
+		Issue Tracker
+	</a>
+	<a href="https://rubenwardy.com/contact/" class="button">
+		<i class="fas fa-envelope mr-2"></i>
+		Contact Me
+	</a>
+	<a href="https://discord.gg/zYjR54b" class="button">
+		<i class="fab fa-discord mr-2"></i>
+		Discord
+	</a>
+	<a href="https://matrix.to/#/#renewedtab:matrix.org" class="button" >
+		<i class="fas fa-hashtag mr-2"></i>
+		Matrix
+	</a>
+	<a href="https://github.com/rubenwardy/renewedtab" class="button">
+		<i class="fab fa-github mr-2"></i>
+		GitHub (mirror)
+	</a>
+</div>

@@ -1,5 +1,7 @@
-- title: Powerful Widgets System
-  image: static/images/widgets.png
+- title: Drag and Drop Widgets
+  no_shadow: true
+  image: static/images/features/widgets.png
+  image_link: /static/images/features/widgets.png
   desc: |
     The core of Renewed Tab is the widget system.
     You can add, move, resize, and configure widgets on a grid using intuitive
@@ -7,13 +9,8 @@
 
     You can place the same type of widget multiple times, with different settings.
 
-    Some widgets are Internet connected, allowing you to load an RSS/Atom
-    feed or see the weather.
-
-    <a href="#widgets" class="button is-info">Widget types</a>
-
 - title: Beautiful Backgrounds
-  image: static/images/focus.png
+  image: static/images/gallery/focus.png
   desc: |
     See a random curated background every 15 minutes,
     powered by [Unsplash](https://unsplash\.com).
@@ -21,8 +18,18 @@
     You can also choose a solid color, custom collections from Unsplash,
     or a custom background image.
 
+- title: Rich Widgets
+  no_shadow: true
+  image: static/images/features/rich_widgets.png
+  image_link: /static/images/features/rich_widgets.png
+  desc: |
+    Some widgets are Internet connected. For example, you can browse
+    an RSS/Atom feed, see upcoming space launches, and check the weather.
+
+    <a href="#widgets" class="button is-primary">Widget types</a>
+
 - title: Customisable
-  image: static/images/settings.png
+  image: static/images/features/settings.png
   desc: |
     Each widget has settings for behaviour and theming.
 
@@ -30,15 +37,14 @@
     change language, or choose a background.
 
 - title: Free and Open Source
-  image: static/images/opensource.png
+  # image: static/images/features/opensource.png
   image_link: https://gitlab.com/rubenwardy/renewedtab
   desc: |
-    Renewed Tab is open source - this means that anyone can read the code,
-    modify it, and contribute to development.
+    Anyone can read the code, modify it, and contribute to development.
 
-    It's written in TypeScript and React.
+    Written using TypeScript and React.
 
-    <a href="https://gitlab.com/rubenwardy/renewedtab" class="button is-info">
+    <a href="https://gitlab.com/rubenwardy/renewedtab" class="button is-primary">
       <i class="fab fa-gitlab mr-2"></i>
       GitLab
     </a>
@@ -48,13 +54,23 @@
     </a>
 
 - title: Multi-lingual
-  image: static/images/languages.png
+  # image: static/images/features/languages.png
   desc: |
     Renewed Tab fully supports translations, allowing you to experience it
     in your own language.
 
     Translations are community-maintained.
 
-    <a class="button is-info" href="https://renewedtab.com/translations/">
+    <a class="button is-primary" href="https://renewedtab.com/translations/">
       Translation
+    </a>
+
+- title: Privacy Orientated
+  desc: |
+    We design with privacy in mind! We require only minimal permissions. Other
+    permissions are optional and are when needed. All your
+    data is stored in your browser, not on our servers.
+
+    <a class="button is-primary" href="/privacy_policy/">
+      Privacy Policy
     </a>

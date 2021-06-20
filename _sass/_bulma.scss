@@ -1,0 +1,114 @@
+@charset "utf-8";
+
+$fullhd-enabled: false;
+
+// Set your brand colors
+$primaryLight: #67cee5;
+$primaryLightHover: #96e7fa;
+$primaryDark: #007DB8;
+$primaryDarkHover: #008ed1;
+$primary: $primaryDark;
+$accent: #c49bc6;
+$orange: #df691a;
+$yellow: #f0ad4e;
+$green: #5cb85c;
+$blue: #5bc0de;
+$red: #d9534f;
+
+// Update Bulma's global variables
+$link: $primaryLight;
+$link-hover: $primaryLightHover;
+$grey-darker: #1f2d3b;
+$grey-dark: #2b3e50;
+$grey: #4e5d6c;
+$grey-light: #8694a4;
+$grey-lighter: #dee5ed;
+
+$dark: darken($grey-darker, 3);
+
+$title-color: white;
+$title-weight: 400;
+$content-heading-color: $title-color;
+$subtitle-strong-color: $grey-lighter;
+$subtitle-color: white;// darken($grey-lighter, 10);
+$subtitle-strong-color: darken($grey-lighter, 10);
+$background: rgba(200, 200, 200, 0.09);
+$body-background-color: #111c2c;
+$footer-background-color: rgba(10, 10, 10, 0.1);
+$footer-color: rgba(255, 255, 255, 0.3);
+$border: $grey;
+
+$family-sans-serif: "Roboto", Helvetica, Arial, sans-serif;
+
+$text: $grey-lighter;
+$text-strong: darken($grey-lighter, 10);
+$text-light: $grey-light;
+
+$box-background-color: $background;
+
+$card-background-color: darken($body-background-color, 1);
+$card-header-background-color: darken($body-background-color, 3);
+$card-footer-background-color: darken($body-background-color, 3);
+
+
+$button-color: white;
+$button-background-color: transparent;
+$button-border-color: rgba(200, 200, 200, 0.15);
+$button-hover-color: white;
+$button-active-border-color: transparent;
+
+$navbar-background-color: $background;
+$navbar-item-color: $text;
+$navbar-item-hover-color: $text;
+$navbar-item-active-color: $primary;
+$navbar-item-hover-background-color: rgba($grey-darker, 0.1);
+$navbar-item-active-background-color: rgba($grey-darker, 0.1);
+$navbar-dropdown-item-hover-color: $text;
+$navbar-dropdown-item-active-color: $text;
+$navbar-dropdown-background-color: $background;
+$navbar-dropdown-arrow: currentColor;
+
+$dropdown-content-background-color: $background;
+$dropdown-item-color: $text;
+$dropdown-item-hover-color: $text-light;
+
+$tabs-toggle-link-active-background-color: $background;
+$tabs-toggle-link-active-border-color: $border;
+$tabs-toggle-link-active-color: #fff;
+$tabs-boxed-link-active-background-color: $body-background-color;
+
+$pagination-color: $link;
+$pagination-border-color: $border;
+
+$bulmaswatch-import-font: true !default;
+
+$file-cta-background-color: $grey-darker;
+
+$progress-bar-background-color: $grey-dark;
+
+$panel-heading-background-color: $grey-dark;
+
+$code: $text;
+
+@import "bulma/bulma.sass";
+
+
+.button.is-primary:hover {
+	background-color: $primaryDarkHover;
+}
+
+.navbar-item:hover, .navbar-item:active,
+		.navbar-item:focus, .navbar-item.active {
+	background-color: rgba(200, 200, 200, 0.1) !important;
+}
+
+.section, .hero-body {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+@media only screen and (max-width: 1020px) {
+	.container {
+		padding: 0 2em;
+	}
+}

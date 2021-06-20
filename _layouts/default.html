@@ -9,7 +9,9 @@
 			- Renewed Tab
 		{% endif %}
 	</title>
-	<link rel="stylesheet" href="/static/css/bulma.min.css">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="/static/css/all.min.css">
 	<link rel="stylesheet" href="/static/style.css">
 	<link rel="icon" href="/static/icon.svg">
@@ -19,71 +21,13 @@
 		<meta name="og:description" content="{{ site.description }}"/>
 		<meta name="description" content="{{ site.description }}"/>
 		<meta name="og:url" content="{{ '/' | absolute_url }}"/>
-		<meta name="og:image" content="{{ '/static/images/widgets.png' | absolute_url }}"/>
+		<meta name="og:image" content="{{ '/static/images/gallery/widgets.png' | absolute_url }}"/>
 	{% endif %}
 </head>
 <body>
-	<nav class="navbar is-info">
-		<div class="container">
-			<div class="navbar-brand">
-				<a class="navbar-item" href="/">
-					Renewed Tab
-				</a>
-				<a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
-					<span aria-hidden="true"></span>
-					<span aria-hidden="true"></span>
-					<span aria-hidden="true"></span>
-				</a>
-			</div>
+	{{ content }}
 
-			<div class="navbar-menu">
-				<div class="navbar-start">
-					<a class="navbar-item" href="/">
-						About
-					</a>
-					<a class="navbar-item" href="/help/">
-						Help and FAQ
-					</a>
-					<a class="navbar-item" href="/get_involved/">
-						Get Involved
-					</a>
-					<a class="navbar-item" href="/get_involved/#donate">
-						Donate
-					</a>
-				</div>
-
-				{%- capture twitter_url -%}
-					https://twitter.com/intent/tweet?text={{ "Renewed Tab: " | append: site.description | uri_escape }}&amp;hashtags=renewedtab,firefox,chrome&amp;url=https://renewedtab.com/
-				{%- endcapture -%}
-				<div class="navbar-end">
-					<div class="navbar-item">
-						<div class="field is-grouped">
-							<p class="control">
-								<a class="bd-tw-button button"
-										data-social-network="Twitter"
-										data-social-action="tweet"
-										data-social-target="https://bulma.io"
-										target="_blank"
-										href="{{ twitter_url }}">
-									<span class="icon">
-										<i class="fab fa-twitter"></i>
-									</span>
-									<span>
-										Tweet
-									</span>
-								</a>
-							</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</nav>
-
-	<main class="container">
-		{{ content }}
-	</main>
-
+	<script async src="/static/navbar.js"></script>
 	<footer class="footer content has-text-centered">
 		<p>
 			Copyright &copy; 2021 to <a href="https://rubenwardy.com">rubenwardy</a> |
