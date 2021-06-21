@@ -10,9 +10,9 @@
   icon: fas fa-hashtag
   url: https://matrix.to/#/#renewedtab:matrix.org
 
-# - title: GitLab
-#   icon: fab fa-gitlab
-#   url: https://gitlab.com/rubenwardy/renewedtab/
+- title: GitLab
+  icon: fab fa-gitlab
+  url: https://gitlab.com/rubenwardy/renewedtab/
 
 # - title: GitHub Mirror
 #   icon: fab fa-github
