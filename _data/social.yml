@@ -1,0 +1,19 @@
+- title: Twitter
+  icon: fab fa-twitter
+  url: https://twitter.com/renewedtab/
+
+- title: Discord
+  icon: fab fa-discord
+  url: https://discord.gg/zYjR54b
+
+- title: Matrix
+  icon: fas fa-hashtag
+  url: https://matrix.to/#/#renewedtab:matrix.org
+
+# - title: GitLab
+#   icon: fab fa-gitlab
+#   url: https://gitlab.com/rubenwardy/renewedtab/
+
+# - title: GitHub Mirror
+#   icon: fab fa-github
+#   url: https://github.com/rubenwardy/renewedtab/

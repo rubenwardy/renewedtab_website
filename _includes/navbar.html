@@ -23,23 +23,14 @@
 				{% endfor %}
 			</div>
 
-			{%- capture twitter_url -%}
-				https://twitter.com/intent/tweet?text={{ "Renewed Tab: " | append: site.description | uri_escape }}&amp;hashtags=renewedtab,firefox,chrome&amp;url=https://renewedtab.com/
-			{%- endcapture -%}
 			<div class="navbar-end">
-				<a class="navbar-item bd-tw-button"
-						data-social-network="Twitter"
-						data-social-action="tweet"
-						data-social-target="https://bulma.io"
-						target="_blank"
-						href="{{ twitter_url }}">
-					<span class="icon mr-1">
-						<i class="fab fa-twitter"></i>
-					</span>
-					<span>
-						Tweet
-					</span>
-				</a>
+				{% for item in site.data.social %}
+					<a class="navbar-item" href="{{ item.url }}" title="{{ item.title }}">
+						<span>
+							<i class="{{ item.icon }}"></i>
+						</span>
+					</a>
+				{% endfor %}
 			</div>
 		</div>
 	</div>
