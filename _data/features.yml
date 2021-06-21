@@ -13,7 +13,7 @@
   image: static/images/gallery/focus.png
   desc: |
     See a random curated background every 15 minutes,
-    powered by [Unsplash](https://unsplash\.com).
+    powered by [Unsplash](https://unsplash.com).
 
     You can also choose a solid color, custom collections from Unsplash,
     or a custom background image.
@@ -67,8 +67,8 @@
 
 - title: Privacy Orientated
   desc: |
-    We design with privacy in mind! We require only minimal permissions. Other
-    permissions are optional and are when needed. All your
+    We require only minimal permissions; other
+    permissions are optional and only requested when needed. All your
     data is stored in your browser, not on our servers.
 
     <a class="button is-primary" href="/privacy_policy/">

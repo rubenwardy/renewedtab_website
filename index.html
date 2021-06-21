@@ -35,20 +35,18 @@ layout: default
 						</a>
 					</div>
 				</div>
-				<figure class="column is-half">
+				<div class="column is-half">
 					<a class="image is-4by3" href="/static/images/gallery/screenshot_full.png">
 						<img src="/static/images/gallery/screenshot_main.png" alt="">
 					</a>
-					<figcaption>
-					</figcaption>
-				</figure>
+				</div>
 			</div>
 		</div>
 	</div>
 </header>
 
 <main class="container">
-	<section class="section">
+	<section class="section" id="features">
 		{% for item in site.data.features %}
 			{% if item.image %}
 				{% if item.image_link %}
