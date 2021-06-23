@@ -48,6 +48,8 @@ $box-background-color: $background;
 $scheme-main: rgba(200, 200, 200, 0.04);
 $border: rgba(200, 200, 200, 0.1);
 $border-hover: rgba(200, 200, 200, 0.25);
+$input-icon-color: rgba(200, 200, 200, 0.3);
+$input-icon-active-color: rgba(200, 200, 200, 0.8);
 
 $card-background-color: darken($body-background-color, 1);
 $card-header-background-color: darken($body-background-color, 3);
@@ -114,4 +116,8 @@ $code: $text;
 	.container {
 		padding: 0 2em;
 	}
+}
+
+input:invalid, input:invalid:hover, input:invalid:focus {
+	border: 1px solid $red;
 }
