@@ -1,4 +1,4 @@
-# url: https://localhost.rubenwardy.com
+url: https://renewedtab.com
 description: A customisable New Tab page, with widgets and beautiful backgrounds
 permalink: pretty
 sass:
@@ -6,6 +6,7 @@ sass:
 
 plugins:
   - jekyll-redirect-from
+  - jekyll-sitemap
 
 firefox: https://addons.mozilla.org/addon/renewed-tab/?utm_source=renewedtab.com&utm_medium=referral
 chrome: https://chrome.google.com/webstore/detail/renewed-tab/laljofodhebajcajogbolahbjdcnfgkf?utm_source=renewedtab.com&utm_medium=referral
