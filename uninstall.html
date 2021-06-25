@@ -2,10 +2,17 @@
 title: Uninstall Feedback
 layout: article
 reasons:
-  missing_features: Didn't have the feature(s) I desired
-  difficult: It was too difficult to use
-  buggy: It was buggy or unstable, or didn't work at all
-  no_need: I don't need a New Tab page extension
+  missing_features:
+    text: Didn't have the feature(s) I desired
+    question: Which features did you desire?
+  difficult:
+    text: It was too difficult to use
+    question: What did you find difficult in particular?
+  buggy:
+    text: It was buggy or unstable, or didn't work at all
+    question: What bugs/issues did you find?
+  no_need:
+    text: I don't need a New Tab page extension
 ---
 
 <h1>We'd appreciate your feedback</h1>
@@ -30,7 +37,7 @@ reasons:
 			<div class="control my-2">
 				<label class="checkbox">
 					<input type="checkbox" class="mr-2" name="reason" value="{{ item[0] }}">
-					{{ item[1] }}
+					{{ item[1].text }}
 				</label>
 			</div>
 		{% endfor %}
@@ -43,14 +50,28 @@ reasons:
 		</div>
 	</div>
 
+	{% for item in page.reasons %}
+		{% if item[1].question %}
+			<div class="field mt-5 is-hidden" id="extra-{{ item[0] }}">
+				<label class="label">{{ item[1].question }}</label>
+				<p class="help">
+					Required. {{ item[1].question_hint }}
+					Just a few words is fine - that's better than nothing.
+				</p>
+				<div class="control">
+					<textarea class="textarea" name="extra-{{ item[0] }}" minlength="3"></textarea>
+				</div>
+			</div>
+		{% endif %}
+	{% endfor %}
+
 	<div class="field mt-5">
 		<label class="label">Comments</label>
 		<p class="help">
-			Required. Put any further information that may help us improve, such as
-			any missing features or bugs.
+			Optional. Any further information that you'd like to give us
 		</p>
 		<div class="control">
-			<textarea class="textarea" name="comments" required minlength="3"></textarea>
+			<textarea class="textarea" name="comments"></textarea>
 		</div>
 	</div>
 
@@ -111,4 +132,4 @@ reasons:
 </p>
 
 
-<script src="/static/feedback.js"></script>
+<script src="/static/feedback.js?v=2"></script>

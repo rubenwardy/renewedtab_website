@@ -27,4 +27,23 @@ if (otherReason) {
 	copyField("version");
 }
 
+document.querySelectorAll("input[type='checkbox']").forEach(el => {
+	el.addEventListener("change", event => {
+		const id = el.getAttribute("value");
+		const extra = document.getElementById(`extra-${id}`);
+		if (!extra) {
+			return;
+		}
+
+		const textarea = extra.querySelector("textarea");
+		if (event.currentTarget.checked) {
+			extra.classList.remove("is-hidden");
+			textarea.setAttribute("required", "required");
+		} else {
+			extra.classList.add("is-hidden");
+			textarea.removeAttribute("required");
+		}
+	})
+});
+
 // @license-end
