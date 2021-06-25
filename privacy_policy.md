@@ -5,7 +5,7 @@ layout: article
 
 # Privacy Policy
 
-Last updated: 2021-04-04.
+Last updated: 2021-06-25.
 
 
 ## What information is collected and how is it used?
@@ -57,6 +57,12 @@ specified URL.
 We do not share information with third-party services except where necessary to
 perform the extension's function, such as looking up locations and getting
 weather information.
+
+Error tracking is done using Sentry.io. You will be given anonymous unique
+identifiers to track you as a user, and your current session. When an error
+occurs, the app will automatically report the error traceback along with recent
+actions leading up to the crash.
+See [Sentry's privacy policy](https://sentry.io/privacy/).
 
 
 ## Location
