@@ -25,40 +25,7 @@ You can chat with other Renewed Tab users using either Discord or Matrix.
 </div>
 
 
-## Donate
-
-I created Renewed Tab after being disappointed with the existing options.
-They either had a bad user experience, none of the features I wanted, or
-they locked _basic_ features behind a paywall.
-
-I decided to release Renewed Tab for free and as
-<a href="https://gitlab.com/renewedtab/renewedtab/">open source software</a>,
-allowing anyone to see its code and create their own versions.
-This, as well as the fact that I don't want to lock features behind a paywall,
-means that my monetisation techniques are limited.
-
-Whilst I'm currently able to use free APIs for Renewed Tab, I will need to pay
-for APIs when it becomes more popular. Donating helps cover this cost, and is
-also a way to say thank you.
-
-For a one-off donation, you can subscribe and cancel after one month.
-
-<div class="buttons">
-	<a href="https://www.patreon.com/rubenwardy/" class="button is-primary">
-		<i class="fab fa-patreon mr-2"></i>
-		Patreon
-	</a>
-	<a href="https://liberapay.com/rubenwardy" class="button is-primary">
-		<i class="fas fa-donate mr-2"></i>
-		Liberapay
-	</a>
-</div>
-
-
 ## Contributing
-
-You don't need to donate to support Renewed Tab.
-You can also:
 
 * [Contribute a bug fix or a new feature](https://gitlab.com/renewedtab/renewedtab/).
 * [Translate Renewed Tab into your language](/translations/).
@@ -81,5 +48,36 @@ You can submit code or issues using GitLab, GitHub, email, or Discord/Matrix.
 	<a href="https://github.com/rubenwardy/renewedtab" class="button">
 		<i class="fab fa-github mr-2"></i>
 		GitHub (mirror)
+	</a>
+</div>
+
+
+## Donate
+
+I created Renewed Tab after being disappointed with the existing options.
+They either had a bad user experience, none of the features I wanted, or
+they locked _basic_ features behind a paywall.
+
+I decided to release Renewed Tab for free and as
+<a href="https://gitlab.com/renewedtab/renewedtab/">open source software</a>,
+allowing anyone to see its code and create their own versions.
+This, as well as the fact that I don't want to lock features behind a paywall,
+means that my monetisation techniques are limited.
+
+Whilst I'm currently able to use free APIs for Renewed Tab, I will need to pay
+for APIs when it becomes more popular. Donating helps cover this cost, and is
+also a way to say thank you.
+
+For a one-off donation, you can subscribe and cancel after one month.
+
+
+<div class="buttons">
+	<a href="https://www.patreon.com/rubenwardy/" class="button is-primary">
+		<i class="fab fa-patreon mr-2"></i>
+		Patreon
+	</a>
+	<a href="https://liberapay.com/rubenwardy" class="button is-primary">
+		<i class="fas fa-donate mr-2"></i>
+		Liberapay
 	</a>
 </div>
