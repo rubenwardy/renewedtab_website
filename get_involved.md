@@ -41,12 +41,18 @@ Whilst I'm currently able to use free APIs for Renewed Tab, I will need to pay
 for APIs when it becomes more popular. Donating helps cover this cost, and is
 also a way to say thank you.
 
-For a one-off donation, you can use Patreon and cancel after one month.
+For a one-off donation, you can subscribe and cancel after one month.
 
-<a href="https://www.patreon.com/rubenwardy/" class="button is-primary">
-	<i class="fab fa-patreon mr-2"></i>
-	Patreon
-</a>
+<div class="buttons">
+	<a href="https://www.patreon.com/rubenwardy/" class="button is-primary">
+		<i class="fab fa-patreon mr-2"></i>
+		Patreon
+	</a>
+	<a href="https://liberapay.com/rubenwardy" class="button is-primary">
+		<i class="fas fa-donate mr-2"></i>
+		Liberapay
+	</a>
+</div>
 
 
 ## Contributing
