@@ -81,7 +81,7 @@ that it will work on your browser despite not being supported.
 
 You can download .zips of the browser extension:
 
-1. Go to [GitLab pipelines](https://gitlab.com/rubenwardy/renewedtab/-/pipelines).
+1. Go to [GitLab pipelines](https://gitlab.com/renewedtab/renewedtab/-/pipelines).
 2. Find the commit you're interested in. Typically, you want a release commit
    like "Release 1.2.3".
 3. Click the download button (<i class="tag fas fa-ellipsis-v"></i>) to the right of the row.
@@ -129,7 +129,7 @@ If you need help, you can use any of these options. Discord or Matrix is likely
 to be the quickest.
 
 <div class="buttons">
-	<a href="https://gitlab.com/rubenwardy/renewedtab/-/issues" class="button is-primary">
+	<a href="https://gitlab.com/renewedtab/renewedtab/-/issues" class="button is-primary">
 		<i class="fab fa-gitlab mr-2"></i>
 		Issue Tracker
 	</a>

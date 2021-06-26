@@ -32,7 +32,7 @@ They either had a bad user experience, none of the features I wanted, or
 they locked _basic_ features behind a paywall.
 
 I decided to release Renewed Tab for free and as
-<a href="https://gitlab.com/rubenwardy/renewedtab/">open source software</a>,
+<a href="https://gitlab.com/renewedtab/renewedtab/">open source software</a>,
 allowing anyone to see its code and create their own versions.
 This, as well as the fact that I don't want to lock features behind a paywall,
 means that my monetisation techniques are limited.
@@ -60,7 +60,7 @@ For a one-off donation, you can subscribe and cancel after one month.
 You don't need to donate to support Renewed Tab.
 You can also:
 
-* [Contribute a bug fix or a new feature](https://gitlab.com/rubenwardy/renewedtab/).
+* [Contribute a bug fix or a new feature](https://gitlab.com/renewedtab/renewedtab/).
 * [Translate Renewed Tab into your language](/translations/).
 * Tell your friends about Renewed Tab.
 * Review Renewed Tab on the [Firefox]({{ site.firefox }}&utm_content=review)
@@ -74,7 +74,7 @@ You can submit code or issues using GitLab, GitHub, email, or Discord/Matrix.
 		<i class="fas fa-language mr-2"></i>
 		Help Translate
 	</a>
-	<a href="https://gitlab.com/rubenwardy/renewedtab" class="button is-primary">
+	<a href="https://gitlab.com/renewedtab/renewedtab" class="button is-primary">
 		<i class="fab fa-gitlab mr-2"></i>
 		GitLab
 	</a>

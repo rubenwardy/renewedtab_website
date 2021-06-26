@@ -38,13 +38,13 @@
 
 - title: Free and Open Source
   # image: static/images/features/opensource.png
-  image_link: https://gitlab.com/rubenwardy/renewedtab
+  image_link: https://gitlab.com/renewedtab/renewedtab
   desc: |
     Anyone can read the code, modify it, and contribute to development.
 
     Written using TypeScript and React.
 
-    <a href="https://gitlab.com/rubenwardy/renewedtab" class="button is-primary">
+    <a href="https://gitlab.com/renewedtab/renewedtab" class="button is-primary">
       <i class="fab fa-gitlab mr-2"></i>
       GitLab
     </a>
