@@ -61,7 +61,7 @@ You don't need to donate to support Renewed Tab.
 You can also:
 
 * [Contribute a bug fix or a new feature](https://gitlab.com/rubenwardy/renewedtab/).
-* [Translate Renewed Tab into your language](https://renewedtab.com/translations/).
+* [Translate Renewed Tab into your language](/translations/).
 * Tell your friends about Renewed Tab.
 * Review Renewed Tab on the [Firefox]({{ site.firefox }}&utm_content=review)
   and [Chrome]({{ site.chrome }}&utm_content=review) stores. I appreciate seeing
@@ -70,6 +70,10 @@ You can also:
 You can submit code or issues using GitLab, GitHub, email, or Discord/Matrix.
 
 <div class="buttons">
+	<a href="/translations/" class="button is-primary">
+		<i class="fas fa-language mr-2"></i>
+		Help Translate
+	</a>
 	<a href="https://gitlab.com/rubenwardy/renewedtab" class="button is-primary">
 		<i class="fab fa-gitlab mr-2"></i>
 		GitLab
