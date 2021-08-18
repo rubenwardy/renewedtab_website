@@ -68,6 +68,11 @@ Whilst I'm currently able to use free APIs for Renewed Tab, I will need to pay
 for APIs when it becomes more popular. Donating helps cover this cost, and is
 also a way to say thank you.
 
+<p>
+	<label for="costs_perc">$20 / $45 required to pay for a better weather API, which will allow more users</label>
+	<meter id="costs_perc" class="is-block mt-2 mb-0" value="20" min="0" max="45">$20 / $45</meter>
+</p>
+
 For a one-off donation, you can subscribe and cancel after one month.
 
 

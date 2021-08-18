@@ -62,6 +62,7 @@
     Translations are community-maintained.
 
     <a class="button is-primary" href="https://renewedtab.com/translations/">
+      <i class="fas fa-language mr-2"></i>
       Help Translate
     </a>
 
