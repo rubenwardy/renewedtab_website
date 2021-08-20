@@ -1,5 +1,6 @@
 - title: Drag and Drop Widgets
   no_shadow: true
+  no_ratio: true
   image: static/images/features/widgets.png
   image_link: /static/images/features/widgets.png
   desc: |
@@ -20,6 +21,7 @@
 
 - title: Rich Widgets
   no_shadow: true
+  no_ratio: true
   image: static/images/features/rich_widgets.png
   image_link: /static/images/features/rich_widgets.png
   desc: |

@@ -59,7 +59,7 @@ layout: default
 
 				<div class="columns is-variable is-8 py-6 {% if side=='left' %}is-reversed{% endif %}">
 					<figure class="column is-two-thirds">
-						<a class="image is-golden" href="{{ image_link }}">
+						<a class="image {% unless item.no_ratio %}is-golden{% endunless %}" href="{{ image_link }}">
 							<img src="{{ item.image }}" alt="{{ item.title }}"
 								{% if item.no_shadow %}class="no-shadow"{% endif %}>
 						</a>
