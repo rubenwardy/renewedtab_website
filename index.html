@@ -135,6 +135,26 @@ layout: default
 		</div>
 	</section>
 
+	<section class="section">
+		<h2 id="widgets" class="title is-2">Testimonials</h2>
+		<div class="columns is-multiline">
+			{% for test in site.data.testimonials %}
+				<div class="column is-half content mb-0">
+					<figure class="mx-0">
+						<blockquote cite="{{ test.url }}">
+							{{ test.text }}
+						</blockquote>
+						<figcaption>
+							<a href="{{ test.url }}">
+								{{ test.author }}
+							</a>
+						</figcaption>
+					</figure>
+				</div>
+			{% endfor %}
+		</div>
+	</section>
+
 
 	<section id="install" class="section is-medium">
 		<p class="mb-5 has-text-centered">
