@@ -28,7 +28,7 @@
     Some widgets are Internet connected. For example, you can browse
     an RSS/Atom feed, see upcoming space launches, and check the weather.
 
-    <a href="#widgets" class="button is-primary">Widget types</a>
+    <a href="#widgets" class="button is-primary">List of widgets</a>
 
 - title: Customisable
   image: static/images/features/settings.png
@@ -39,7 +39,6 @@
     change language, or choose a background.
 
 - title: Free and Open Source
-  # image: static/images/features/opensource.png
   image_link: https://gitlab.com/renewedtab/renewedtab
   desc: |
     Anyone can read the code, modify it, and contribute to development.
@@ -56,12 +55,11 @@
     </a>
 
 - title: Multi-lingual
-  # image: static/images/features/languages.png
   desc: |
-    Renewed Tab fully supports translations, allowing you to experience it
-    in your own language.
+    Renewed Tab supports Français, Italiano, Bahasa Melayu, Português, and Türkçe.
 
-    Translations are community-maintained.
+    Translations are community-maintained, allowing you to add support for your
+    language.
 
     <a class="button is-primary" href="https://renewedtab.com/translations/">
       <i class="fas fa-language mr-2"></i>
