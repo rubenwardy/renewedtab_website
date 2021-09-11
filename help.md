@@ -14,13 +14,13 @@ The blur requires an experimental feature in Firefox to be enabled, called
 
 1. Open a new tab and type `about:config` as the address.
 2. Accept the warning.
-3. Enable `layout.css.backdrop-filter.enabled` and `gfx.webrender.all`.
+3. Enable `layout.css.backdrop-filter.enabled`.
 4. Close and reopen Firefox.
 
 Please note that you may get visual glitches with this, it is an unstable
 Firefox feature, which is why it's not enabled by default.
 
-Source: https://dev.to/rethinkprogramming/how-to-enable-backdrop-filter-in-firefox-2n8e
+Source: <https://dev.to/rethinkprogramming/how-to-enable-backdrop-filter-in-firefox-2n8e>
 
 ### How can I place widgets outside of the grid / at the bottom of the screen?
 
@@ -70,6 +70,14 @@ disable it per-site.
 
 Alternatively, it may be a connection issue with the Renewed Tab API or unsplash,
 or a configuration issue.
+
+### Why don't you support browser sync?
+
+Chrome and Firefox sync is limited to 8KB per key. It is common for components like notes
+to exceed this limit, which makes it impractical to support sync.
+
+You can use Settings (<i class="fas fa-cog"></i>) > Import / Export to share
+your setup between browsers.
 
 ### Why don't you support X browser?
 

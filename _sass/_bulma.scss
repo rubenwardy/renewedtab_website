@@ -121,3 +121,7 @@ $code: $text;
 input:invalid, input:invalid:hover, input:invalid:focus {
 	border: 1px solid $red;
 }
+
+.content h3:not(:first-child) {
+	margin-top: 1.8em;
+}
