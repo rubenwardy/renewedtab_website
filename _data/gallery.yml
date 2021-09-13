@@ -1,11 +1,11 @@
-- title: A variety of widgets
+- title: "A variety of widgets: The news, weather, and more"
   image: /static/images/gallery/screenshot.png
 
 - title: Top sites / icon links
   image: /static/images/gallery/icons.png
 
+- title: "Focus: just a clock and a searchbar"
+  image: /static/images/gallery/focus.png
+
 - title: Web comic and image
   image: /static/images/gallery/images.png
-
-- title: Focused
-  image: /static/images/gallery/focus.png
