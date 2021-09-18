@@ -1,12 +1,20 @@
 <!DOCTYPE html>
-<html>
+{% assign pathsplit = page.path | split: '/' %}
+{% assign lang = pathsplit[0] %}
+{% assign l = site.data[lang] %}
+{% if l %}
+	<html lang="{{ lang }}">
+{% else %}
+	<html>
+	{% assign l = site.data.en %}
+{% endif %}
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>
 		{{ page.title }}
-		{% if page.title != "Renewed Tab" %}
-			- Renewed Tab
+		{% if page.title != l.homepage.title %}
+			- {{ l.homepage.title }}
 		{% endif %}
 	</title>
 
@@ -15,6 +23,16 @@
 	<link rel="stylesheet" href="/static/css/all.min.css">
 	<link rel="stylesheet" href="/static/style.css?v=3">
 	<link rel="icon" href="/static/icon.svg">
+
+	{% if site.data[lang] %}
+		{% assign oldSegment = "/" | append: lang | append: "/" %}
+		{% for other in site.data.languages %}
+			{% assign newSegment = "/" | append: other.code | append: "/" %}
+
+			<link rel="alternate" hreflang="{{ other.code }}"
+				href="{{ page.url | replace: oldSegment, newSegment }}" />
+		{% endfor %}
+	{% endif %}
 
 	{% if page.url == "/" %}
 		<meta name="og:title" content="Renewed Tab" />

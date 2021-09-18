@@ -4,6 +4,7 @@ layout: article
 redirect_from:
   - /donate/
   - /community/
+  - /get_involved/
 ---
 
 

@@ -1,13 +1,20 @@
+{% assign pathsplit = page.path | split: '/' %}
+{% assign lang = pathsplit[0] %}
+{% assign l = site.data[lang] %}
+{% unless l %}
+	{% assign l = site.data.en %}
+{% endunless %}
+
 <nav class="navbar is-primary">
 	<div class="container">
 		<div class="navbar-brand">
 			{% unless include.hide_brand %}
-				<a class="navbar-item" href="/">
-					Renewed Tab
-				</a>
+			<a class="navbar-item" href="/">
+				{{ l.homepage.title }}
+			</a>
 			{% endunless %}
 			<a role="button" class="navbar-burger" aria-label="menu"
-					aria-expanded="false" data-target="nav-menu">
+				aria-expanded="false" data-target="nav-menu">
 				<span aria-hidden="true"></span>
 				<span aria-hidden="true"></span>
 				<span aria-hidden="true"></span>
@@ -16,20 +23,39 @@
 
 		<div id="nav-menu" class="navbar-menu">
 			<div class="navbar-start">
-				{% for item in site.data.navbar %}
-					<a class="navbar-item {% if item.url == page.url %}active{% endif %}" href="{{ item.url }}">
-						{{ item.title }}
-					</a>
+				{% for item in l.navbar %}
+				<a class="navbar-item {% if item.url == page.url %}active{% endif %}" href="{{ item.url }}">
+					{{ item.title }}
+				</a>
 				{% endfor %}
 			</div>
 
 			<div class="navbar-end">
+				{% if site.data[lang] %}
+					<div class="navbar-item has-dropdown is-hoverable">
+						<a class="navbar-link">
+							<i class="fas fa-language"></i>
+						</a>
+
+						<div class="navbar-dropdown">
+							{% assign oldSegment = "/" | append: lang | append: "/" %}
+							{% for other in site.data.languages %}
+								{% assign newSegment = "/" | append: other.code | append: "/" %}
+
+								<a class="navbar-item" href="{{ page.url | replace: oldSegment, newSegment }}">
+									{{ other.name }}
+								</a>
+							{% endfor %}
+						</div>
+					</div>
+				{% endif %}
+
 				{% for item in site.data.social %}
-					<a class="navbar-item" href="{{ item.url }}" title="{{ item.title }}">
-						<span>
-							<i class="{{ item.icon }}"></i>
-						</span>
-					</a>
+				<a class="navbar-item" href="{{ item.url }}" title="{{ item.title }}">
+					<span>
+						<i class="{{ item.icon }}"></i>
+					</span>
+				</a>
 				{% endfor %}
 			</div>
 		</div>

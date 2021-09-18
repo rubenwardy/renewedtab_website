@@ -1,6 +1,8 @@
 ---
 title: Help and FAQ
 layout: article
+redirect_from:
+  - /help/
 ---
 
 # Help and FAQ

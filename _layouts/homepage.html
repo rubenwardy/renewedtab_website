@@ -1,0 +1,196 @@
+---
+layout: default
+---
+
+{% assign pathsplit = page.path | split: '/' %}
+{% assign lang = pathsplit[0] %}
+{% assign l = site.data[lang] %}
+
+<a name="top"></a>
+
+<header class="hero is-slanted">
+	<div class="hero-header">
+		{% include navbar.html hide_brand=true %}
+	</div>
+	<div class="hero-body px-0">
+		<div class="container">
+			<div class="columns">
+				<div class="column content is-half is-size-4">
+					<h1>{{ l.homepage.title }}</h1>
+					<p>
+						{{ l.homepage.description }}
+					</p>
+					<div class="buttons mt-6">
+						<a class="button is-firefox utm-link" href="{{ site.firefox }}&utm_content=topbtn">
+							<span class="icon">
+								<i class="fab fa-firefox-browser"></i>
+							</span>
+							<span>
+								{{ l.homepage.firefox }}
+							</span>
+						</a>
+						<a class="button is-chrome utm-link" href="{{ site.chrome }}&utm_content=topbtn">
+							<span class="icon">
+								<i class="fab fa-chrome"></i>
+							</span>
+							<span>
+								{{ l.homepage.chrome }}
+							</span>
+						</a>
+						<a class="button is-navlike" href="https://web.renewedtab.com/">
+							{{ l.homepage.online }}
+						</a>
+					</div>
+				</div>
+				<div class="column is-half">
+					<a class="image is-4by3" href="/static/images/gallery/screenshot_full.png">
+						<img src="/static/images/gallery/screenshot.png" alt="">
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+
+<main class="container">
+	<section class="section" id="features">
+		{% for item in l.features %}
+		{% if item.image %}
+		{% if item.image_link %}
+		{% assign image_link = item.image_link %}
+		{% else %}
+		{% assign image_link = item.image | replace: '.png', '_full.png' %}
+		{% endif %}
+
+		{% capture side %}{% cycle "left", "right" %}{% endcapture %}
+
+		<div class="columns is-variable is-8 py-6 {% if side=='left' %}is-reversed{% endif %}">
+			<figure class="column is-two-thirds">
+				<a class="image {% unless item.no_ratio %}is-golden{% endunless %}" href="{{ image_link }}">
+					<img src="{{ item.image }}" alt="{{ item.title }}"
+					{% if item.no_shadow %}class="no-shadow"{% endif %}>
+				</a>
+			</figure>
+			<div class="column is-one-third content is-size-4">
+				<h2 class="is-4 mt-0 is-size-3">{{ item.title }}</h2>
+
+				{{ item.desc | markdownify }}
+			</div>
+		</div>
+		{% endif %}
+		{% endfor %}
+
+		<h2 class="my-6 title is-3 has-text-weight-semibold">
+			{{ l.homepage.andmore }}
+		</h2>
+
+		<div class="columns is-multiline">
+			{% for item in l.features %}
+			{% unless item.image %}
+			<div class="column is-one-third content">
+				<h2 class="mt-0 is-size-4">{{ item.title }}</h2>
+
+				{{ item.desc | markdownify }}
+			</div>
+			{% endunless %}
+			{% endfor %}
+		</section>
+
+		<section class="section">
+			<h2 id="widgets" class="title is-2">
+				{{ l.homepage.widgets }}
+			</h2>
+			<div class="content">
+				<ul>
+					{% for item in l.widgets %}
+						<li>
+							{{ item | safe }}
+						</li>
+					{% endfor %}
+				</ul>
+			</div>
+		</section>
+
+		<section class="section">
+			<h2 class="title is-2" id="gallery">
+				{{ l.homepage.gallery }}
+			</h2>
+
+			<div class="columns is-multiline is-variable is-5">
+				{% for item in l.gallery %}
+				{% if item.image_link %}
+				{% assign image_link = item.image_link %}
+				{% else %}
+				{% assign image_link = item.image | replace: '.png', '_full.png' %}
+				{% endif %}
+
+				<figure class="column is-half">
+					<a class="image is-4by3" href="{{ image_link }}">
+						<img src="{{ item.image }}" alt="{{ item.title }}">
+					</a>
+					<figcaption>
+						{{ item.title }}
+					</figcaption>
+				</figure>
+				{% endfor %}
+			</div>
+		</section>
+
+		<section class="section">
+			<h2 id="widgets" class="title is-2">
+				{{ l.homepage.testimonials }}
+			</h2>
+			<div class="columns is-multiline">
+				{% for test in l.testimonials %}
+				<div class="column is-half content mb-0">
+					<figure class="mx-0">
+						<blockquote cite="{{ test.url }}">
+							{{ test.text }}
+						</blockquote>
+						<figcaption>
+							<a href="{{ test.url }}">
+								{{ test.author }}
+							</a>
+						</figcaption>
+					</figure>
+				</div>
+				{% endfor %}
+			</div>
+		</section>
+
+		<section id="install" class="section is-medium">
+			<p class="mb-5 has-text-centered">
+				{{ l.homepage.likeWhatYouSee }}
+			</p>
+			<div class="buttons is-justify-content-center">
+				<a class="button is-firefox is-large utm-link" href="{{ site.firefox }}&utm_content=bottombtn">
+					<span class="icon">
+						<i class="fab fa-firefox-browser"></i>
+					</span>
+					<span>{{ l.homepage.firefox }}</span>
+				</a>
+				<a class="button is-chrome is-large utm-link" href="{{ site.chrome }}&utm_content=bottombtn">
+					<span class="icon">
+						<i class="fab fa-chrome"></i>
+					</span>
+					<span>{{ l.homepage.chrome }}</span>
+				</a>
+				<a class="button is-navlike is-large" href="https://web.renewedtab.com/">
+					{{ l.homepage.online }}
+				</a>
+			</div>
+		</section>
+	</main>
+
+	<script>
+		// @license magnet:?xt=urn:btih:1f739d935676111cfff4b4693e3816e664797050&dn=gpl-3.0.txt GPL-v3-or-Later
+		const urlParams = new URLSearchParams(window.location.search);
+		if (urlParams.has("utm_source")) {
+			for (let link of document.getElementsByClassName("utm-link")) {
+				const url = new URL(link.getAttribute("href"));
+				url.search = urlParams.toString();
+				link.setAttribute("href", url.toString());
+			}
+		}
+		// @license-end
+	</script>

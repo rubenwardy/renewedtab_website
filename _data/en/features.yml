@@ -1,7 +1,7 @@
 - title: Drag and Drop Widgets
   no_shadow: true
   no_ratio: true
-  image: static/images/features/widgets.png
+  image: /static/images/features/widgets.png
   image_link: /static/images/features/widgets.png
   desc: |
     The core of Renewed Tab is the widget system.
@@ -11,7 +11,7 @@
     You can place the same type of widget multiple times, with different settings.
 
 - title: Beautiful Backgrounds
-  image: static/images/gallery/focus.png
+  image: /static/images/gallery/focus.png
   desc: |
     See a random curated background every 15 minutes.
 
@@ -25,7 +25,7 @@
 - title: Rich Widgets
   no_shadow: true
   no_ratio: true
-  image: static/images/features/rich_widgets.png
+  image: /static/images/features/rich_widgets.png
   image_link: /static/images/features/rich_widgets.png
   desc: |
     Some widgets are Internet connected. For example, you can browse
@@ -34,7 +34,7 @@
     <a href="#widgets" class="button is-primary">List of widgets</a>
 
 - title: Customisable
-  image: static/images/features/settings.png
+  image: /static/images/features/settings.png
   desc: |
     Each widget has settings for behaviour and theming.
 
