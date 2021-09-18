@@ -95,7 +95,7 @@ layout: default
 				{% assign title_id = "features." | append: item.id | append: ".title" %}
 				{% assign desc_id = "features." | append: item.id | append: ".desc" %}
 				{% assign title = l.index[title_id] | default: en[title_id] %}
-				{% assign desc = l.index[desc_id] | default: en[title_id] %}
+				{% assign desc = l.index[desc_id] | default: en[desc_id] %}
 
 				{% unless item.image %}
 				<div class="column is-one-third content">

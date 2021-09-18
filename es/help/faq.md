@@ -1,13 +1,25 @@
 ---
 title: Ayuda y FAQ
 layout: article
+redirect_from:
+  - /es/help/
 ---
 
-# Ayuda y FAQ
+# Preguntas Frecuentes  <!-- omit in toc -->
 
-## Preguntas Frecuentes
 
-### ¿Cómo habilito el desenfoque en Firefox?
+- [¿Cómo habilito el desenfoque en Firefox?](#cómo-habilito-el-desenfoque-en-firefox)
+- [¿Cómo puedo ubicar widgets fuera de la cuadrícula / en la parte inferior de la pantalla?](#cómo-puedo-ubicar-widgets-fuera-de-la-cuadrícula--en-la-parte-inferior-de-la-pantalla)
+- [¿Por qué la extensión solicita leer todos los datos de un sitio web?](#por-qué-la-extensión-solicita-leer-todos-los-datos-de-un-sitio-web)
+- [¿Por qué sigue apareciendo un fondo que he bloqueado?](#por-qué-sigue-apareciendo-un-fondo-que-he-bloqueado)
+- [¿Por qué no aparece la imagen de fondo?](#por-qué-no-aparece-la-imagen-de-fondo)
+- [¿Por qué no admite sincronización de navegador?](#por-qué-no-admite-sincronización-de-navegador)
+- [¿Por qué no está disponible para X navegador?](#por-qué-no-está-disponible-para-x-navegador)
+- [¿Por qué me sale un error al ingresar una URL personalizada en la versión web?](#por-qué-me-sale-un-error-al-ingresar-una-url-personalizada-en-la-versión-web)
+- [Solicitudes de Funciones, Informe de Errores, y Asistencia](#solicitudes-de-funciones-informe-de-errores-y-asistencia)
+
+
+## ¿Cómo habilito el desenfoque en Firefox?
 
 El desenfoque requiere activar una característica experimental en Firefox, llamada
 `backdrop-filter`:
@@ -19,7 +31,8 @@ El desenfoque requiere activar una característica experimental en Firefox, llam
 
 Por favor tenga en cuenta que puede experimentar problemas visuales con esto, ya que es una característica inestable de Firefox, por lo cual no está habilitada por defecto.
 
-### ¿Cómo puedo ubicar widgets fuera de la cuadrícula / en la parte inferior de la pantalla?
+
+## ¿Cómo puedo ubicar widgets fuera de la cuadrícula / en la parte inferior de la pantalla?
 
 Renewed Tab requiere que todos los widgets estén en la cuadrícula. Esto es genial para
 la experiencia del usuario, ya que es simple, pero dificulta hacer ciertas cosas.
@@ -27,7 +40,8 @@ la experiencia del usuario, ya que es simple, pero dificulta hacer ciertas cosas
 Para hacer que un widget parezca estar la parte inferior de la pantalla,
 puede usar el widget invisible para agregar espacio vertical entre widgets.
 
-### ¿Por qué la extensión solicita leer todos los datos de un sitio web?
+
+## ¿Por qué la extensión solicita leer todos los datos de un sitio web?
 
 Algunos widgets, como Feed, requieren que se cargue información desde una URL.
 Los navegadores web tienden a tener sistemas de permisos estrictos, por lo
@@ -51,7 +65,8 @@ Mensajes de ejemplo:
 > Quiere:
 > - Acceder a tus datos para feeds.bbci.co.uk
 
-### ¿Por qué sigue apareciendo un fondo que he bloqueado?
+
+## ¿Por qué sigue apareciendo un fondo que he bloqueado?
 
 El servidor de API de Renewed Tab solo tiene 4 imágenes disponibles para elegir a la vez.
 Si ha bloqueado muchas imágenes, es posible que termine con que todas
@@ -60,7 +75,8 @@ se utilizará la primer imagen.
 
 La razón por la que se hace esto es para evitar llamar demasiado la API de Unsplash.
 
-### ¿Por qué no aparece la imagen de fondo?
+
+## ¿Por qué no aparece la imagen de fondo?
 
 Extensiones como DarkReader pueden tener conflictos con la imagen de fondo,
 usted puede deshabilitarlas por sitio.
@@ -68,7 +84,8 @@ usted puede deshabilitarlas por sitio.
 Alternativamente, puede ser un problema de conexión con la API de Renewed Tab o Unsplash,
 o un problema de configuración.
 
-### ¿Por qué no admite sincronización de navegador?
+
+## ¿Por qué no admite sincronización de navegador?
 
 La sincronización de Chrome y Firefox está limitada a 8 KB por clave.
 Es común que componentes como las notas excedan este límite,
@@ -76,7 +93,8 @@ lo que hace que no sea práctico admitir la sincronización.
 
 Puede usar Ajustes (<i class="fas fa-cog"></i>) > Importar / Exportar para compartir su configuración entre navegadores.
 
-### ¿Por qué no está disponible para X navegador?
+
+## ¿Por qué no está disponible para X navegador?
 
 Solo admitimos las últimas 2 versiones de Firefox y Chrome; es dificil probar
 y brindar soporte para todos los navegadores.
@@ -96,7 +114,8 @@ Sin embargo, podemos aceptar parches / PR para solucionar problemas en
 plataformas no compatibles siempre que no introduzcan problemas de arqutectura,
 y el problema no se deba a que el navegador implemente incorrectamente los estándares web.
 
-### ¿Por qué me sale un error al ingresar una URL personalizada en la versión web?
+
+## ¿Por qué me sale un error al ingresar una URL personalizada en la versión web?
 
 Si intenta ingresar una URL personalizada que no está permitida en la versión web,
 obtendrá el siguiente error:

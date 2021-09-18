@@ -110,3 +110,10 @@ widgets.yearprogress: "<b>Year Progress</b>: shows the progress through the year
 widgets.currencies: "<b>Currencies</b>: shows exchange rates, supporting forex currencies and crypto."
 widgets.spaceflight: "<b>Upcoming Space Flights</b>"
 widgets.more: "and more: buttons, images, HTML, and iframes."
+
+help.links.tutorial.title: Getting Started
+help.links.tutorial.desc: Learn how to set up and use Renewed Tab
+help.links.faq.title: Problems and Questions
+help.links.faq.desc: Frequently Asked Questions
+help.links.get_involved.title: Get Involved
+help.links.get_involved.desc: Chat with the developers and other users

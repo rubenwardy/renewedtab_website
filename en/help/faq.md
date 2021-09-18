@@ -1,15 +1,28 @@
 ---
-title: Help and FAQ
+title: Frequently Asked Questions
 layout: article
-redirect_from:
-  - /help/
 ---
 
-# Help and FAQ
+<a href="/en/help/">
+	<i class="fas fa-arrow-left"></i>
+	Back to help
+</a>
 
-## Frequently Asked Questions
+# Frequently Asked Questions <!-- omit in toc -->
 
-### How do I enable the blur on Firefox?
+- [How do I enable the blur on Firefox?](#how-do-i-enable-the-blur-on-firefox)
+- [How do I show the bookmarks bar only on the New Tab page?](#how-do-i-show-the-bookmarks-bar-only-on-the-new-tab-page)
+- [How can I place widgets outside of the grid / at the bottom of the screen?](#how-can-i-place-widgets-outside-of-the-grid--at-the-bottom-of-the-screen)
+- [Why does the extension request to read all the data for a website?](#why-does-the-extension-request-to-read-all-the-data-for-a-website)
+- [Why does a background that I've blocked still appear?](#why-does-a-background-that-ive-blocked-still-appear)
+- [Why isn't the background image appearing?](#why-isnt-the-background-image-appearing)
+- [Why don't you support browser sync?](#why-dont-you-support-browser-sync)
+- [Why don't you support X browser?](#why-dont-you-support-x-browser)
+- [Why do I get an error when entering a custom URL in the web version?](#why-do-i-get-an-error-when-entering-a-custom-url-in-the-web-version)
+- [How do I add custom widgets?](#how-do-i-add-custom-widgets)
+- [How can I get in contact?](#how-can-i-get-in-contact)
+
+## How do I enable the blur on Firefox?
 
 Edit: Firefox has broken support for this feature for now.
 Hopefully it'll be readded in the future.
@@ -25,7 +38,7 @@ Hopefully it'll be readded in the future.
 Please note that you may get visual glitches with this, it is an unstable
 Firefox feature, which is why it's not enabled by default. -->
 
-### How do I show the bookmarks bar only on the New Tab page?
+## How do I show the bookmarks bar only on the New Tab page?
 
 On Chrome, there's no way to show the **builtin** bookmarks bar only
 on the New Tab page. However, Renewed Tab provides its own bookmarks bar which
@@ -36,7 +49,7 @@ Only Show on New Tab.
 
 ![Only show on new tab](/static/images/help/firefox_bookmarks.png)
 
-### How can I place widgets outside of the grid / at the bottom of the screen?
+## How can I place widgets outside of the grid / at the bottom of the screen?
 
 Renewed Tab requires all widgets to be placed on the grid. This is great for
 the User Experience, as it's simple, but makes it harder to do certain things.
@@ -44,7 +57,7 @@ the User Experience, as it's simple, but makes it harder to do certain things.
 To make a widget appear to be at the bottom of the screen, you can use the
 Invisible widget to add vertical spacing between widgets.
 
-### Why does the extension request to read all the data for a website?
+## Why does the extension request to read all the data for a website?
 
 Some widgets, such as Feed, require loading information from a URL.
 Web browsers tend to have strict permission systems, such that a browser
@@ -68,7 +81,7 @@ Example messages:
 > It wants to:
 > - Access your data for feeds.bbci.co.uk
 
-### Why does a background that I've blocked still appear?
+## Why does a background that I've blocked still appear?
 
 The Renewed Tab API server only has 4 images available to choose from at a time.
 If you've blocked a lot of images, then it's possible that you may end up with
@@ -77,7 +90,7 @@ first image will be used.
 
 The reason this is done is to avoid hitting the Unsplash API too much.
 
-### Why isn't the background image appearing?
+## Why isn't the background image appearing?
 
 Extensions like DarkReader can conflict with the background image, you can
 disable it per-site.
@@ -85,7 +98,7 @@ disable it per-site.
 Alternatively, it may be a connection issue with the Renewed Tab API or unsplash,
 or a configuration issue.
 
-### Why don't you support browser sync?
+## Why don't you support browser sync?
 
 Chrome and Firefox sync is limited to 8KB per key. It is common for components like notes
 to exceed this limit, which makes it impractical to support sync.
@@ -93,7 +106,7 @@ to exceed this limit, which makes it impractical to support sync.
 You can use Settings (<i class="fas fa-cog"></i>) > Import / Export to share
 your setup between browsers.
 
-### Why don't you support X browser?
+## Why don't you support X browser?
 
 We only support the latest 2 versions of Firefox and Chrome; it is hard to test
 and provide support for every browser.
@@ -114,7 +127,7 @@ able to help. However, we may accept patches/PRs to fix issues on unsupported
 platforms as long as it doesn't introduce architectural problems, and the
 problem is not due to the browser incorrectly implementing web standards.
 
-### Why do I get an error when entering a custom URL in the web version?
+## Why do I get an error when entering a custom URL in the web version?
 
 If you try to enter a custom URL that is not allowed in the web version, you
 will get the following error:
@@ -141,8 +154,7 @@ restriction
 Note: If you get the error whilst using the browser extension, there's something
 _wrong_. Please report it below.
 
-
-### How do I add custom widgets?
+## How do I add custom widgets?
 
 We would really like to support custom widgets. But unfortunately, it's not
 possible due to the developer terms that Firefox and Chrome enforce on extension
@@ -155,8 +167,7 @@ We'll continue to look for alternatives for this, as we'd really like to allow i
 What you can do is use an IFrame widget to show a webpage as if it were a widget.
 You can use this to create custom widgets.
 
-
-## Feature Requests, Bug Reports, and Support
+## How can I get in contact?
 
 Making an issue on the Issue Tracker is the preferred way of discussing
 Renewed Tab bugs and feature requests.

@@ -1,0 +1,30 @@
+---
+layout: article
+---
+
+{% assign pathsplit = page.path | split: '/' %}
+{% assign lang = pathsplit[0] %}
+{% assign l = site.data.locale[lang] %}
+{% assign en = site.data.locale.en.index %}
+
+
+<div class="columns">
+	{% for link in site.data.help.links %}
+		{% assign title_id = "help.links." | append: link.id | append: ".title" %}
+		{% assign desc_id = "help.links." | append: link.id | append: ".desc" %}
+		{% assign title = l.index[title_id] | default: en[title_id] %}
+		{% assign desc = l.index[desc_id] | default: en[desc_id] %}
+
+		<div class="column">
+			<a href="{{ link.url }}">
+				<div class="box has-text-centered">
+					<i class="fas fa-{{ link.icon }} is-size-1 mb-4"></i>
+					<h3 class="my-2">{{ title }}</h3>
+					<div>{{ desc }}</div>
+				</div>
+			</a>
+		</div>
+	{% endfor %}
+</div>
+
+{{ content }}

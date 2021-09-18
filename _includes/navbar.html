@@ -2,6 +2,7 @@
 {% assign lang = pathsplit[0] %}
 {% assign l = site.data.locale[lang] | default: site.dat.locale.en %}
 {% assign en = site.data.locale.en.index %}
+{% assign oldSegment = "/" | append: lang | append: "/" %}
 
 <nav class="navbar is-primary">
 	<div class="container">
@@ -24,7 +25,7 @@
 				{% for item in site.data.navbar %}
 					{% assign title_id = "nav." | append: item.id %}
 					{% assign title = l.index[title_id] | default: en[title_id] %}
-					{% assign url = item.url | replace: "en", lang %}
+					{% assign url = item.url | replace: "/en/", oldSegment %}
 					<a class="navbar-item {% if url == page.url %}active{% endif %}" href="{{ url }}">
 						{{ title }}
 					</a>
@@ -39,7 +40,6 @@
 						</a>
 
 						<div class="navbar-dropdown">
-							{% assign oldSegment = "/" | append: lang | append: "/" %}
 							{% for other in site.data.languages %}
 								{% assign newSegment = "/" | append: other.code | append: "/" %}
 

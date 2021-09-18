@@ -1,0 +1,13 @@
+links:
+
+  # - id: tutorial
+  #   url: tutorial/
+  #   icon: flag
+
+  - id: faq
+    url: faq/
+    icon: life-ring
+
+  - id: get_involved
+    url: /en/get_involved/
+    icon: users
