@@ -32,15 +32,17 @@
 			<link rel="alternate" hreflang="{{ other.code }}"
 				href="{{ page.url | replace: oldSegment, newSegment }}" />
 		{% endfor %}
+
+		{% if page.url == oldSegment %}
+			{% assign description = site.data[lang].homepage.description %}
+			<meta name="og:title" content="Renewed Tab" />
+			<meta name="og:description" content="{{ description }}" />
+			<meta name="description" content="{{ description }}" />
+			<meta name="og:url" content="{{ page.url | absolute_url }}" />
+			<meta name="og:image" content="{{ '/static/images/gallery/screenshot.png' | absolute_url }}" />
+		{% endif %}
 	{% endif %}
 
-	{% if page.url == "/" %}
-		<meta name="og:title" content="Renewed Tab" />
-		<meta name="og:description" content="{{ site.description }}" />
-		<meta name="description" content="{{ site.description }}" />
-		<meta name="og:url" content="{{ '/' | absolute_url }}" />
-		<meta name="og:image" content="{{ '/static/images/gallery/screenshot.png' | absolute_url }}" />
-	{% endif %}
 </head>
 <body>
 	{{ content }}
