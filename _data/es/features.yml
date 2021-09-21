@@ -1,0 +1,76 @@
+- title: Arrastre y Suelte Widgets
+  no_shadow: true
+  no_ratio: true
+  image: /static/images/features/widgets.png
+  image_link: /static/images/features/widgets.png
+  desc: |
+    El núcleo de Renewed Tab es su sistema de widgets.
+    Puede añadir, mover, cambiar el tamaño, y configurar widgets en una grilla usando controles intuitivos.
+
+    Es posible colocar el mismo tipo de widget multiples veces, con diferentes configuraciones.
+
+- title: Fondos Hermosos
+  image: /static/images/gallery/focus.png
+  desc: |
+    Vea un fondo aleatorio seleccionado cada 15 minutos.
+
+    También puede elegir un color sólido,
+    una colección de Unsplash,
+    un feed RSS/Atom, o una imágen de fondo personalizada.
+
+    Puede ocultar los widgets colocando el cursor sobre los créditos,
+    y también darles me gusta o saltar imágenes.
+
+- title: Widgets Funcionales
+  no_shadow: true
+  no_ratio: true
+  image: /static/images/features/rich_widgets.png
+  image_link: /static/images/features/rich_widgets.png
+  desc: |
+    Algunos widgets están conectados al Internet. Por ejemplo, puede navegar
+    un feed RSS/Atom, ver los próximos lanzamientos espaciales, y verificar el clima.
+
+    <a href="#widgets" class="button is-primary">Lista de widgets</a>
+
+- title: Personalizable
+  image: /static/images/features/settings.png
+  desc: |
+    Cada widget tiene configuraciones de comportamiento y temática.
+
+    También hay configuraciones globales, permitiendole personalizar el tema, cambiar de lenguaje, o elegir un fondo.
+
+- title: Libre y de Código Abierto
+  image_link: https://gitlab.com/renewedtab/renewedtab
+  desc: |
+    Cualquiera puede leer el código fuente, modificarlo, y contribuir al desarrollo.
+
+    Escrito utilizando TypeScript y React.
+
+    <a href="https://gitlab.com/renewedtab/renewedtab" class="button is-primary">
+      <i class="fab fa-gitlab mr-2"></i>
+      GitLab
+    </a>
+    <a href="https://github.com/rubenwardy/renewedtab" class="button">
+      <i class="fab fa-github mr-2"></i>
+      GitHub (mirror)
+    </a>
+
+- title: Multi-lenguaje
+  desc: |
+    Renewed Tab admite Français, Italiano, Español, Bahasa Melayu, Português, y Türkçe.
+
+    Las traducciones son mantenidas por la comunidad, lo que le permite agregar soporte para su idioma.
+
+    <a class="button is-primary" href="https://renewedtab.com/translations/">
+      <i class="fas fa-language mr-2"></i>
+      Ayuda a Traducir
+    </a>
+
+- title: Orientado a la Privacidad
+  desc: |
+    Solo requerimos permisos mínimos; otros
+    permisos son opcionales y solo solicitados cuando se necesitan. Todos sus datos se almacenan en su navegador, no en nuestros servidores. 
+
+    <a class="button is-primary" href="/privacy_policy/">
+      Política de Privacidad
+    </a>
