@@ -16,7 +16,7 @@
 			console.error(e);
 		}
 
-		const url = new URL(`http://localhost:4000/${locale}/`);
+		const url = new URL(`https://renewedtab.com/${locale}/`);
 		const urlParams = new URLSearchParams(window.location.search);
 		for (let key of urlParams.keys()) {
 			url.searchParams.set(key, urlParams.get(key));
