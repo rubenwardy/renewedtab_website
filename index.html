@@ -1,0 +1,34 @@
+---
+---
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Redirecting&hellip;</title>
+	<script>
+		let locale = "en";
+		try {
+			const userLanguages = typeof navigator.languages == "object"
+				? navigator.languages : [ navigator.language ];
+			const locales = {{ site.data.languages | map: "code" | jsonify }};
+			locale = locales.find(x => userLanguages.includes(x)) ?? "en";
+		} catch (e) {
+			console.error(e);
+		}
+
+		const url = new URL(`http://localhost:4000/${locale}/`);
+		const urlParams = new URLSearchParams(window.location.search);
+		for (let key of urlParams.keys()) {
+			url.searchParams.set(key, urlParams.get(key));
+		}
+		window.location = url.toString();
+	</script>
+	<link rel="canonical" href="https://renewedtab.com/en/">
+	<meta http-equiv="refresh" content="0; url=https://renewedtab.com/en/">
+	<meta name="robots" content="noindex">
+</head>
+<body>
+	<h1>Redirecting&hellip;</h1>
+	<a href="https://renewedtab.com/en/">Click here if you are not redirected.</a>
+</body>
+</html>
