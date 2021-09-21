@@ -11,7 +11,7 @@
 			const userLanguages = typeof navigator.languages == "object"
 				? navigator.languages : [ navigator.language ];
 			const locales = {{ site.data.languages | map: "code" | jsonify }};
-			locale = locales.find(x => userLanguages.includes(x)) ?? "en";
+			locale = userLanguages.find(x => locales.includes(x)) ?? "en";
 		} catch (e) {
 			console.error(e);
 		}
