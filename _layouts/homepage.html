@@ -151,6 +151,11 @@ layout: default
 							<a href="{{ test.url }}">
 								{{ test.author }}
 							</a>
+							{% if test.lang %}
+								<span class="has-text-grey-light">
+									({{ test.lang }})
+								</span>
+							{% endif %}
 						</figcaption>
 					</figure>
 				</div>
