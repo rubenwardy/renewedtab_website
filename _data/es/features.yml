@@ -57,7 +57,8 @@
 
 - title: Multi-lenguaje
   desc: |
-    Renewed Tab admite Français, Italiano, Español, Bahasa Melayu, Português, y Türkçe.
+    Renewed Tab admite Français, Español, Deutsch, Italiano, Русский, 汉语,
+    Português, Bahasa Melayu, y Türkçe.
 
     Las traducciones son mantenidas por la comunidad, lo que le permite agregar soporte para su idioma.
 
@@ -69,7 +70,7 @@
 - title: Orientado a la Privacidad
   desc: |
     Solo requerimos permisos mínimos; otros
-    permisos son opcionales y solo solicitados cuando se necesitan. Todos sus datos se almacenan en su navegador, no en nuestros servidores. 
+    permisos son opcionales y solo solicitados cuando se necesitan. Todos sus datos se almacenan en su navegador, no en nuestros servidores.
 
     <a class="button is-primary" href="/privacy_policy/">
       Política de Privacidad

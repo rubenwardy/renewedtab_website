@@ -9,7 +9,7 @@ layout: article
 
 ### ¿Cómo habilito el desenfoque en Firefox?
 
-El desenfoque requiere activar una característica experimental en Firefox, llamada 
+El desenfoque requiere activar una característica experimental en Firefox, llamada
 `backdrop-filter`:
 
 1. Abra una nueva pestaña y escriba `about:config` en la barra de dirección.
@@ -18,8 +18,6 @@ El desenfoque requiere activar una característica experimental en Firefox, llam
 4. Abra y reabra Firefox.
 
 Por favor tenga en cuenta que puede experimentar problemas visuales con esto, ya que es una característica inestable de Firefox, por lo cual no está habilitada por defecto.
-
-Fuente: <https://dev.to/rethinkprogramming/how-to-enable-backdrop-filter-in-firefox-2n8e>
 
 ### ¿Cómo puedo ubicar widgets fuera de la cuadrícula / en la parte inferior de la pantalla?
 
@@ -32,15 +30,15 @@ puede usar el widget invisible para agregar espacio vertical entre widgets.
 ### ¿Por qué la extensión solicita leer todos los datos de un sitio web?
 
 Algunos widgets, como Feed, requieren que se cargue información desde una URL.
-Los navegadores web tienden a tener sistemas de permisos estrictos, por lo 
+Los navegadores web tienden a tener sistemas de permisos estrictos, por lo
 que una extensión de navegador necesita solicitar permiso para hacer ciertas cosas.
 Ponerse en contacto con un sitio web es una de esas cosas.
 
-Por ejemplo, para cargar el servicio de noticias de bbc.co.uk, 
+Por ejemplo, para cargar el servicio de noticias de bbc.co.uk,
 la extensión debe tener permiso para acceder a bbc.co.uk.
 
-Renewed Tab no lee ninguna de su información personal o historial 
-de los sitios web a los que otorga acceso. Simplemente realiza una 
+Renewed Tab no lee ninguna de su información personal o historial
+de los sitios web a los que otorga acceso. Simplemente realiza una
 solicitud web al sitio web para cargar el contenido.
 
 Mensajes de ejemplo:
@@ -72,8 +70,8 @@ o un problema de configuración.
 
 ### ¿Por qué no admite sincronización de navegador?
 
-La sincronización de Chrome y Firefox está limitada a 8 KB por clave. 
-Es común que componentes como las notas excedan este límite, 
+La sincronización de Chrome y Firefox está limitada a 8 KB por clave.
+Es común que componentes como las notas excedan este límite,
 lo que hace que no sea práctico admitir la sincronización.
 
 Puede usar Ajustes (<i class="fas fa-cog"></i>) > Importar / Exportar para compartir su configuración entre navegadores.
@@ -93,14 +91,14 @@ Puede descargar .zips de la extensión de navegador:
 3. Haga click en el botón de descarga (<i class="tag fas fa-ellipsis-v"></i>) a la derecha de la fila.
 4. Seleccione "Download webext:archive artifact".
 
-Si tiene un problema con un navegador no compatible, es poco probable que podamos ayudarlo. 
-Sin embargo, podemos aceptar parches / PR para solucionar problemas en 
-plataformas no compatibles siempre que no introduzcan problemas de arqutectura, 
+Si tiene un problema con un navegador no compatible, es poco probable que podamos ayudarlo.
+Sin embargo, podemos aceptar parches / PR para solucionar problemas en
+plataformas no compatibles siempre que no introduzcan problemas de arqutectura,
 y el problema no se deba a que el navegador implemente incorrectamente los estándares web.
 
 ### ¿Por qué me sale un error al ingresar una URL personalizada en la versión web?
 
-Si intenta ingresar una URL personalizada que no está permitida en la versión web, 
+Si intenta ingresar una URL personalizada que no está permitida en la versión web,
 obtendrá el siguiente error:
 
 > El acceso al host example.com no está permitido en la versión web. Por
@@ -108,20 +106,20 @@ obtendrá el siguiente error:
 > Considere usar la extensión de Chrome/Firefox en su lugar.
 
 La versión web utiliza un proxy para acceder a las URL, en lugar de contactarlas directamente.
-Esto es para sortear las restricciones de 
+Esto es para sortear las restricciones de
 [Intercambio de Recursos de Origen Cruzado](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
-(CORS): Las páginas web no pueden realizar solicitudes a otros sitios web sin que 
+(CORS): Las páginas web no pueden realizar solicitudes a otros sitios web sin que
 el otro sitio web dé permiso.
 
 El proxy de la versión web restringe los dominios que puede usar por
 [razones de seguridad](https://owasp.org/www-community/attacks/Server_Side_Request_Forgery).
-Si se permitiera cualquier dominio, los usuarios malintencionados podrían 
+Si se permitiera cualquier dominio, los usuarios malintencionados podrían
 alterar los registros DNS para permitir el acceso a los servicios internos del servidor.
 
 Es posible que pueda solicitar que el proxy permita un sitio web. Sin embargo,
 debería usar la extensión de Chrome/Firefox en su lugar, ya que esta no tiene la restricción.
 
-Nota: Si obtiene el error mientras usa la extensión del navegador, hay algo 
+Nota: Si obtiene el error mientras usa la extensión del navegador, hay algo
 _incorrecto_. Por favor repórtelo a continuación.
 
 
@@ -130,7 +128,7 @@ _incorrecto_. Por favor repórtelo a continuación.
 Publicar un issue en el rastreador de problemas es la forma preferida de discutir
 errores en Renewed Tab y de solicitar funciones.
 
-Si necesita ayuda, puede usar cualquiera de estas opciones. 
+Si necesita ayuda, puede usar cualquiera de estas opciones.
 Es probable que Discord o Matrix sean las más rápidas.
 
 <div class="buttons">

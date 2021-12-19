@@ -22,8 +22,6 @@ The blur requires an experimental feature in Firefox to be enabled, called
 Please note that you may get visual glitches with this, it is an unstable
 Firefox feature, which is why it's not enabled by default.
 
-Source: <https://dev.to/rethinkprogramming/how-to-enable-backdrop-filter-in-firefox-2n8e>
-
 ### How can I place widgets outside of the grid / at the bottom of the screen?
 
 Renewed Tab requires all widgets to be placed on the grid. This is great for
