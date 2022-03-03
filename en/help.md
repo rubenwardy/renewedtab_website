@@ -128,6 +128,20 @@ Note: If you get the error whilst using the browser extension, there's something
 _wrong_. Please report it below.
 
 
+### How do I add custom widgets?
+
+We would really like to support custom widgets. But unfortunately, it's not
+possible due to the developer terms that Firefox and Chrome enforce on extension
+developers. We're not allowed to let users upload code which runs in the
+extension context.
+
+GreaseMonkey is allowed because it runs on websites, not as an extension webpage.
+We'll continue to look for alternatives for this, as we'd really like to allow it.
+
+What you can do is use an IFrame widget to show a webpage as if it were a widget.
+You can use this to create custom widgets.
+
+
 ## Feature Requests, Bug Reports, and Support
 
 Making an issue on the Issue Tracker is the preferred way of discussing
