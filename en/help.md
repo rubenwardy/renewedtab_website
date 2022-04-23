@@ -22,6 +22,17 @@ The blur requires an experimental feature in Firefox to be enabled, called
 Please note that you may get visual glitches with this, it is an unstable
 Firefox feature, which is why it's not enabled by default.
 
+### How do I show the bookmarks bar only on the New Tab page?
+
+On Chrome, there's no way to show the **builtin** bookmarks bar only
+on the New Tab page. However, Renewed Tab provides its own bookmarks bar which
+you can enable by going to Settings > General > Bookmarks Bar.
+
+On Firefox, you can right-click next to the address bar > Bookmarks Toolbar >
+Only Show on New Tab.
+
+![Only show on new tab](/static/images/help/firefox_bookmarks.png)
+
 ### How can I place widgets outside of the grid / at the bottom of the screen?
 
 Renewed Tab requires all widgets to be placed on the grid. This is great for
