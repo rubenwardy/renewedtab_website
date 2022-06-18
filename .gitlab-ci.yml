@@ -6,6 +6,8 @@ variables:
 
 before_script:
   - rm Gemfile.lock
+  - bundle install
+
 
 test:
   stage: test
