@@ -55,19 +55,17 @@ Cree Renewed Tab tras encontrarme decepcionado con las opciones existentes.
 Tenían o una mala experiencia de usuario, ninguna de las características que quería,
 o bloqueaban características _básicas_ detrás de un muro de pago.
 
-Decidí lanzar Renewed Tab de forma gratuita y como 
+Decidí lanzar Renewed Tab de forma gratuita y como
 <a href="https://gitlab.com/renewedtab/renewedtab/">software de código abierto</a>,
 permitiendo que cualquiera vea su código y cree sus propias versiones.
 Esto, además del hecho de que no quiero bloquear características detrás de un pago,
 significa que mis técnicas de monetización son limitadas.
 
-Si bien actualmente puedo usar APis gratuitas para Renewed Tab, tendré que pagar
-para las APIs cuando se vuelva más popular. Donar ayuda a cubrir este costo, y es
-también una forma de decir 'gracias'.
+I currently pay $25 per month for the Weather API, and $20 per month on hosting.
 
 <p>
-	<label for="costs_perc">$20 / $45 requeridos para pagar por una mejor API meteorológica, lo que permitirá más usuarios</label>
-	<meter id="costs_perc" class="is-block mt-2 mb-0" value="20" min="0" max="45">$20 / $45</meter>
+	<label for="costs_perc">$56 / $45 required to pay for my expenses</label>
+	<meter id="costs_perc" class="is-block mt-2 mb-0" value="56" min="0" max="45">$56 / $45</meter>
 </p>
 
 Para una donación única, puede suscribirse y cancelar después de un mes.

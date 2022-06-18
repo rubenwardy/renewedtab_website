@@ -65,13 +65,11 @@ allowing anyone to see its code and create their own versions.
 This, as well as the fact that I don't want to lock features behind a paywall,
 means that my monetisation techniques are limited.
 
-Whilst I'm currently able to use free APIs for Renewed Tab, I will need to pay
-for APIs when it becomes more popular. Donating helps cover this cost, and is
-also a way to say thank you.
+I currently pay $25 per month for the Weather API, and $20 per month on hosting.
 
 <p>
-	<label for="costs_perc">$20 / $45 required to pay for a better weather API, which will allow more users</label>
-	<meter id="costs_perc" class="is-block mt-2 mb-0" value="20" min="0" max="45">$20 / $45</meter>
+	<label for="costs_perc">$56 / $45 required to pay for my expenses</label>
+	<meter id="costs_perc" class="is-block mt-2 mb-0" value="56" min="0" max="45">$56 / $45</meter>
 </p>
 
 For a one-off donation, you can subscribe and cancel after one month.
