@@ -1,0 +1,89 @@
+---
+layout: default
+---
+
+{% assign l = site.data.locale.en %}
+
+{% include navbar.html %}
+
+<main class="container">
+	<article class="section content">
+		<header class="mb-5">
+			{% if page.images %}
+				{% assign thumbnail = page.images | first %}
+				{% if thumbnail[1] %}
+					{% assign thumbnail = thumbnail[1] %}
+				{% endif %}
+				{% if thumbnail.url %}
+					{% assign thumbnail_url = thumbnail.url %}
+				{% else %}
+					{% assign thumbnail_url = "/static/blog/" | append: thumbnail.path %}
+				{% endif %}
+				{% if thumbnail.full %}
+					{% assign thumbnail_url = thumbnail_url | replace: ".", "_full." %}
+				{% endif %}
+				<div class="image is-16by9">
+					<img src="{{ thumbnail_url }}" alt="{{ thumbnail.caption }}" />
+				</div>
+			{% endif %}
+
+			<h1 class="mt-5 mb-2">{{ page.title }}</h1>
+			{% if page.path contains "_drafts/" %}
+				{% assign title_length = page.title | size %}
+				{% if title_length > 60 %}
+					<p class="alert alert-danger">
+						Title is too long ({{ title_length }} > 60)
+					</p>
+				{% endif %}
+
+				{% unless page.content contains "<!-- more -->" %}
+					<p class="alert alert-warning">
+						Missing excerpt (use &lt;!-- more --&gt;)
+					</p>
+				{% endunless %}
+
+				{% assign num_images = page.images | size %}
+				{% if num_images == 0 %}
+					<p class="alert alert-warning">
+						Missing a cover image. It uses <code>page.images[0]</code>.
+					</p>
+				{% endif %}
+			{% endif %}
+
+			<time itemprop="dateCreated" datetime="{{ page.date | date: '%F'}}">
+				<a href="{{ page.url }}">{{ page.date | date_to_long_string }}</a>
+			</time>
+
+			<span class="has-text-grey-light ml-3">
+				{% assign wordcount = page.content | number_of_words %}
+				{{ wordcount | divided_by: 238 }} min read
+				(<span itemprop="wordcount">{{ wordcount }}</span> words)
+			</span>
+		</header>
+
+		{{ content }}
+	</article>
+
+	<section id="install" class="section is-medium">
+		<p class="mb-5 has-text-centered">
+			{{ l.index.likeWhatYouSee | default: en.likeWhatYouSee }}
+		</p>
+		<div class="buttons is-justify-content-center">
+			<a class="button is-firefox is-large utm-link" href="{{ site.firefox }}&utm_content=bottombtn">
+				<span class="icon">
+					<i class="fab fa-firefox-browser"></i>
+				</span>
+				<span>{{ l.index.firefox | default: en.firefox }}</span>
+			</a>
+			<a class="button is-chrome is-large utm-link" href="{{ site.chrome }}&utm_content=bottombtn">
+				<span class="icon">
+					<i class="fab fa-chrome"></i>
+				</span>
+				<span>{{ l.index.chrome | default: en.chrome }}</span>
+			</a>
+			<a class="button is-navlike is-large" href="https://web.renewedtab.com/">
+				{{ l.index.online | default: en.online}}
+			</a>
+		</div>
+	</section>
+</main>

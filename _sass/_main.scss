@@ -11,14 +11,14 @@ figure img {
 	object-fit: cover;
 }
 
-a.card {
+a.card, a > .box {
 	transition: transform 200ms ease;
 	cursor: pointer;
-}
 
-a.card:hover {
-	transform: scale(1.05, 1.05);
-	z-index: 2;
+	&:hover {
+		transform: scale(1.05, 1.05);
+		z-index: 2;
+	}
 }
 
 .color {

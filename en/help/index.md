@@ -5,7 +5,7 @@ redirect_from:
   - /help/
 ---
 
-### Top Questions
+## Top Questions
 
 - [How do I enable the blur on Firefox?](faq/#how-do-i-enable-the-blur-on-firefox)
 - [How do I show the bookmarks bar only on the New Tab page?](faq/#how-do-i-show-the-bookmarks-bar-only-on-the-new-tab-page)
@@ -17,3 +17,12 @@ redirect_from:
 - [Why don't you support X browser?](faq/#why-dont-you-support-x-browser)
 - [Why do I get an error when entering a custom URL in the web version?](faq/#why-do-i-get-an-error-when-entering-a-custom-url-in-the-web-version)
 - [How do I add custom widgets?](faq/#how-do-i-add-custom-widgets)
+
+
+## Articles
+
+<div>
+	{% for post in site.posts %}
+		{% include post_list_item.html post=post %}
+	{% endfor %}
+</div>

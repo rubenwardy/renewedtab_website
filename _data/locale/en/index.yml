@@ -20,6 +20,7 @@ nav.gallery: Gallery
 nav.help: Help / FAQ
 nav.get_involved: Get Involved
 nav.donate: Donate
+nav.blog: Blog
 
 gallery.screenshot.png: "A variety of widgets: The news, weather, and more"
 gallery.sidebar_icons.png: "Icon links: Quick links or bookmarks"

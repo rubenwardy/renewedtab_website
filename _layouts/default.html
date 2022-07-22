@@ -12,11 +12,15 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	{% assign title = page.title %}
+	{% if title != l.index.title %}
+		{% assign trans_title = l.index.title | default: en.title %}
+		{% assign title = title | append: " - " | append: trans_title %}
+	{% endif %}
+
 	<title>
-		{{ page.title }}
-		{% if page.title != l.index.title %}
-			- {{ l.index.title | default: en.title }}
-		{% endif %}
+		{{ title }}
 	</title>
 
 	<link rel="preconnect" href="https://fonts.gstatic.com">
@@ -26,6 +30,9 @@
 	<link rel="icon" href="/static/icon.svg">
 
 	<link rel="canonical" href="https://renewedtab.com{{ page.url }}">
+
+	<meta name="og:title" content="{{ title }}" />
+	<meta name="og:url" content="{{ page.url | absolute_url }}" />
 
 	{% if site.data.locale[lang] %}
 		{% assign oldSegment = "/" | append: lang | append: "/" %}
@@ -38,14 +45,31 @@
 
 		{% if page.url == oldSegment %}
 			{% assign description = site.data.locale[lang].index.description %}
-			<meta name="og:title" content="Renewed Tab" />
 			<meta name="og:description" content="{{ description }}" />
 			<meta name="description" content="{{ description }}" />
-			<meta name="og:url" content="{{ page.url | absolute_url }}" />
 			<meta name="og:image" content="{{ '/static/images/gallery/screenshot.png' | absolute_url }}" />
 		{% endif %}
 	{% endif %}
 
+	{% if page.images %}
+		{% assign thumbnail = page.images | first %}
+		{% if thumbnail[1] %}
+		{% assign thumbnail = thumbnail[1] %}
+		{% endif %}
+		{% if thumbnail.url %}
+			{% assign thumbnail_url = thumbnail.url %}
+		{% else %}
+			{% assign thumbnail_url = "/static/blog/" | append: thumbnail.path | absolute_url %}
+		{% endif %}
+		<meta name="og:image" content="{{ thumbnail_url }}" />
+		<meta name="twitter:image" content="{{ thumbnail_url }}" />
+	{% endif %}
+
+	{% if page.description %}
+
+		<meta name="og:description" content="{{ page.description }}" />
+		<meta name="description" content="{{ page.description }}" />
+	{% endif %}
 </head>
 <body>
 	{{ content }}

@@ -1,0 +1,17 @@
+<figure class="figure{% if include.float %} pull-{{ include.float }}{% endif %}">
+    {% if include.img.url %}
+        {% assign figure_url = include.img.url %}
+    {% else %}
+        {% assign figure_url = "/static/blog/" | append: include.img.path %}
+    {% endif %}
+    {% if include.img.full %}
+        {% assign figure_url = figure_url | replace: ".", "_full." %}
+    {% endif %}
+    <a href="{{ figure_url }}">
+        <img src="/static/blog/{{ include.img.path }}" class="figure-img img-fluid rounded"
+            alt="{{ include.img.caption | escape }}">
+    </a>
+    <figcaption>
+        {{ include.img.caption }}
+    </figcaption>
+</figure>

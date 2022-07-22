@@ -125,3 +125,7 @@ input:invalid, input:invalid:hover, input:invalid:focus {
 .content h3:not(:first-child) {
 	margin-top: 1.8em;
 }
+
+.image img {
+	object-fit: cover;
+}
