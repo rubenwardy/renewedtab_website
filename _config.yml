@@ -18,3 +18,5 @@ collections:
   posts:
     output: true
     permalink: /blog/:categories/:year/:month/:day/:title/
+
+future: true
