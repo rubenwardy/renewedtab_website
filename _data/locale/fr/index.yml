@@ -1,0 +1,89 @@
+firefox: Firefox
+chrome: Chrome
+online: Essayer-le en ligne
+andmore: Et encore plus...
+widgets: Widgets
+gallery: Galerie
+testimonials: Témoignages
+likeWhatYouSee: 'Vous aimez ce que vous voyez ?<br>Disponible pour :'
+nav.about: À propos
+nav.gallery: Galerie
+nav.help: Aide / FAQ
+nav.get_involved: S'impliquer
+nav.donate: Donner
+gallery.sidebar_icons.png: 'Liens-icônes : Liens rapides et favoris'
+gallery.icons.png: Sites les plus visités / liens-icônes
+features.dnd.title: Glisser-déposer des Widgets
+features.backgrounds.title: Beaux fonds d'écran
+features.backgrounds.desc: "Voir un fond d'écran sélectionné aléatoirement toutes\
+  \ les 15 minutes.\n\nVous pouvez aussi choisir une couleur unie,\nune collection\
+  \ Unsplash,\nun flux RSS/Atom, ou encore une image de fond personnalisée.\n\nVous\
+  \ pouvez cacher les widgets en survolant les crédits,\net également aimer et passer\
+  \ des images.\n"
+features.rich.title: Widgets Fonctionnels
+features.customisable.title: Personnalisable
+features.customisable.desc: "Chaque widget a des propriétés de comportement et d'apparence.\n\
+  \nIl y a également des paramètres globaux, qui vous permettent de personnaliser\
+  \ le thème,\nchanger la langue, ou choisir un fond d'écran.\n"
+features.foss.title: Libre et Open Source
+features.locale.title: Multilingue
+features.locale.desc: "Renewed Tab supporte English, Français, Español, Deutsch, Italiano,\
+  \ Русский, 汉语,\nPortuguês, Bahasa Melayu, and Türkçe.\n\nLes traductions sont maintenues\
+  \ par la communauté, vous permettant d'ajouter\nla traduction pour votre langage.\n\
+  \n<a class=\"button is-primary\" href=\"https://renewedtab.com/translations/\">\n\
+  \  <i class=\"fas fa-language mr-2\"></i>\n  Aider à la traduction\n</a>\n"
+features.privacy.title: Axé sur la confidentialité
+widgets.feeds: '<b>Flux RSS et Atom</b> : peut être utilisé pour voir les actualités
+  ou suivre un site web.'
+widgets.weather: <b>Météo</b>
+widgets.todo: '<b>Liste de tâches</b> : surveillez les choses que vous devez faire.'
+widgets.links: '<b>Liens rapides</b> : montre des liens, avec optionnellement des
+  icônes et des sous-titres.'
+widgets.topsites: '<b>Sites les plus visités</b> : montre vos sites les plus fréquemment
+  visités.'
+widgets.dailygoals: '<b>Objectifs quotidiens</b> : entrer un objectif quotidien.'
+widgets.bookmarks: '<b>Favoris</b> : montre les favoris depuis la barre de favoris.'
+widgets.greeting: "<b>Salutations</b> : être salué basé sur l'heure de la journée."
+widgets.quotes: '<b>Citations</b> : montre des citations aléatoires, avec des catégories.'
+widgets.clock: "<b>Horloge</b> : montre l'heure courante, choisie entre 12 et 24 heures."
+widgets.notes: '<b>Notes</b> : inscrivez des notes dans un champ de texte libre.'
+widgets.age: '<b>Age</b> : montre votre âge courant bien trop précisément.'
+widgets.search: '<b>Rechercher</b> : une barre de recherche, avec possibilité de changer
+  le moteur de recherche.'
+widgets.webcomics: '<b>Bandes Dessinés du Web</b> : montre les dessins les plus récents
+  de bandes dessinées en ligne.'
+widgets.yearprogress: "<b>Progression de l'année</b> : montre la progression durant\
+  \ l'année en barre de progression."
+widgets.currencies: '<b>Monnaies</b> : montre les taux de change, compatible avec
+  les devises forex et les cryptomonnaies.'
+widgets.spaceflight: <b>Prochains Vols Spatiaux</b>
+widgets.more: 'et encore plus : boutons, images, HTML, et IFrames.'
+help.links.tutorial.title: Commencer
+help.links.tutorial.desc: Apprendre à configurer et utiliser Renewed Tab
+help.links.faq.title: Problèmes et Questions
+help.links.faq.desc: Foire Aux Questions
+help.links.get_involved.title: S'impliquer
+help.links.get_involved.desc: Discuter avec les développeurs et d'autres utilisateurs
+title: Renewed Tab
+description: Un nouvel onglet personnalisable, avec des widgets et de beaux fonds
+  d'écran
+gallery.screenshot.png: 'Une variété de widgets : Actualités, météo, et encore plus'
+gallery.focus.png: 'Focus : juste une horloge et une barre de recherche'
+features.dnd.desc: "Le cœur de Renewed Tab est le système de widgets.\nVous pouvez\
+  \ ajouter, déplacer, redimensionner et configurer les widgets sur une grille avec\
+  \ des contrôles intuitifs.\n\nVous pouvez placer le même type de widget plusieurs\
+  \ fois, avec une configuration différente.\n"
+features.rich.desc: "Certains widgets sont connectés à Internet. Par exemple, vous\
+  \ pouvez naviguer\ndans un flux RSS/Atom, voir les prochains lancements spatiaux,\
+  \ et vérifier la météo.\n\n<a href=\"#widgets\" class=\"button is-primary\">Liste\
+  \ des widgets</a>\n"
+features.foss.desc: "Tout le monde peut lire le code, le modifier, et contribuer au\
+  \ développement.\n\nÉcrit en utilisant TypeScript et React.\n\n<a href=\"https://gitlab.com/renewedtab/renewedtab\"\
+  \ class=\"button is-primary\">\n  <i class=\"fab fa-gitlab mr-2\"></i>\n  GitLab\n\
+  </a>\n<a href=\"https://github.com/rubenwardy/renewedtab\" class=\"button\">\n \
+  \ <i class=\"fab fa-github mr-2\"></i>\n  GitHub (miroir)\n</a>\n"
+features.privacy.desc: "Nous avons besoin de seulement quelques permissions minimes\
+  \ ; les\nautres sont optionnelles et seulement demandées quand besoin. Toutes\n\
+  les données sont stockées dans votre navigateur, pas nos serveurs.\n\n<a class=\"\
+  button is-primary\" href=\"/privacy_policy/\">\n  Politique de confidentialité\n\
+  </a>\n"
