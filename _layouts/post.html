@@ -7,7 +7,7 @@ layout: default
 {% include navbar.html %}
 
 <main class="container">
-	<article class="section content">
+	<article class="section content pt-0">
 		<header class="mb-5">
 			{% if page.images %}
 				{% assign thumbnail = page.images | first %}
@@ -28,27 +28,6 @@ layout: default
 			{% endif %}
 
 			<h1 class="mt-5 mb-2">{{ page.title }}</h1>
-			{% if page.path contains "_drafts/" %}
-				{% assign title_length = page.title | size %}
-				{% if title_length > 60 %}
-					<p class="alert alert-danger">
-						Title is too long ({{ title_length }} > 60)
-					</p>
-				{% endif %}
-
-				{% unless page.content contains "<!-- more -->" %}
-					<p class="alert alert-warning">
-						Missing excerpt (use &lt;!-- more --&gt;)
-					</p>
-				{% endunless %}
-
-				{% assign num_images = page.images | size %}
-				{% if num_images == 0 %}
-					<p class="alert alert-warning">
-						Missing a cover image. It uses <code>page.images[0]</code>.
-					</p>
-				{% endif %}
-			{% endif %}
 
 			<time itemprop="dateCreated" datetime="{{ page.date | date: '%F'}}">
 				<a href="{{ page.url }}">{{ page.date | date_to_long_string }}</a>
@@ -60,6 +39,27 @@ layout: default
 				(<span itemprop="wordcount">{{ wordcount }}</span> words)
 			</span>
 		</header>
+		{% if page.path contains "_drafts/" %}
+			{% assign title_length = page.title | size %}
+			{% if title_length > 60 %}
+				<p class="notification is-danger p-3">
+					Title is too long ({{ title_length }} > 60)
+				</p>
+			{% endif %}
+
+			{% unless page.content contains "<!-- more -->" %}
+				<p class="notification is-danger p-3">
+					Missing excerpt (use &lt;!-- more --&gt;)
+				</p>
+			{% endunless %}
+
+			{% assign num_images = page.images | size %}
+			{% if num_images == 0 %}
+				<p class="notification is-danger p-3">
+					Missing a cover image. It uses <code>page.images[0]</code>.
+				</p>
+			{% endif %}
+		{% endif %}
 
 		{{ content }}
 	</article>
