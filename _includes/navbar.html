@@ -1,16 +1,14 @@
 {% assign pathsplit = page.path | split: '/' %}
 {% assign lang = pathsplit[0] %}
-{% assign l = site.data[lang] %}
-{% unless l %}
-	{% assign l = site.data.en %}
-{% endunless %}
+{% assign l = site.data[lang] | default: site.data.en %}
+{% assign en = site.data.en.index %}
 
 <nav class="navbar is-primary">
 	<div class="container">
 		<div class="navbar-brand">
 			{% unless include.hide_brand %}
 			<a class="navbar-item" href="/">
-				{{ l.homepage.title }}
+				{{ l.index.title }}
 			</a>
 			{% endunless %}
 			<a role="button" class="navbar-burger" aria-label="menu"
@@ -23,10 +21,13 @@
 
 		<div id="nav-menu" class="navbar-menu">
 			<div class="navbar-start">
-				{% for item in l.navbar %}
-				<a class="navbar-item {% if item.url == page.url %}active{% endif %}" href="{{ item.url }}">
-					{{ item.title }}
-				</a>
+				{% for item in site.data.navbar %}
+					{% assign title_id = "nav." | append: item.id %}
+					{% assign title = l.index[title_id] | default: en[title_id] %}
+					{% assign url = item.url | replace: "en", lang %}
+					<a class="navbar-item {% if url == page.url %}active{% endif %}" href="{{ url }}">
+						{{ title }}
+					</a>
 				{% endfor %}
 			</div>
 

@@ -1,17 +1,34 @@
-- title: Arrastre y Suelte Widgets
-  no_shadow: true
-  no_ratio: true
-  image: /static/images/features/widgets.png
-  image_link: /static/images/features/widgets.png
-  desc: |
+title: "Renewed Tab"
+description: "Una página de Nueva Pestaña personalizable, con widgets y fondos hermosos"
+firefox: Firefox
+chrome: Chrome
+online: Probar online
+andmore: "Y más..."
+widgets: Widgets
+gallery: Galería
+testimonials: Testimonios
+likeWhatYouSee: "¿Le gusta lo que ve?<br>Disponible para:"
+
+nav.about: Acerca de
+nav.gallery: Gallería
+nav.help: Ayuda / FAQ
+nav.get_involved: Involucrarse
+nav.donate: Donar
+
+gallery.screenshot.png: "Una variedad de widgets: Noticias, clima, y más"
+gallery.sidebar_icons.png: "Enlaces en iconos: Enlaces rápidos o marcadores"
+gallery.icons.png: "Sitios principales / enlaces en iconos"
+gallery.focus.png: "Concentración: solo un reloj y una barra de búsqueda"
+
+features.dnd.title: Arrastre y Suelte Widgets
+features.dnd.desc: |
     El núcleo de Renewed Tab es su sistema de widgets.
     Puede añadir, mover, cambiar el tamaño, y configurar widgets en una grilla usando controles intuitivos.
 
     Es posible colocar el mismo tipo de widget multiples veces, con diferentes configuraciones.
 
-- title: Fondos Hermosos
-  image: /static/images/gallery/focus.png
-  desc: |
+features.backgrounds.title: Fondos Hermosos
+features.backgrounds.desc: |
     Vea un fondo aleatorio seleccionado cada 15 minutos.
 
     También puede elegir un color sólido,
@@ -21,27 +38,21 @@
     Puede ocultar los widgets colocando el cursor sobre los créditos,
     y también darles me gusta o saltar imágenes.
 
-- title: Widgets Funcionales
-  no_shadow: true
-  no_ratio: true
-  image: /static/images/features/rich_widgets.png
-  image_link: /static/images/features/rich_widgets.png
-  desc: |
+features.rich.title: Widgets Funcionales
+features.rich.desc: |
     Algunos widgets están conectados al Internet. Por ejemplo, puede navegar
     un feed RSS/Atom, ver los próximos lanzamientos espaciales, y verificar el clima.
 
     <a href="#widgets" class="button is-primary">Lista de widgets</a>
 
-- title: Personalizable
-  image: /static/images/features/settings.png
-  desc: |
+features.customisable.title: Personalizable
+features.customisable.desc: |
     Cada widget tiene configuraciones de comportamiento y temática.
 
     También hay configuraciones globales, permitiendole personalizar el tema, cambiar de lenguaje, o elegir un fondo.
 
-- title: Libre y de Código Abierto
-  image_link: https://gitlab.com/renewedtab/renewedtab
-  desc: |
+features.foss.title: Libre y de Código Abierto
+features.foss.desc: |
     Cualquiera puede leer el código fuente, modificarlo, y contribuir al desarrollo.
 
     Escrito utilizando TypeScript y React.
@@ -55,8 +66,8 @@
       GitHub (mirror)
     </a>
 
-- title: Multi-lenguaje
-  desc: |
+features.locale.title: Multi-lenguaje
+features.locale.desc: |
     Renewed Tab admite Français, Español, Deutsch, Italiano, Русский, 汉语,
     Português, Bahasa Melayu, y Türkçe.
 
@@ -67,8 +78,8 @@
       Ayuda a Traducir
     </a>
 
-- title: Orientado a la Privacidad
-  desc: |
+features.privacy.title: Orientado a la Privacidad
+features.privacy.desc: |
     Solo requerimos permisos mínimos; otros
     permisos son opcionales y solo solicitados cuando se necesitan. Todos sus datos se almacenan en su navegador, no en nuestros servidores.
 

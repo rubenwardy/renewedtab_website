@@ -13,8 +13,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>
 		{{ page.title }}
-		{% if page.title != l.homepage.title %}
-			- {{ l.homepage.title }}
+		{% if page.title != l.index.title %}
+			- {{ l.index.title }}
 		{% endif %}
 	</title>
 
@@ -34,7 +34,7 @@
 		{% endfor %}
 
 		{% if page.url == oldSegment %}
-			{% assign description = site.data[lang].homepage.description %}
+			{% assign description = site.data[lang].index.description %}
 			<meta name="og:title" content="Renewed Tab" />
 			<meta name="og:description" content="{{ description }}" />
 			<meta name="description" content="{{ description }}" />

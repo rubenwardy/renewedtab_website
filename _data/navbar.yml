@@ -1,14 +1,14 @@
-- title: About
+- id: about
   url: /en/
 
-- title: Gallery
+- id: gallery
   url: /en/#gallery
 
-- title: Help / FAQ
+- id: help
   url: /en/help/
 
-- title: Get Involved
+- id: get_involved
   url: /en/get_involved/
 
-- title: Donate
+- id: donate
   url: /en/get_involved/#donate
