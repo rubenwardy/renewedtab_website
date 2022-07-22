@@ -1,7 +1,7 @@
 {% assign pathsplit = page.path | split: '/' %}
 {% assign lang = pathsplit[0] %}
-{% assign l = site.data[lang] | default: site.data.en %}
-{% assign en = site.data.en.index %}
+{% assign l = site.data.locale[lang] | default: site.dat.locale.en %}
+{% assign en = site.data.locale.en.index %}
 
 <nav class="navbar is-primary">
 	<div class="container">
@@ -32,7 +32,7 @@
 			</div>
 
 			<div class="navbar-end">
-				{% if site.data[lang] %}
+				{% if site.data.locale[lang] %}
 					<div class="navbar-item has-dropdown is-hoverable">
 						<a class="navbar-link">
 							<i class="fas fa-language"></i>

@@ -4,8 +4,8 @@ layout: default
 
 {% assign pathsplit = page.path | split: '/' %}
 {% assign lang = pathsplit[0] %}
-{% assign l = site.data[lang] %}
-{% assign en = site.data.en.index %}
+{% assign l = site.data.locale[lang] %}
+{% assign en = site.data.locale.en.index %}
 
 <a name="top"></a>
 

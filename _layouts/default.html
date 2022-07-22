@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 {% assign pathsplit = page.path | split: '/' %}
 {% assign lang = pathsplit[0] %}
-{% assign l = site.data[lang] %}
+{% assign l = site.data.locale[lang] %}
 {% if l %}
 	<html lang="{{ lang }}">
 {% else %}
 	<html>
-	{% assign l = site.data.en %}
+	{% assign l = site.data.locale.en %}
 {% endif %}
 <head>
 	<meta charset="utf-8">
@@ -34,7 +34,7 @@
 		{% endfor %}
 
 		{% if page.url == oldSegment %}
-			{% assign description = site.data[lang].index.description %}
+			{% assign description = site.data.locale[lang].index.description %}
 			<meta name="og:title" content="Renewed Tab" />
 			<meta name="og:description" content="{{ description }}" />
 			<meta name="description" content="{{ description }}" />
