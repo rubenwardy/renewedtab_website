@@ -32,7 +32,7 @@
 			{% assign newSegment = "/" | append: other.code | append: "/" %}
 
 			<link rel="alternate" hreflang="{{ other.code }}"
-				href="{{ page.url | replace: oldSegment, newSegment }}" />
+				href="{{ page.url | replace: oldSegment, newSegment | absolute_url }}" />
 		{% endfor %}
 
 		{% if page.url == oldSegment %}
