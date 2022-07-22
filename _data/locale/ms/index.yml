@@ -1,0 +1,88 @@
+firefox: Firefox
+chrome: Chrome
+online: Cuba dalam talian
+andmore: Dan banyak lagi...
+widgets: Widget
+gallery: Galeri
+testimonials: Testimoni
+likeWhatYouSee: 'Suka apa yang anda lihat?<br>Tersedia untuk:'
+nav.about: Perihalan
+nav.get_involved: Libatkan Diri
+nav.donate: Derma
+gallery.sidebar_icons.png: 'Pautan ikon: Tanda buku atau pautan pantas'
+gallery.icons.png: Tapak teratas / pautan ikon
+gallery.focus.png: 'Tumpu: hanya ada jam dan bar gelintar'
+features.dnd.title: Widget Tarik dan Lepas
+features.backgrounds.title: Latar yang Permai
+features.rich.title: Widget yang Kaya
+title: Renewed Tab
+description: Halaman Tab Baharu yang boleh disesuaikan, dengan widget dan latar yang
+  permai
+nav.gallery: Galeri
+nav.help: Bantuan / FAQ
+gallery.screenshot.png: 'Pelbagai jenis widget: Berita, cuaca, dan banyak lagi'
+features.dnd.desc: "Teras Renewed Tab ialah sistem widget.\nAnda boleh tambah, pindah,\
+  \ tukar saiz, dan tetapkan widget atas grid\nmenggunakan kawalan intuitif.\n\nAnda\
+  \ boleh letak widget yang sama jenis banyak kali, dengan tetapan berlainan.\n"
+features.customisable.title: Boleh Disesuaikan
+features.backgrounds.desc: "Lihat latar yang diberikan secara rawak setiap 15 minit.\n\
+  \nAnda juga boleh pilih untuk paparkan satu warna,\nsuatu himpunan Unsplash,\nsuatu\
+  \ suapan RSS/Atom, atau suatu imej latar tersuai.\n\nAnda boleh menyembunyikan widget\
+  \ dengan melalukan tetikus\ndi atas ayat penghargaan, dan boleh juga suka dan langkau\
+  \ imej.\n"
+features.customisable.desc: "Setiap widget mempunyai tetapan untuk perilaku dan tema.\n\
+  \nTerdapat juga tetapan sejagat, membolehkan anda menyesuaikan tema,\nmengubah bahasa,\
+  \ atau memilih latar.\n"
+features.foss.title: Percuma dan Bersumber Terbuka
+features.locale.title: Pelbagai Bahasa
+features.privacy.title: Berorientasikan Privasi
+features.privacy.desc: "Kami hanya memerlukan kebenaran yang sangat sedikit; kebenaran\n\
+  yang lain hanyalah pilihan dan hanya diminta apabila diperlukan.\nKesemua data anda\
+  \ disimpan di pelayar anda, bukan di pelayan kami.\n\n<a class=\"button is-primary\"\
+  \ href=\"/privacy_policy/\">\n  Polisi Privasi\n</a>\n"
+widgets.feeds: '<b>Suapan RSS dan Atom</b>: boleh digunakan untuk melihat berita atau
+  mengikuti laman sesawang.'
+widgets.weather: <b>Cuaca</b>
+widgets.todo: '<b>Senarai Tugasan</b>: jejaki benda yang anda perlu lakukan.'
+widgets.topsites: '<b>Tapak Teratas</b>: tunjuk laman sesawang yang paling kerap anda
+  lawati.'
+widgets.dailygoals: '<b>Matlamat Harian</b>: masukkan matlamat harian anda.'
+widgets.greeting: '<b>Kata Sapaan</b>: disapa berdasarkan waktu semasa dalam sehari.'
+widgets.quotes: '<b>Petikan</b>: menunjukkan petikan rawak, dengan kategori.'
+widgets.clock: '<b>Jam</b>: tunjuk waktu semasa, pilih di antara format 12 jam dan
+  24 jam.'
+widgets.age: '<b>Umur</b>: tunjuk umur semasa anda dengan terlampau tepat.'
+widgets.search: '<b>Gelintar</b>: bar gelintar, dengan sokongan untuk mengubah enjin
+  gelintar.'
+help.links.tutorial.title: Langkah Bermula
+widgets.yearprogress: '<b>Kemajuan Tahun</b>: tunjuk kemajuan dalam tahun sebagai
+  bar kemajuan.'
+widgets.currencies: '<b>Mata Wang</b>: tunjuk kadar pertukaran, menyokong mata wang
+  forex dan kripto.'
+widgets.spaceflight: <b>Pelancaran Angkasa Akan Datang</b>
+widgets.more: 'dan banyak lagi: butang, imej, HTML, dan iframe.'
+help.links.tutorial.desc: Belajar cara menetapkan dan menggunakan Renewed Tab
+help.links.faq.title: Masalah dan Soalan
+help.links.faq.desc: Soalan Lazim
+help.links.get_involved.title: Libatkan Diri
+help.links.get_involved.desc: Sembang dengan para pembangun dan para pengguna lain
+features.rich.desc: "Sesetengah widget bersambung ke Internet. Sebagai contoh, anda\
+  \ boleh layari\nsuapan RSS/Atom, lihat pelancaran angkasa yang akan datang, dan\
+  \ periksa cuaca.\n\n<a href=\"#widgets\" class=\"button is-primary\">Senarai widget</a>\n"
+features.foss.desc: "Sesiapa pun boleh membaca kod, mengubah suai, dan menyumbang\
+  \ pembangunan.\n\nDitulis menggunakan TypeScript dan React.\n\n<a href=\"https://gitlab.com/renewedtab/renewedtab\"\
+  \ class=\"button is-primary\">\n  <i class=\"fab fa-gitlab mr-2\"></i>\n  GitLab\n\
+  </a>\n<a href=\"https://github.com/rubenwardy/renewedtab\" class=\"button\">\n \
+  \ <i class=\"fab fa-github mr-2\"></i>\n  GitHub (cermin)\n</a>\n"
+features.locale.desc: "Renewed Tab menyokong Bahasa Melayu, English, Français, Español,\
+  \ Deutsch,\nItaliano, Русский, 汉语, Português, dan Türkçe.\n\nTerjemahan diselenggara\
+  \ oleh komuniti, membolehkan anda menambah\nsokongan untuk bahasa anda.\n\n<a class=\"\
+  button is-primary\" href=\"https://renewedtab.com/translations/\">\n  <i class=\"\
+  fas fa-language mr-2\"></i>\n  Bantu Terjemah\n</a>\n"
+widgets.links: '<b>Pautan Pantas</b>: tunjuk pautan, dengan ikon pilihan dan pengepala
+  kecil.'
+widgets.bookmarks: '<b>Tanda Buku</b>: tunjuk tanda buku daripada bar alatan tanda
+  buku.'
+widgets.notes: '<b>Nota</b>: catat nota dalam kawasan tulisan bentuk bebas.'
+widgets.webcomics: '<b>Komik Sesawang</b>: tunjuk panel yang terbaru daripada suatu
+  komik sesawang.'
