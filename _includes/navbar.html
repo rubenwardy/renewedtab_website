@@ -9,7 +9,7 @@
 		<div class="navbar-brand">
 			{% unless include.hide_brand %}
 			<a class="navbar-item" href="/">
-				{{ l.index.title }}
+				{{ l.index.title | default: en.title }}
 			</a>
 			{% endunless %}
 			<a role="button" class="navbar-burger" aria-label="menu"

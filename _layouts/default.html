@@ -2,6 +2,7 @@
 {% assign pathsplit = page.path | split: '/' %}
 {% assign lang = pathsplit[0] %}
 {% assign l = site.data.locale[lang] %}
+{% assign en = site.data.locale.en.index %}
 {% if l %}
 	<html lang="{{ lang }}">
 {% else %}
@@ -14,7 +15,7 @@
 	<title>
 		{{ page.title }}
 		{% if page.title != l.index.title %}
-			- {{ l.index.title }}
+			- {{ l.index.title | default: en.title }}
 		{% endif %}
 	</title>
 

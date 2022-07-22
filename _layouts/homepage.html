@@ -17,9 +17,9 @@ layout: default
 		<div class="container">
 			<div class="columns">
 				<div class="column content is-half is-size-4">
-					<h1>{{ l.index.title }}</h1>
+					<h1>{{ l.index.title | default: en.title }}</h1>
 					<p>
-						{{ l.index.description }}
+						{{ l.index.description | default: en.description }}
 					</p>
 					<div class="buttons mt-6">
 						<a class="button is-firefox utm-link" href="{{ site.firefox }}&utm_content=topbtn">
@@ -27,7 +27,7 @@ layout: default
 								<i class="fab fa-firefox-browser"></i>
 							</span>
 							<span>
-								{{ l.index.firefox }}
+								{{ l.index.firefox | default: en.firefox }}
 							</span>
 						</a>
 						<a class="button is-chrome utm-link" href="{{ site.chrome }}&utm_content=topbtn">
@@ -35,11 +35,11 @@ layout: default
 								<i class="fab fa-chrome"></i>
 							</span>
 							<span>
-								{{ l.index.chrome }}
+								{{ l.index.chrome| default: en.chrome }}
 							</span>
 						</a>
 						<a class="button is-navlike" href="https://web.renewedtab.com/">
-							{{ l.index.online }}
+							{{ l.index.online | default: en.online }}
 						</a>
 					</div>
 				</div>
@@ -66,7 +66,7 @@ layout: default
 			{% assign title_id = "features." | append: item.id | append: ".title" %}
 			{% assign desc_id = "features." | append: item.id | append: ".desc" %}
 			{% assign title = l.index[title_id] | default: en[title_id] %}
-			{% assign desc = l.index[desc_id] | default: en[title_id] %}
+			{% assign desc = l.index[desc_id] | default: en[desc_id] %}
 
 			{% capture side %}{% cycle "left", "right" %}{% endcapture %}
 
@@ -87,7 +87,7 @@ layout: default
 		{% endfor %}
 
 		<h2 class="my-6 title is-3 has-text-weight-semibold">
-			{{ l.index.andmore }}
+			{{ l.index.andmore | default: en.andmore }}
 		</h2>
 
 		<div class="columns is-multiline">
@@ -109,7 +109,7 @@ layout: default
 
 		<section class="section">
 			<h2 id="widgets" class="title is-2">
-				{{ l.index.widgets }}
+				{{ l.index.widgets | default: en.widgets }}
 			</h2>
 			<div class="content">
 				<ul>
@@ -126,7 +126,7 @@ layout: default
 
 		<section class="section">
 			<h2 class="title is-2" id="gallery">
-				{{ l.index.gallery }}
+				{{ l.index.gallery | default: en.gallery }}
 			</h2>
 
 			<div class="columns is-multiline is-variable is-5">
@@ -155,10 +155,11 @@ layout: default
 
 		<section class="section">
 			<h2 id="widgets" class="title is-2">
-				{{ l.index.testimonials }}
+				{{ l.index.testimonials | default: en.testimonials }}
 			</h2>
 			<div class="columns is-multiline">
-				{% for test in l.testimonials %}
+				{% assign testimonials = l.testimonials | default: site.data.locale.en.testimonials %}
+				{% for test in testimonials %}
 				<div class="column is-half content mb-0">
 					<figure class="mx-0">
 						<blockquote cite="{{ test.url }}">
@@ -182,23 +183,23 @@ layout: default
 
 		<section id="install" class="section is-medium">
 			<p class="mb-5 has-text-centered">
-				{{ l.index.likeWhatYouSee }}
+				{{ l.index.likeWhatYouSee | default: en.likeWhatYouSee }}
 			</p>
 			<div class="buttons is-justify-content-center">
 				<a class="button is-firefox is-large utm-link" href="{{ site.firefox }}&utm_content=bottombtn">
 					<span class="icon">
 						<i class="fab fa-firefox-browser"></i>
 					</span>
-					<span>{{ l.index.firefox }}</span>
+					<span>{{ l.index.firefox | default: en.firefox }}</span>
 				</a>
 				<a class="button is-chrome is-large utm-link" href="{{ site.chrome }}&utm_content=bottombtn">
 					<span class="icon">
 						<i class="fab fa-chrome"></i>
 					</span>
-					<span>{{ l.index.chrome }}</span>
+					<span>{{ l.index.chrome | default: en.chrome }}</span>
 				</a>
 				<a class="button is-navlike is-large" href="https://web.renewedtab.com/">
-					{{ l.index.online }}
+					{{ l.index.online | default: en.online}}
 				</a>
 			</div>
 		</section>
