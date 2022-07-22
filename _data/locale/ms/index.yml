@@ -86,3 +86,18 @@ widgets.bookmarks: '<b>Tanda Buku</b>: tunjuk tanda buku daripada bar alatan tan
 widgets.notes: '<b>Nota</b>: catat nota dalam kawasan tulisan bentuk bebas.'
 widgets.webcomics: '<b>Komik Sesawang</b>: tunjuk panel yang terbaru daripada suatu
   komik sesawang.'
+features: Sifat-sifat
+support: Sokongan
+sfeatures.customisable.desc: tukar latar belakang, tema, dan tetapkan setiap widget
+  secara berasingannya.
+support_desc: Perlukan bantuan? Jumpa pepijat, atau ada permintaan? Sila lihat halaman
+  <a href="https://renewedtab.com/help/">Bantuan dan Soalan Lazim</a> untuk lihat
+  soalan yang sering ditanya dan untuk berhubung dengan kami.
+sfeatures.powerful.desc: anda boleh tambah, pindah, ubah saiz, dan tetapkan widget
+  dalam grid menggunakan kawalan yang intuitif.
+sfeatures.backgrounds.desc: lihat latar belakang yang diberikan secara rawak setiap
+  15 minit, disediakan oleh Unsplash. Anda juga boleh pilih warna pepejal, himpunan
+  tersuai daripada Unsplash, atau imej latar belakang tersuai.
+sfeatures.locale.desc: menyokong pelbagai bahasa. Terjemahan <a href="https://renewedtab.com/translations/">disenggara
+  oleh komuniti</a>, membolehkan para pengguna untuk menyumbang sokongan untuk bahasa
+  mereka.
