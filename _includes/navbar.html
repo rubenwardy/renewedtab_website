@@ -25,7 +25,11 @@
 				{% for item in site.data.navbar %}
 					{% assign title_id = "nav." | append: item.id %}
 					{% assign title = l.index[title_id] | default: en[title_id] %}
-					{% assign url = item.url | replace: "/en/", oldSegment %}
+					{% if site.data.locale[lang] %}
+						{% assign url = item.url | replace: "/en/", oldSegment %}
+					{% else %}
+						{% assign url = item.url %}
+					{% endif %}
 					<a class="navbar-item {% if url == page.url %}active{% endif %}" href="{{ url }}">
 						{{ title }}
 					</a>
