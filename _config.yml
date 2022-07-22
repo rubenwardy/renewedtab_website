@@ -17,4 +17,4 @@ chrome: https://chrome.google.com/webstore/detail/renewed-tab/laljofodhebajcajog
 collections:
   posts:
     output: true
-    permalink: /blog/:categories/:year/:month/:day/:title:output_ext
+    permalink: /blog/:categories/:year/:month/:day/:title/
