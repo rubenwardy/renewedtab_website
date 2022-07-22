@@ -131,10 +131,11 @@ layout: default
 
 			<div class="columns is-multiline is-variable is-5">
 				{% for item in site.data.gallery %}
+				{% assign image = "/static/images/gallery/" | append: item %}
 				{% if item.image_link %}
-				{% assign image_link = item.image_link %}
+					{% assign image_link = item.image_link %}
 				{% else %}
-				{% assign image_link = item.image | replace: '.png', '_full.png' %}
+					{% assign image_link = image | replace: '.png', '_full.png' %}
 				{% endif %}
 
 				{% assign title_id = "gallery." | append: item %}
@@ -142,7 +143,7 @@ layout: default
 
 				<figure class="column is-half">
 					<a class="image is-4by3" href="{{ image_link }}">
-						<img src="/static/images/gallery/{{ item }}" alt="{{ title }}">
+						<img src="{{ image }}" alt="{{ title }}">
 					</a>
 					<figcaption>
 						{{ title }}
