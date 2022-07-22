@@ -113,9 +113,11 @@ layout: default
 			</h2>
 			<div class="content">
 				<ul>
-					{% for item in l.widgets %}
+					{% for item in site.data.widgets %}
+						{% assign title_id = "widgets." | append: item %}
+						{% assign title = l.index[title_id] | default: en[title_id] %}
 						<li>
-							{{ item | safe }}
+							{{ title | safe }}
 						</li>
 					{% endfor %}
 				</ul>
