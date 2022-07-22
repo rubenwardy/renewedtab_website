@@ -6,7 +6,6 @@ sass:
 
 plugins:
   - jekyll-redirect-from
-  - jekyll-sitemap
 
 exclude:
   - locale

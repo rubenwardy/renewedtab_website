@@ -1,6 +1,7 @@
 ---
 title: Thanks for the feedback
 layout: article
+sitemap: false
 ---
 
 # Thanks for the feedback
