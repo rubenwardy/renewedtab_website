@@ -1,6 +1,6 @@
 {% assign pathsplit = page.path | split: '/' %}
 {% assign lang = pathsplit[0] %}
-{% assign l = site.data.locale[lang] | default: site.dat.locale.en %}
+{% assign l = site.data.locale[lang] | default: site.data.locale.en %}
 {% assign en = site.data.locale.en.index %}
 {% assign oldSegment = "/" | append: lang | append: "/" %}
 
@@ -8,7 +8,11 @@
 	<div class="container">
 		<div class="navbar-brand">
 			{% unless include.hide_brand %}
-			<a class="navbar-item" href="/">
+			<a class="navbar-item" {% if site.data.locale[lang] -%}
+						href="{{ oldSegment }}"
+					{%- else -%}
+						href="/"
+					{%- endif %}>
 				{{ l.index.title | default: en.title }}
 			</a>
 			{% endunless %}
