@@ -1,0 +1,62 @@
+---
+---
+
+{% assign pathsplit = page.path | split: '/' %}
+{% assign lang = pathsplit[0] %}
+{% assign l = site.data.locale[lang] %}
+{% assign en = site.data.locale.en.index %}
+
+<!doctype html>
+<html>
+<head>
+	<title>Renewed Tab Firefox</title>
+	<meta name="robots" content="noindex">
+	<style>
+		body {
+			font-family: "Arial", sans-serif;
+			max-width: 900px;
+		}
+	</style>
+</head>
+<body>
+	<p id="summary">
+		{{ l.index.description | default: en.description }}
+	</p>
+
+
+	<h2>{{ l.index.features | default: en.features }}</h2>
+	<ul>
+		{% for item in site.data.store.features %}
+			{% assign title = l.index[item.title] | default: en[item.title] %}
+			{% assign desc = l.index[item.desc] | default: en[item.desc] %}
+			<li>
+				<b>{{ title }}</b>: {{ desc }}
+			</li>
+		{% endfor %}
+	</ul>
+
+
+	<h2>{{ l.index.widgets | default: en.widgets }}</h2>
+	<ul>
+		{% for item in site.data.widgets %}
+			{% assign title_id = "widgets." | append: item %}
+			{% assign title = l.index[title_id] | default: en[title_id] %}
+			<li>
+				{{ title | safe }}
+			</li>
+		{% endfor %}
+	</ul>
+
+
+	<h2>{{ l.index['features.privacy.title'] }}</h2>
+	<p>
+		{{ l.index['features.privacy.desc'] }}
+	</p>
+
+
+	<h2>{{ l.index.support | default: en.support }}</h2>
+	<p>
+		{{ l.index.support_desc | default: en.support_desc }}
+	</p>
+</body>
+</html>

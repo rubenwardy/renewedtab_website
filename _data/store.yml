@@ -1,0 +1,13 @@
+features:
+
+- title: sfeatures.powerful.title
+  desc: sfeatures.powerful.desc
+
+- title: features.backgrounds.title
+  desc: sfeatures.backgrounds.desc
+
+- title: features.customisable.title
+  desc: sfeatures.customisable.desc
+
+- title: features.locale.title
+  desc: sfeatures.customisable.desc

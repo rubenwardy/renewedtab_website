@@ -1,0 +1,31 @@
+---
+encoding: utf-8
+---
+
+{%- assign pathsplit = page.path | split: '/' -%}
+{%- assign lang = pathsplit[0] -%}
+{%- assign l = site.data.locale[lang] -%}
+{%- assign en = site.data.locale.en.index -%}
+
+{{ l.index.description | default: en.description }}
+
+
+## {{ l.index.features | default: en.features }} ##
+
+{% for item in site.data.store.features -%}
+	{% assign title = l.index[item.title] | default: en[item.title] -%}
+	{% assign desc = l.index[item.desc] | default: en[item.desc] -%}
+- {{ title }}: {{ desc }}
+{% endfor %}
+
+## {{ l.index.widgets | default: en.widgets }} ##
+
+{% for item in site.data.widgets -%}
+	{% assign title_id = "widgets." | append: item -%}
+	{% assign title = l.index[title_id] | default: en[title_id] -%}
+- {{ title | replace: "<b>", "" | replace: "</b>", "" }}
+{% endfor %}
+
+## {{ l.index['features.privacy.title'] }} ##
+
+{{ l.index['features.privacy.desc'] }}
