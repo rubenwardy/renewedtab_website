@@ -22,87 +22,99 @@ gallery.focus.png: "Concentración: solo un reloj y una barra de búsqueda"
 
 features.dnd.title: Arrastre y Suelte Widgets
 features.dnd.desc: |
-    El núcleo de Renewed Tab es su sistema de widgets.
-    Puede añadir, mover, cambiar el tamaño, y configurar widgets en una grilla usando controles intuitivos.
+  El núcleo de Renewed Tab es su sistema de widgets.
+  Puede añadir, mover, cambiar el tamaño, y configurar widgets en una grilla usando controles intuitivos.
 
-    Es posible colocar el mismo tipo de widget multiples veces, con diferentes configuraciones.
+  Es posible colocar el mismo tipo de widget multiples veces, con diferentes configuraciones.
 
 features.backgrounds.title: Fondos Hermosos
 features.backgrounds.desc: |
-    Vea un fondo aleatorio seleccionado cada 15 minutos.
+  Vea un fondo aleatorio seleccionado cada 15 minutos.
 
-    También puede elegir un color sólido,
-    una colección de Unsplash,
-    un feed RSS/Atom, o una imágen de fondo personalizada.
+  También puede elegir un color sólido,
+  una colección de Unsplash,
+  un feed RSS/Atom, o una imágen de fondo personalizada.
 
-    Puede ocultar los widgets colocando el cursor sobre los créditos,
-    y también darles me gusta o saltar imágenes.
+  Puede ocultar los widgets colocando el cursor sobre los créditos,
+  y también darles me gusta o saltar imágenes.
 
 features.rich.title: Widgets Funcionales
 features.rich.desc: |
-    Algunos widgets están conectados al Internet. Por ejemplo, puede navegar
-    un feed RSS/Atom, ver los próximos lanzamientos espaciales, y verificar el clima.
+  Algunos widgets están conectados al Internet. Por ejemplo, puede navegar
+  un feed RSS/Atom, ver los próximos lanzamientos espaciales, y verificar el clima.
 
-    <a href="#widgets" class="button is-primary">Lista de widgets</a>
+  <a href="#widgets" class="button is-primary">Lista de widgets</a>
 
 features.customisable.title: Personalizable
 features.customisable.desc: |
-    Cada widget tiene configuraciones de comportamiento y temática.
+  Cada widget tiene configuraciones de comportamiento y temática.
 
-    También hay configuraciones globales, permitiendole personalizar el tema, cambiar de lenguaje, o elegir un fondo.
+  También hay configuraciones globales, permitiendole personalizar el tema, cambiar de lenguaje, o elegir un fondo.
 
 features.foss.title: Libre y de Código Abierto
 features.foss.desc: |
-    Cualquiera puede leer el código fuente, modificarlo, y contribuir al desarrollo.
+  Cualquiera puede leer el código fuente, modificarlo, y contribuir al desarrollo.
 
-    Escrito utilizando TypeScript y React.
+  Escrito utilizando TypeScript y React.
 
-    <a href="https://gitlab.com/renewedtab/renewedtab" class="button is-primary">
-      <i class="fab fa-gitlab mr-2"></i>
-      GitLab
-    </a>
-    <a href="https://github.com/rubenwardy/renewedtab" class="button">
-      <i class="fab fa-github mr-2"></i>
-      GitHub (mirror)
-    </a>
+  <a href="https://gitlab.com/renewedtab/renewedtab" class="button is-primary">
+    <i class="fab fa-gitlab mr-2"></i>
+    GitLab
+  </a>
+  <a href="https://github.com/rubenwardy/renewedtab" class="button">
+    <i class="fab fa-github mr-2"></i>
+    GitHub (mirror)
+  </a>
 
 features.locale.title: Multi-lenguaje
 features.locale.desc: |
-    Renewed Tab admite Français, Español, Deutsch, Italiano, Русский, 汉语,
-    Português, Bahasa Melayu, y Türkçe.
+  Renewed Tab admite Français, Español, Deutsch, Italiano, Русский, 汉语,
+  Português, Bahasa Melayu, y Türkçe.
 
-    Las traducciones son mantenidas por la comunidad, lo que le permite agregar soporte para su idioma.
+  Las traducciones son mantenidas por la comunidad, lo que le permite agregar soporte para su idioma.
 
-    <a class="button is-primary" href="https://renewedtab.com/translations/">
-      <i class="fas fa-language mr-2"></i>
-      Ayuda a Traducir
-    </a>
+  <a class="button is-primary" href="https://renewedtab.com/translations/">
+    <i class="fas fa-language mr-2"></i>
+    Ayuda a Traducir
+  </a>
 
 features.privacy.title: Orientado a la Privacidad
 features.privacy.desc: |
-    Solo requerimos permisos mínimos; otros
-    permisos son opcionales y solo solicitados cuando se necesitan. Todos sus datos se almacenan en su navegador, no en nuestros servidores.
+  Solo requerimos permisos mínimos; otros
+  permisos son opcionales y solo solicitados cuando se necesitan. Todos sus datos se almacenan en su navegador, no en nuestros servidores.
 
-    <a class="button is-primary" href="/privacy_policy/">
-      Política de Privacidad
-    </a>
+  <a class="button is-primary" href="/privacy_policy/">
+    Política de Privacidad
+  </a>
 
 
-widgets.feeds: "<b>Feeds RSS y Atom</b>: pueden ser utilizados para ver noticias o seguir un sitio web."
+widgets.feeds: "<b>Feeds RSS y Atom</b>: pueden ser utilizados para ver noticias o\
+  \ seguir un sitio web."
 widgets.weather: "<b>Clima</b>"
-widgets.todo: "<b>Lista de Quehaceres</b>: realice un seguimiento de las cosas que necesita hacer."
+widgets.todo: "<b>Lista de Quehaceres</b>: realice un seguimiento de las cosas que\
+  \ necesita hacer."
 widgets.links: "<b>Enlaces Rápidos</b>: muestra enlaces, con iconos y subtítulos opcionales."
 widgets.topsites: "<b>Sitios Principales</b>: muestra sus sitios web más frecuentados."
 widgets.dailygoals: "<b>Metas Diarias</b>: ingrese una meta diaria."
-widgets.bookmarks: "<b>Marcadores</b>: muestra sus marcadores de la barra de herramientas de marcadores."
+widgets.bookmarks: "<b>Marcadores</b>: muestra sus marcadores de la barra de herramientas\
+  \ de marcadores."
 widgets.greeting: "<b>Saludo</b>: sea bienvenido según la hora del día."
 widgets.quotes: "<b>Citas</b>: muestra una cita aleatoria, con categorías."
 widgets.clock: "<b>Reloj</b>: muestra la hora actual, elige entre 12 y 24 horas."
 widgets.notes: "<b>Notas</b>: tome notas en un área de texto de forma libre."
 widgets.age: "<b>Edad</b>: muestra su edad actual con demasiada precisión."
-widgets.search: "<b>Búsqueda</b>: una barra de búsqueda, con soporte para cambiar el motor de búsqueda."
+widgets.search: "<b>Búsqueda</b>: una barra de búsqueda, con soporte para cambiar\
+  \ el motor de búsqueda."
 widgets.webcomics: "<b>Cómics Web</b>: muestra el panel más reciente de un cómic web."
-widgets.yearprogress: "<b>Progreso del Año</b>: muestra el progreso a lo largo del año como una barra de progreso."
-widgets.currencies: "<b>Monedas</b>: muestra tasas de cambio, compatible con divisas forex y criptomonedas."
+widgets.yearprogress: "<b>Progreso del Año</b>: muestra el progreso a lo largo del\
+  \ año como una barra de progreso."
+widgets.currencies: "<b>Monedas</b>: muestra tasas de cambio, compatible con divisas\
+  \ forex y criptomonedas."
 widgets.spaceflight: "<b>Próximos Vuelos Espaciales</b>"
 widgets.more: "y más: botones, imagenes, HTML, e IFrames."
+help.links.tutorial.title: Empezando
+help.links.tutorial.desc: Aprende cómo configurar y usar Renewed Tab
+help.links.faq.title: Problemas y Preguntas
+help.links.faq.desc: Preguntas frecuentes
+help.links.get_involved.title: Involucrarse
+help.links.get_involved.desc: Chatea con los desarrolladores y otros usuarios
