@@ -86,3 +86,23 @@ features.privacy.desc: |
     <a class="button is-primary" href="/privacy_policy/">
       Política de Privacidad
     </a>
+
+widgets:
+- "<b>Feeds RSS y Atom</b>: pueden ser utilizados para ver noticias o seguir un sitio web."
+- "<b>Clima</b>"
+- "<b>Lista de Quehaceres</b>: realice un seguimiento de las cosas que necesita hacer."
+- "<b>Enlaces Rápidos</b>: muestra enlaces, con iconos y subtítulos opcionales."
+- "<b>Sitios Principales</b>: muestra sus sitios web más frecuentados."
+- "<b>Metas Diarias</b>: ingrese una meta diaria."
+- "<b>Marcadores</b>: muestra sus marcadores de la barra de herramientas de marcadores."
+- "<b>Saludo</b>: sea bienvenido según la hora del día."
+- "<b>Citas</b>: muestra una cita aleatoria, con categorías."
+- "<b>Reloj</b>: muestra la hora actual, elige entre 12 y 24 horas."
+- "<b>Notas</b>: tome notas en un área de texto de forma libre."
+- "<b>Edad</b>: muestra su edad actual con demasiada precisión."
+- "<b>Búsqueda</b>: una barra de búsqueda, con soporte para cambiar el motor de búsqueda."
+- "<b>Cómics Web</b>: muestra el panel más reciente de un cómic web."
+- "<b>Progreso del Año</b>: muestra el progreso a lo largo del año como una barra de progreso."
+- "<b>Monedas</b>: muestra tasas de cambio, compatible con divisas forex y criptomonedas."
+- "<b>Próximos Vuelos Espaciales</b>"
+- "y más: botones, imagenes, HTML, e IFrames."
