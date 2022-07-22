@@ -24,7 +24,9 @@
 	<link rel="stylesheet" href="/static/style.css?v=3">
 	<link rel="icon" href="/static/icon.svg">
 
-	{% if site.data[lang] %}
+	<link rel="canonical" href="https://renewedtab.com{{ page.url }}">
+
+	{% if site.data.locale[lang] %}
 		{% assign oldSegment = "/" | append: lang | append: "/" %}
 		{% for other in site.data.languages %}
 			{% assign newSegment = "/" | append: other.code | append: "/" %}
@@ -50,7 +52,8 @@
 	<script async src="/static/navbar.js"></script>
 	<footer class="footer content has-text-centered">
 		<p>
-			Copyright &copy; 2021 to <a href="https://rubenwardy.com">rubenwardy</a> |
+			Copyright &copy; 2021-{{ site.time | date: '%Y' }} to
+			<a href="https://rubenwardy.com">rubenwardy</a> |
 			CC BY-SA 4.0
 		</p>
 		<p>
