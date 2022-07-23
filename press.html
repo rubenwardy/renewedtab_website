@@ -35,7 +35,7 @@ layout: article
 	high-quality photos.
 </p>
 
-<h2>About the Developer</h2>
+<h2>About the Developer and Development</h2>
 <p>
 	Renewed Tab was created and developed by
 	<a href="https://rubenwardy.com">Andrew "rubenwardy" Ward</a>, a software
@@ -46,6 +46,8 @@ layout: article
 	options. They either had a bad user experience, none of the features he
 	wanted, or they locked basic features behind a paywall.
 	See <a href="/#features">features</a> for a list of key features.
+	Read <a href="/blog/2022/07/21/why-I-created-renewed-tab/">the blog post</a>
+	to find out more.
 </p>
 <p>
 	Renewed Tab was released as free and open source software under the GPLv3
@@ -71,6 +73,24 @@ layout: article
 	<a href="https://renewedtab.com/translations/">Weblate</a>
 	instance.
 </p>
+
+
+<h1>Blog</h1>
+
+<p class="has-text-grey-light">
+	Renewed Tab's blog has posts that may contain information you're interested in
+</p>
+
+<ul>
+	{% for post in site.posts %}
+		<li>
+			<a href="{{ post.url }}">
+				{{ post.title }}
+			</a>
+		</li>
+	{% endfor %}
+</ul>
+
 
 
 <h2>Resources</h2>
