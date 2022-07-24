@@ -1,5 +1,5 @@
 ---
-title: Creating Your Own Custom Widgets for Renewed Tab
+title: How to Create Custom Widgets for Renewed Tab
 author: rubenwardy
 layout: post
 description: >-
