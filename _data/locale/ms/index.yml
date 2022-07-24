@@ -98,6 +98,8 @@ sfeatures.powerful.desc: anda boleh tambah, pindah, ubah saiz, dan tetapkan widg
 sfeatures.backgrounds.desc: lihat latar belakang yang diberikan secara rawak setiap
   15 minit, disediakan oleh Unsplash. Anda juga boleh pilih warna pepejal, himpunan
   tersuai daripada Unsplash, atau imej latar belakang tersuai.
-sfeatures.locale.desc: menyokong pelbagai bahasa. Terjemahan <a href="https://renewedtab.com/translations/">disenggara
-  oleh komuniti</a>, membolehkan para pengguna untuk menyumbang sokongan untuk bahasa
-  mereka.
+sfeatures.locale.desc: "menyokong bahasa Perancis, Sepanyol, Itali, Portugis, Melayu,\
+  \ dan Turki. Terjemahan <a\n    href=\"https://renewedtab.com/translations/\">diselenggara\
+  \ oleh komuniti</a>\ndan membolehkan para pengguna untuk menyumbang sokongan buat\
+  \ bahasa mereka."
+nav.blog: Blog
