@@ -16,6 +16,7 @@ redirect_from:
 - [¿Por qué no admite sincronización de navegador?](#por-qué-no-admite-sincronización-de-navegador)
 - [¿Por qué no está disponible para X navegador?](#por-qué-no-está-disponible-para-x-navegador)
 - [¿Por qué me sale un error al ingresar una URL personalizada en la versión web?](#por-qué-me-sale-un-error-al-ingresar-una-url-personalizada-en-la-versión-web)
+- [How do I add custom widgets?](#how-do-i-add-custom-widgets)
 - [Solicitudes de Funciones, Informe de Errores, y Asistencia](#solicitudes-de-funciones-informe-de-errores-y-asistencia)
 
 
@@ -140,6 +141,11 @@ debería usar la extensión de Chrome/Firefox en su lugar, ya que esta no tiene 
 
 Nota: Si obtiene el error mientras usa la extensión del navegador, hay algo
 _incorrecto_. Por favor repórtelo a continuación.
+
+
+## How do I add custom widgets?
+
+See [Creating Your Own Custom Widgets for Renewed Tab](/blog/2022/07/24/custom-widgets/).
 
 
 ## Solicitudes de Funciones, Informe de Errores, y Asistencia
