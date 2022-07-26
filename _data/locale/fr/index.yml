@@ -70,7 +70,7 @@ description: Un nouvel onglet personnalisable, avec des widgets et de beaux fond
 gallery.screenshot.png: 'Une variété de widgets : Actualités, météo, et encore plus'
 gallery.focus.png: 'Focus : juste une horloge et une barre de recherche'
 features.dnd.desc: "Le cœur de Renewed Tab est le système de widgets.\nVous pouvez\
-  \ ajouter, déplacer, redimensionner et configurer les widgets sur une grille avec\
+  \ ajouter, déplacer, redimensionner et configurer les widgets sur\nune grille avec\
   \ des contrôles intuitifs.\n\nVous pouvez placer le même type de widget plusieurs\
   \ fois, avec une configuration différente.\n"
 features.rich.desc: "Certains widgets sont connectés à Internet. Par exemple, vous\
@@ -87,3 +87,20 @@ features.privacy.desc: "Nous avons besoin de seulement quelques permissions mini
   les données sont stockées dans votre navigateur, pas nos serveurs.\n\n<a class=\"\
   button is-primary\" href=\"/privacy_policy/\">\n  Politique de confidentialité\n\
   </a>\n"
+features: Fonctionnalités
+support: Aide
+sfeatures.powerful.desc: vous pouvez ajouter, déplacer, redimensionner et configurer
+  les widgets sur une grille utilisant des contrôles intuitifs.
+sfeatures.locale.desc: "supporte le français, l'espagnol, l'italien, le portugais,\
+  \ le malais et le turc. Les traductions sont\n<a href=\"https://renewedtab.com/translations/\"\
+  >maintenues par la communauté</a>\npermettant aux utilisateurs de contribuer au\
+  \ support de leur propre langue."
+sfeatures.customisable.desc: changer le fond d'écran, le thème et configurer chaque
+  widget indépendamment.
+sfeatures.backgrounds.desc: voir un fond d'écran choisi aléatoirement toutes les 15
+  minutes. Vous pouvez aussi choisir une couleur unie, une collection Unsplash, un
+  flux RSS/Atom, ou un fond d'écran personnalisé.
+nav.blog: Blog
+support_desc: Besoin d'aide ? Vous avez trouvé un bug, ou vous avez une demande ?
+  Allez sur <a href="https://renewedtab.com/help/">l'aide et la FAQ</a> pour voir
+  des questions courantes et entrer en contact.
