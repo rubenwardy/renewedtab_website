@@ -5,11 +5,6 @@ redirect_from:
   - /ms/help/
 ---
 
-<a href="/en/help/">
-	<i class="fas fa-arrow-left"></i>
-	Back to help
-</a>
-
 # Frequently Asked Questions <!-- omit in toc -->
 
 - [How do I enable the blur on Firefox?](#how-do-i-enable-the-blur-on-firefox)
@@ -26,19 +21,16 @@ redirect_from:
 
 ## How do I enable the blur on Firefox?
 
-Edit: Firefox has broken support for this feature for now.
-Hopefully it'll be readded in the future.
+**The blur should work by default in Firefox 103. Make sure your browser is
+up-to-date.**
 
-<!-- The blur requires an experimental feature in Firefox to be enabled, called
-`backdrop-filter`:
+It may be possible to enable the blur in older versions of Firefox by manually
+enabling it:
 
 1. Open a new tab and type `about:config` as the address.
 2. Accept the warning.
 3. Enable `layout.css.backdrop-filter.enabled`.
 4. Close and reopen Firefox.
-
-Please note that you may get visual glitches with this, it is an unstable
-Firefox feature, which is why it's not enabled by default. -->
 
 ## How do I show the bookmarks bar only on the New Tab page?
 

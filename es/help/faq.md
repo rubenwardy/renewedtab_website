@@ -22,16 +22,16 @@ redirect_from:
 
 ## ¿Cómo habilito el desenfoque en Firefox?
 
-El desenfoque requiere activar una característica experimental en Firefox, llamada
-`backdrop-filter`:
+**The blur should work by default in Firefox 103. Make sure your browser is
+up-to-date.**
 
-1. Abra una nueva pestaña y escriba `about:config` en la barra de dirección.
-2. Acepte la advertencia.
-3. Active `layout.css.backdrop-filter.enabled`.
-4. Abra y reabra Firefox.
+It may be possible to enable the blur in older versions of Firefox by manually
+enabling it:
 
-Por favor tenga en cuenta que puede experimentar problemas visuales con esto, ya que es una característica inestable de Firefox, por lo cual no está habilitada por defecto.
-
+1. Open a new tab and type `about:config` as the address.
+2. Accept the warning.
+3. Enable `layout.css.backdrop-filter.enabled`.
+4. Close and reopen Firefox.
 
 ## ¿Cómo puedo ubicar widgets fuera de la cuadrícula / en la parte inferior de la pantalla?
 
