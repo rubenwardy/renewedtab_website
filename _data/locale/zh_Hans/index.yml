@@ -1,1 +1,24 @@
-{}
+description: 一个可自定义的新标签页，拥有丰富的小部件和各种精美的背景图片供您选择
+features.dnd.title: 拖放小部件
+widgets.feeds: '<b>订阅源</b>: 显示来自Atom，JSON和RSS订阅的信息 - 用于追踪新闻，网站和博客的最新消息.'
+widgets.bookmarks: '<b>书签</b>: 显示你的书签.'
+widgets.age: '<b>年龄</b>: 显示你当前精确的年龄.'
+widgets.yearprogress: '<b>年进度</b>: 以进度条的形式显示今年的进度.'
+nav.donate: 捐赠
+sfeatures.powerful.desc: 你可以直观地使用控件在网格上添加、移动、调整大小和配置小部件。
+title: Renewed Tab
+firefox: Firefox
+chrome: Chrome
+widgets.weather: <b>天气</b>
+widgets.dailygoals: '<b>每日目标</b>: 提醒你每天的目标.'
+widgets.greeting: '<b>问候语</b>: 向你展示问候语.'
+widgets.quotes: '<b>引用名言</b>: 随机显示一个带有分类的名言.'
+widgets.clock: '<b>时钟</b>: 显示时间.'
+widgets.notes: '<b>笔记</b>: 一个用于笔记的可编辑的文本区域.'
+widgets.search: '<b>搜索</b>: 用你最喜爱的搜索引擎搜索小部件或网站.'
+widgets.webcomics: '<b>网络漫画</b>: 显示来自Atom，JSON或RSS订阅源的最新网络漫画。'
+widgets.currencies: '<b>货币</b>: 显示汇率，支持外汇货币和加密货币（例如比特币等）.'
+widgets.spaceflight: <b>太空飞行</b>
+widgets.todo: '<b>待办清单</b>: 追踪待办事项的清单.'
+widgets.links: '<b>链接</b>: 一个链接，支持标题和图标（九宫格）.'
+widgets.topsites: '<b>最常访问的网站</b>: 显示最常访问的网站.'

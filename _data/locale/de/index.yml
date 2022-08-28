@@ -1,1 +1,36 @@
-{}
+description: Einer frei gestaltbaren „Neuer Tab“ Seite, mit praktischen Widgets und
+  faszinierenden Wallpapers
+title: Renewed Tab
+firefox: Firefox
+chrome: Chrome
+widgets: Widgets
+support: Support
+nav.donate: Spenden
+sfeatures.powerful.desc: Sie können Widgets innerhalb des Gitternetzes hinzufügen,
+  bewegen, konfigurieren und ihre Größe anpassen.
+features.dnd.title: Widgets ziehen und ablegen
+widgets.feeds: '<b>RSS and Atom Nachrichten</b>: Kann für das lesen von Nachrichten
+  oder das folgen von Webseiten genutzt werden.'
+widgets.weather: <b>Wetter</b>
+widgets.links: '<b>Schnellverknüpfungen</b>: anzeigen von Links, optional mit einem
+  Symbol oder einer Überschrift.'
+widgets.todo: '<b>ToDo Liste</b>: Aufgabenliste überwachen.'
+widgets.topsites: '<b>Meistbesuchte Websites</b>: Zeigt Ihre meistbesuchten Websites
+  an.'
+widgets.dailygoals: '<b>Tagesziel</b>: Erinnert Sie an Ihr Tagesziel.'
+widgets.bookmarks: '<b>Lesezeichen/Favoriten</b>: Zeigt Ihre Lesezeichen/Favoriten.'
+widgets.greeting: '<b>Gruss</b>: Begrüsst Sie.'
+widgets.quotes: '<b>Zitate</b>: Zeigt ein zufällig ausgewähltes Zitat (nach Kategorien).'
+widgets.clock: '<b>Uhr</b>: Zeigt die Zeit.'
+widgets.notes: '<b>Notizen</b>: Freier Textbereich für Ihre Notizen.'
+widgets.age: '<b>Alter</b>: Zeigt Ihr aktuelles Alter an - und zwar genauer als es
+  Ihnen lieb ist.'
+widgets.search: '<b>Suche</b>: Durchsuchen Sie Ihre lokalen Widgets oder das Web mit
+  Ihrer Lieblingssuchmaschine.'
+widgets.webcomics: '<b>Comicstrip aus dem Web</b>: show the most recent panel from
+  a web comic.'
+widgets.yearprogress: '<b>Jahresfortschritt</b>: Zeigt den Jahresfortschritt anhand
+  eines Balkens an.'
+widgets.currencies: '<b>Währungen</b>: Anzeige von Wechsel- und Devisenkursen sowie
+  Kryptowährungen.'
+widgets.spaceflight: <b>Weltraumstarts</b>

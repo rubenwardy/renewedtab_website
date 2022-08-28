@@ -1,1 +1,28 @@
-{}
+sfeatures.powerful.desc: Вы можете добавлять, перемещать, изменять размер и настраивать
+  виджеты в сетке с помощью интуитивно понятных элементов управления.
+features.dnd.title: Перетаскивайте виджеты
+widgets.todo: '<b>Список дел</b>: Следить за пунктами списка дел.'
+widgets.bookmarks: '<b>Закладки</b>: Отображает ваши закладки.'
+widgets.clock: '<b>Часы</b>: Показывает время.'
+widgets.age: '<b>Возраст</b>: Показывает ваш нынешний возраст с преувеличенной точностью.'
+widgets.yearprogress: '<b>Годовой прогресс</b>: Показывает прогресс в течение года
+  в виде индикатора выполнения.'
+description: настраиваемую страницу Новая Вкладка с виджетами и красивыми фонами
+title: Renewed Tab
+firefox: Firefox
+chrome: Chrome
+nav.donate: Пожертвовать
+widgets.weather: <b>Погода</b>
+widgets.links: '<b>Ссылки</b>: Links, with support for headings and icons (speed dial)'
+widgets.topsites: '<b>Топ сайты</b>: Показать топ сайты.'
+widgets.dailygoals: '<b>Дневная цель</b>: Напоминание о вашей дневной цели.'
+widgets.greeting: '<b>Приветствую</b>: Приветствует вас.'
+widgets.quotes: '<b>Цитаты</b>: Показывает случайную цитату с категориями.'
+widgets.notes: '<b>Заметки</b>: Редактируемое текстовое поле для заметок.'
+widgets.search: '<b>Поиск</b>: Ищите виджеты или сайты с помощью любимой поисковой
+  системы.'
+widgets.webcomics: '<b>Веб-комикс</b>: Shows the recent images from an Atom, JSONFeed,
+  or RSS feed - useful for WebComics.'
+widgets.currencies: '<b>Валюты</b>: Показывает курсы обмена, поддерживает валюту форекс
+  и криптовалюту (BitCoin и т. Д.).'
+widgets.spaceflight: <b>Космические полеты</b>
