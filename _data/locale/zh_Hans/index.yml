@@ -22,3 +22,34 @@ widgets.spaceflight: <b>太空飞行</b>
 widgets.todo: '<b>待办清单</b>: 追踪待办事项的清单.'
 widgets.links: '<b>链接</b>: 一个链接，支持标题和图标（九宫格）.'
 widgets.topsites: '<b>最常访问的网站</b>: 显示最常访问的网站.'
+online: 在线尝试
+andmore: 以及更多...
+widgets: 小部件
+gallery: 画廊
+testimonials: 用户评价
+features: 功能列表
+support: 支持
+nav.about: 关于
+nav.gallery: 画廊
+nav.help: 帮助 / FAQ
+likeWhatYouSee: 喜欢这些吗？<br>我们支持以下的浏览器：
+support_desc: 需要帮助？发现了一个 Bug，或者有一个不错的想法？点击<a href="https://renewedtab.com/help/">帮助
+  / FAQ</a> 页面看看常问的问题或者与我联系。
+nav.get_involved: 参与
+nav.blog: 博客
+gallery.screenshot.png: 众多可用的小部件：新闻，天气，以及更多
+gallery.sidebar_icons.png: 便捷图标：快速访问链接或者书签
+gallery.icons.png: 热门网站 / 便捷图标
+gallery.focus.png: 聚焦页面：仅包含一个时钟和搜索框
+sfeatures.backgrounds.desc: 欣赏每 15 分钟更新一次的背景图片。或者选择纯色，Unsplash 精选内容，RSS/Atom 订阅，或者一个自定义的图片。
+sfeatures.customisable.desc: 自定义背景，主题，并独立的配置每个部件。
+sfeatures.locale.desc: "支持 French, Spanish, Italian, Portuguese, Malay, and Turkish。翻译是由<a\n\
+  \    href=\"https://renewedtab.com/translations/\">社区</a>\n    维护的，允许人们为他们自己的语言做出贡献。"
+features.dnd.desc: "Renewed Tab 的核心是小部件系统。\n\n你可以直观地使用控件在网格上添加、移动、调整大小和配置小部件。\n\n\
+  你可以放置有着不同内容的相同主题的小部件。\n"
+features.backgrounds.title: 赏心悦目的背景
+features.backgrounds.desc: "欣赏每 15 分钟更新一次的背景图片。\n\n你也可以选择纯色，\nUnsplash 精选内容，\nRSS/Atom\
+  \ 订阅，或者一个自定义的图片。\n\n你可以将鼠标移动到左下角的图片信息上临时隐藏所有的小部件，\n以及喜欢或者跳过当前的背景图片。\n"
+features.rich.title: 丰富的小部件
+features.rich.desc: "一些小部件需要网络链接。例如，你可以浏览\n一个 RSS/Atom 订阅源，看看\n"
+features.customisable.title: 可自定义
