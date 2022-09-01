@@ -1,5 +1,5 @@
 ---
-title: How to add Atom/RSS feeds to your New Tab page
+title: Add Atom/RSS feeds to your New Tab page using Renewed Tab
 author: rubenwardy
 layout: post
 description: >-
