@@ -10,4 +10,4 @@ features:
   desc: sfeatures.customisable.desc
 
 - title: features.locale.title
-  desc: sfeatures.customisable.desc
+  desc: sfeatures.locale.desc
