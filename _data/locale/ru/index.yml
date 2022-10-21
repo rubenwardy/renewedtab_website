@@ -26,3 +26,22 @@ widgets.webcomics: '<b>Веб-комикс</b>: Shows the recent images from an 
 widgets.currencies: '<b>Валюты</b>: Показывает курсы обмена, поддерживает валюту форекс
   и криптовалюту (BitCoin и т. Д.).'
 widgets.spaceflight: <b>Космические полеты</b>
+online: Попробуйте онлайн
+andmore: И прочее...
+widgets: Виджеты
+gallery: Галлерея
+likeWhatYouSee: 'Нравится, что вы видите?<br>Доступно для:'
+features: Возможности
+support: Поддержка
+support_desc: Нужна помощь? Нашли баг, или есть предложение? Загляните на страницу
+  <a href="https://renewedtab.com/help/">Помощь и FAQ</a>, чтобы увидеть частые вопросы
+  и выйти на контакт.
+nav.about: О
+nav.gallery: Галлерея
+nav.help: Помощь / FAQ
+nav.blog: Блог
+gallery.screenshot.png: 'Множество виджетов: Новости, погода и прочие'
+gallery.icons.png: Топ сайты / ссылки на иконки
+gallery.focus.png: 'Фокус: только часы и строка поиска'
+sfeatures.customisable.desc: изменяйте фон, тему и конфигурируйте каждый виджет по
+  отдельности.
