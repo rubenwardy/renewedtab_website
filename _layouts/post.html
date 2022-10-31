@@ -6,22 +6,56 @@ layout: default
 
 {% include navbar.html %}
 
+{% if page.images %}
+	{% assign thumbnail = page.images | first %}
+	{% if thumbnail[1] %}
+		{% assign thumbnail = thumbnail[1] %}
+	{% endif %}
+	{% if thumbnail.url %}
+		{% assign thumbnail_url = thumbnail.url %}
+	{% else %}
+		{% assign thumbnail_url = "/static/blog/" | append: thumbnail.path %}
+	{% endif %}
+	{% if thumbnail.full %}
+		{% assign thumbnail_url = thumbnail_url | replace: ".", "_full." %}
+	{% endif %}
+{% endif %}
+
 <main class="container">
 	<article class="section content pt-0">
+		<script type="application/ld+json">
+			{
+				"@context": "https://schema.org",
+				"@type": "BlogPosting",
+				"headline": {{ page.title | jsonify }},
+				"image": {{ thumbnail_url | absolute_url | jsonify }},
+				"wordcount": {{ page.content | number_of_words | jsonify }},
+				"url": {{ page.url | absolute_url | jsonify }},
+				"datePublished": {{ page.date | date: "%F" | jsonify }},
+				"dateCreated": {{ page.date | date: "%F" | jsonify }},
+				"description": {{ page.description | jsonify }},
+				"articleBody": {{ content | jsonify }},
+				"inLanguage": "en",
+				"mainEntityOfPage": "True",
+				"author": {
+					"@type": "Person",
+					"name": "rubenwardy",
+					"url": "https://rubenwardy.com"
+				},
+				"publisher": {
+					"@type": "Organization",
+					"name": "Renewed Tab",
+					"url": "https://renewedtab.com",
+					"logo": {
+						"@type": "ImageObject",
+						"url": {{ "static/icon.svg" | absolute_url | jsonify }}
+					}
+				}
+			}
+		</script>
+
 		<header class="mb-5">
-			{% if page.images %}
-				{% assign thumbnail = page.images | first %}
-				{% if thumbnail[1] %}
-					{% assign thumbnail = thumbnail[1] %}
-				{% endif %}
-				{% if thumbnail.url %}
-					{% assign thumbnail_url = thumbnail.url %}
-				{% else %}
-					{% assign thumbnail_url = "/static/blog/" | append: thumbnail.path %}
-				{% endif %}
-				{% if thumbnail.full %}
-					{% assign thumbnail_url = thumbnail_url | replace: ".", "_full." %}
-				{% endif %}
+			{% if thumbnail %}
 				<div class="image is-16by9">
 					<img src="{{ thumbnail_url }}" loading="lazy"
 						alt="{{ thumbnail.caption }}" />
