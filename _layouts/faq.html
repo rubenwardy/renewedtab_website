@@ -7,6 +7,35 @@ layout: article
 {% assign l = site.data.locale[lang].index %}
 {% assign en = site.data.locale.en.index %}
 
+<script type="application/ld+json">
+{
+	"@context": "https://schema.org",
+	"@type": "FAQPage",
+	"mainEntity": [
+		{% for q in site.data.faq %}
+			{% assign title_id = "faq." | append: q | append: ".title" -%}
+			{%- assign desc_id = "faq." | append: q | append: ".desc" -%}
+			{%- assign title = l[title_id] | default: en[title_id] -%}
+			{%- assign desc = l[desc_id] | default: en[desc_id] -%}
+			{%- assign id = title | slugify -%}
+
+			{
+				"@type": "Question",
+				"name": {{ title | jsonify }},
+				"url": {{ page.url | absolute_url | append: "#" | append: id | jsonify }},
+				"acceptedAnswer": {
+					"@type": "Answer",
+					"text": {{ desc | markdownify | jsonify }}
+				}
+			}
+			{%- if forloop.last == false -%}
+				,
+			{%- endif -%}
+		{% endfor %}
+	]
+}
+</script>
+
 
 <a href="/{{ lang }}/help/">
 	<i class="fas fa-arrow-left"></i>
