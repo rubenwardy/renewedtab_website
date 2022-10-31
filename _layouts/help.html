@@ -27,4 +27,33 @@ layout: article
 	{% endfor %}
 </div>
 
+
+{% assign top_questions = l.index['help.top_questions'] | default: en['help.top_questions']  %}
+<h2 id="{{ top_questions | slugify }}">
+	{{ top_questions }}
+</h2>
+<ul>
+	{% for q in site.data.faq %}
+		{% assign title_id = "faq." | append: q | append: ".title" %}
+		{% assign title = l.index[title_id] | default: en[title_id] %}
+		<li>
+			<a href="/{{ lang }}/help/faq/#{{ title | slugify }}">
+				{{ title }}
+			</a>
+		</li>
+	{% endfor %}
+</ul>
+
+
+{% assign articles = l.index['help.articles'] | default: en['help.articles']  %}
+<h2 id="{{ articles | slugify }}">
+	{{ articles }}
+</h2>
+<div>
+	{% for post in site.posts %}
+		{% include post_list_item.html post=post %}
+	{% endfor %}
+</div>
+
+
 {{ content }}
