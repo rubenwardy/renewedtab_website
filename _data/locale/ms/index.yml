@@ -103,3 +103,96 @@ sfeatures.locale.desc: "menyokong bahasa Perancis, Sepanyol, Itali, Portugis, Me
   \ oleh komuniti</a>\ndan membolehkan para pengguna untuk menyumbang sokongan buat\
   \ bahasa mereka."
 nav.blog: Blog
+help.top_questions: Soalan Teratas
+help.articles: Rencana
+help.back: Kembali ke bantuan
+faq.bookmarks.title: Bagaimanakah cara untuk tunjukkan bar tanda buku sahaja di halaman
+  Tab Baharu?
+faq.blur.title: Bagaimanakah cara untuk mendayakan kekaburan dalam Firefox?
+faq.widgets_outside_grid.title: Bagaimanakah cara untuk meletakkan widget di luar
+  grid / di sebelah bawah skrin?
+faq.widgets_outside_grid.desc: "Renewed Tab memerlukan semua widget diletakkan atas\
+  \ grid. Ini amat baik untuk\nPengalaman Pengguna, kerana ia ringkas, tetapi lebih\
+  \ sukar untuk buat sesetengah perkara.\n\nUntuk membuatkan widget muncul di bahagian\
+  \ bawah skrin, anda boleh gunakan\nwidget Tidak Kelihatan untuk menambah ruang menegak\
+  \ di antara widget.\n"
+faq.host_permission.title: Mengapakah sambungan ini meminta untuk baca semua data
+  buat suatu laman sesawang?
+faq.background_block.title: Mengapakah latar belakang yang saya sekat masih muncul?
+faq.background_block.desc: "Pelayan API Renewed Tab hanya ada 4 imej tersedia untuk\
+  \ dipilih pada suatu masa.\nJika anda telah menyekat terlalu banyak imej, maka boleh\
+  \ jadi anda sudah sekat\nkesemua imej yang tersedia ini - jika ini yang terjadi,\
+  \ maka imej yang pertama\nakan digunakan.\n\nSebab perkara ini dilakukan adalah\
+  \ untuk mengelak kena API Unsplash terlalu banyak.\n"
+faq.no_background.title: Mengapakah imej latar belakang tidak muncul?
+faq.no_background.desc: "Sambungan seperti DarkReader boleh bercanggah dengan imej\
+  \ latar belakang,\nanda boleh menyahdayakannya per tapak.\n\nAlternatifnya, mungkin\
+  \ ada masalah sambungan dengan API Renewed Tab atau\nunsplash, atau masalah tatarajah.\n"
+faq.sync.title: Mengapakah penyegerakan pelayar tidak disokong?
+faq.browser.title: Mengapakah anda tidak menyokong pelayar X?
+faq.proxy.title: Mengapakah naik ralat ketika memasukkan URL tersuai dalam versi sesawang?
+faq.custom_widgets.title: Bagaimanakah cara untuk menambah widget tersuai?
+faq.custom_widgets.desc: "Lihat [Creating Your Own Custom Widgets for Renewed Tab](/blog/2022/07/24/custom-widgets/).\n"
+faq.contact.title: Bagaimanakah cara untuk berhubung?
+faq.contact.desc: "Penciptaan isu di Penjejak Isu itu cara yang lebih digemari untuk\
+  \ berbincang\nmengenai pepijat dan permintaan sifat Renewed Tab.\n\nJika anda perlukan\
+  \ bantuan, anda boleh guna mana-mana pilihan ini.\nBesar kemungkinan Discord atau\
+  \ Matrix itu yang paling pantas.\n"
+faq.blur.desc: "**Kekaburan patut berfungsi secara lalainya dalam Firefox 103. Pastikan\n\
+  pelayar anda dikemas kini.**\n\nKekaburan mungkin boleh didayakan dalam versi Firefox\
+  \ yang lama dengan\nmendayakannya secara manual:\n\n1. Buka tab baharu dan taip\
+  \ `about:config` sebagai alamatnya.\n2. Terima amaran yang dipaparkan.\n3. Dayakan\
+  \ tetapan `layout.css.backdrop-filter.enabled`.\n4. Tutup dan buka semula Firefox.\n"
+faq.bookmarks.desc: "Dalam Chrome, tiada cara untuk tunjukkan bar tanda buku **terbina\
+  \ dalam** sahaja\npada halaman Tab Baharu. Namun begitu, Renewed Tab menyediakan\
+  \ bar tanda\nbuku tersendiri yang boleh didayakan menerusi Tetapan > Umum > Bar\
+  \ Tanda Buku.\n\nDalam Firefox, anda boleh klik-kanan di sebelah bar tanda buku\
+  \ >\nBar Alatan Tanda Buku > Tunjukkan di Tab Baharu Sahaja.\n\n![Tunjukkan di tab\
+  \ baharu sahaja](/static/images/help/firefox_bookmarks.png)\n"
+faq.host_permission.desc: "Sesetengah widget, seperti Suapan, perlu memuatkan maklumat\
+  \ dari URL.\nPelayar sesawang cenderung untuk mempunyai sistem kebenaran yang ketat,\n\
+  jadi sambungan pelayar perlu meminta kebenaran untuk melakukan sesetengah\nperkara.\
+  \ Menghubungi laman sesawang itu salah satu daripada perkara tersebut.\n\nSebagai\
+  \ contoh, untuk memuatkan suapan berita dari bbc.co.uk, sambungan\nperlu diberikan\
+  \ kebenaran untuk mencapai bbc.co.uk.\n\nRenewed Tab tidak baca sebarang maklumat\
+  \ peribadi atau sejarah anda bagi\nlaman sesawang yang anda berikan kebenaran capaian.\
+  \ Ia hanya melakukan\npermintaan sesawang kepada laman sesawang untuk memuatkan\
+  \ kandungan.\n\nMesej-mesej contoh:\n\n> \"Renewed Tab\" telah meminta kebenaran\
+  \ tambahan.\\\\\n> Ia mampu:\n> - Membaca dan mengubah data anda di feeds.bbci.co.uk\n\
+  \n> Renewed Tab meminta kebenaran tambahan.\\\\\n> Ia ingin:\n> - Mencapai data\
+  \ anda untuk feeds.bbci.co.uk\n"
+faq.sync.desc: "Penyegerakan Chrome dan Firefox terhad pada saiz 8KB per kekunci.\
+  \ Sangat biasa untuk komponen\nseperti nota untuk melebihi had ini, membuatkannya\
+  \ tidak praktikal untuk menyokong penyegerakan.\n\nAnda boleh guna Tetapan (<i class=\"\
+  fas fa-cog\"></i>) > Import / Eksport untuk berkongsi tetapan\nanda di antara pelayar\
+  \ berlainan.\n"
+faq.browser.desc: "Kami hanya menyokong 2 versi terbaru Firefox dan Chrome; ianya\
+  \ amat sukar\nuntuk menguji dan memberi sokongan untuk setiap pelayar.\n\nRenewed\
+  \ Tab dibina menggunakan teknologi rentas platform, maksudnya besar\nkemungkinan\
+  \ yang ia akan berfungsi di pelayar anda walaupun tidak disokong.\n\nAnda boleh\
+  \ muat turun fail .zip buat sambungan pelayar:\n\n1. Pergi ke [GitLab pipelines](https://gitlab.com/renewedtab/renewedtab/-/pipelines).\n\
+  2. Cari serahan yang anda berminat. Selalunya anda inginkan serahan terbitan\n \
+  \ seperti \"Release 1.2.3\".\n3. Klik butang muat turun (<i class=\"tag fas fa-ellipsis-v\"\
+  ></i>) di sebelah kanan baris.\n4. Pilih \"Download webext:archive artifact\".\n\
+  \nJika anda ada masalah dengan pelayar yang tidak disokong, maka kami tidak mungkin\
+  \ mampu\nmembantu. Namun begitu, kami mungkin terima tampung/PR untuk membaiki masalah\
+  \ pada\nplatform yang tidak disokong selagi mana ia tidak memperkenalkan masalah\
+  \ seni bina, dan masalah\ntersebut bukan disebabkan oleh pelayar yang melaksanakan\
+  \ piawaian sesawang dengan cara salah.\n"
+faq.proxy.desc: "Jika anda cuba untuk memasukkan URL tersuai yang tidak dibenarkan\
+  \ di versi sesawang,\nanda akan dapat ralat berikut:\n\n> Capaian ke hos example.com\
+  \ tidak dibenarkan di versi sesawang. Untuk tujuan keselamatan,\n> versi sesawang\
+  \ hanya boleh mencapai domain yang telah diluluskan terlebih dahulu.\n> Pertimbangkan\
+  \ untuk guna sambungan Chrome/Firefox dan bukan versi sesawang.\n\nVersi sesawang\
+  \ menggunakan proksi untuk mencapai URL, dan bukannya hubungi secara\nterus. Ini\
+  \ adalah untuk mengatasi pembatasan Perkongsian Sumber Rentas Punca\n([Cross Origin\
+  \ Resource Sharing](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)\n(CORS)):\
+  \ laman sesawang tidak boleh membuat permintaan ke laman sesawang yang lain\ntanpa\
+  \ kebenaran laman sesawang tersebut.\n\nProksi versi laman sesawang membataskan\
+  \ domain yang anda boleh gunakan atas\n[sebab keselamatan](https://owasp.org/www-community/attacks/Server_Side_Request_Forgery).\n\
+  Jika mana-mana domain dibenarkan, pengguna hasad boleh mengganggu rekod DNS\nuntuk\
+  \ membolehkan capaian ke perkhidmatan dalaman pada pelayan.\n\nAnda mungkin boleh\
+  \ minta suatu laman sesawang untuk dibenarkan oleh proksi.\nNamun begitu, anda patut\
+  \ gunakan sahaja sambungan Chrome/Firefox, kerana ia\ntidak mempunyai pembatasan\
+  \ ini\n\nNota: Jika anda dapat ralat ini ketika menggunakan sambungan pelayar, ada\
+  \ sesuatu\nyang _tidak kena_. Sila laporkannya di bawah.\n"
