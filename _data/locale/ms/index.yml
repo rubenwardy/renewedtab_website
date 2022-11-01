@@ -196,3 +196,6 @@ faq.proxy.desc: "Jika anda cuba untuk memasukkan URL tersuai yang tidak dibenark
   \ gunakan sahaja sambungan Chrome/Firefox, kerana ia\ntidak mempunyai pembatasan\
   \ ini\n\nNota: Jika anda dapat ralat ini ketika menggunakan sambungan pelayar, ada\
   \ sesuatu\nyang _tidak kena_. Sila laporkannya di bawah.\n"
+help.issue_tracker: Penjejak Isu
+help.contact_me: Hubungi Saya
+help.github: GitHub (cermin)
