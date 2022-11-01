@@ -22,6 +22,10 @@ nav.get_involved: Get Involved
 nav.donate: Donate
 nav.blog: Blog
 
+help.issue_tracker: Issue Tracker
+help.contact_me: Contact Me
+help.github: GitHub (mirror)
+
 gallery.screenshot.png: "A variety of widgets: The news, weather, and more"
 gallery.sidebar_icons.png: "Icon links: Quick links or bookmarks"
 gallery.icons.png: "Top sites / icon links"

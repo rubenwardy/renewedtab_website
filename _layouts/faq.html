@@ -75,11 +75,11 @@ layout: article
 <div class="buttons">
 	<a href="https://gitlab.com/renewedtab/renewedtab/-/issues" class="button is-primary">
 		<i class="fab fa-gitlab mr-2"></i>
-		Issue Tracker
+		{{ l["help.issue_tracker"] | default: en["help.issue_tracker"] }}
 	</a>
 	<a href="https://rubenwardy.com/contact/" class="button">
 		<i class="fas fa-envelope mr-2"></i>
-		Contact Me
+		{{ l["help.contact_me"] | default: en["help.contact_me"] }}
 	</a>
 	<a href="https://discord.gg/zYjR54b" class="button">
 		<i class="fab fa-discord mr-2"></i>
@@ -91,6 +91,6 @@ layout: article
 	</a>
 	<a href="https://github.com/rubenwardy/renewedtab" class="button">
 		<i class="fab fa-github mr-2"></i>
-		GitHub (mirror)
+		{{ l["help.github"] | default: en["help.github"] }}
 	</a>
 </div>
