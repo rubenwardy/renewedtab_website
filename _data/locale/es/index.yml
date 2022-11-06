@@ -20,10 +20,11 @@ gallery.sidebar_icons.png: "Enlaces en iconos: Enlaces rápidos o marcadores"
 gallery.icons.png: "Sitios principales / enlaces en iconos"
 gallery.focus.png: "Concentración: solo un reloj y una barra de búsqueda"
 
-features.dnd.title: Arrastre y Suelte Widgets
+features.dnd.title: Arrastrar y soltar widgets
 features.dnd.desc: |
   El núcleo de Renewed Tab es su sistema de widgets.
-  Puede añadir, mover, cambiar el tamaño, y configurar widgets en una grilla usando controles intuitivos.
+  Puede añadir, mover, cambiar el tamaño, y configurar widgets en una grilla usando controles
+  intuitivos.
 
   Es posible colocar el mismo tipo de widget multiples veces, con diferentes configuraciones.
 
@@ -49,7 +50,8 @@ features.customisable.title: Personalizable
 features.customisable.desc: |
   Cada widget tiene configuraciones de comportamiento y temática.
 
-  También hay configuraciones globales, permitiendole personalizar el tema, cambiar de lenguaje, o elegir un fondo.
+  También hay configuraciones globales, permitiendole personalizar el tema,
+  cambiar de lenguaje, o elegir un fondo.
 
 features.foss.title: Libre y de Código Abierto
 features.foss.desc: |
@@ -68,20 +70,22 @@ features.foss.desc: |
 
 features.locale.title: Multi-lenguaje
 features.locale.desc: |
-  Renewed Tab admite Français, Español, Deutsch, Italiano, Русский, 汉语,
+  Renewed Tab admite Inglés, Français, Español, Deutsch, Italiano, Русский, 汉语,
   Português, Bahasa Melayu, y Türkçe.
 
-  Las traducciones son mantenidas por la comunidad, lo que le permite agregar soporte para su idioma.
+  Las traducciones son mantenidas por la comunidad, lo que le permite agregar soporte para su
+  idioma.
 
   <a class="button is-primary" href="https://renewedtab.com/translations/">
     <i class="fas fa-language mr-2"></i>
     Ayuda a Traducir
   </a>
 
-features.privacy.title: Orientado a la Privacidad
+features.privacy.title: Orientado a la privacidad
 features.privacy.desc: |
   Solo requerimos permisos mínimos; otros
-  permisos son opcionales y solo solicitados cuando se necesitan. Todos sus datos se almacenan en su navegador, no en nuestros servidores.
+  permisos son opcionales y solo solicitados cuando se necesitan. Todos sus
+  datos se almacenan en su navegador, no en nuestros servidores.
 
   <a class="button is-primary" href="/privacy_policy/">
     Política de Privacidad
@@ -122,16 +126,17 @@ help.links.get_involved.desc: Chatea con los desarrolladores y otros usuarios
 
 faq.blur.title: ¿Cómo habilito el desenfoque en Firefox?
 
-faq.widgets_outside_grid.title: ¿Cómo puedo ubicar widgets fuera de la cuadrícula / en la parte inferior de la pantalla?
+faq.widgets_outside_grid.title: ¿Cómo puedo ubicar widgets fuera de la cuadrícula
+  / en la parte inferior de la pantalla?
 faq.widgets_outside_grid.desc: |
-  Renewed Tab requiere que todos los widgets estén en la cuadrícula. Esto es
-  genial para la experiencia del usuario, ya que es simple, pero dificulta hacer
-  ciertas cosas.
+  Renewed Tab requiere que todos los widgets estén en la cuadrícula. Esto es genial
+  para la experiencia del usuario, ya que es simple, pero dificulta hacer ciertas cosas.
 
-  Para hacer que un widget parezca estar la parte inferior de la pantalla, puede
-  usar el widget invisible para agregar espacio vertical entre widgets.
+  Para hacer que un widget parezca estar la parte inferior de la pantalla, puede usar el
+  widget invisible para agregar espacio vertical entre widgets.
 
-faq.host_permission.title: ¿Por qué la extensión solicita leer todos los datos de un sitio web?
+faq.host_permission.title: ¿Por qué la extensión solicita leer todos los datos de
+  un sitio web?
 faq.host_permission.desc: |
   Algunos widgets, como Feed, requieren que se cargue información desde una URL.
   Los navegadores web tienden a tener sistemas de permisos estrictos, por lo
@@ -201,7 +206,8 @@ faq.browser.desc: |
   y el problema no se deba a que el navegador implemente incorrectamente los estándares web.
 
 
-faq.proxy.title: ¿Por qué me sale un error al ingresar una URL personalizada en la versión web?
+faq.proxy.title: ¿Por qué me sale un error al ingresar una URL personalizada en la
+  versión web?
 faq.proxy.desc: |
   Si intenta ingresar una URL personalizada que no está permitida en la versión web,
   obtendrá el siguiente error:
@@ -233,3 +239,24 @@ faq.contact.desc: |
 
   Si necesita ayuda, puede usar cualquiera de estas opciones.
   Es probable que Discord o Matrix sean las más rápidas.
+help.top_questions: Preguntas más frecuentes
+help.articles: Artículos
+help.back: Volver a ayudar
+features: Funciones
+support: Soporte
+support_desc: ¿Necesitas ayuda? ¿Has encontrado un error o tienes una petición? Consulte
+  la página <a href="https://renewedtab.com/help/">Ayuda y preguntas frecuentes</a>
+  para ver las preguntas más comunes y ponerse en contacto.
+sfeatures.backgrounds.desc: ver un fondo curado al azar cada 15 minutos. También puedes
+  elegir un color sólido, una colección de Unsplash, un feed RSS/Atom o una imagen
+  de fondo personalizada.
+sfeatures.customisable.desc: cambiar el fondo, el tema y configurar cada widget de
+  forma independiente.
+help.contact_me: Contacto
+faq.custom_widgets.title: ¿Cómo añado widgets personalizados?
+nav.blog: Blog
+sfeatures.locale.desc: "soporta francés, español, italiano, portugués, malayo y turco.\
+  \ Las traducciones son\n<a \nhref=\"https://renewedtab.com/translations/\" >mantenidas\
+  \ por la comunidad</a>\nlo que permite a los usuarios contribuir al soporte de su\
+  \ idioma."
+help.github: GitHub (réplica)
