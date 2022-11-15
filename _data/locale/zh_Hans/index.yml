@@ -1,27 +1,27 @@
 description: 一个可自定义的新标签页，拥有丰富的小部件和各种精美的背景图片供您选择
 features.dnd.title: 拖放小部件
-widgets.feeds: '<b>订阅源</b>: 显示来自Atom，JSON和RSS订阅的信息 - 用于追踪新闻，网站和博客的最新消息.'
-widgets.bookmarks: '<b>书签</b>: 显示你的书签.'
-widgets.age: '<b>年龄</b>: 显示你当前精确的年龄.'
-widgets.yearprogress: '<b>年进度</b>: 以进度条的形式显示今年的进度.'
+widgets.feeds: '<b>RSS订阅</b>：显示来自Atom、JSON或RSS订阅的信息，用于追踪新闻，网站和博客的最新消息。'
+widgets.bookmarks: '<b>书签</b>：显示你的书签。'
+widgets.age: '<b>年龄</b>：显示你当前精确的年龄。'
+widgets.yearprogress: '<b>年进度</b>：以进度条的形式显示今年的进度。'
 nav.donate: 捐赠
 sfeatures.powerful.desc: 你可以直观地使用控件在网格上添加、移动、调整大小和配置小部件。
 title: Renewed Tab
 firefox: Firefox
 chrome: Chrome
 widgets.weather: <b>天气</b>
-widgets.dailygoals: '<b>每日目标</b>: 提醒你每天的目标.'
-widgets.greeting: '<b>问候语</b>: 向你展示问候语.'
-widgets.quotes: '<b>引用名言</b>: 随机显示一个带有分类的名言.'
-widgets.clock: '<b>时钟</b>: 显示时间.'
-widgets.notes: '<b>笔记</b>: 一个用于笔记的可编辑的文本区域.'
-widgets.search: '<b>搜索</b>: 用你最喜爱的搜索引擎搜索小部件或网站.'
-widgets.webcomics: '<b>网络漫画</b>: 显示来自Atom，JSON或RSS订阅源的最新网络漫画。'
-widgets.currencies: '<b>货币</b>: 显示汇率，支持外汇货币和加密货币（例如比特币等）.'
+widgets.dailygoals: '<b>每日目标</b>：提醒你每天的目标。'
+widgets.greeting: '<b>问候语</b>：根据时刻问候您。'
+widgets.quotes: '<b>引用名言</b>：随机显示一个带有分类的名言。'
+widgets.clock: '<b>时钟</b>：显示时间，可选使用 12 小时制或 24 小时制。'
+widgets.notes: '<b>笔记</b>：一个用于笔记的可编辑的文本区域。'
+widgets.search: '<b>搜索</b>：一个搜索栏，支持改变搜索引擎。'
+widgets.webcomics: '<b>网络漫画</b>：显示来自Atom、JSON或RSS订阅源的最新网络漫画。'
+widgets.currencies: '<b>货币</b>：显示汇率，支持外汇货币和加密货币（例如比特币等）。'
 widgets.spaceflight: <b>太空飞行</b>
-widgets.todo: '<b>待办清单</b>: 追踪待办事项的清单.'
-widgets.links: '<b>链接</b>: 一个链接，支持标题和图标（九宫格）.'
-widgets.topsites: '<b>最常访问的网站</b>: 显示最常访问的网站.'
+widgets.todo: '<b>待办清单</b>：追踪待办事项的清单。'
+widgets.links: '<b>链接</b>：一个链接，支持标题和图标（九宫格）。'
+widgets.topsites: '<b>最常访问的网站</b>：显示最常访问的网站。'
 online: 在线尝试
 andmore: 以及更多...
 widgets: 小部件
@@ -43,13 +43,85 @@ gallery.icons.png: 热门网站 / 便捷图标
 gallery.focus.png: 聚焦页面：仅包含一个时钟和搜索框
 sfeatures.backgrounds.desc: 欣赏每 15 分钟更新一次的背景图片。或者选择纯色，Unsplash 精选内容，RSS/Atom 订阅，或者一个自定义的图片。
 sfeatures.customisable.desc: 自定义背景，主题，并独立的配置每个部件。
-sfeatures.locale.desc: "支持 French, Spanish, Italian, Portuguese, Malay, and Turkish。翻译是由<a\n\
-  \    href=\"https://renewedtab.com/translations/\">社区</a>\n    维护的，允许人们为他们自己的语言做出贡献。"
+sfeatures.locale.desc: "支持法语、西班牙语、意大利语、葡萄牙语、马来语、土耳其语。\n翻译由 <a href=\"https://renewedtab.com/translations/\"\
+  >社区</a> 维护，\n允许人们为自己的语言做出贡献。"
 features.dnd.desc: "Renewed Tab 的核心是小部件系统。\n\n你可以直观地使用控件在网格上添加、移动、调整大小和配置小部件。\n\n\
   你可以放置有着不同内容的相同主题的小部件。\n"
 features.backgrounds.title: 赏心悦目的背景
 features.backgrounds.desc: "欣赏每 15 分钟更新一次的背景图片。\n\n你也可以选择纯色，\nUnsplash 精选内容，\nRSS/Atom\
   \ 订阅，或者一个自定义的图片。\n\n你可以将鼠标移动到左下角的图片信息上临时隐藏所有的小部件，\n以及喜欢或者跳过当前的背景图片。\n"
 features.rich.title: 丰富的小部件
-features.rich.desc: "一些小部件需要网络链接。例如，你可以浏览\n一个 RSS/Atom 订阅源，看看\n"
+features.rich.desc: "一些小部件是联网实时更新的\n如 RSS/Atom 订阅、查看即将进行的太空发射，以及天气\n\n<a href=\"#widgets\"\
+  \ class=\"button is-primary\">小部件列表</a>\n"
 features.customisable.title: 可自定义
+features.privacy.desc: "我们只要求最低限度的权限；\n其他权限是可选的，只有在需要时才会被要求。\n您的所有数据都储存在您的浏览器中，而不是我们的服务器上。\n\
+  \n<a class=\"button is-primary\" href=\"/privacy_policy/\">\n  隐私政策\n</a>\n"
+widgets.more: 以及更多：按钮、图像、HTML和iframes。
+faq.bookmarks.desc: "在 Chrome 上，没有办法只在新标签页上显示**内置的**书签栏\n然而，Renewed Tab 提供了它自己的书签栏，\n\
+  你可以通过 设置>常规>书签栏 来启用它。\n\n在 Firefox 上，你可以右键点击地址栏旁边的\n书签工具条>只在新标签页上显示。\n\n![只显示在新标签上](/static/images/help/firefox_bookmarks.png)\n"
+faq.widgets_outside_grid.desc: "Renewed Tab 要求所有的小部件都要放在网格上。\n这有利于优化用户体验，因为它简单直观，但它确实会使自定义布局更加困难。\n\
+  \n为了使一个小部件看起来在屏幕的底部，\n你可以使用隐形小组件来增加小组件之间的垂直间距。\n"
+help.contact_me: 联系作者
+help.github: GitHub (镜像)
+features.locale.title: 多语言
+features.privacy.title: 以隐私为导向
+help.links.get_involved.title: 参与我们
+help.links.get_involved.desc: 与开发者、其他用户交流
+faq.host_permission.title: 为什么扩展程序要求读取一个网站的所有数据？
+help.links.faq.desc: 常见问题
+help.links.faq.title: 提问
+help.links.tutorial.title: 入门
+help.links.tutorial.desc: 学习如何安装使用 Renewed Tab
+faq.background_block.title: 为什么我已经屏蔽的背景仍然出现？
+faq.background_block.desc: "Renewed Tab API 服务器一次只有 4 张图片可供选择。\n如果你屏蔽了很多图片，那么你有可能最终会发现\n\
+  所有这些可用的图片都被屏蔽了\n这种情况下将使用第一张图片。\n\n这样做的原因是为了避免使 Unsplash API 负载太大。\n"
+faq.no_background.title: 为什么背景图片没有显示？
+faq.no_background.desc: "像 DarkReader 这样的扩展可能会与背景图片发生冲突，\n你可以在站点禁用它。\n\n此外，也可能使 Renewed\
+  \ Tab API 与 Unsplash 的连接出现了问题，\n或用户配置不当。\n"
+faq.sync.title: 为什么不支持浏览器间同步？
+faq.browser.title: 你为什么不支持 * 浏览器？
+faq.proxy.title: 为什么在网页版中输入自定义 URL 时会出错？
+help.top_questions: 热门问题
+help.articles: 文章
+help.back: 返回帮助
+faq.blur.title: 如何在火狐浏览器上启用模糊效果？
+faq.blur.desc: "**模糊效果应在 Firefox 103 中默认可用。\n请确保你的浏览器是最新的。**\n\n在旧版本的火狐浏览器中，\n也许可以通过手动方式启用它。\n\
+  \n1. 打开一个新的标签，在地址栏中输入`about:config`。\n2. 接受警告。\n3. 启用`layout.css.backdrop-filter.enabled`。\n\
+  4. 关闭并重启 Firefox。\n"
+faq.bookmarks.title: 如何仅在新标签页上显示书签栏？
+faq.widgets_outside_grid.title: 我怎样才能把小部件放在网格之外/屏幕的底部？
+faq.custom_widgets.title: 如何添加自定义小部件？
+faq.custom_widgets.desc: "查看 [为 Renewed Tab 创建新的自定义组件](/blog/2022/07/24/custom-widgets/)。\n"
+faq.contact.title: 我应该如何联系开发者？
+faq.contact.desc: "在问题跟踪系统上提出问题是反馈 Renewed Tab 错误、\n提出新功能请求的首选方式。\n\n如果您需要帮助，可以使用这些选项中的任何一个。\n\
+  Discord 或 Matrix 应该是反馈最快的。\n"
+faq.host_permission.desc: "一些小工具，如Feed，需要从一个 URL 加载信息。\n网络浏览器往往有严格的许可系统，\n扩展需要请求许可才能做某些事情，\n\
+  获取一个网页就是这些事情之一。\n\n例如，为了加载 bbc.co.uk 的新闻源，\n扩展需要要被授予访问 bbc.co.uk 的权限。\n\nRenewed\
+  \ Tab 不会读取你的任何个人信息或历史记录，\n你授权访问的网站的任何个人信息或历史记录，\n它只是向网站发出网络请求以加载内容。\n\n消息示例：\n\n\
+  > \"Renewed Tab\" 请求了额外的权限。\\\\\n> 它可以：\n> - 读取和改变你在 feeds.bbci.co.uk 上的数据\n\n>\
+  \ Renewed Tab 请求额外的权限。 \\\\\n> 它希望：\n> - 读取和改变你在 feeds.bbci.co.uk 上的数据\n"
+faq.sync.desc: "Chrome 和 Firefox的同步被限制为每个键 8KB。\n笔记等组件通常会超过这个限制，这使得支持同步变得不切实际。\n\n\
+  你可以使用设置 (<i class=\"fas fa-cog\"></i>) > 导入 / 导出\n来在浏览器间分享你的设置。\n"
+faq.browser.desc: "我们只支持最新 2 个版本的 Firefox 和 Chrome，\n因为我们很难逐一测试并为每个浏览器提供支持。\n\nRenewed\
+  \ Tab 是使用跨平台技术构建的，\n这意味着尽管不受支持，它可能仍可以在您的浏览器上运行。\n\n您可以下载浏览器扩展的 .zip 格式：\n\n1. 转到\
+  \ [GitLab 管道](https://gitlab.com/renewedtab/renewedtab/-/pipelines)。\n2. 找到你感兴趣的提交。通常，你需要找到一个发布提交\n\
+  \   如“Release 1.2.3”。\n3. 单击行右侧的下载按钮 (<i class=\"tag fas fa-ellipsis-v\"></i>)。\n\
+  4. 选择“下载 webext:archive 工件”。\n\n如果您遇到不受支持的浏览器的问题，\n那么我们不太可能能够提供帮助。\n但我们可能会接受补丁/PR\
+  \ 来解决不受支持的平台上的问题\n只要它不引入架构问题且问题不是由于浏览器错误地实现了 Web 标准。\n"
+faq.proxy.desc: "如果您尝试输入 Web 版本中不允许的自定义 URL，\n您会得到以下错误：\n\n> 网页版不允许访问主机 example.com。\n\
+  > 出于安全原因，网页版只能访问预先批准的域。\n> 考虑改用 Chrome/Firefox 扩展程序。\n\n网页版使用代理来访问 URL，而不是直接地访问它们\n\
+  这是为了绕过\n[跨源资源共享](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)\n(CORS)\
+  \ 限制：网页不能在没有获得其他网站许可的情况下\n请求未经许可的网站。\n\n网络版本的代理限制了您可以使用的域\n[安全原因](https://owasp.org/www-community/attacks/Server_Side_Request_Forgery)。\n\
+  如果允许任何域，恶意用户可能会弄乱 DNS 记录\n以允许访问服务器上的内部服务。\n\n您可以要求代理允许网站。\n但您应该改用 Chrome/Firefox\
+  \ 扩展，\n因为它没有这个限制\n\n注意：如果您在使用浏览器扩展程序时遇到错误，则说明有\n_问题_。请在下方反馈。\n"
+help.issue_tracker: 问题跟踪系统
+features.foss.title: 免费开源
+features.customisable.desc: "每个小组件都有行为和主题的设置。\n\n也有全局设置，允许你自定义主题，\n改变语言，或选择一个背景。\n"
+features.foss.desc: "任何人都可以阅读、编辑代码，参与到开发工作中来。\n\n使用 TypeScript 与 React 编写。\n\n<a href=\"\
+  https://gitlab.com/renewedtab/renewedtab\" class=\"button is-primary\">\n  <i class=\"\
+  fab fa-gitlab mr-2\"></i>\n  GitLab\n</a>\n<a href=\"https://github.com/rubenwardy/renewedtab\"\
+  \ class=\"button\">\n  <i class=\"fab fa-github mr-2\"></i>\n  GitHub (镜像)\n</a>\n"
+features.locale.desc: "Renewed Tab 支持 English, Français, Español, Deutsch, Italiano,\
+  \ Русский, 汉语,\nPortuguês, Bahasa Melayu, and Türkçe.\n\n翻译由社区维护，\n欢迎你添加对你的语言的支持。\n\
+  \n<a class=\"button is-primary\" href=\"https://renewedtab.com/translations/\">\n\
+  \  <i class=\"fas fa-language mr-2\"></i>\n  帮助我们翻译\n</a>\n"
