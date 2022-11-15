@@ -9,3 +9,6 @@
 
 - name: Bahasa Melayu
   code: ms
+
+- name: "汉语"
+  code: zh_Hans
