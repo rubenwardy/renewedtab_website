@@ -3,42 +3,59 @@ title: Privacy Policy
 layout: article
 ---
 
-# Privacy Policy
+# Privacy Policy <!-- omit from toc -->
 
-Last updated: 2021-06-26.
+<p class="is-size-4">
+	All settings and widgets are saved in your browser, they're only transmitted
+	to us when needed to load widget data (such as location for weather forecasts).
+	Errors are reported to Sentry to aid with debugging, and user feedback is stored
+	anonymously.
+</p>
 
+<small>Last updated: 2023-01-20.</small>
 
 ## What information is collected and how is it used?
 
-Your client will contact this server in order to retrieve information in
-order to perform its function. Any HTTP requests to this server are logged,
-with the following information:
-
-* Time
-* IP address
-* Page URL and query arguments
-* Response status code and size
-
-Logged HTTP requests may be used for debugging, or for very anonymous statistics
-(such as view counters).
-
-Background image ratings are stored anonymously on the server, and used to refine
-background choices. Whether or not you've rated a particular background is
-stored against IP address, to avoid duplicate ratings.
+### Weather
 
 In order to look up latitude and longitude, the weather widget will send
-location queries to the API server. The API server will then use
-[OpenStreetMap](https://www.openstreetmap.org) to look up this information,
-but does so in a way only the location query is sent - user IP addresses aren't
-shared. The weather widget will then request weather by latitude and longitude;
-the API server will use [OpenWeatherMap](https://openweathermap.org/).
-Location queries and weather look ups will be logged as above, as this is done
-for all HTTP requests.
+location queries to the API server. The API server uses the Geocoding Provider
+(currently AccuWeather) to look up the location information - only the location
+information is sent, user IP addresses aren't shared.
+
+The weather widget will then request weather by location, the API server will
+use the Weather Provider (currently AccuWeather). Location queries and weather
+look ups will be logged as described in "Communication with our server", as this
+is done for all HTTP requests.
+
+### Browser Storage
 
 Settings, including widgets, are stored in your browser. They are not sent
 online unless needed to provide functionality, such as fetching weather
 information. Custom background images you "upload" never leave your computer,
 they are stored locally.
+
+### Background Image Ratings
+
+Background image ratings are stored on our server and used to refine background
+choices. Background ratings are stored against IP address, to avoid duplicate
+ratings.
+
+### User Feedback
+
+The uninstall and general feedback forms send the text anonymously to the
+developer, along with browser and version information. The IP address is not
+logged.
+
+### Communication with our server
+
+Your client will contact the Renewed Tab **API server** in order to retrieve
+information in order to perform its function. Any HTTP requests to this server
+are logged, including the following information: time, IP address, page URL,
+and response status.
+
+Logged HTTP requests may be used for debugging, or for anonymous statistics
+(such as view counters/graphs).
 
 All communications with our server is done using strong encryption.
 
@@ -48,11 +65,13 @@ All communications with our server is done using strong encryption.
 Your computer may directly contact third-party services as part of this service.
 
 Background images will load directly from [Unsplash](https://unsplash.com) or
-from the URL you specify.
-See [Unsplash's Privacy Policy](https://unsplash.com/privacy).
+from the URL you specify. They will be able to see the background image you're
+viewing and information about the request, such as IP address and user-agent.
+See [Unsplash's Privacy Policy](https://unsplash.com/privacy)
+for more information.
 
-Widgets such as the Feed widget may fetch information directly from the
-specified URL.
+Widgets where you specify a URL, such as the Feed widget, may fetch information
+directly from the given URL.
 
 We do not share information with third-party services except where necessary to
 perform the extension's function, such as looking up locations and getting
@@ -75,7 +94,7 @@ By using this service, you give permission for the data to be moved as needed.
 ## Period of Retention
 
 The server uses log rotation, meaning that any logged HTTP requests will be
-forgotten about within a week.
+forgotten about within a few weeks.
 
 
 ## Future Changes to Privacy Policy
@@ -87,4 +106,8 @@ By continuing to use this service, you agree to the privacy policy.
 
 ## Removal Requests and Queries
 
-[Contact me](https://rubenwardy.com/contact/)
+Feel free to contact me if you have any questions.
+
+<a href="https://rubenwardy.com/contact/" class="button is-primary">
+	Contact Me
+</a>
