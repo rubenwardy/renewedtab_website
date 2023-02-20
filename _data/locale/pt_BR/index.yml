@@ -1,1 +1,37 @@
 description: Uma página nova guia personalizável, com widgets e belos planos de fundo
+help.issue_tracker: Rastreador de Problemas
+sfeatures.customisable.desc: mude o plano de fundo, o tema, e configure cada widget
+  independentemente.
+sfeatures.locale.desc: "suporta Francês, Espanhol, Italiano, Português, Malaio, e\
+  \ Turco. Traduções são\n<a   \n    href=\"https://renewedtab.com/translations/\"\
+  >mantidas pela comunidade</a>\npermitindo aos usuários a contribuir suporte para\
+  \ seu idioma."
+online: Experimentar online
+andmore: E mais...
+gallery: Galeria
+likeWhatYouSee: 'Gosta do que vê?<br>Dísponivel para:'
+features: Funções
+support: Suporte
+support_desc: Precisa de ajuda? Encontrou um bug, ou tem uma sugestão? Veja a página
+  <a href="https://renewedtab.com/help/">Ajuda e FAQ</a> para ver perguntas comuns
+  e como entrar em contato.
+widgets: Widgets
+nav.about: Sobre
+nav.gallery: Galeria
+nav.help: Ajuda / FAQ
+nav.get_involved: Involva-se
+nav.donate: Doar
+nav.blog: Blog
+gallery.focus.png: 'Foco: somente um rélogio e uma barra de pesquisa'
+sfeatures.powerful.desc: você pode adicionar, mover, mudar o tamanho, e configurar
+  widgets em uma grade usando controles intuitivos.
+sfeatures.backgrounds.desc: veja um plano de fundo escolhido aleatoriamente a cada
+  15 minutos. Você também pode escolher uma cor sólida, uma coleção do Unsplash, um
+  feed RSS/Atom, ou uma imagem de fundo customizada.
+gallery.screenshot.png: 'Uma variedade de widgets: As notícias, clima, e mais'
+gallery.sidebar_icons.png: 'Links de ícone: Links rápidos e favoritos'
+gallery.icons.png: Melhores sites / links de ícones
+help.contact_me: Me Contate
+help.github: GitHub (espelho)
+features.dnd.title: Arraste e Solte Widgets
+features.backgrounds.title: Belos Planos de fundo
