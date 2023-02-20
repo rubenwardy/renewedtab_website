@@ -1,6 +1,6 @@
 gallery.focus.png: 聚焦頁面：僅包含時鐘和搜尋框
 sfeatures.powerful.desc: 您可以直覺的在網格上添加、移動、調整和配置小工具。
-sfeatures.backgrounds.desc: 每 15 分鐘看到一個隨機精選的背景。您還可以選擇純色、Unsplash 收藏、RSS/Atom 來源或自定背景圖像。
+sfeatures.backgrounds.desc: 每 15 分鐘自動更新隨機精選的背景圖片。您還可以選擇純色、Unsplash 收藏、RSS/Atom 來源或自定背景圖片。
 sfeatures.locale.desc: "支援法語、西班牙語、意大利語、葡萄牙語、馬來語、土耳其語。\n翻譯由 <a href=\"https://renewedtab.com/translations/\"\
   >社區</a> 維護，\n允許人們為自己的語言做出貢獻。"
 features.backgrounds.title: 賞心悅目的背景
@@ -32,3 +32,16 @@ help.contact_me: 聯繫我
 features.dnd.title: 拖曳小工具
 gallery.screenshot.png: 各種小工具：新聞、天氣等
 gallery.icons.png: 常用網站 / 圖標連結
+features.locale.title: 支援多國語言
+features.backgrounds.desc: "精選的隨機背景圖片每 15 分鐘自動更新。\n\n您可以選擇單一顏色，\nUnsplash 的收藏，\nRSS/Atom\
+  \ 的來源，或者自定圖片作為背景。\n\n當滑鼠移至圖片來源時，將會隱藏小工具，\n也可以表達對圖片的喜好與否。\n"
+features.customisable.desc: "每個小工具都有功能和主題的設定。\n\n也有全域設定，允許您自訂主題，\n更改語言或選擇背景。\n"
+features.foss.desc: "任何人都可以檢視、修改程式碼，並對貢獻開發.\n\n使用 TypeScript 和 React 撰寫。\n\n<a href=\"\
+  https://gitlab.com/renewedtab/renewedtab\" class=\"button is-primary\">\n  <i class=\"\
+  fab fa-gitlab mr-2\"></i>\n  GitLab\n</a>\n<a href=\"https://github.com/rubenwardy/renewedtab\"\
+  \ class=\"button\">\n  <i class=\"fab fa-github mr-2\"></i>\n  GitHub（鏡像）\n</a>\n"
+features.rich.title: 豐富的小工具
+features.rich.desc: "一些小工具可以連結網際網路。例如，您可以瀏覽\nRSS/Atom feed，查看即將發射的太空活動，或檢查天氣。\n\n\
+  <a href=\"#widgets\" class=\"button is-primary\">小工具列表</a>\n"
+features.customisable.title: 可客製化
+features.foss.title: 免費且開放原始碼
