@@ -104,3 +104,104 @@ nav.blog: Blog
 support_desc: Besoin d'aide ? Vous avez trouvé un bug, ou vous avez une demande ?
   Allez sur <a href="https://renewedtab.com/help/">l'aide et la FAQ</a> pour voir
   des questions courantes et entrer en contact.
+help.top_questions: Questions fréquentes
+help.articles: Articles
+faq.bookmarks.title: Comment afficher la barre de signets seulement sur la page de
+  nouvel onglet ?
+help.back: Retourner à l'aide
+faq.blur.title: Comment activer le flou sur Firefox ?
+faq.blur.desc: "**Le flou devrait fonctionner par défaut sur Firefox 103. Vérifiez\
+  \ que votre\nnavigateur est à jour**\n\nIl peut être possible d'activer le flou\
+  \ sur les anciennes versions de Firefox en\nl'activant manuellement :\n\n1. Ouvrir\
+  \ un nouvel onglet et taper `about:config` dans la barre d'adresse.\n2. Accepter\
+  \ l'avertissement\n3. Activer `layout.css.backdrop-filter.enabled`.\n4. Fermer et\
+  \ relancer Firefox.\n"
+faq.bookmarks.desc: "Sur Chrome, il n'y a pas moyen d'afficher la barre de signets\
+  \ **par défaut**\nseulement sur la page de nouvel onglet. Cependant, Renewed Tab\
+  \ apporte sa propre barre\nde signets que vous pouvez activer dans Paramètres >\
+  \ Général > Barre de signets.\n\nSur Firefox, vous pouvez faire un clic droit à\
+  \ côté de la barre d'adresse > Barre de signets >\nAfficher seulement sur la page\
+  \ de nouvel onglet.\n\n![Afficher seulement sur la page de nouvel onglet](/static/images/help/firefox_bookmarks.png)\n"
+faq.widgets_outside_grid.title: Comment placer des widgets à l'extérieur de la grille
+  / en bas de l'écran ?
+faq.widgets_outside_grid.desc: "Renewed Tab requiert que tous les widgets soient placés\
+  \ sur la grille. C'est \ntrès bien pour l'expérience utilisateur, comme c'est simple,\
+  \ mais il devient difficile de faire certaines choses.\n\nPour qu'un widget apparaisse\
+  \ en bas d'écran, vous pouvez utiliser le widget\ninvisible pour ajouter de l'espace\
+  \ vertical entre les widgets.\n"
+faq.host_permission.title: Pourquoi l'extension demande de lire toutes les données
+  d'un site web ?
+faq.no_background.title: Pourquoi l'image d'arrière-plan n'apparaît pas ?
+faq.no_background.desc: "Des extensions comme DarkReader peuvent entrer en conflit\
+  \ avec l'image\nd'arrière-plan, vous pouvez donc le désactiver site par site.\n\n\
+  Alternativement, il peut s'agir d'un problème de connexion avec l'API\nRenewed Tab\
+  \ ou d'Unsplash, ou un problème de configuration.\n"
+faq.sync.title: Pourquoi ne prenez-vous pas en charge la synchronisation du navigateur ?
+faq.proxy.title: Pourquoi est-ce que j'obtiens une erreur lors de la saisie d'une
+  URL personnalisée dans la version Web ?
+faq.browser.desc: "Nous supportons seulement les 2 dernières versions de Chrome et\
+  \ Firefox ; il\nest dur de tester et d'apporter un support pour chaque navigateur.\n\
+  \nRenewed Tab est conçu en utilisant des technologies croisées, ce qui veut dire\
+  \ qu'il\ndevrait pouvoir fonctionner sur votre navigateur quoiqu'il ne soit pas\
+  \ supporté.\n\nVous pouvez télécharger des `.zips`de l'extension :\n\n1. Allez sur\
+  \ les [pipelines GitLab](https://gitlab.com/renewedtab/renewedtab/-/pipelines).\n\
+  2. Trouvez le commit qui vous intéresse. Typiquement, vous voulez un commit de version\n\
+  comme \"Release 1.2.3\".\n3. Cliquez sur le bouton télécharger (<i class=\"tag fas\
+  \ fa-ellipsis-v\"></i>) à droite de la ligne.\n4. Sélectionner \"Télécharges les\
+  \ artéfacts webext:archive\".\n\nSi vous avez un problème avec un navigateur non\
+  \ supporté, nous ne pouvons malheureusement\npas vous aider. Cependant, nous pouvons\
+  \ accepter des correctifs/demandes de fusion pour régler\ndes bugs sur des plateformes\
+  \ non supportées tant qu'il n'ajoute pas de problèmes d'architecture, et\nque le\
+  \ problème n'est pas dû à une mise en œuvre incorrecte des normes web par le navigateur.\n"
+faq.proxy.desc: "Si vous essayez d'entrer une URL personnalisée qui n'est pas autorisée\n\
+  dans la version Web, vous obtiendrez l'erreur suivante :\n\n> L'accès à l'hôte exemple.com\
+  \ n'est pas autorisé sur la version Web. Pour\n> Pour des raisons de sécurité, la\
+  \ version Web ne peut accéder qu'aux domaines pré-approuvés.\n> Envisagez d'utiliser\
+  \ l'extension Chrome/Firefox à la place.\n\nLa version Web utilise un proxy pour\
+  \ accéder aux URL, plutôt que de les contacter\ndirectement. C'est pour éviter les\
+  \ restrictions de\n[partage de ressources entre origines] (https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)\n\
+  (CORS) : les pages Web ne peuvent pas envoyer de requêtes à d'autres sites Web sans\
+  \ les\nautres sites Web donnant l'autorisation.\n\nLe proxy de la version Web limite\
+  \ les domaines que vous pouvez utiliser pour des\n[raisons de sécurité](https://owasp.org/www-community/attacks/Server_Side_Request_Forgery).\n\
+  Si un domaine était autorisé, les utilisateurs malveillants pourraient jouer avec\
+  \ les enregistrements DNS pour autoriser\naccéder aux services internes sur le serveur.\n\
+  \nVous pouvez demander qu'un site Web soit autorisé par le proxy. Cependant,\nvous\
+  \ devriez utiliser l'extension Chrome/Firefox à la place, car il n'a pas\ncette\
+  \ restriction\n\nRemarque : Si vous obtenez l'erreur lors de l'utilisation de l'extension\
+  \ de navigateur, il y a\nquelque chose de _faux_. Veuillez le signaler ci-dessous.\n"
+help.issue_tracker: Traqueur de bugs
+help.contact_me: Me contacter
+help.github: GitHub (miroir)
+faq.background_block.title: Pourquoi un arrière-plan que j'ai bloqué continue d'apparaître
+  ?
+faq.background_block.desc: "Le serveur d'API Renewed Tab a seulement 4 images disponibles\
+  \ à choisir à un\nmoment donné. Si vous avez bloqué beaucoup d'images, alors il\
+  \ est possible\nque vous ayez toutes les images disponibles bloquées - dans ce cas,\
+  \ la première\nimage va être utilisée.\n\nLa raison pour laquelle cela est fait\
+  \ est d'éviter de trop surcharger l'API Unsplash.\n"
+faq.sync.desc: "La synchronisation Chrome et Firefox est limitée à 8 Ko par clé. Il\
+  \ est courant pour les composants\ncomme les notes de dépasser cette limite, ce\
+  \ qui rend impossible la prise en charge de la synchronisation.\n\nVous pouvez utiliser\
+  \ Paramètres (<i class=\"fas fa-cog\"></i>) > Importer / Exporter pour partager\n\
+  votre configuration entre les navigateurs.\n"
+faq.browser.title: Pourquoi ne supportez-vous pas le navigateur X ?
+faq.custom_widgets.title: Comment puis-je ajouter un widget personnalisé ?
+faq.custom_widgets.desc: "Voir [Créer Vos Propres Widgets Personnalisés pour Renewed\
+  \ Tab](/blog/2022/07/24/custom-widgets/).\n"
+faq.contact.title: Comment vous contacter ?
+faq.contact.desc: "Créer un post sur le traqueur d'incident est le moyen préféré pour\
+  \ discuter\ndes bugs et demandes de fonctionnalité de Renewed Tab.\n\nSi vous avez\
+  \ besoin d'aide, vous pouvez utiliser chacune de ces options. Discord\nou Matrix\
+  \ sont généralement plus rapides.\n"
+faq.host_permission.desc: "Quelques widgets, comme Flux, requièrent d'acquérir des\
+  \ informations depuis une URL.\nLes navigateurs web ont tendance à avoir des systèmes\
+  \ de permission stricts, ce qui fait\nque l'extension a besoin de demander la permission\
+  \ pour faire certaines choses.\nContacter un site web est une de ces choses-là.\n\
+  \nPar exemple, pour charger le flux d'actualités depuis bbc.co.uk, l'extension a\
+  \ besoin\nd'avoir la permission d'accéder à bbc.co.uk.\n\nRenewed Tab ne lit aucune\
+  \ de vos données personnelles ou l'historique des sites\ndont vous avez accordé\
+  \ la permission d'accéder. Il fait juste une requête internet au\nsite web pour\
+  \ récupérer le contenu.\n\nMessages d'exemple :\n\n> \"Renewed Tab\" demande des\
+  \ permissions additionnelles.\\\\\n> Il peut:\n> - Lire et écrire des données sur\
+  \ feeds.bbci.co.uk\n\n> Renewed Tab demande des permissions additionnelles.\\\\\n\
+  > Il veut:\n> - Accéder à vos données pour feeds.bbci.co.uk\n"
