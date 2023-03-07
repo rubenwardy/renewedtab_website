@@ -63,11 +63,6 @@ means that my monetisation techniques are limited.
 
 I currently pay $25 per month for the Weather API, and $20 per month on hosting.
 
-<p>
-	<label for="costs_perc">$56 / $45 required to pay for my expenses</label>
-	<meter id="costs_perc" class="is-block mt-2 mb-0" value="56" min="0" max="45">$56 / $45</meter>
-</p>
-
 For a one-off donation, you can subscribe and cancel after one month.
 
 
