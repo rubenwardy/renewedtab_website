@@ -1,0 +1,93 @@
+---
+layout: article
+---
+
+{% assign pathsplit = page.path | split: '/' %}
+{% assign lang = pathsplit[0] %}
+{% assign l = site.data.locale[lang].index %}
+{% assign en = site.data.locale.en.index %}
+
+<h1>{{ l["nav.get_involved"] | default: en["nav.get_involved"] }}</h1>
+
+<h2>{{ l["get_involved.community"] | default: en["get_involved.community"] }}</h2>
+<p>
+	{{ l["get_involved.chat"] | default: en["get_involved.chat"] }}
+</p>
+
+<div class="buttons">
+	<a href="https://discord.gg/zYjR54b" class="button is-primary">
+		<i class="fab fa-discord mr-2"></i>
+		Discord
+	</a>
+	<a href="https://matrix.to/#/#renewedtab:matrix.org" class="button is-primary" >
+		<i class="fas fa-hashtag mr-2"></i>
+		Matrix
+	</a>
+</div>
+
+
+<h2>{{ l["get_involved.contributing"] | default: en["get_involved.contributing"] }}</h2>
+
+<ul>
+	<li>
+		<a href="https://gitlab.com/renewedtab/renewedtab/">{{ l["get_involved.contrib.dev"] | default: en["get_involved.contrib.dev"] }}</a>.
+	</li>
+	<li>
+		<a href="/translations/">{{ l["get_involved.contrib.trans"] | default: en["get_involved.contrib.trans"] }}</a>.
+	</li>
+	<li>
+		{{ l["get_involved.contrib.tell"] | default: en["get_involved.contrib.tell"] }}
+	</li>
+	<li>
+		{% assign text = l["get_involved.contrib.review"] | default: en["get_involved.contrib.review"] %}
+		{% assign ff = '<a href="' | append: site.firefox | append: '&utm_content=review">' %}
+		{% assign ch = '<a href="' | append: site.chrome | append: '&utm_content=review">' %}
+		{{ text | replace: "<a firefox>", ff | replace: "<a chrome>", ch }}
+	</li>
+</ul>
+
+<p>
+	{{ l["get_involved.patches"] | default: en["get_involved.patches"] }}
+</p>
+
+<div class="buttons">
+	<a href="/translations/" class="button is-primary">
+		<i class="fas fa-language mr-2"></i>
+		{{ l["get_involved.help_translate"] | default: en["get_involved.help_translate"] }}
+	</a>
+	<a href="https://gitlab.com/renewedtab/renewedtab" class="button is-primary">
+		<i class="fab fa-gitlab mr-2"></i>
+		GitLab
+	</a>
+	<a href="https://github.com/rubenwardy/renewedtab" class="button">
+		<i class="fab fa-github mr-2"></i>
+		{{ l["help.github"] | default: en["help.github"] }}
+	</a>
+</div>
+
+
+<h2>{{ l["nav.donate"] | default: en["nav.donate"] }}</h2>
+
+<p>
+	<strong>🧾 {{ l["donate.costs_1"] | default: en["donate.costs_1"] }}:</strong>
+	{{ l["donate.costs_2"] | default: en["donate.costs_2"] }}
+</p>
+
+<p>
+	<strong>☕ {{ l["donate.coffee_1"] | default: en["donate.coffee_1"] }}:</strong>
+	{{ l["donate.coffee_2"] | default: en["donate.coffee_2"] }}
+</p>
+<p>
+	{{ l["donate.one_off"] | default: en["donate.one_off"] }}
+</p>
+
+<div class="buttons">
+	<a href="https://www.patreon.com/rubenwardy/" class="button is-primary">
+		<i class="fab fa-patreon mr-2"></i>
+		Patreon
+	</a>
+	<a href="https://liberapay.com/rubenwardy" class="button is-primary">
+		<i class="fas fa-donate mr-2"></i>
+		Liberapay
+	</a>
+</div>

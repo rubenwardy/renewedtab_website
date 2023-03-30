@@ -291,3 +291,29 @@ faq.contact.desc: |
 
   If you need help, you can use any of these options. Discord or Matrix is likely
   to be the quickest.
+
+get_involved.community: Community
+get_involved.chat: You can chat with other Renewed Tab users using either Discord or Matrix.
+get_involved.contributing: Contributing
+get_involved.contrib.dev: Contribute a bug fix or a new feature
+get_involved.contrib.trans: Translate Renewed Tab into your language
+get_involved.contrib.tell: Tell your friends about Renewed Tab.
+get_involved.contrib.review: >-
+  Review Renewed Tab on the <a firefox>Firefox</a> and <a chrome>Chrome</a>
+  stores. I appreciate seeing reviews, and it helps inform potential new users.
+
+get_involved.patches: You can submit code or issues using GitLab, GitHub, email, or Discord/Matrix.
+get_involved.help_translate: Help Translate
+
+donate.costs_1: Cover my costs
+donate.costs_2: >-
+  Donating helps cover my costs, which includes $20 for server hosting and $25
+  for a weather API.
+
+donate.coffee_1: Say thanks with a coffee
+donate.coffee_2: >-
+  By donating you show me that you appreciate my work, and it encourages me to
+  spend more time to working on Renewed Tab. I spend a lot of time programming
+  in coffee shops, so donating helps fund my caffeine addiction.
+
+donate.one_off: For a one-off donation, you can subscribe and cancel after one month.
