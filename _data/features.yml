@@ -4,14 +4,14 @@
   image: /static/images/features/widgets.png
   image_link: /static/images/features/widgets.png
 
-- id: backgrounds
-  image: /static/images/gallery/focus.png
-
 - id: rich
   no_shadow: true
   no_ratio: true
   image: /static/images/features/rich_widgets.png
   image_link: /static/images/features/rich_widgets.png
+
+- id: backgrounds
+  image: /static/images/gallery/focus.png
 
 - id: customisable
   image: /static/images/features/settings.png

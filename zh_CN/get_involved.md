@@ -1,6 +1,8 @@
 ---
 title: 参与
 layout: article
+redirect_from:
+  - /zh_Hans/get_involved/
 ---
 
 
