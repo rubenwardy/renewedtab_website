@@ -260,3 +260,18 @@ sfeatures.locale.desc: "soporta francés, español, italiano, portugués, malayo
   \ por la comunidad</a>\nlo que permite a los usuarios contribuir al soporte de su\
   \ idioma."
 help.github: GitHub (réplica)
+get_involved.community: Comunidad
+get_involved.contributing: Contribuyendo
+get_involved.contrib.tell: Cuéntale a tus amigos acerca de Renewed Tab.
+get_involved.patches: Puede enviar código o reportar problemas usando GitLab, GitHub,
+  email, o Discord/Matrix.
+get_involved.help_translate: Ayude a traducir
+donate.one_off: Para una donación única, puede suscribirse y cancelar después de un
+  mes.
+get_involved.contrib.dev: Contribuya con una nueva función o corrigiendo un error
+get_involved.chat: Puede chatear con otros usuarios de Renewed Tab utilizando Discord
+  o Matrix.
+get_involved.contrib.trans: Traduzca Renewed Tab a su idioma
+get_involved.contrib.review: Puntue Renewed Tab en las tiendas de <a firefox>Firefox</a>
+  y <a chrome>Chrome</a>. Aprecio ver reseñas, y ayudan a informar posibles nuevos
+  usuarios.
