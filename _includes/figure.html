@@ -1,4 +1,4 @@
-<figure class="figure{% if include.float %} pull-{{ include.float }}{% endif %}">
+<figure class="figure{% if include.float %} pull-{{ include.float }}{% endif %} {{ include.class}}">
     {% if include.img.url %}
         {% assign figure_url = include.img.url %}
     {% else %}
