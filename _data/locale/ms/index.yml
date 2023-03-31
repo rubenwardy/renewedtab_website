@@ -199,3 +199,26 @@ faq.proxy.desc: "Jika anda cuba untuk memasukkan URL tersuai yang tidak dibenark
 help.issue_tracker: Penjejak Isu
 help.contact_me: Hubungi Saya
 help.github: GitHub (cermin)
+donate.coffee_2: Dengan menderma anda menunjukkan bahawa anda menghargai kerja saya,
+  dan ia menggalakkan saya meluangkan lebih banyak masa untuk mengerjakan Renewed
+  Tab. Saya menghabiskan banyak masa membuat pengaturcaraan di kedai kopi, jadi derma
+  anda bantu membiayai ketagihan kafein saya.
+get_involved.community: Komuniti
+get_involved.chat: Anda boleh bersembang dengan pengguna Renewed Tab yang lain menggunakan
+  Discord atau Matrix.
+get_involved.contributing: Menyumbang
+get_involved.contrib.dev: Sumbangkan pembaikan pepijat atau sifat baharu
+get_involved.contrib.trans: Terjemah Renewed Tab ke dalam bahasa anda
+get_involved.contrib.tell: Beritahu kawan-kawan anda mengenai Renewed Tab.
+get_involved.contrib.review: Beri penilaian bagi Renewed Tab di kedai <a firefox>Firefox</a>
+  dan <a chrome>Chrome</a>. Saya suka melihat penilaian, dan ia membantu memberikan
+  maklumat kepada mereka yang berpotensi menjadi pengguna baharu.
+get_involved.patches: Anda boleh menghantar kod atau isu menggunakan GitLab, GitHub,
+  e-mel, atau Discord/Matrix.
+get_involved.help_translate: Bantu Terjemah
+donate.costs_1: Tanggung kos saya
+donate.costs_2: Pendermaan membantu untuk menampung kos saya, yang meliputi $20 untuk
+  pengehosan pelayan dan $25 untuk API cuaca.
+donate.coffee_1: Ucap terima kasih dengan memberikan kopi
+donate.one_off: Untuk derma satu kali, anda boleh melanggan lalu membatalkannya selepas
+  satu bulan.
