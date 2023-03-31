@@ -53,7 +53,9 @@ layout: article
 </h2>
 <div>
 	{% for post in site.posts %}
-		{% include post_list_item.html post=post %}
+		{% unless post.show_in_help == false %}
+			{% include post_list_item.html post=post %}
+		{% endunless %}
 	{% endfor %}
 </div>
 

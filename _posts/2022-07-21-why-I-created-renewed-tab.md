@@ -1,6 +1,7 @@
 ---
 title: Why I created Renewed Tab
 layout: post
+show_in_help: false
 description: >-
   I created Renewed Tab last year to fulfil my personal needs, and have since
   expanded on it based on user feedback, focusing on rich widgets, a clean user
