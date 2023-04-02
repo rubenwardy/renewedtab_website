@@ -5,9 +5,8 @@ layout: post
 description: >-
   This article will tell you how you can add an Atom, RSS, or JSON feed to your
   Firefox / Chrome New Tab page using Renewed Tab.
+image: /static/blog/howto-feeds/cover.png
 images:
-  cover:
-    path: howto-feeds/cover.png
   unlock:
     path: howto-feeds/unlock.png
     caption: Edit mode button found on the bottom-right of the screen

@@ -7,9 +7,7 @@ description: >-
   expanded on it based on user feedback, focusing on rich widgets, a clean user
   experience, and customisation. In this article, I will explain what exactly
   led me to create a New Tab extension and what the design requirements were.
-images:
-  cover:
-    path: why-I-created/cover.png
+image: /static/blog/why-I-created/cover.png
 ---
 
 I created Renewed Tab last year to fulfil my personal needs, and have since

@@ -5,9 +5,8 @@ layout: post
 description: >-
   Renewed Tab allows you to create custom widgets with your own UI and code,
   isolated from the rest of the extension to improve user privacy.
+image: /static/blog/howto-custom/cover.png
 images:
-  cover:
-    path: howto-custom/cover.png
   edit_iframe:
     path: howto-custom/edit_iframe.png
     caption: The Edit Widget modal dialog

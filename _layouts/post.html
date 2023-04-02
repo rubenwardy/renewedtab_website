@@ -6,19 +6,8 @@ layout: default
 
 {% include navbar.html %}
 
-{% if page.images %}
-	{% assign thumbnail = page.images | first %}
-	{% if thumbnail[1] %}
-		{% assign thumbnail = thumbnail[1] %}
-	{% endif %}
-	{% if thumbnail.url %}
-		{% assign thumbnail_url = thumbnail.url %}
-	{% else %}
-		{% assign thumbnail_url = "/static/blog/" | append: thumbnail.path %}
-	{% endif %}
-	{% if thumbnail.full %}
-		{% assign thumbnail_url = thumbnail_url | replace: ".", "_full." %}
-	{% endif %}
+{% if page.image %}
+	{% assign thumbnail_url = page.image %}
 {% endif %}
 
 <main class="container">
@@ -55,7 +44,7 @@ layout: default
 		</script>
 
 		<header class="mb-5">
-			{% if thumbnail %}
+			{% if thumbnail_url %}
 				<div class="image is-16by9">
 					<img src="{{ thumbnail_url }}" loading="lazy"
 						alt="{{ thumbnail.caption }}" />

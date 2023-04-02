@@ -5,9 +5,8 @@ layout: post
 description: >-
   This article will explain how to import your feeds from Feedly or another
   newsfeed aggregator into Renewed Tab.
+image: /static/blog/howto-feeds/cover.png
 images:
-  cover:
-    path: howto-feeds/cover.png
   import:
     path: opml-feedly/import.png
     caption: Click the Import button and then choose the OPML file

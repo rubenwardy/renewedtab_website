@@ -52,16 +52,8 @@
 		{% endif %}
 	{% endif %}
 
-	{% if page.images %}
-		{% assign thumbnail = page.images | first %}
-		{% if thumbnail[1] %}
-		{% assign thumbnail = thumbnail[1] %}
-		{% endif %}
-		{% if thumbnail.url %}
-			{% assign thumbnail_url = thumbnail.url %}
-		{% else %}
-			{% assign thumbnail_url = "/static/blog/" | append: thumbnail.path | absolute_url %}
-		{% endif %}
+	{% if page.image %}
+		{% assign thumbnail_url = page.image | absolute_url %}
 		<meta name="og:image" content="{{ thumbnail_url }}" />
 		<meta name="twitter:image" content="{{ thumbnail_url }}" />
 	{% endif %}
