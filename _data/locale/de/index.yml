@@ -34,3 +34,5 @@ widgets.yearprogress: '<b>Jahresfortschritt</b>: Zeigt den Jahresfortschritt anh
 widgets.currencies: '<b>Währungen</b>: Anzeige von Wechsel- und Devisenkursen sowie
   Kryptowährungen.'
 widgets.spaceflight: <b>Weltraumstarts</b>
+online: Online Ausprobieren
+nav.about: Über
