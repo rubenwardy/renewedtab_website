@@ -1,5 +1,6 @@
 ---
 title: Privacy Policy
+description: The privacy policy for the Renewed Tab browser extension
 layout: article
 ---
 

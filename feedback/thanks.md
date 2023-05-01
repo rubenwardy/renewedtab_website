@@ -2,6 +2,7 @@
 title: Thanks for the feedback
 layout: article
 sitemap: false
+noindex: true
 ---
 
 # Thanks for the feedback

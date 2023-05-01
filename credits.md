@@ -1,5 +1,6 @@
 ---
 title: Credits
+description: Thanks to those who helped make Renewed Tab better
 layout: article
 languages:
   Türkçe:
