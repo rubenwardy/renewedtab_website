@@ -9,6 +9,8 @@ layout: article
 {% assign langSegment = "/" | append: lang | append: "/" %}
 
 
+<h1 class="is-sr-only">{{ l["nav.help"] | default: en["nav.help"] }}</h1>
+
 <div class="columns">
 	{% for link in site.data.help.links %}
 		{% assign title_id = "help.links." | append: link.id | append: ".title" %}
