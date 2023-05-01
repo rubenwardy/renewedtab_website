@@ -33,33 +33,30 @@
 	<meta name="og:title" content="{{ title }}">
 	<meta name="og:url" content="{{ page.url | absolute_url }}">
 	<meta name="og:site_name" content="Renewed Tab">
+	{% if page.image %}
+		{% assign thumbnail_url = page.image | absolute_url %}
+		<meta name="og:image" content="{{ thumbnail_url }}">
+		<meta name="twitter:image" content="{{ thumbnail_url }}">
+	{% endif %}
+	{% if page.description %}
+		<meta name="og:description" content="{{ page.description }}">
+		<meta name="description" content="{{ page.description }}">
+	{% endif %}
 
 	{% if site.data.locale[lang] %}
 		{% assign oldSegment = "/" | append: lang | append: "/" %}
-		{% for other in site.data.languages %}
-			{% assign newSegment = "/" | append: other.code | append: "/" %}
-
-			<link rel="alternate" hreflang="{{ other.code }}"
-				href="{{ page.url | replace: oldSegment, newSegment | absolute_url }}">
-		{% endfor %}
-
 		{% if page.url == oldSegment %}
 			{% assign description = site.data.locale[lang].index.description %}
 			<meta name="og:description" content="{{ description }}">
 			<meta name="description" content="{{ description }}">
 			<meta name="og:image" content="{{ '/static/images/gallery/screenshot.png' | absolute_url }}">
 		{% endif %}
-	{% endif %}
+		{% for other in site.data.languages %}
+			{% assign newSegment = "/" | append: other.code | append: "/" %}
 
-	{% if page.image %}
-		{% assign thumbnail_url = page.image | absolute_url %}
-		<meta name="og:image" content="{{ thumbnail_url }}">
-		<meta name="twitter:image" content="{{ thumbnail_url }}">
-	{% endif %}
-
-	{% if page.description %}
-		<meta name="og:description" content="{{ page.description }}">
-		<meta name="description" content="{{ page.description }}">
+			<link rel="alternate" hreflang="{{ other.code }}"
+				href="{{ page.url | replace: oldSegment, newSegment | absolute_url }}">
+		{% endfor %}
 	{% endif %}
 
 	{% if page.noindex %}
