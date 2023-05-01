@@ -1,4 +1,0 @@
----
-title: Bantuan
-layout: help
----
