@@ -3,12 +3,11 @@
 {% assign lang = pathsplit[0] %}
 {% assign l = site.data.locale[lang] %}
 {% assign en = site.data.locale.en.index %}
-{% if l %}
-	<html lang="{{ lang }}">
-{% else %}
-	<html>
+{% unless l %}
+	{% assign lang = "en" %}
 	{% assign l = site.data.locale.en %}
-{% endif %}
+{% endunless %}
+<html lang="{{ lang }}">
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">

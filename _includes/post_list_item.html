@@ -1,7 +1,7 @@
 {% assign post = include.post %}
 <a href="{{ post.url }}">
 	<div class="box mb-3">
-		<time class="is-pulled-right has-text-grey-light" itemprop="dateCreated" datetime="{{ post.date | date: '%F'}}">
+		<time class="is-pulled-right has-text-grey-light" datetime="{{ post.date | date: '%F'}}">
 			{{ post.date | date_to_long_string }}
 		</time>
 		<h4>{{ post.title }}</h4>

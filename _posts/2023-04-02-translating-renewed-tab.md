@@ -39,7 +39,7 @@ Tab using Weblate.
   Start translating on Weblate
 </a>
 <a href="https://weblate.rubenwardy.com/engage/renewed-tab/">
-  <img src="https://weblate.rubenwardy.com/widgets/renewed-tab/-/287x66-black.png" alt="Translation status" />
+  <img src="https://weblate.rubenwardy.com/widgets/renewed-tab/-/287x66-black.png" alt="Translation status">
 </a>
 
 

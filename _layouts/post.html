@@ -47,20 +47,20 @@ layout: default
 			{% if thumbnail_url %}
 				<div class="image is-16by9">
 					<img src="{{ thumbnail_url }}" loading="lazy"
-						alt="{{ thumbnail.caption }}" />
+						alt="{{ thumbnail.caption | default: page.title }}">
 				</div>
 			{% endif %}
 
 			<h1 class="mt-5 mb-2">{{ page.title }}</h1>
 
-			<time itemprop="dateCreated" datetime="{{ page.date | date: '%F'}}">
+			<time datetime="{{ page.date | date: '%F'}}">
 				<a href="{{ page.url }}">{{ page.date | date_to_long_string }}</a>
 			</time>
 
 			<span class="has-text-grey-light ml-3">
 				{% assign wordcount = page.content | number_of_words %}
 				{{ wordcount | divided_by: 238 }} min read
-				(<span itemprop="wordcount">{{ wordcount }}</span> words)
+				(<span>{{ wordcount }}</span> words)
 			</span>
 		</header>
 		{% if page.path contains "_drafts/" %}
