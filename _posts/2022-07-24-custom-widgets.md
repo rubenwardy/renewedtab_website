@@ -112,5 +112,6 @@ easy to add custom widgets to Renewed Tab. Users will be able to find plugins in
 the settings menu or add them by URL. Plugins will be able to add widgets to the
 "Add Widgets" menu.
 
-Make sure to share any creations you make on Twitter (#renewedtab), Discord, or
-Matrix. See [Get Involved](/get_involved).
+Make sure to share any creations you make on Mastodon (tag
+@rubenwardy@fosstodon.org), Discord, or Matrix. See
+[Get Involved](/get_involved).

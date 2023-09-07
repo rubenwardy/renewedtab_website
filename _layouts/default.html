@@ -36,7 +36,6 @@
 	{% if page.image %}
 		{% assign thumbnail_url = page.image | absolute_url %}
 		<meta name="og:image" content="{{ thumbnail_url }}">
-		<meta name="twitter:image" content="{{ thumbnail_url }}">
 	{% endif %}
 	{% if page.description %}
 		<meta name="og:description" content="{{ page.description }}">
