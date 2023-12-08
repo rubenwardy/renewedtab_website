@@ -1,4 +1,4 @@
-description: Einer frei gestaltbaren „Neuer Tab“ Seite, mit praktischen Widgets und
+description: Eine frei gestaltbare „Neuer Tab“ Seite, mit praktischen Widgets und
   faszinierenden Wallpapers
 title: Renewed Tab
 firefox: Firefox
@@ -36,3 +36,9 @@ widgets.currencies: '<b>Währungen</b>: Anzeige von Wechsel- und Devisenkursen s
 widgets.spaceflight: <b>Weltraumstarts</b>
 online: Online Ausprobieren
 nav.about: Über
+gallery: Galerie
+features: Funktionen
+nav.gallery: Galerie
+nav.help: Hilfe / FAQ
+nav.blog: Blog
+andmore: Und mehr...
