@@ -125,3 +125,21 @@ features.locale.desc: "Renewed Tab 支持 English, Français, Español, Deutsch,
   \ Русский, 汉语,\nPortuguês, Bahasa Melayu, and Türkçe.\n\n翻译由社区维护，\n欢迎你添加对你的语言的支持。\n\
   \n<a class=\"button is-primary\" href=\"https://renewedtab.com/translations/\">\n\
   \  <i class=\"fas fa-language mr-2\"></i>\n  帮助我们翻译\n</a>\n"
+description.help.faq: 与 Renewed Tab 浏览器扩展有关的常见问题的解答
+get_involved.community: 社区
+get_involved.chat: 您可以通过使用 Discord 或 Matrix 来与其他的 Renewed Tab 用户聊天。
+get_involved.contributing: 贡献
+get_involved.contrib.dev: 考虑提供错误修复或帮助开发新的功能
+get_involved.contrib.trans: 帮助我们将 Renewed Tab 翻译至您所使用的语言
+get_involved.contrib.tell: 与你的朋友分享 Renewed Tab。
+get_involved.patches: 您可以使用 GitLab、GitHub、电子邮件或者 Discord/Matrix 来提交代码或 issues。
+get_involved.help_translate: 参与翻译
+donate.costs_1: 帮助我支付账单
+donate.costs_2: 捐赠将帮助我支付账单，其中包括 20 美元的服务器托管费用和 25 美元的天气 API 费用。
+donate.coffee_1: 用一杯咖啡表示感谢
+donate.coffee_2: 通过捐赠，您向我表明对该工作的赞赏，这将鼓励我花费更多的时间工作在 Renewed Tab 上。 我花费了很多时间在咖啡店里进行编程，因此捐款可以帮助我缓解咖啡因瘾。
+donate.one_off: 您可以通过订阅并在一个月后取消来实现一次性的捐赠。
+get_involved.contrib.review: 访问 <a firefox>Firefox</a> 和 <a chrome>Chrome</a> 商店中的
+  Renewed Tab 页面。我很高兴看到新的评论，这将为潜在的新用户提供帮助。
+description.help: 获取与使用 Renewed Tab 浏览器扩展有关的帮助
+description.get_involved: 如何为 Renewed Tab 提供帮助并参与到社区中来
