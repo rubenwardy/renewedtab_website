@@ -11,7 +11,7 @@ nav.get_involved: Libatkan Diri
 nav.donate: Derma
 gallery.sidebar_icons.png: 'Pautan ikon: Tanda buku atau pautan pantas'
 gallery.icons.png: Tapak teratas / pautan ikon
-gallery.focus.png: 'Tumpu: hanya ada jam dan bar gelintar'
+gallery.focus.png: 'Tumpu: hanya ada jam dan bar carian'
 features.dnd.title: Widget Tarik dan Lepas
 features.backgrounds.title: Latar yang Permai
 features.rich.title: Widget yang Kaya
@@ -52,8 +52,7 @@ widgets.quotes: '<b>Petikan</b>: menunjukkan petikan rawak, dengan kategori.'
 widgets.clock: '<b>Jam</b>: tunjuk waktu semasa, pilih di antara format 12 jam dan
   24 jam.'
 widgets.age: '<b>Umur</b>: tunjuk umur semasa anda dengan terlampau tepat.'
-widgets.search: '<b>Gelintar</b>: bar gelintar, dengan sokongan untuk mengubah enjin
-  gelintar.'
+widgets.search: '<b>Cari</b>: bar carian, dengan sokongan untuk mengubah enjin carian.'
 help.links.tutorial.title: Langkah Bermula
 widgets.yearprogress: '<b>Kemajuan Tahun</b>: tunjuk kemajuan dalam tahun sebagai
   bar kemajuan.'
