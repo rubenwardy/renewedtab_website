@@ -35,3 +35,11 @@ help.contact_me: Me Contate
 help.github: GitHub (espelho)
 features.dnd.title: Arraste e Solte Widgets
 features.backgrounds.title: Belos Planos de fundo
+testimonials: Depoimentos
+features.dnd.desc: "A principal função do Renewed Tab é o sistema de widget.\nVocê\
+  \ pode adicionar, mover, redimensionar, e configurar os widgets em grade\nusando\
+  \ controles intuitivos.\n\nVocê pode colocar o mesmo widget várias vezes, com diferentes\
+  \ configurações.\n"
+firefox: Firefox
+chrome: Chrome
+title: Renewed Tab
