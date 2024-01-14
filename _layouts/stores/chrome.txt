@@ -7,9 +7,6 @@ encoding: utf-8
 {%- assign l = site.data.locale[lang] -%}
 {%- assign en = site.data.locale.en.index -%}
 
-{{ l.index.description | default: en.description }}
-
-
 ## {{ l.index.features | default: en.features }} ##
 
 {% for item in site.data.store.features -%}
