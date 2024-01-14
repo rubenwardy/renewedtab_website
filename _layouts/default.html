@@ -73,15 +73,31 @@
 			CC BY-SA 4.0
 		</p>
 		<p>
-			<a href="/privacy_policy/">Privacy Policy</a> |
-			<a href="/press/">Press Kit</a> |
+			<a href="/privacy_policy/">
+				{{ l.index['footer.privacy_policy'] | default: en['footer.privacy_policy'] }}
+			</a> |
+			<a href="/press/">
+				{{ l.index['footer.press_kit'] | default: en['footer.press_kit'] }}
+			</a> |
 			<a href="/get_involved/#donate">Donate</a> |
-			<a href="/credits/">Credits</a><br>
-			<a href="https://gitlab.com/renewedtab/renewedtab.com">Website source</a> |
-			<a href="https://gitlab.com/renewedtab/renewedtab">GitLab</a> |
-			<a href="https://github.com/rubenwardy/renewedtab">GitHub Mirror</a> |
-			<a href="https://discord.gg/zYjR54b">Discord</a> |
-			<a href="https://matrix.to/#/#renewedtab:matrix.org">Matrix</a>
+			<a href="/credits/">
+				{{ l.index['footer.credits'] | default: en['footer.credits'] }}
+			</a><br>
+			<a href="https://gitlab.com/renewedtab/renewedtab.com">
+				{{ l.index['footer.website_source'] | default: en['footer.website_source'] }}
+			</a> |
+			<a href="https://gitlab.com/renewedtab/renewedtab">
+				GitLab
+			</a> |
+			<a href="https://github.com/rubenwardy/renewedtab">
+				{{ l.index['help.github'] | default: en['help.github'] }}
+			</a> |
+			<a href="https://discord.gg/zYjR54b">
+				Discord
+			</a> |
+			<a href="https://matrix.to/#/#renewedtab:matrix.org">
+				Matrix
+			</a>
 		</p>
 	</footer>
 </body>
