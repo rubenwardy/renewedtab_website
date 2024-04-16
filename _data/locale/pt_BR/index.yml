@@ -2,10 +2,10 @@ description: Uma página nova guia personalizável, com widgets e belos planos d
 help.issue_tracker: Rastreador de Problemas
 sfeatures.customisable.desc: mude o plano de fundo, o tema, e configure cada widget
   independentemente.
-sfeatures.locale.desc: "suporta Francês, Espanhol, Italiano, Português, Malaio, e\
-  \ Turco. Traduções são\n<a   \n    href=\"https://renewedtab.com/translations/\"\
-  >mantidas pela comunidade</a>\npermitindo aos usuários a contribuir suporte para\
-  \ seu idioma."
+sfeatures.locale.desc: "suporta francês, espanhol, italiano, português, malaio e turco.\
+  \ As traduções são <a\n     href=\"https://renewedtab.com/translations/\">mantidas\
+  \ pela comunidade</a>\npermitindo que os usuários contribuam com suporte para seu\
+  \ idioma."
 online: Experimentar online
 andmore: E mais...
 gallery: Galeria
@@ -43,3 +43,179 @@ features.dnd.desc: "A principal função do Renewed Tab é o sistema de widget.\
 firefox: Firefox
 chrome: Chrome
 title: Renewed Tab
+footer.credits: Créditos
+widgets.clock: '<b>Relógio</b>: mostra a hora atual, escolha entre 12 e 24 horas.'
+footer.privacy_policy: Política de Privacidade
+widgets.quotes: '<b>Citações</b>: mostra uma citação aleatória, com categorias.'
+widgets.spaceflight: <b>Próximos voos espaciais</b>
+widgets.more: 'e mais: botões, imagens, HTML, e iframes.'
+help.links.faq.desc: Perguntas Frequentes
+help.links.get_involved.title: Participe
+help.links.faq.title: Problemas e Questões
+get_involved.contributing: Contribuindo
+get_involved.contrib.tell: Conte a seus amigos sobre o Renewed Tab.
+get_involved.help_translate: Ajude a Traduzir
+donate.costs_1: Cubra meus custos
+help.back: Voltar para ajuda
+help.top_questions: Principais Perguntas
+faq.contact.title: Como eu entro em contato?
+features.rich.title: Widgets Ricos
+features.customisable.title: Customizável
+features.foss.title: Gratuito e de código aberto
+features.privacy.title: Orientado para privacidade
+features.locale.title: Multilíngue
+features.locale.desc: "Renewed Tab suporta English, Français, Español, Deutsch, Italiano,\
+  \ Русский, 汉语,\nPortuguês, Bahasa Melayu, and Türkçe.\n\nTraduções são mantidas\
+  \ pela comunidade, permitindo você adicionar suporte ao seu\nidioma.\n\n<a class=\"\
+  button is-primary\" href=\"https://renewedtab.com/translations/\">\n  <i class=\"\
+  fas fa-language mr-2\"></i>\n  Ajude a traduzir\n</a>\n"
+widgets.bookmarks: '<b>Favoritos</b>: Mostre favoritos da barra de favoritos.'
+help.links.get_involved.desc: Converse com os desenvolvedores e outros usuários
+faq.host_permission.title: Por que a extensão solicita a leitura de todos os dados
+  de um site?
+features.customisable.desc: "Cada widget tem configurações para comportamento e tematização.\n\
+  \nHá também configurações globais, permitindo você customizar o tema,\nmudar o idioma,\
+  \ ou escolher um plano de fundo.\n"
+widgets.weather: <b>Clima</b>
+features.rich.desc: "Alguns widgets precisam de conexão com a internet. Por exemplo,\
+  \ você pode navegar\npor um feed RSS, ver próximos lançamentos espaciais, e checar\
+  \ o clima.\n\n<a href=\"#widgets\" class=\"button is-primary\">Lista de widgets</a>\n"
+features.foss.desc: "Qualquer um pode ler o código-fonte, modificá-lo, e contribuir\
+  \ com o desenvolvimento.\n\nEscrito usando TypeScript e React.\n\n<a href=\"https://gitlab.com/renewedtab/renewedtab\"\
+  \ class=\"button is-primary\">\n  <i class=\"fab fa-gitlab mr-2\"></i>\n  GitLab\n\
+  </a>\n<a href=\"https://github.com/rubenwardy/renewedtab\" class=\"button\">\n \
+  \ <i class=\"fab fa-github mr-2\"></i>\n  GitHub (mirror)\n</a>\n"
+widgets.feeds: '<b>RSS e Atom feeds</b>: Pode ser usado para ver as notícias ou seguir
+  um website.'
+widgets.age: '<b>Idade</b>: Mostra sua idade de uma forma muito precisa.'
+widgets.search: '<b>Pesquisa</b>: Uma barra de pesquisa, com suporte para a troca
+  de motor de busca.'
+help.articles: Artigos
+faq.blur.title: Como eu ativo o blur no Firefox?
+faq.bookmarks.title: Como eu mostro a barra de favoritos somente em uma nova guia?
+faq.widgets_outside_grid.title: Como eu posiciono widgets fora do grid / na parte
+  de baixo da tela?
+faq.browser.title: Por que não suporta o navegador X?
+faq.custom_widgets.title: Como eu adiciono widgets customizados?
+faq.custom_widgets.desc: "Veja [Criando seus próprios widgets customizados para o\
+  \ Renewed Tab](/blog/2022/07/24/custom-widgets/).\n"
+get_involved.community: Comunidade
+get_involved.chat: Você pode conversar com outros utilizadores do Renewed Tab utilizando
+  o Discord ou o Matrix.
+get_involved.contrib.trans: Traduza o Renewed Tab para o seu idioma
+donate.costs_2: Doar ajuda a cobrir meus custos, que inclui $20 para hospedagem de
+  servidor e $25 para uma API de clima.
+donate.coffee_1: Agradeça com um café
+help.links.tutorial.title: Primeiros passos
+help.links.tutorial.desc: Aprenda a configurar e usar o Renewed Tab
+widgets.yearprogress: '<b>Progresso do Ano</b>: mostra o progresso ao longo do ano
+  como uma barra de progresso.'
+widgets.currencies: '<b>Moedas</b>: mostra as taxas de câmbio, com suporte a moedas
+  forex e criptomoedas.'
+features.privacy.desc: "Nós solicitamos apenas permissões mínimas; outras\npermissões\
+  \ são opcionais e são solicitadas apenas quando necessárias. Todos os\nseus dados\
+  \ são armazenados em seu navegador, não em nossos servidores.\n\n<a class=\"button\
+  \ is-primary\" href=\"/privacy_policy/\">\n  Política de Privacidade\n</a>\n"
+widgets.webcomics: '<b>Web Comics</b>: mostra o quadrinho mais recente de um web comic.'
+faq.bookmarks.desc: "No Chrome, não há como mostrar apenas a barra de favoritos nativa\n\
+  na nova guia. No entanto, Renewed Tab fornece sua própria barra de favoritos que\n\
+  você pode ativar indo em Configurações > Geral > Barra de ferramentas. \n\nNo Firefox,\
+  \ você pode clicar com o botão direito na barra de endereços > Barra \nMostrar apenas\
+  \ em uma nova guia.\n\n![Mostrar apenas em uma nova guia](/static/images/help/firefox_bookmarks.png)\n"
+faq.no_background.desc: "Extensões como DarkReader podem conflitar com a imagem de\
+  \ plano de fundo, você pode\ndesativá-la por site.\n\nOu então, pode ser um problema\
+  \ de conexão com a API do Renewed Tab ou com o unsplash,\nou um problema de configuração.\n"
+faq.no_background.title: Por que a imagem de plano de fundo não está aparecendo?
+faq.sync.title: Por que você não oferece suporte à sincronização?
+widgets.todo: '<b>Lista de tarefas</b>: acompanhe as tarefas que você precisa fazer.'
+widgets.links: '<b>Links Rápidos</b>: mostrar links, com ícones e subtítulos opcionais.'
+widgets.topsites: '<b>Sites Frequentes</b>: mostra os seus sites mais frequentes.'
+widgets.dailygoals: '<b>Metas Diárias</b>: insira uma meta diária.'
+faq.background_block.title: Por que um plano de fundo que eu bloqueei ainda aparece?
+features.backgrounds.desc: "Veja um plano de fundo aleatório a cada 15 minutos.\n\n\
+  Você também pode escolher uma cor sólida,\numa coleção do Unsplash,\num feed RSS,ou\
+  \ uma imagem de plano de fundo customizada.\n\nVocê pode ocultar os widgets passando\
+  \ o mouse sobre os créditos,\ne também curtir e pular imagens.\n"
+widgets.greeting: '<b>Cumprimentos</b>: seja cumprimentado de acordo com a hora do
+  dia.'
+widgets.notes: '<b>Anotações</b>: faça anotações em uma área de texto de forma livre.'
+faq.blur.desc: "**O blur deve funcionar por padrão no Firefox 103. Certifique-se de\
+  \ que seu navegador está\natualizado**\n\nPode ser possível ativar o blur em versões\
+  \ mais antigas do Firefox, ativando-o\nmanualmente:\n\n1. Abra uma nova guia e digite\
+  \ `about:config` na barra de endereços.\n2. Aceite o aviso.\n3. Ative `layout.css.backdrop-filter.enabled`.\n\
+  4. Feche e abra novamente o Firefox.\n"
+faq.widgets_outside_grid.desc: "Renewed Tab exige que todos os widgets sejam colocados\
+  \ no grid. Isso é ótimo para\na experiência do usuário, pois é simples, mas torna\
+  \ mais difícil fazer certas coisas.\n\nPara fazer um widget parecer estar na parte\
+  \ inferior da tela, você pode usar o\nwidget Invisível para adicionar espaçamento\
+  \ vertical entre os widgets.\n"
+faq.background_block.desc: "O servidor da API do Renewed Tab tem apenas 4 imagens\
+  \ disponíveis para escolher por vez.\nSe você bloqueou muitas imagens, então é possível\
+  \ que acabe com\nque todas as imagens disponíveis sejam bloqueadas - se esse for\
+  \ o caso, a\nprimeira imagem será usada.\n\nIsso é feito para evitar que a API do\
+  \ Unsplash seja muito sobrecarregada.\n"
+description.help: Obtenha ajuda para usar o Renewed Tab
+footer.website_source: Código fonte do site
+footer.press_kit: Kit de imprensa
+get_involved.contrib.dev: Contribua para a correção de bugs ou uma nova feature
+get_involved.patches: Você pode enviar código ou issues usando o GitLab, GitHub, email,
+  ou Discord/Matrix.
+get_involved.contrib.review: Avalie o Renewed Tab na loja do <a firefox>Firefox</a>
+  e do<a chrome>Chrome</a>. Eu gosto de ver as avaliações e isso ajuda a informar
+  os possíveis novos usuários.
+faq.host_permission.desc: "Alguns widgets, como do Feed, exigem o carregamento de\
+  \ informações de uma URL.\nOs navegadores tendem a ter sistemas restritos de permissão,\
+  \ de modo que uma\nextensão de navegador precisa solicitar permissão para certas\
+  \ coisas.\nContactar um website é uma dessas coisas.\n\nPor exemplo, para carregar\
+  \ um feed de notícias de bbc.co.uk, a extensão precisa\nreceber permissão para acessar\
+  \ bbc.co.uk.\n\nRenewed Tab não lê nenhuma das suas informações pessoais ou histórico\n\
+  dos sites que você concede acesso. Ele apenas faz uma solicitação da web para carregar\n\
+  o conteúdo.\n\nExemplo de mensagens:\n\n> \"Renewed Tab\" solicitou permissões adicionais.\\\
+  \\\n> Ele pode:\n> - Ler e alterar seus dados em feeds.bbci.co.uk\n\n> Renewed Tab\
+  \ solicita permissões adicionais.\\\\\n> Ele deseja:\n> - Acessar seus dados para\
+  \ feeds.bbci.co.uk\n"
+description.help.faq: Perguntas frequentes sobre o Renewed Tab
+description.get_involved: Como apoiar o Renewed Tab e se envolver com a comunidade
+donate.coffee_2: Ao fazer uma doação, você mostra que aprecia meu trabalho e me incentiva
+  a dedicar mais tempo ao Renewed Tab. Passo muito tempo programando em cafeterias,
+  portanto, as doações ajudam a financiar meu vício em cafeína.
+donate.one_off: Para uma doação única, você pode assinar e cancelar após um mês.
+faq.sync.desc: "A sincronização do Chrome e do Firefox é limitada a 8 KB por chave.\
+  \ É comum que componentes como notas\nexceder esse limite, o que torna impraticável\
+  \ o suporte à sincronização.\n\nVocê pode usar Configurações (<i class=\"fas fa-cog\"\
+  ></i>) > Importar/Exportar para compartilhar\nsua configuração entre navegadores.\n"
+faq.browser.desc: "Oferecemos suporte apenas às 2 versões mais recentes do Firefox\
+  \ e do Chrome; é difícil testar\ne fornecer suporte para todos os navegadores.\n\
+  \nO Renewed Tab é construído usando tecnologias cross-platform, o que significa\
+  \ que é provável\nque funcionará no seu navegador, apesar de não ser oficialmente\
+  \ suportado.\n\nVocê pode baixar o arquivo .zip da extensão do navegador:\n\n1.\
+  \ Acesse [pipelines do GitLab](https://gitlab.com/renewedtab/renewedtab/-/pipelines).\n\
+  2. Encontre o commit no qual você está interessado. Normalmente, você deseja um\
+  \ commit de lançamento\n   como \"Versão 1.2.3\".\n3. Clique no botão de download\
+  \ (<i class=\"tag fas fa-ellipsis-v\"></i>) à direita do commit.\n4. Selecione \"\
+  Baixar artefato webext:archive\".\n\nSe você tiver um problema com um navegador\
+  \ não suportado, é improvável que sejamos\ncapaz de ajudar. No entanto, podemos\
+  \ aceitar patches/PRs para corrigir problemas em\nplataformas, desde que não introduza\
+  \ problemas arquitetônicos, e o\nproblema não se deva ao fato do navegador implementar\
+  \ incorretamente os padrões da web.\n"
+faq.proxy.title: Por que recebo um erro ao inserir um URL personalizada na versão
+  web?
+faq.proxy.desc: "Se você tentar inserir um URL personalizado que não é permitido na\
+  \ versão web, você\nreceberá o seguinte erro:\n\n> O acesso ao host example.com\
+  \ não é permitido na versão web. Por\n> motivos de segurança, a versão web só poderá\
+  \ acessar domínios pré-aprovados.\n> Considere usar a extensão Chrome/Firefox.\n\
+  \nA versão web usa um proxy para acessar URLs, em vez de contatá-los\ndiretamente.\
+  \ Isso é para contornar\n[Compartilhamento de recursos entre origens](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)\n\
+  (CORS): as páginas da web não podem fazer solicitações a outros sites sem o\noutro\
+  \ site dando permissão.\n\nO proxy da versão web restringe os domínios que você\
+  \ pode usar por\n[motivos de segurança](https://owasp.org/www-community/attacks/Server_Side_Request_Forgery).\n\
+  Se qualquer domínio fosse permitido, usuários mal-intencionados poderiam mexer nos\
+  \ registros DNS para permitir\no acesso a serviços internos no servidor.\n\nVocê\
+  \ pode solicitar que um site seja permitido pelo proxy. No entanto, você\ndeve usar\
+  \ a extensão Chrome/Firefox, pois ela não possui esta\nrestrição\n\nNota: Se você\
+  \ receber o erro ao usar a extensão do navegador, há algo\n_errado_. Por favor,\
+  \ reporte abaixo.\n"
+faq.contact.desc: "Fazer uma issue no Issue Tracker é a forma preferida de discutir\n\
+  Bugs do Renewed Tab e solicitar novas features.\n\nSe precisar de ajuda, você pode\
+  \ usar qualquer uma dessas opções. Discord ou Matrix é provável\nser o mais rápido\
+  \ para receber ajuda.\n"
