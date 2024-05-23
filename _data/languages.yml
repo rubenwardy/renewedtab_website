@@ -13,5 +13,8 @@
 - name: Bahasa Melayu
   code: ms
 
+- name: Português (do Brasil)
+  code: pt_BR
+
 - name: "汉语"
   code: zh_CN
