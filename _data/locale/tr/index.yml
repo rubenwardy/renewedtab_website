@@ -1,2 +1,32 @@
 description: Araçlar ve güzel arka planlar içeren, özelleştirilebilir bir Yeni Sekme
   sayfası
+nav.about: Hakkında
+nav.donate: Bağışta bulunun
+help.issue_tracker: Sorun Takibi
+help.contact_me: İletişime geçin
+help.github: GitHub (mirror)
+gallery.sidebar_icons.png: 'Simge bağlantıları: Hızlı bağlantılar veya yer imleri'
+gallery.focus.png: 'Odaklanın: yalnızca bir saat ve arama çubuğu'
+sfeatures.customisable.desc: arka planı, temayı değiştirin ve her widget'ı bağımsız
+  olarak yapılandırın.
+andmore: Daha fazla...
+widgets: Widget'lar
+gallery: Galeri
+features: Özellikler
+support: Destek
+chrome: Chrome
+nav.gallery: Galeri
+nav.help: Yardım / SSS
+nav.get_involved: Katılın
+nav.blog: Blog
+gallery.screenshot.png: "Çeşitli widget'lar: Haberler, hava durumu ve daha fazlası"
+sfeatures.powerful.desc: kontrolleri kullanarak bir ızgaraya widget ekleyebilir, taşıyabilir,
+  yeniden boyutlandırabilir ve yapılandırabilirsiniz.
+sfeatures.backgrounds.desc: her 15 dakikada bir rastgele seçilmiş bir arka plan görün.
+  Ayrıca düz bir renk, Unsplash koleksiyonu, RSS/Atom yayını veya özel bir arka plan
+  resmi de seçebilirsiniz.
+online: Çevrim içi dene
+firefox: Firefox
+support_desc: Yardıma mı ihtiyacınız var? Bir hata mı buldunuz veya bir isteğiniz
+  mi var? Şuna göz atın:<a href="https://renewedtab.com/help/"> Sık sorulan soruları
+  görmek ve iletişim kurmak için Yardım ve SSS</a> sayfasını ziyaret edin.
