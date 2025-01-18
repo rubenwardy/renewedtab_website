@@ -205,3 +205,35 @@ faq.host_permission.desc: "Quelques widgets, comme Flux, requièrent d'acquérir
   \ permissions additionnelles.\\\\\n> Il peut:\n> - Lire et écrire des données sur\
   \ feeds.bbci.co.uk\n\n> Renewed Tab demande des permissions additionnelles.\\\\\n\
   > Il veut:\n> - Accéder à vos données pour feeds.bbci.co.uk\n"
+description.help.faq: La Foire aux Questions à propos de l'extension de navigateur
+  Renewed Tab
+description.get_involved: Comment soutenir Renewed Tab et s'impliquer avec la communauté
+footer.press_kit: Kit de presse
+footer.credits: Crédits
+footer.website_source: Code source du site web
+get_involved.community: Communauté
+get_involved.chat: Vous pouvez discuter avec d'autres utilisateurs de Renewed Tab
+  en utilisant Discord ou Matrix.
+get_involved.contributing: Contribuer
+get_involved.contrib.dev: Contribuer à une correction de bug ou à une nouvelle fonctionnalité
+get_involved.contrib.trans: Traduire Renewed Tab dans votre langue
+get_involved.contrib.tell: Parler de Renewed Tab à vos amis.
+get_involved.patches: Vous pouvez soumettre du code ou des tickets sur GitLab, GitHub,
+  par courriel ou encore sur Discord ou Matrix.
+get_involved.help_translate: Aider à traduire
+donate.costs_1: Couvrir mes frais
+donate.costs_2: Les dons aident à couvrir mes frais, qui inclus 20 $ pour l'hébergement
+  du serveur et 25 $ pour l'API de météo.
+donate.coffee_1: Dire merci avec un café
+donate.one_off: Pour une donation ponctuelle, vous pouvez vous abonner et annuler
+  après un mois.
+get_involved.contrib.review: Donner un avis sur Renewed Tab dans les magasins d'extensions
+  de <a firefox>Firefox</a> et <a chrome>Chrome</a>. J'apprécie voir des avis, et
+  cela informer de potentiels nouveaux utilisateurs.
+donate.coffee_2: En donnant vous me montrez que vous appréciez mon travail, et cela
+  m'encourage à passer plus de temps à travailler sur Renewed Tab. Je passe beaucoup
+  du temps à programmer dans les cafétérias, donc faire un don m'aidera à financer
+  mon addiction au café.
+description.help: Obtenir de l'aide sur l'utilisation de l'extension de navigateur
+  Renewed Tab
+footer.privacy_policy: Politique de confidentialité
