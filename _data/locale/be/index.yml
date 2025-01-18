@@ -1,0 +1,121 @@
+firefox: Firefox
+chrome: Chrome
+andmore: І больш...
+widgets: Виджэты
+gallery: Галерэя
+testimonials: Водгуки
+features: Функцыі
+support: Падтрымка
+nav.about: Пра праект
+nav.gallery: Галерэя
+nav.help: Дапамога / Частыя пытанні
+nav.get_involved: Паўдзельнічаць
+nav.blog: Блог
+help.issue_tracker: Журнал праблем
+help.contact_me: Звязацца са мной
+gallery.focus.png: 'Фокус: толькі гадзіннік з полем для пошука'
+features.dnd.title: Віджэты Drag and Drop
+title: Renewed Tab
+description: Дапасавальная хатняя старонка з віджэтамі і прыгожымі шпалерамі
+online: Паспрабаваць
+likeWhatYouSee: 'Падабаецца?<br>Даступна для:'
+support_desc: Патрэбна дапамога? Знайшлі баг або ёсць ідэя? Паглядзіце старонку <a
+  href="https://renewedtab.com/help/">дапамогі й частых пытанняў</a>, каб праглядзець
+  частыя пытанні й звязацца з распрацоўшчыкамі.
+nav.donate: Ахвяраваць
+help.github: GitHub (адлюстраванне)
+gallery.screenshot.png: "Разнастайныя віджэты: навіны, надвор'е і болей"
+gallery.sidebar_icons.png: 'Спасылкі са значкамі: хуткія спасылкі або закладкі'
+gallery.icons.png: Частыя сайты / спасылкі са значкамі
+sfeatures.powerful.desc: вы можаце дадаваць, мяняць памер і наладжваць віджэты на
+  сетке з дапамогай зразумелага кіравання.
+sfeatures.backgrounds.desc: глядзіце на выпадковыя відарысы кожныя 15 хвілін. Вы таксама
+  можаце паставіць адзіны колер, калекцыю Unsplash, стужку RSS/Atom або уласны фонавы
+  відарыс.
+sfeatures.customisable.desc: Мяняйце фон, тэму, да асобна наладжвайце кожны віджэт.
+sfeatures.locale.desc: "падтрымлівае французскую, іспанскую, італьянскую, партугальскую,\
+  \ малайскую й турэцкую мовы. Пераклады <a\n    href=\"https://renewedtab.com/translations/\"\
+  >кіруюцца супольнасцю</a>\n, што дазваляе кожнаму паўдзельнічаць у праекце."
+features.dnd.desc: "У аснове Renewed Tab ляжыць сістэма віджэтаў.\nВы можаце дадаваць,\
+  \ мяняць памер і наладжваць віджэты на сетке з\nдапамогай зразумелага кіравання.\n\
+  \nВы можаце дадаць віджэт аднаго тыпа некалькі разоў з іншымі наладамі.\n"
+features.backgrounds.title: Прыгожыя шпалеры
+features.rich.title: Цудоўныя віджэты
+features.customisable.title: Дапасавальны
+features.backgrounds.desc: "Глядзіце выпадковы фон кожныя 15 хвілін.\n\nВы таксама\
+  \ можаце абраць адзіны колер,\nкалекцыю Unsplash,\nстужку RSS/Atom, або асабісты\
+  \ фонавы відарыс.\n\nВы можаце схаваць віджэты, накіраваўшы курсор мышы на аўтара,\n\
+  а таксама ўпадабаць або прапусціць відарысы.\n"
+features.rich.desc: "Некаторым віджэтам патрэбна злучэнне з Інтэрнэтам. Напрыклад,\
+  \ вы можаце праглядваць\nстужкі RSS/Atom, будучыя запускі ў космас і надвор'е.\n\
+  \n<a href=\"#widgets\" class=\"button is-primary\">Спіс віджэтаў</a>\n"
+features.customisable.desc: "Кожны віджэт мае налады паводзін і выгляду.\n\nТаксама\
+  \ ёсць глабальныя налады, дазваляючыя вам дапасаваць тэму,\nзмяніць мову, або абраць\
+  \ шпалеры.\n"
+features.foss.title: Вольнае, з адкрытым зыходным кодам
+features.locale.title: Шматмоўнае
+features.privacy.title: Арыентыраваны на прыватнасць
+widgets.feeds: <b>Стужкі RSS і Atom</b> дапамагаюць сачыць за навінамі або вэбсайтам.
+widgets.weather: <b>Надвор'е</b>
+widgets.todo: '<b>Спіс задач</b>: дазваляе вам сачыць за вашымі справамі.'
+features.foss.desc: "Хто хоча можа праглядзець код, змяніць яго, паўдзельнічаць у\
+  \ распрцоўке.\n\nНапісана на TypeScript і React.\n\n<a href=\"https://gitlab.com/renewedtab/renewedtab\"\
+  \ class=\"button is-primary\">\n  <i class=\"fab fa-gitlab mr-2\"></i>\n  GitLab\n\
+  </a>\n<a href=\"https://github.com/rubenwardy/renewedtab\" class=\"button\">\n \
+  \ <i class=\"fab fa-github mr-2\"></i>\n  GitHub (адлюстроўванне)\n</a>\n"
+features.locale.desc: "Renewed Tab падтрымлівае English, Français, Español, Deutsch,\
+  \ Italiano, Русский, 汉语,\nPortuguês, Bahasa Melayu і Türkçe.\n\nПераклады кіруюцца\
+  \ супольнасцю, што дазваляе вам дадаць сваю\nмову.\n\n<a class=\"button is-primary\"\
+  \ href=\"https://renewedtab.com/translations/\">\n  <i class=\"fas fa-language mr-2\"\
+  ></i>\n  Дапамагчы з перакладам\n</a>\n"
+features.privacy.desc: "Мы патрабуем толькі мінімальныя дазволы; іншыя\nнеабавязковыя,\
+  \ і запытваюцца толькі тады, калі патрэбна. Усі вашы\nдадзеныя захоўваюцца ў браўзеры,\
+  \ а не на нашых серверах.\n\n<a class=\"button is-primary\" href=\"/privacy_policy/\"\
+  >\n  Палітыка прыватнасці\n</a>\n"
+widgets.links: '<b>Хуткія спасылкі</b>: паказваюць спасылкі, з падтрымкай значкоў
+  і подпісаў.'
+widgets.topsites: '<b>Самыя частыя сайты</b>: паказвае сайты, на якія вы заходзіце
+  найбольш часта.'
+widgets.dailygoals: '<b>Штодзённыя мэты</b>: задайце мэту на дзень.'
+widgets.greeting: '<b>Вітанне</b>: атрымлівайце прывітанне ў залежнасці ад часу сутак.'
+widgets.clock: '<b>Гадзіннік</b>: паказвае час, можна выбраць: 12 або 24-гадзінны
+  фармат.'
+widgets.search: '<b>Пошук</b>: поле для пошука, з магчымасцю змяніць сістэму пошуку.'
+widgets.yearprogress: '<b>Штогодні прагрэс</b>: паказвае гадавы прагрэс як панэль
+  выканання.'
+widgets.spaceflight: <b>Наступныя палёты ў космас</b>
+widgets.more: 'і яшчэ: кнопкі, відарысы, HTML і iframes.'
+help.links.faq.title: Праблемы і пытанні
+help.links.faq.desc: Частыя пытанні
+help.links.get_involved.title: Паўдзельнічаць
+help.top_questions: Самыя частыя пытанні
+help.articles: Артыкулы
+help.back: Назад да дапамогі
+faq.blur.title: Як уключыць размыццё ў Firefox?
+faq.bookmarks.title: Што зрабіць, каб закладкі паказваліся толькі на новай укладцы?
+widgets.bookmarks: '<b>Закладкі</b>: паказвае закладкі з панэлі закладак.'
+widgets.quotes: '<b>Цытаты</b>: паказвае выпадковую цытату, з падтымкаю катэгорый.'
+widgets.notes: '<b>Нататкі</b>: запісвайце нататкі на вольнам поле.'
+widgets.age: '<b>Узрост</b>: занадта точна паказвае ваш узрост.'
+widgets.webcomics: '<b>Вэб-коміксы</b>: паказвае самы свежы вэб-комікс.'
+widgets.currencies: '<b>Валюты</b>: паказвае курсы валют, падтрымлівае іншакраінныя
+  валюты й крыптавалюты.'
+help.links.tutorial.title: Пачатак
+help.links.tutorial.desc: Узнайце, як наладзіць і выкарыстоўваць Renewed Tab
+help.links.get_involved.desc: Размаўляйце з распрацоўшчыкамі й іншымі карыстальнікамі
+faq.blur.desc: "**Размыццё павінна працаваць нармальна ў Firefox 103. Упэўніцеся,\
+  \ што\nваш браўзэр абноўлены.**\n\nУ старых версіях Firefox можна паспрабаваць уключыць\
+  \ размыццё\nўручную:\n\n1. Адкроўце новую ўкладку і напішыце `about:config` як адрас.\n\
+  2. Згадзіцеся з папярэджаннем.\n3. Уключыце `layout.css.backdrop-filter.enabled`.\n\
+  4. Закройце Firefox і адкройце яго зноў.\n"
+faq.bookmarks.desc: "У браўзэре Chrome няма магчымасці паказваць **убудаваную** панэль\n\
+  закладак толькі на галоўнай старонцы. Але ў Renewed Tab ёсць свая панэль закладак,\n\
+  якую можна ўключыць у наладах > Агульныя > Панэль закладак.\n\nУ браўзэре Firefox\
+  \ можна націснуць правую кнопку мышы побач з адрасным радком >\nBookmarks Toolbar\
+  \ > Only Show on New Tab.\n\n![Only show on new tab](/static/images/help/firefox_bookmarks.png)\n"
+faq.host_permission.title: Чаму пашырэнне запытвае доступ на чытанне ўсіх даных вэбсайтаў?
+faq.widgets_outside_grid.title: Як размяшчаць віджэты па-за полем / на нізе экрана?
+faq.widgets_outside_grid.desc: "У Renewed Tab усе віджэты павінны знахадзіцца на сетцы.\
+  \ Гэта добра для\nкарыстальніцкага вопыту, таму што гэта лёгка, але робіць цяжкімі\
+  \ некаторыя задачы.\n\nКаб віджэт быў на нізе экрана, можна скарыстацца\nнябачным\
+  \ віджэтам, каб стварыць ветыкальны інтэрвал паміж віджэтамі.\n"
