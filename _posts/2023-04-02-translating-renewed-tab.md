@@ -35,11 +35,11 @@ only speak English. The community can help by providing translations for Renewed
 Tab using Weblate.
 
 
-<a href="https://weblate.rubenwardy.com/engage/renewed-tab/" class="button is-primary is-large mr-3">
+<a href="https://hosted.weblate.org/engage/renewed-tab/" class="button is-primary is-large mr-3">
   Start translating on Weblate
 </a>
-<a href="https://weblate.rubenwardy.com/engage/renewed-tab/">
-  <img src="https://weblate.rubenwardy.com/widgets/renewed-tab/-/287x66-black.png" alt="Translation status">
+<a href="https://hosted.weblate.org/engage/renewed-tab/">
+  <img src="https://hosted.weblate.org/widgets/renewed-tab/-/287x66-black.png" alt="Translation status">
 </a>
 
 
@@ -47,7 +47,7 @@ Tab using Weblate.
 
 ### 1. Create an account (Optional but recommended)
 
-You first need to [create an account](https://weblate.rubenwardy.com/accounts/register/).
+You first need to [create an account](https://hosted.weblate.org/accounts/register/).
 
 Note that the email you use will be public in order to attribute you.
 
@@ -56,10 +56,10 @@ translations without one. To do that, just move to the next step.
 
 ### 2. Select your language
 
-Go to the [Renewed Tab project > Languages](https://weblate.rubenwardy.com/projects/renewed-tab/#languages)
+Go to the [Renewed Tab project > Languages](https://hosted.weblate.org/projects/renewed-tab/#languages)
 and then select your language.
 
-If your language is not present, you'll need to [create it](https://weblate.rubenwardy.com/new-lang/renewed-tab/renewed-tab/)
+If your language is not present, you'll need to [create it](https://hosted.weblate.org/new-lang/renewed-tab/renewed-tab/)
 (this requires an account).
 
 ### 3. Translate
