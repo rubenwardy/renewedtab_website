@@ -4,7 +4,7 @@ License: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 
 ## Translating
 
-Use [Weblate](https://hosted.weblate.org/projects/renewed-tab/website-and-browser-stores/)
+Use [Weblate](https://hosted.weblate.org/projects/renewed-tab/website/)
 
 ### Updating translations
 
