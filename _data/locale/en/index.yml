@@ -119,6 +119,10 @@ features.privacy.desc: |
     Privacy Policy
   </a>
 
+features.privacy.desc.store: |
+  We require only minimal permissions; other
+  permissions are optional and only requested when needed. All your
+  data is stored in your browser, not on our servers.
 
 widgets.feeds: "<b>RSS and Atom feeds</b>: can be used to see the news or follow a website."
 widgets.weather: "<b>Weather</b>"

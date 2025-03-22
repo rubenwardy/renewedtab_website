@@ -2,36 +2,38 @@
 encoding: utf-8
 ---
 
+{% capture newline %}
+{% endcapture %}
+{%- capture translations_link %}<a href="https://renewedtab.com/translations/">{% endcapture -%}
+{%- capture help_link -%}<a href="https://renewedtab.com/help/">{% endcapture -%}
 {%- assign pathsplit = page.path | split: '/' -%}
 {%- assign lang = pathsplit[0] -%}
 {%- assign l = site.data.locale[lang] -%}
 {%- assign en = site.data.locale.en.index -%}
 
-<b>{{ l.index.features | default: en.features }}</b>
-<ul>
-{%- for item in site.data.store.features -%}
-	{%- assign title = l.index[item.title] | default: en[item.title] -%}
-	{%- assign desc = l.index[item.desc] | default: en[item.desc] %}
-	<li>
-		<b>{{ title }}</b>: {{ desc }}
-	</li>
+**{{ l.index.features | default: en.features }}**
+{% for item in site.data.store.features -%}
+{%- assign title = l.index[item.title] | default: en[item.title] -%}
+{%- assign desc = l.index[item.desc] | default: en[item.desc]
+    | replace: newline, " " | replace: "  ", " " | replace: "  ", " " | replace: "  ", " "
+    | replace: translations_link, "[" | replace: "</a>", "](https://renewedtab.com/translations/)" %}
+- **{{ title }}**: {{ desc }}
 {%- endfor %}
-</ul>
 
+**{{ l.index.widgets | default: en.widgets }}**
 
-<b>{{ l.index.widgets | default: en.widgets }}</b>
-<ul>
-{%- for item in site.data.widgets -%}
-	{%- assign title_id = "widgets." | append: item -%}
-	{%- assign title = l.index[title_id] | default: en[title_id] %}
-	<li>
-		{{ title | safe }}
-	</li>
-{%- endfor %}
-</ul>
+{% for item in site.data.widgets -%}
+{%- assign title_id = "widgets." | append: item -%}
+{%- assign title = l.index[title_id] | default: en[title_id] | replace: newline, " " | replace: "  ", " " | replace: "  ", " " | replace: "  ", " " | replace: "<b>", "**" | replace: "</b>", "**" -%}
+- {{ title | safe }}
+{% endfor %}
+**{{ l.index['features.privacy.title'] }}**
 
-<b>{{ l.index['features.privacy.title'] }}</b>
-{{ l.index['features.privacy.desc'] }}
+{{ l.index['features.privacy.desc.store']
+    | replace: newline, " " | replace: "  ", " " | replace: "  ", " " | replace: "  ", " " }}
 
-<b>{{ l.index.support | default: en.support }}</b>
-{{ l.index.support_desc | default: en.support_desc }}
+**{{ l.index.support | default: en.support }}**
+
+{{ l.index.support_desc | default: en.support_desc
+    | replace: newline, " " | replace: "  ", " " | replace: "  ", " " | replace: "  ", " "
+    | replace: help_link, "[" | replace: "</a>", "](https://renewedtab.com/help/)" }}
