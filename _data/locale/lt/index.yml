@@ -1,45 +1,46 @@
 firefox: „Firefox“
 chrome: „Chrome“
-online: Išbandyti internetu
+online: Išbandyti internete
 andmore: Ir daugiau...
 widgets: Valdikliai
 gallery: Galerija
 testimonials: Atsiliepimai
 features: Funkcijos
-support: Palaikymas
+support: Pagalba
 nav.about: Apie
 nav.gallery: Galerija
 nav.help: Pagalba / DUK
 nav.get_involved: Įsitraukti
 nav.donate: Aukoti
 nav.blog: Tinklaraštis
-help.issue_tracker: Problemų sekėjas
+help.issue_tracker: Problemų sekyklė
 title: „Renewed Tab“
-gallery.sidebar_icons.png: 'Piktogramų nuorodos: sparčiosios nuorodos arba žymės.'
-gallery.icons.png: Populiariausios svetainės / piktogramos nuorodos.
-gallery.focus.png: 'Dėmesys: tik laikrodis ir paieškos juosta.'
-sfeatures.customisable.desc: keisk foną, temą ir konfigūruok kiekvieną valdiklį atskirai.
-sfeatures.locale.desc: "palaiko prancūzų, ispanų, italų, portugalų, malajų ir turkų\
-  \ kalbas. Vertimai yra <a\n    href=\"https://renewedtab.com/translations/\">prižiūrimi\
-  \ bendruomenės</a>,\ntodėl naudotojai gali prisidėti prie savo kalbos palaikymo."
+gallery.sidebar_icons.png: 'Piktogramų nuorodos: sparčiosios nuorodos arba žymės'
+gallery.icons.png: Populiariausios svetainės / piktogramos nuorodos
+gallery.focus.png: 'Susikaupimas: tik laikrodis ir paieškos juosta'
+sfeatures.customisable.desc: keiskite foną, temą ir konfigūruokite kiekvieną valdiklį
+  atskirai.
+sfeatures.locale.desc: "palaiko prancūzų, ispanų, italų, portugalų, malajų ir turkų
+  kalbas.\n    Vertimai yra <a href=\"https://renewedtab.com/translations/\">prižiūrimi
+  bendruomenės</a>,\ntodėl naudotojai gali prisidėti prie savo kalbos palaikymo."
 features.backgrounds.title: Gražūs fonai
-features.backgrounds.desc: "Matyk atsitiktinį kuruojamą foną kas 15 minučių.\n\nTaip\
-  \ pat gali pasirinkti vientisą spalvą,\n„Unsplash“ kolekciją,\nRSS/Atom kanalą arba\
-  \ pasirinktinį fono vaizdą.\n\nValdiklius gali paslėpti užvesdant pelės žymeklį\
-  \ ant padėkų,\ntaip pat pamėgti ir praleisti vaizdus.\n"
+features.backgrounds.desc: "Matykite atsitiktinį kuruojamą foną kas 15 minučių.\n\n
+  Taip pat galite pasirinkti vientisą spalvą,\n„Unsplash“ kolekciją,\nRSS / Atom kanalą
+  arba pasirinktinį fono vaizdą.\n\nValdiklius galite paslėpti užvesdami pelės žymeklį
+  ant padėkų,\ntaip pat pamėgti ir praleisti vaizdus.\n"
 features.rich.title: Reikšmingi valdikliai
 features.customisable.title: Tinkinimas
-features.dnd.title: Nutempti valdiklius
-features.customisable.desc: "Kiekvienas valdiklis turi elgsenos ir temų nustatymus.\n\
-  \nTaip pat yra visuotinių nustatymų, leidžiančių tinkinti temą,\nkeisti kalbą arba\
-  \ pasirinkti foną.\n"
+features.dnd.title: Nutempkite valdiklius
+features.customisable.desc: "Kiekvienas valdiklis turi elgsenos ir temų nustatymus.\n
+  \nTaip pat yra visuotinių nustatymų, leidžiančių tinkinti temą,\nkeisti kalbą arba
+  pasirinkti foną.\n"
 features.foss.title: Nemokamas ir atviro kodo
 features.locale.title: Daugiakalbis
 features.privacy.title: Orientuota į privatumą
-features.privacy.desc: "Mums reikia tik mažiausių leidimų. Kiti\nleidimai yra pasirinktiniai\
-  \ ir jų prašoma tik tada, kai reikia. Visi duomenys\nsaugomi naršyklėje, o ne mūsų\
-  \ serveriuose.\n\n<a class=\"button is-primary\" href=\"/privacy_policy/\">\n  Privatumo\
-  \ politika\n</a>\n"
+features.privacy.desc: "Mums reikia tik mažiausių leidimų. Kiti\nleidimai yra pasirinktiniai
+  ir jų prašoma tik tada, kai reikia. Visi duomenys\nsaugomi naršyklėje, o ne mūsų
+  serveriuose.\n\n<a class=\"button is-primary\" href=\"/privacy_policy/\">\n  Privatumo
+  politika\n</a>\n"
 widgets.feeds: '<b>RSS ir Atom kanalai</b>: gali būti naudojami naujienoms matyti
   arba svetainei sekti.'
 widgets.weather: <b>Orai</b>
@@ -72,25 +73,24 @@ help.back: Grįžti į pagalbą
 faq.bookmarks.title: Kaip rodyti žymių juostą tik Naujojo skirtuko puslapyje?
 faq.widgets_outside_grid.title: Kaip patalpinti valdiklius už tinklelio ribų / ekrano
   apačioje?
-faq.widgets_outside_grid.desc: "„Renewed Tab“ reikalauja, kad visi valdikliai būtų\
-  \ išdėstyti tinklelyje. Tai puikiai tinka\nnaudotojo potyriui, nes yra paprasta,\
-  \ bet dėl to sunkiau atlikti tam tikrus veiksmus.\n\nKad valdiklis atrodytų esantis\
-  \ ekrano apačioje, gali naudoti\nvaldiklį Nematomas, kad pridėtum vertikalų tarpą\
-  \ tarp valdiklių.\n"
+faq.widgets_outside_grid.desc: "„Renewed Tab“ reikalauja, kad visi valdikliai būtų
+  išdėstyti tinklelyje. Tai puikiai tinka\nnaudotojo potyriui, nes yra paprasta, bet
+  dėl to sunkiau atlikti tam tikrus veiksmus.\n\nKad valdiklis atrodytų esantis ekrano
+  apačioje, gali naudoti\nvaldiklį Nematomas, kad pridėtum vertikalų tarpą tarp valdiklių.\n"
 faq.host_permission.title: Kodėl plėtinys prašo skaityti visus svetainės duomenis?
 faq.background_block.title: Kodėl fonas, kurį užblokavau, vis dar rodomas?
-faq.background_block.desc: "„Renewed Tab“ API serveryje vienu metu galima rinktis\
-  \ tik iš 4 vaizdų.\nJei užblokavai daug vaizdų, gali būti, kad galiausiai bus\n\
-  užblokuoti visi galimi vaizdai. Tokiu atveju bus\nnaudojamas pirmasis vaizdas.\n\
-  \nTaip daroma dėl to, kad būtų išvengta per didelio „Unsplash“ API apribojimo.\n"
+faq.background_block.desc: "„Renewed Tab“ API serveryje vienu metu galima rinktis
+  tik iš 4 vaizdų.\nJei užblokavai daug vaizdų, gali būti, kad galiausiai bus\nužblokuoti
+  visi galimi vaizdai. Tokiu atveju bus\nnaudojamas pirmasis vaizdas.\n\nTaip daroma
+  dėl to, kad būtų išvengta per didelio „Unsplash“ API apribojimo.\n"
 faq.no_background.title: Kodėl nerodomas fono vaizdas?
-faq.no_background.desc: "Tokie plėtiniai kaip „DarkReader“ gali konfliktuoti su fono\
-  \ vaizdu. Gali\njį išjungti konkrečioje svetainėje.\n\nTaip pat tai gali būti ryšio\
-  \ su „Renewed Tab“ API arba „Unsplash“ problema\narba konfigūracijos problema.\n"
+faq.no_background.desc: "Tokie plėtiniai kaip „DarkReader“ gali konfliktuoti su fono
+  vaizdu. Gali\njį išjungti konkrečioje svetainėje.\n\nTaip pat tai gali būti ryšio
+  su „Renewed Tab“ API arba „Unsplash“ problema\narba konfigūracijos problema.\n"
 faq.sync.title: Kodėl nepalaikomas naršyklės sinchronizavimas?
 faq.browser.title: Kodėl nepalaikomas X naršyklės?
 description: Tinkinamas Naujojo skirtuko puslapis su valdikliais ir gražiais fonais.
-likeWhatYouSee: 'Patinka tai, ką matai?<br>Pasiekiama per:'
+likeWhatYouSee: 'Patinka tai, ką matote?<br>Pasiekiama per:'
 help.contact_me: Susisiekti su manimi
 footer.privacy_policy: Privatumo politika
 footer.credits: Padėkos
@@ -98,12 +98,12 @@ footer.website_source: Svetainės šaltinis
 footer.press_kit: Spaudos rinkinys
 faq.proxy.title: Kodėl įvedant pasirinktinį URL interneto versijoje gaunama klaida?
 faq.custom_widgets.title: Kaip pridėti pasirinktinius valdiklius?
-faq.custom_widgets.desc: "Žiūrėk [Kaip kurti savo pasirinktinius skirtuko „Renewed\
-  \ Tab“ valdiklius](/blog/2022/07/24/custom-widgets/).\n"
+faq.custom_widgets.desc: "Žiūrėk [Kaip kurti savo pasirinktinius skirtuko „Renewed
+  Tab“ valdiklius](/blog/2022/07/24/custom-widgets/).\n"
 faq.contact.title: Kaip galiu susisiekti?
-faq.contact.desc: "Norint aptarti „Renewed Tab“ riktas ir funkcijų prašymus, pageidautina\
-  \ pateikti\nproblemą Problemų sekime.\n\nJei reikia pagalbos, gali pasinaudoti bet\
-  \ kuria iš šių parinkčių. Tikėtina, kad\n„Discord“ arba „Matrix“ bus greičiausia.\n"
+faq.contact.desc: "Norint aptarti „Renewed Tab“ riktas ir funkcijų prašymus, pageidautina
+  pateikti\nproblemą Problemų sekime.\n\nJei reikia pagalbos, gali pasinaudoti bet
+  kuria iš šių parinkčių. Tikėtina, kad\n„Discord“ arba „Matrix“ bus greičiausia.\n"
 get_involved.community: Bendruomenė
 get_involved.chat: Su kitais „Renewed Tab“ naudotojais gali bendrauti naudojant „Discord“
   arba „Matrix“.
@@ -129,90 +129,90 @@ description.get_involved: Kaip palaikyti „Renewed Tab“ ir įsitraukti į ben
 description.help.faq: Dažniausiai užduodami klausimai apie naršyklės plėtinį „Renewed
   Tab“
 description.help: Gauk pagalbos, kaip naudoti naršyklės plėtinį „Renewed Tab“
-support_desc: Reikia pagalbos? Radai riktą, arba turi prašymą? Patikrink <a href="https://renewedtab.com/help/">Pagalba
-  ir DUK</a> puslapį, kad pamatytum dažniausiai užduodamus klausimus ir galėtum su
-  jais susisiekti.
+support_desc: Reikia pagalbos? Radote riktą, arba turite prašymą? Patikrinkite <a
+  href="https://renewedtab.com/help/">Pagalba ir DUK</a> puslapį, kad pamatytumėte
+  dažniausiai užduodamus klausimus ir galėtumėte susisiekti.
 help.github: „GitHub“ (dubliuojantis)
-gallery.screenshot.png: 'Įvairūs valdikliai: naujienos, orai ir dar daugiau.'
-sfeatures.powerful.desc: gali pridėti, perkelti, keisti dydį ir konfigūruoti valdiklius
+gallery.screenshot.png: 'Įvairūs valdikliai: naujienos, orai ir dar daugiau'
+sfeatures.powerful.desc: galite pridėti, perkelti, keisti dydį ir konfigūruoti valdiklius
   tinklelyje naudojant intuityvius valdymo elementus.
-sfeatures.backgrounds.desc: matyk atsitiktinį kuruojamą foną kas 15 minučių. Taip
-  pat gali pasirinkti vientisą spalvą, „Unsplash“ kolekciją, RSS/Atom kanalą arba
+sfeatures.backgrounds.desc: matykite atsitiktinį kuruojamą foną kas 15 minučių. Taip
+  pat galite pasirinkti vientisą spalvą, „Unsplash“ kolekciją, RSS / Atom kanalą arba
   pasirinktinį fono vaizdą.
-features.dnd.desc: "„Renewed Tab“ pagrindas – valdiklių sistema.\nGali pridėti, perkelti,\
-  \ keisti dydį ir konfigūruoti valdiklius tinklelyje naudojant intuityvius\nvaldymo\
-  \ elementus.\n\nTo paties tipo valdiklį gali patalpinti kelis kartus, naudojant\
-  \ skirtingus nustatymus.\n"
-features.rich.desc: "Kai kurie valdikliai yra prijungti prie interneto. Pavyzdžiui,\
-  \ gali naršyti\nRSS/Atom kanalus, matyti artėjančius kosminius paleidimus ir tikrinti\
-  \ orus.\n\n<a href=\"#widgets\" class=\"button is-primary\">Valdiklių sąrašas</a>\n"
-features.locale.desc: "„Renewed Tab“ palaiko anglų, prancūzų, ispanų, vokiečių, italų,\
-  \ rusų, kinų,\nportugalų, malajų ir turkų kalbas.\n\nVertimai yra prižiūrimi bendruomenės,\
-  \ todėl gali pridėti savo kalbos\npalaikymą.\n\n<a class=\"button is-primary\" href=\"\
+features.dnd.desc: "„Renewed Tab“ pagrindas – valdiklių sistema.\nGalite pridėti,
+  perkelti, keisti dydį ir konfigūruoti valdiklius tinklelyje naudojant intuityvius\n
+  valdymo elementus.\n\nTo paties tipo valdiklį galite patalpinti kelis kartus su
+  skirtingus nustatymus.\n"
+features.rich.desc: "Kai kurie valdikliai yra prijungti prie interneto. Pavyzdžiui,
+  gali naršyti\nRSS/Atom kanalus, matyti artėjančius kosminius paleidimus ir tikrinti
+  orus.\n\n<a href=\"#widgets\" class=\"button is-primary\">Valdiklių sąrašas</a>\n"
+features.locale.desc: "„Renewed Tab“ palaiko anglų, prancūzų, ispanų, vokiečių, italų,
+  rusų, kinų,\nportugalų, malajų ir turkų kalbas.\n\nVertimai yra prižiūrimi bendruomenės,
+  todėl gali pridėti savo kalbos\npalaikymą.\n\n<a class=\"button is-primary\" href=\"\
   https://renewedtab.com/translations/\">\n  <i class=\"fas fa-language mr-2\"></i>\n\
   \  Padėti versti\n</a>\n"
 widgets.links: '<b>Spartieji nuorodos</b>: rodyti nuorodas su pasirenkamomis piktogramomis
   ir paantraštėmis.'
 faq.blur.title: Kaip „Firefox“ naršyklėje įjungti suliejimą?
-faq.blur.desc: "**Pagal numatytuosius nustatymus „Firefox“ 103 naršyklėje turėtų veikti\
-  \ suliejimas. Įsitikink, kad tavo naršyklė yra\natnaujinta.**\n\nGali būti, kad\
-  \ senesnėse „Firefox“ versijose bus galima įjungti suliejimą\nrankiniu būdu:\n\n\
-  1. Atidaryk naują skirtuką ir įvesk adresą `about:config`.\n2. Sutik su įspėjimu.\n\
-  3. Įjunk `layout.css.backdrop-filter.enabled`.\n4. Uždaryk ir vėl atidaryk \"Firefox\"\
-  .\n"
-faq.bookmarks.desc: "„Chrome“ naršyklėje nėra būdo, kaip rodyti **įtaisytą** žymių\
-  \ juostą tik\nNaujojo skirtuko puslapyje. Tačiau „Renewed Tab“ suteikia savo žymių\
-  \ juostą, kurią\ngali įjungti eidant į Nustatymai > Bendra > Žymių juosta.\n\n„Firefox“\
-  \ naršyklėje gali dešiniuoju pelės klavišu spustelėti šalia adreso juostos > Žymių\
-  \ juosta >\nRodyti tik Naujame skirtuke.\n\n![Rodyti tik naujame skirtuke](/static/images/help/firefox_bookmarks.png)\n"
-faq.host_permission.desc: "Kai kuriems valdikliams, pavyzdžiui, Kanalas, reikia įkelti\
-  \ informaciją iš URL adreso.\nInterneto naršyklėse paprastai taikomos griežtos leidimų\
-  \ sistemos, todėl naršyklės\nplėtinys, norint atlikti tam tikrus veiksmus, turi\
-  \ prašyti leidimo.\nVienas iš tokių dalykų yra susisiekimas su svetaine.\n\nPavyzdžiui,\
-  \ norint įkelti naujienų kanalą iš bbc.co.uk, plėtiniui turi būti\nsuteiktas leidimas\
-  \ pasiekti bbc.co.uk.\n\n„Renewed Tab“ neskaito jokios asmeninės informacijos ar\
-  \ istorijos apie svetaines,\nkurioms suteikei prieigą. Jis tik pateikia užklausą\
-  \ svetainei, kad ši įkeltų\nturinį.\n\nPranešimų pavyzdžiai:\n\n> „Renewed Tab“\
-  \ paprašė papildomų leidimų.\\\\\".\n> Jis gali:\n> - skaityti ir keisti duomenis\
-  \ svetainėje feeds.bbci.co.uk\n\n> „Renewed Tab“ prašo papildomų leidimų.\\\\\n\
-  > Jis nori:\n> - pasiekti duomenis svetainėje feeds.bbci.co.uk.\n"
-faq.sync.desc: "„Chrome“ ir „Firefox“ sinchronizacija ribojama iki 8 KB vienam raktui.\
-  \ Dažnai pasitaiko, kad tokie komponentai kaip užrašai\nviršija šią ribą, todėl\
-  \ sinchronizavimo palaikymas yra nepraktiškas.\n\nNorint bendrinti sąranką tarp\
-  \ naršyklių, gali naudoti\nNustatymai (<i class=\"fas fa-cog\"></i>) > Importuoti\
-  \ / eksportuoti.\n"
+faq.blur.desc: "**Pagal numatytuosius nustatymus „Firefox“ 103 naršyklėje turėtų veikti
+  suliejimas. Įsitikink, kad tavo naršyklė yra\natnaujinta.**\n\nGali būti, kad senesnėse
+  „Firefox“ versijose bus galima įjungti suliejimą\nrankiniu būdu:\n\n1. Atidaryk
+  naują skirtuką ir įvesk adresą `about:config`.\n2. Sutik su įspėjimu.\n3. Įjunk
+  `layout.css.backdrop-filter.enabled`.\n4. Uždaryk ir vėl atidaryk \"Firefox\".\n"
+faq.bookmarks.desc: "„Chrome“ naršyklėje nėra būdo, kaip rodyti **įtaisytą** žymių
+  juostą tik\nNaujojo skirtuko puslapyje. Tačiau „Renewed Tab“ suteikia savo žymių
+  juostą, kurią\ngali įjungti eidant į Nustatymai > Bendra > Žymių juosta.\n\n„Firefox“
+  naršyklėje gali dešiniuoju pelės klavišu spustelėti šalia adreso juostos > Žymių
+  juosta >\nRodyti tik Naujame skirtuke.\n\n![Rodyti tik naujame skirtuke](/static/images/help/firefox_bookmarks.png)\n"
+faq.host_permission.desc: "Kai kuriems valdikliams, pavyzdžiui, Kanalas, reikia įkelti
+  informaciją iš URL adreso.\nInterneto naršyklėse paprastai taikomos griežtos leidimų
+  sistemos, todėl naršyklės\nplėtinys, norint atlikti tam tikrus veiksmus, turi prašyti
+  leidimo.\nVienas iš tokių dalykų yra susisiekimas su svetaine.\n\nPavyzdžiui, norint
+  įkelti naujienų kanalą iš bbc.co.uk, plėtiniui turi būti\nsuteiktas leidimas pasiekti
+  bbc.co.uk.\n\n„Renewed Tab“ neskaito jokios asmeninės informacijos ar istorijos
+  apie svetaines,\nkurioms suteikei prieigą. Jis tik pateikia užklausą svetainei,
+  kad ši įkeltų\nturinį.\n\nPranešimų pavyzdžiai:\n\n> „Renewed Tab“ paprašė papildomų
+  leidimų.\\\\\".\n> Jis gali:\n> - skaityti ir keisti duomenis svetainėje feeds.bbci.co.uk\n
+  \n> „Renewed Tab“ prašo papildomų leidimų.\\\\\n> Jis nori:\n> - pasiekti duomenis
+  svetainėje feeds.bbci.co.uk.\n"
+faq.sync.desc: "„Chrome“ ir „Firefox“ sinchronizacija ribojama iki 8 KB vienam raktui.
+  Dažnai pasitaiko, kad tokie komponentai kaip užrašai\nviršija šią ribą, todėl sinchronizavimo
+  palaikymas yra nepraktiškas.\n\nNorint bendrinti sąranką tarp naršyklių, gali naudoti\n
+  Nustatymai (<i class=\"fas fa-cog\"></i>) > Importuoti / eksportuoti.\n"
 get_involved.help_translate: Padėti versti
-faq.browser.desc: "Palaikome tik 2 naujausias „Firefox“ ir „Chrome“ versijas. Sunku\
-  \ išbandyti\nir palaikyti visas naršykles.\n\n„Renewed Tab“ sukurta naudojant įvairioms\
-  \ platformoms skirtas technologijas, todėl tikėtina,\nkad ji veiks tavo naršyklėje,\
-  \ nors ji ir nėra palaikoma.\n\nGali atsisiųsti naršyklės plėtinį .zip failus:\n\
-  \n1. Eik į „GitLab pipelines“.\n2. Rask dominančią įsipareigojimą. Paprastai tau\
-  \ reikia leidimo įsipareigojimo,\npavyzdžiui, „Release 1.2.3“.\n3. Spustelėk eilutės\
-  \ dešinėje esantį atsisiuntimo mygtuką (<i class=\"tag fas fa-ellipsis-v\"></i>).\n\
-  4. Pasirink „Download webext:archive artifact“.\n\nJei turi problemų su nepalaikoma\
-  \ naršykle, greičiausiai\nnegalėsime padėti. Tačiau galime priimti pataisas / PR\
-  \ prašymus, kad išspręstume problemas nepalaikomose\nplatformose, jei dėl to nekyla\
-  \ architektūrinių problemų ir\nproblema nekyla dėl to, kad naršyklė neteisingai\
-  \ įgyvendina žiniatinklio standartus.\n"
-faq.proxy.desc: "Jei bandysi įvesti pasirinktinį URL adresą, kurio neleidžiama įvesti\
-  \ interneto versijoje,\ngausi šią klaidą:\n\n> Prieiga prie serverio pavyzdys.lt\
-  \ neleidžiama interneto versijoje. Saugumo\n> sumetimais interneto versija gali\
-  \ pasiekti tik iš anksto patvirtintus domenus.\n> Apsvarstyk galimybę vietoj to\
-  \ naudoti „Chrome“ / „Firefox“ plėtinį.\n\nInterneto versija naudoja tarpinį serverį,\
-  \ kad pasiektų URL adresus, o ne kreipiasi į juos\ntiesiogiai. Taip siekiama apeiti\n\
-  [„Cross Origin Resource Sharing“](https://owasp.org/www-community/attacks/Server_Side_Request_Forgery)\n\
-  (CORS) apribojimus: tinklalapiai negali teikti užklausų kitoms svetainėms, jei\n\
-  kita svetainė nesuteikia leidimo.\n\nInterneto versijos tarpinis serveris [saugumo\
-  \ sumetimais](https://owasp.org/www-community/attacks/Server_Side_Request_Forgery)\
-  \ apriboja domenus,\nkuriuos gali naudoti.\nJei būtų leidžiama naudoti bet kurį\
-  \ domeną, piktavaliai naudotojai galėtų sukeisti DNS įrašus, kad\nbūtų galima pasiekti\
-  \ serverio vidines paslaugas.\n\nGali paprašyti, kad tarpinis serveris leistų tam\
-  \ tikrą svetainę. Tačiau vietoj to\nturėtum naudoti „Chrome“ / „Firefox““ plėtinį,\
-  \ nes jam šis apribojimas\nnetaikomas.\n\nPastaba: jei klaida gaunama naudojant\
-  \ naršyklės plėtinį, vadinasi, kažkas\n_ne taip_. Apie tai pranešk toliau nurodytu\
-  \ būdu.\n"
-features.foss.desc: "Kiekvienas gali skaityti kodą, jį keisti ir prisidėti prie kūrimo.\n\
+faq.browser.desc: "Palaikome tik 2 naujausias „Firefox“ ir „Chrome“ versijas. Sunku
+  išbandyti\nir palaikyti visas naršykles.\n\n„Renewed Tab“ sukurta naudojant įvairioms
+  platformoms skirtas technologijas, todėl tikėtina,\nkad ji veiks tavo naršyklėje,
+  nors ji ir nėra palaikoma.\n\nGali atsisiųsti naršyklės plėtinį .zip failus:\n\n
+  1. Eik į „GitLab pipelines“.\n2. Rask dominančią įsipareigojimą. Paprastai tau reikia
+  leidimo įsipareigojimo,\npavyzdžiui, „Release 1.2.3“.\n3. Spustelėk eilutės dešinėje
+  esantį atsisiuntimo mygtuką (<i class=\"tag fas fa-ellipsis-v\"></i>).\n4. Pasirink
+  „Download webext:archive artifact“.\n\nJei turi problemų su nepalaikoma naršykle,
+  greičiausiai\nnegalėsime padėti. Tačiau galime priimti pataisas / PR prašymus, kad
+  išspręstume problemas nepalaikomose\nplatformose, jei dėl to nekyla architektūrinių
+  problemų ir\nproblema nekyla dėl to, kad naršyklė neteisingai įgyvendina žiniatinklio
+  standartus.\n"
+faq.proxy.desc: "Jei bandysi įvesti pasirinktinį URL adresą, kurio neleidžiama įvesti
+  interneto versijoje,\ngausi šią klaidą:\n\n> Prieiga prie serverio pavyzdys.lt neleidžiama
+  interneto versijoje. Saugumo\n> sumetimais interneto versija gali pasiekti tik iš
+  anksto patvirtintus domenus.\n> Apsvarstyk galimybę vietoj to naudoti „Chrome“ /
+  „Firefox“ plėtinį.\n\nInterneto versija naudoja tarpinį serverį, kad pasiektų URL
+  adresus, o ne kreipiasi į juos\ntiesiogiai. Taip siekiama apeiti\n[„Cross Origin
+  Resource Sharing“](https://owasp.org/www-community/attacks/Server_Side_Request_Forgery)\n
+  (CORS) apribojimus: tinklalapiai negali teikti užklausų kitoms svetainėms, jei\n
+  kita svetainė nesuteikia leidimo.\n\nInterneto versijos tarpinis serveris [saugumo
+  sumetimais](https://owasp.org/www-community/attacks/Server_Side_Request_Forgery)
+  apriboja domenus,\nkuriuos gali naudoti.\nJei būtų leidžiama naudoti bet kurį domeną,
+  piktavaliai naudotojai galėtų sukeisti DNS įrašus, kad\nbūtų galima pasiekti serverio
+  vidines paslaugas.\n\nGali paprašyti, kad tarpinis serveris leistų tam tikrą svetainę.
+  Tačiau vietoj to\nturėtum naudoti „Chrome“ / „Firefox““ plėtinį, nes jam šis apribojimas\n
+  netaikomas.\n\nPastaba: jei klaida gaunama naudojant naršyklės plėtinį, vadinasi,
+  kažkas\n_ne taip_. Apie tai pranešk toliau nurodytu būdu.\n"
+features.foss.desc: "Kiekvienas gali skaityti kodą, jį keisti ir prisidėti prie kūrimo.\n
   \nParašyta naudojant „TypeScript“ ir „React“.\n\n<a href=\"https://gitlab.com/renewedtab/renewedtab\"\
-  \ class=\"button is-primary\">\n  <i class=\"fab fa-gitlab mr-2\"></i>\n  „GitLab“\n\
+  \ class=\"button is-primary\">\n  <i class=\"fab fa-gitlab mr-2\"></i>\n  „GitLab“\n
   </a>\n<a href=\"https://github.com/rubenwardy/renewedtab\" class=\"button\">\n \
   \ <i class=\"fab fa-github mr-2\"></i>\n  „GitHub“ (dubliuojantis)\n</a>\n"
+features.privacy.desc.store: "Reikalaujame tik minimalių leidimų. Kiti\nleidimai yra
+  pasirinktiniai ir jų prašoma, kai reikia. Visi jūsų\nduomenys saugomi naršyklėje,
+  o ne mūsų serveriuose.\n"
