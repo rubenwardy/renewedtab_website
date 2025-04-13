@@ -311,10 +311,10 @@ get_involved.help_translate: Help Translate
 
 donate.costs_1: Cover my costs
 donate.costs_2: >-
-  Donating helps cover my costs, which includes $20 for server hosting and $25
+  Donating helps cover my costs, which includes $20 for server hosting and $45
   for a weather API.
 
-donate.coffee_1: Say thanks with a coffee
+donate.coffee_1: Say thanks
 donate.coffee_2: >-
   By donating you show me that you appreciate my work, and it encourages me to
   spend more time to working on Renewed Tab. I spend a lot of time programming
