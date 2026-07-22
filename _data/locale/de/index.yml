@@ -1,13 +1,13 @@
-description: Eine frei gestaltbare „Neuer Tab“ Seite, mit praktischen Widgets und
-  faszinierenden Wallpapers
+description: Eine frei gestaltbare „Neuer Tab“ Seite, mit praktischen Widgets 
+  und faszinierenden Wallpapers
 title: Renewed Tab
 firefox: Firefox
 chrome: Chrome
 widgets: Widgets
 support: Support
 nav.donate: Spenden
-sfeatures.powerful.desc: Sie können Widgets innerhalb des Gitternetzes hinzufügen,
-  bewegen, konfigurieren und ihre Größe anpassen.
+sfeatures.powerful.desc: Sie können Widgets innerhalb des Gitternetzes 
+  hinzufügen, bewegen, konfigurieren und ihre Größe anpassen.
 features.dnd.title: Widgets ziehen und ablegen
 widgets.feeds: '<b>RSS and Atom Nachrichten</b>: Kann für das lesen von Nachrichten
   oder das folgen von Webseiten genutzt werden.'
@@ -42,3 +42,28 @@ nav.gallery: Galerie
 nav.help: Hilfe / FAQ
 nav.blog: Blog
 andmore: Und mehr...
+support_desc: Brauchen Sie hilfe? Haben Sie einen Bug gefunden oder haben Sie 
+  eine Anfrage? Gehen Sie zu<a href="https://renewedtab.com/help/"> Hilfe und 
+  FAQ</a>Seite um häufige Fragen zu sehen und um in Kontakt zu kommen.
+nav.get_involved: Werde involviert
+help.issue_tracker: Problemverfolgung
+help.contact_me: Kontaktiere mich
+help.github: GitHub (Spiegel/ "mirror")
+gallery.screenshot.png: 'Eine Vielfalt von Widgets: Die News, das Wetter, und mehr'
+gallery.sidebar_icons.png: 'Icon links: Schnelle links oder Lesezeichen'
+gallery.icons.png: Top websiten / icon links
+gallery.focus.png: 'Fokus: nur eine Uhr und eine Suchleiste'
+sfeatures.backgrounds.desc: Sehe ein zufälliges Hintergrundbild alle 15 Minuten.
+  Sie können auch eine solide Farbe, eine Unsplash Kollektion, eine RSS/Atom 
+  feed, oder laden Sie ihr eigenes Hintergrundbild hoch.
+sfeatures.customisable.desc: Wechseln Sie Ihr Hintergrundbild, das Thema, und 
+  konfigurieren Sie jedes Widget unabhängig.
+sfeatures.locale.desc: "Unterstützung für Französisch, Spanisch, Italienisch, Portugiesisch
+  und Türkisch. Übersetzungen sind<a\n    href=\"https://renewedtab.com/translations/\"\
+  > Community erhalten</a>, sodass Benutzer für den Support der Sprachen helfen können.
+  Vielen Dank."
+features.dnd.desc: "Der Kern von Renewed Tab ist eine Widgetsystem.\nSie können Sachen
+  addieren, verschieben, vergrössern, und Widgets konfigurieren, in dem Sie intuitive
+  Kontrollen benutzen.\nSie könne das gleiche Widget mehrmals benutzen, mit anderen
+  Einstellungen.\n"
+features.backgrounds.title: Schöne Hintergrundbilder
