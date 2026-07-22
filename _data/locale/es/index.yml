@@ -92,28 +92,28 @@ features.privacy.desc: |
   </a>
 
 
-widgets.feeds: "<b>Feeds RSS y Atom</b>: pueden ser utilizados para ver noticias o\
-  \ seguir un sitio web."
+widgets.feeds: "<b>Feeds RSS y Atom</b>: pueden ser utilizados para ver noticias o
+  seguir un sitio web."
 widgets.weather: "<b>Clima</b>"
-widgets.todo: "<b>Lista de Quehaceres</b>: realice un seguimiento de las cosas que\
-  \ necesita hacer."
+widgets.todo: "<b>Lista de Quehaceres</b>: realice un seguimiento de las cosas que
+  necesita hacer."
 widgets.links: "<b>Enlaces Rápidos</b>: muestra enlaces, con iconos y subtítulos opcionales."
 widgets.topsites: "<b>Sitios Principales</b>: muestra sus sitios web más frecuentados."
 widgets.dailygoals: "<b>Metas Diarias</b>: ingrese una meta diaria."
-widgets.bookmarks: "<b>Marcadores</b>: muestra sus marcadores de la barra de herramientas\
-  \ de marcadores."
+widgets.bookmarks: "<b>Marcadores</b>: muestra sus marcadores de la barra de herramientas
+  de marcadores."
 widgets.greeting: "<b>Saludo</b>: sea bienvenido según la hora del día."
 widgets.quotes: "<b>Citas</b>: muestra una cita aleatoria, con categorías."
 widgets.clock: "<b>Reloj</b>: muestra la hora actual, elige entre 12 y 24 horas."
 widgets.notes: "<b>Notas</b>: tome notas en un área de texto de forma libre."
 widgets.age: "<b>Edad</b>: muestra su edad actual con demasiada precisión."
-widgets.search: "<b>Búsqueda</b>: una barra de búsqueda, con soporte para cambiar\
-  \ el motor de búsqueda."
+widgets.search: "<b>Búsqueda</b>: una barra de búsqueda, con soporte para cambiar
+  el motor de búsqueda."
 widgets.webcomics: "<b>Cómics Web</b>: muestra el panel más reciente de un cómic web."
-widgets.yearprogress: "<b>Progreso del Año</b>: muestra el progreso a lo largo del\
-  \ año como una barra de progreso."
-widgets.currencies: "<b>Monedas</b>: muestra tasas de cambio, compatible con divisas\
-  \ forex y criptomonedas."
+widgets.yearprogress: "<b>Progreso del Año</b>: muestra el progreso a lo largo del
+  año como una barra de progreso."
+widgets.currencies: "<b>Monedas</b>: muestra tasas de cambio, compatible con divisas
+  forex y criptomonedas."
 widgets.spaceflight: "<b>Próximos Vuelos Espaciales</b>"
 widgets.more: "y más: botones, imagenes, HTML, e IFrames."
 help.links.tutorial.title: Empezando
@@ -255,10 +255,10 @@ sfeatures.customisable.desc: cambiar el fondo, el tema y configurar cada widget 
 help.contact_me: Contacto
 faq.custom_widgets.title: ¿Cómo añado widgets personalizados?
 nav.blog: Blog
-sfeatures.locale.desc: "soporta francés, español, italiano, portugués, malayo y turco.\
-  \ Las traducciones son\n<a \nhref=\"https://renewedtab.com/translations/\" >mantenidas\
-  \ por la comunidad</a>\nlo que permite a los usuarios contribuir al soporte de su\
-  \ idioma."
+sfeatures.locale.desc: "soporta francés, español, italiano, portugués, malayo y turco.
+  Las traducciones son\n<a \nhref=\"https://renewedtab.com/translations/\" >mantenidas
+  por la comunidad</a>\nlo que permite a los usuarios contribuir al soporte de su
+  idioma."
 help.github: GitHub (réplica)
 get_involved.community: Comunidad
 get_involved.contributing: Contribuyendo
@@ -284,13 +284,13 @@ donate.coffee_2: Al donar me demuestras que valoras mi trabajo, y me animas a de
   así que las donaciones me ayudan a financiar mi adicción a la cafeína.
 sfeatures.powerful.desc: puedes añadir, mover, cambiar el tamaño y configurar widgets
   en una rejilla usando controles intuitivos.
-faq.blur.desc: "**El desenfoque debería funcionar por defecto en Firefox 103. Compruebe\
-  \ que su navegador está\nactualizado.**\n\nEs posible activar el desenfoque en versiones\
-  \ anteriores de Firefox de forma manual:\n\n1. Abre una nueva pestaña y pon `about:config`\
-  \ como la dirección.\n2. Acepte la advertencia.\n3. Activa `layout.css.backdrop-filter.enabled`.\n\
+faq.blur.desc: "**El desenfoque debería funcionar por defecto en Firefox 103. Compruebe
+  que su navegador está\nactualizado.**\n\nEs posible activar el desenfoque en versiones
+  anteriores de Firefox de forma manual:\n\n1. Abre una nueva pestaña y pon `about:config`
+  como la dirección.\n2. Acepte la advertencia.\n3. Activa `layout.css.backdrop-filter.enabled`.\n
   4. Cierra y vuelve a abrir Firefox.\n"
 faq.bookmarks.title: ¿Cómo puedo mostrar la barra de marcadores sólo en la página
   Nueva Pestaña?
-faq.custom_widgets.desc: "Consulta [Cómo crear tus propios widgets personalizados\
-  \ para Renewed Tab](/blog/2022/07/24/custom-widgets/).\n"
+faq.custom_widgets.desc: "Consulta [Cómo crear tus propios widgets personalizados
+  para Renewed Tab](/blog/2022/07/24/custom-widgets/).\n"
 faq.contact.title: ¿Cómo puedo ponerme en contacto?
