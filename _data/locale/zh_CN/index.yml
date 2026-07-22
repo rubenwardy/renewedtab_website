@@ -122,7 +122,7 @@ features.foss.desc: "任何人都可以阅读、编辑代码，参与到开发�
   fab fa-gitlab mr-2\"></i>\n  GitLab\n</a>\n<a href=\"https://github.com/rubenwardy/renewedtab\"\
   \ class=\"button\">\n  <i class=\"fab fa-github mr-2\"></i>\n  GitHub (镜像)\n</a>\n"
 features.locale.desc: "Renewed Tab 支持 English, Français, Español, Deutsch, Italiano,
-  Русский, 汉语,\nPortuguês, Bahasa Melayu, and Türkçe.\n\n翻译由社区维护，\n欢迎你添加对你的语言的支持。\n
+  Русский, 简体中文,\nPortuguês, Bahasa Melayu, and Türkçe.\n\n翻译由社区维护，\n欢迎你添加对你的语言的支持。\n
   \n<a class=\"button is-primary\" href=\"https://renewedtab.com/translations/\">\n\
   \  <i class=\"fas fa-language mr-2\"></i>\n  帮助我们翻译\n</a>\n"
 description.help.faq: 与 Renewed Tab 浏览器扩展有关的常见问题的解答
@@ -135,8 +135,8 @@ get_involved.contrib.tell: 与你的朋友分享 Renewed Tab。
 get_involved.patches: 您可以使用 GitLab、GitHub、电子邮件或者 Discord/Matrix 来提交代码或 issues。
 get_involved.help_translate: 参与翻译
 donate.costs_1: 帮助我支付账单
-donate.costs_2: 捐赠将帮助我支付账单，其中包括 20 美元的服务器托管费用和 25 美元的天气 API 费用。
-donate.coffee_1: 用一杯咖啡表示感谢
+donate.costs_2: 捐赠将帮助我支付账单，其中包括 20 美元的服务器托管费用和 45 美元的天气 API 费用。
+donate.coffee_1: 表示感谢
 donate.coffee_2: 通过捐赠，您向我表明对该工作的赞赏，这将鼓励我花费更多的时间工作在 Renewed Tab 上。 我花费了很多时间在咖啡店里进行编程，因此捐款可以帮助我缓解咖啡因瘾。
 donate.one_off: 您可以通过订阅并在一个月后取消来实现一次性的捐赠。
 get_involved.contrib.review: 访问 <a firefox>Firefox</a> 和 <a chrome>Chrome</a> 商店中的
@@ -147,3 +147,4 @@ footer.privacy_policy: 隐私政策
 footer.press_kit: 相关新闻
 footer.credits: 贡献
 footer.website_source: 网站源代码
+features.privacy.desc.store: "我们仅请求最低限度的权限，\n其它权限均可选并仅在需要的时候请求。\n您全部的数据均仅储存于浏览器中，不会上传至我们的服务器。\n"
