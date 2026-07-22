@@ -1,0 +1,48 @@
+title: Renewed Tab
+description: Egy testreszabható Új lap oldal, widgetekkel és gyönyörű 
+  hátterekkel
+firefox: Firefox
+chrome: Chrome
+online: Próbáld online
+andmore: És még több...
+widgets: Widgetek
+gallery: Galéria
+testimonials: Felhasználói visszajelzések
+likeWhatYouSee: 'Tetszik amit láttál?<br>Elérhető:'
+features: Funkciók
+support: Támogatás
+support_desc: Segítségre van szükséged? Találtál egy hibát, vagy lenne egy 
+  kérésed? Nézd meg a <a href="https://renewedtab.com/help/">Segítség és 
+  GYIK</a> oldalt a gyakori kérdések megtekintéséhez, és lépj velünk 
+  kapcsolatba!
+nav.about: Rólunk
+nav.gallery: Galéria
+nav.help: Segítség és GYIK
+nav.get_involved: Kapcsolódj be
+nav.donate: Adomány
+nav.blog: Blog
+help.issue_tracker: Hibajegyek
+help.contact_me: Kapcsolat
+help.github: GitHub
+gallery.screenshot.png: 'Rengeteg widget: hírek, időjárás és még több'
+gallery.sidebar_icons.png: 'Ikonok: Gyorslinkek vagy könyvjelzők'
+gallery.icons.png: Legtöbbet használt oldalak és ikonjaik
+gallery.focus.png: 'Minimalista: csak egy óra és egy keresőmező'
+sfeatures.powerful.desc: hozzá tudsz adni, mozgatni, átméretezni, és módosítani 
+  widgeteketegy rácson egyszerű vezérlőkkel.
+sfeatures.backgrounds.desc: minden 15 percben egy véletlenszerű hátteret kapsz, 
+  de ki tudsz választani egy egyszerű színt, egy Unsplash gyűjteményt, egy 
+  RSS/Atom feed-et, vagy egy saját háttérképet.
+sfeatures.customisable.desc: változtasd a hátteret, a témát, és konfigurálj 
+  minden widgetet úgy, ahogy szeretnéd.
+sfeatures.locale.desc: |-
+  beszél franciául, spanyolul, olaszul, portugálul, malájul és törökül. A fordítások a <a
+      href="https://renewedtab.com/translations/">közösség</a>
+  által készülnek, hogy létre tudd hozni a saját nyelveden is a fordítást.
+features.dnd.title: Húzd és helyezd el a widgeteket
+features.backgrounds.title: Gyönyörű háttérképek
+features.customisable.title: Testreszabható
+features.foss.title: Ingyenes és nyílt foráskódú
+features.locale.title: Többnyelvű
+features.privacy.title: Biztonságorientált
+widgets.weather: <b>Időjárás</b>
