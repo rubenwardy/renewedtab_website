@@ -67,3 +67,196 @@ features.dnd.desc: "Der Kern von Renewed Tab ist eine Widgetsystem.\nSie können
   Kontrollen benutzen.\nSie könne das gleiche Widget mehrmals benutzen, mit anderen
   Einstellungen.\n"
 features.backgrounds.title: Schöne Hintergrundbilder
+testimonials: Nutzerstimmen
+likeWhatYouSee: 'Du magst, was du siehst?<br>Verfügbar für:'
+features.backgrounds.desc: |
+  Alle 15 Minuten wird ein zufälliges Hintergrundbild aus einer kuratierten Sammlung angezeigt.
+
+  Du kannst auch eine Farbe, eine Unsplash-Sammlung, einen RSS-/Atom-Feed oder ein benutzerdefiniertes Hintergrundbild auswählen.
+
+  Wenn du auf die Quellenangabe zeigst, werden die Widgets versteckt und du kannst das Bild positiv bewerten oder überspringen.
+features.rich.title: Vielfältige Widgets
+features.rich.desc: |
+  Manche Widgets verbinden sich mit dem Internet. So kannst du einen RSS-/Atom-Feed durchblättern, anstehende Raketenstarts ansehen oder das Wetter überprüfen
+
+  <a href="#widgets" class="button is-primary">Liste der Widgets</a>
+features.customisable.title: Anpassbar
+features.customisable.desc: |
+  Jedes Widget hat Einstellungen fürs Verhalten und Thema.
+
+  Es gibt auch globale Einstellungen, die es dir erlauben, das Thema anzupassen, die Sprache zu wechseln oder einen Hintergrund auszuwählen.
+features.foss.title: Frei und quelloffen
+features.foss.desc: |
+  Jeder kann den Code lesen, bearbeiten und zur Entwicklung beitragen.
+
+  Geschrieben in TypeScript und React.
+
+  <a href="https://gitlab.com/renewedtab/renewedtab" class="button is-primary">
+    <i class="fab fa-gitlab mr-2"></i>
+    GitLab
+  </a>
+  <a href="https://github.com/rubenwardy/renewedtab" class="button">
+    <i class="fab fa-github mr-2"></i>
+    GitHub (Spiegel)
+  </a>
+features.locale.title: Mehrsprachig
+features.locale.desc: |
+  Renewed Tab unterstützt English, Français, Español, Deutsch, Italiano, Русский, 汉语,
+  Português, Bahasa Melayu, und Türkçe.
+
+  Übersetzungen werden durch die Gemeinschaft gepflegt, wodurch du Unterstützung für deine Sprache hinzufügen kannst.
+  language.
+
+  <a class="button is-primary" href="https://renewedtab.com/translations/">
+    <i class="fas fa-language mr-2"></i>
+    Hilf beim Übersetzen
+  </a>
+features.privacy.title: Legt Wert auf Privatsphäre
+features.privacy.desc: |
+  Wir benötigen nur minimalste Berechtigungen; weitere Berechtigungen sind optional und werden nur angefragt, wenn sie benötigt werden. All deine Daten sind in deinem Browser und nicht auf unseren Servern gespeichert.
+
+  <a class="button is-primary" href="/privacy_policy/">
+    Datenschutzerklärung
+  </a>
+features.privacy.desc.store: |
+  Wir benötigen nur minimalste Berechtigungen; weitere Berechtigungen sind optional und werden nur angefragt, wenn sie benötigt werden. All deine Daten sind in deinem Browser und nicht auf unseren Servern gespeichert.
+widgets.more: 'und mehr: Knöpfe, Bilder, HTML und iFrames.'
+help.links.tutorial.title: Erste Schritte
+help.links.tutorial.desc: Lerne, wie du Renewed Tab einrichtest und anpasst
+help.links.faq.title: Probleme und Fragen
+help.links.faq.desc: Oft gestellte Fragen
+help.links.get_involved.title: Mach mit
+help.links.get_involved.desc: Unterhalte dich mit den Entwicklern und anderen 
+  Nutzern
+help.top_questions: Meistgestellte Fragen
+help.articles: Artikel
+help.back: Zurück zu „Hilfe“
+faq.blur.title: Wie aktiviere ich Verwischen in Firefox?
+faq.blur.desc: |
+  **Die Unschärfe sollte standardmäßig ab Firefox 103 funktionieren. Stelle sicher, dass du die neuste Version des BrowserS verwendest.
+
+  Möglicherweise lässt sich die Unschärfe in älteren Versionen von Firefox manuell aktivieren:
+
+  1. Öffne einen neuen Tab, gib `about:config` in die Adressleiste ein und drücke Enter.
+  2. Akzeptiere die Warnung.
+  3. Suche nach `layout.css.backdrop-filter.enabled` und setze den Wert auf `true`, indem du auf das Suchergebnis doppelklickst.
+  4. Schließe und öffne Firefox.
+faq.bookmarks.title: Wie zeige ich die Lesezeichenleiste nur auf der „Neuer 
+  Tab“-Seite?
+faq.bookmarks.desc: |
+  In Chrome gibt es keine Möglichkeit, die **eingebaute** Lesezeichenleiste nur auf der „Neuer Tab“-Seite anzuzeigen. Stattdessen stellt Renewed Tab eine eigene Lesezeichenleiste bereit. Aktiviere sie über Einstellungen → Allgemein → Lesezeichenleiste.
+
+  In Firefox kannst du es einstellen, indem du neben der Adressleiste rechtsklickst → „Lesezeichen-Symbolleiste“ → „Nur bei neuem Tab anzeigen“
+
+  ![Only show on new tab](/static/images/help/firefox_bookmarks.png)
+faq.widgets_outside_grid.title: Wie kann ich Widgets außerhalb des Rasters oder 
+  an der Unterkante des Bildschirms platzieren?
+faq.widgets_outside_grid.desc: |
+  In Renewed Tab müssen alle Widgets im Raster platziert werden. Das ist großartig für die Benutzererfahrung, weil es einfach ist, macht bestimmte Dinge aber etwas komplizierter.
+
+  Damit ein Widget am unteren Rand des Bildschirms angezeigt wird, kannst du das unsichtbare Widget verwenden, um vertikalen Abstand zwischen Widgets hinzuzufügen.
+faq.host_permission.title: Warum fragt die Erweiterung nach Leseberechtigungen 
+  für alle Daten einer Webseite?
+faq.host_permission.desc: |
+  Manche Widgets, wie zum Beispiel Feed, müssen Informationen von einer URL laden.
+  Webbrowser verfügen über ein sehr striktes Berechtigungssystem, sodass eine Erweiterung Berechtigungen anfragen muss, um bestimmte Dinge zu tun.
+  Eine Webseite zu kontaktieren ist eines dieser Dinge.
+
+  Wenn zum Beispiel ein Feed von bbc.co.uk geladen werden soll, benötigt sie die Berechtigung, auf die Daten auf bbc.co.uk zugreifen zu dürfen.
+
+  Renewed Tab liest weder deine persönlichen Informationen, noch den Browserverlauf von den Webseiten auf die du Zugriff erlaubst. Es sendet lediglich Webanfragen an die Webseite, um den Inhalt von dort zu laden.
+
+  Beispielnachrichten:
+
+  >Renewed Tab bittet um zusätzliche Einstellungen
+  >Neue Berechtigungen:
+  >- Auf ihre Daten für Websites in feeds.bbci.co.uk-Domains zugreifen
+faq.background_block.title: Warum erscheint ein Hintergrundbild, obwohl ich es 
+  geblockt habe?
+faq.background_block.desc: |
+  Dem Renewed Tab Schnittstellen-Server stehen zu jedem Zeitpunkt nur 4 Bilder zur Verfügung.
+  Solltest du viele Bilder blockiert haben, kann es passieren, dass alle verfügbaren Bilder blockiert sind – ist das der Fall, wird das erste Bild verwendet.
+
+  Der Grund hierfür ist, dass die Unsplash-Schnittstelle nicht zu oft abgefragt werden soll.
+faq.no_background.title: Warum erscheint das Hintergrundbild nicht?
+faq.no_background.desc: |
+  Erweiterungen wie Dark Reader können in Konflikt mit dem Hintergrundbild geraten, du kannst sie je Webseite deaktivieren.
+
+  Alternativ kann es an einem Verbindungsfehler mit der Renewed Tab- oder Unsplash-Schnittstelle oder einem Konfigurationsproblem liegen.
+faq.sync.title: Wieso unterstützt ihr keine Browser-Synchronisierung?
+faq.sync.desc: |
+  Die Synchronisierung von Chrome und Firefox ist auf 8kb pro Eintrag begrenzt. Es ist nicht unüblich für Komponenten wie Notizen, dieses Limit zu überschreiten, wodurch Browser-Synchronisierung unbrauchbar würde.
+
+  Du kannst Einstellungen <i class="fas fa-cog"> → Importieren / Expotieren verwenden, um deine Einstellungen zwischen Browsern zu übertragen.
+faq.browser.title: Warum unterstützt ihr nicht Browser XYZ?
+faq.browser.desc: |
+  Wir unterstützen nur die beiden neuesten Versionen von Firefox und Chrome; es ist sehr schwer, für jeden Browser zu testen und Unterstützung anzubieten.
+
+  Renewed Tab verwendet plattformübergreifende Technologien, sodass es durchaus möglich ist, dass es in deinem Browser trotz mangelnder Unterstützung funktioniert.
+
+  Du kannst .zip-Dateien der Erweiterung so herunterladen:
+
+  1. Rufe die Seite [GitLab pipelines](https://gitlab.com/renewedtab/renewedtab/-/pipelines) auf.
+  2. Finde den sogenannten „commit“, an dem du Interesse hast; normalerweise möchtest du einen Veröffentlichungs-Commit wie z.B. „Release 1.2.3“.
+  3. Klicke den Download-Knopf (<i class="tag fas fa-ellipsis-v">
+  </i>) rechts in der Spalte.
+  4. Wähle "Download webext:archive artifact".
+
+  Wenn du ein Problem mit einem nicht unterstützten Browser hast, können wir höchstwahrscheinlich nicht weiterhelfen. Aber wir akzeptieren trotzdem Patches/PRs, um Probleme in nicht unterstützten Browsern zu beheben, solange sie keine strukturellen Probleme hervorrufen oder daran liegen, dass der Browser Webstandards nicht richtig implementiert.
+faq.proxy.title: Warum erhalte ich eine Fehlermeldung, wenn ich eine 
+  benutzerdefinierte URL in der Web-Version eingebe?
+faq.proxy.desc: |
+  Wenn du in der Web-Veresion eine benutzerdefinierte URL eingibst, die nicht erlaubt ist, erhältst du die folgende Fehlermeldung:
+
+  > Accessing host example.com is not allowed on the web version. For
+  > security reasons, the web version may only access pre-approved domains.
+  > Consider using the Chrome/Firefox extension instead.
+
+  Die Web-Version verwendet zum Zugreifen auf URLs einen Proxy, anstatt sie direkt zu kontaktieren. Das ist so, damit [Cross Origin Resource Sharing](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)-Einschränkungen (CORS) umgangen werden können: Webseiten dürfen keine Anfragen an andere Webseiten verschicken, solange diese Webseite das nicht erlaubt.
+
+  Der Proxy der Web-Version schränkt die erlaubten Domänen aus [Sicherheitsgründen](https://owasp.org/www-community/attacks/Server_Side_Request_Forgery) ein. Denn wenn alle Domänen erlaubt wären, könnten bösartige Nutzer DNS-Einträge verändern, um auf interne Dienste auf dem Server zuzugreifen.
+
+   Möglicherweise kannst du beantragen, dass eine Webseite vom Proxy zugelassen wird. Du solltest stattdessen aber lieber die Chrome/Firefox-Erweiterung verwenden, da sie diese Einschränkung nicht hat.
+
+  Hinweis: Solltest du die Fehlermeldung beim Verwenden der Browser-Erweiterung erhalten, dann ist etwas _schief gelaufen_. Bitte melde es unten.
+faq.custom_widgets.title: Wie füge ich benutzerdefinierte Widgets hinzu?
+faq.custom_widgets.desc: |
+  Siehe [Deine eigenen, benutzerdefinierten Widgets für Renewed Tab erstellen](/blog/2022/07/24/custom-widgets/).
+faq.contact.title: Wie kann ich euch kontaktieren?
+faq.contact.desc: |
+  Der bevorzugte Diskussionsweg für Fehler oder Feature-Anfragen ist es, ein Issue im Issue Tracker zu eröffnen.
+
+  Solltest du Hilfe benötigen, kannst du eine beliebige der folgenden Optionen verwenden. Discord oder Matrix sind vermutlich die schnellsten.
+get_involved.community: Gemeinschaft
+get_involved.chat: Du kannst mit anderen Renewed Tab Nutzern per Discord oder 
+  Matrix schreiben.
+get_involved.contributing: Trage bei
+get_involved.contrib.dev: Trage eine Fehlerbehebung oder ein neues Feature bei
+get_involved.contrib.trans: Übersetze Renewed Tab in deine Sprache
+get_involved.contrib.tell: Erzähl deinen Freunden von Renewed Tab.
+get_involved.contrib.review: Bewerte Renewed Tab in den <a firefox>Firefox</a>- 
+  oder <a chrome>Chrome</a>-Läden. Ich finde es schön, Bewertungen zu sehen und 
+  es hilft dabei, potenzielle neue Nutzer zu erreichen.
+get_involved.patches: Du kannst Code oder Issues per GitLab, GitHub, E-Mail oder
+  Discord/Matrix einreichen.
+get_involved.help_translate: Hilf beim Übersetzen
+donate.costs_1: Deck meine Kosten
+donate.costs_2: Spenden helfen dabei, meine Kosten zu decken, die 20 US$ für 
+  Hosting und 45 US$ für eine Wetter-Schnittstelle beinhalten.
+donate.coffee_1: Sag danke
+donate.coffee_2: Durch eine Spende zeigst du mir, dass du meine Arbeit 
+  wertschätzt und ermutigst mich, mehr Zeit mit der Arbeit an Renewed Tab zu 
+  verbringen. Ich sitze sehr viel in Coffee-Shops, Spenden helfen also auch 
+  dabei, meiner Koffeinsucht nachzukommen.
+donate.one_off: Für eine einmalige Spende kannst du abonnieren und nach einem 
+  Monat wieder deabonnieren.
+description.help: Erhalte Hilfe bei der Benutzung der Renewed Tab 
+  Browser-Erweiterung
+description.help.faq: Oft gestellte Fragen über die Renewed Tab 
+  Browser-Erweiterung
+description.get_involved: Wie du Renewed Tab unterstützen und mit der 
+  Gemeinschaft in Kontakt kommen kannst
+footer.privacy_policy: Datenschutzerklärung
+footer.press_kit: Presseunterlagen
+footer.credits: Danksagungen
+footer.website_source: Webseiten-Quellcode
