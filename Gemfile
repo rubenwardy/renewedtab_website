@@ -6,6 +6,7 @@ gem "json"
 gem "sassc", "2.1"
 gem "bigdecimal"
 gem "csv"
+gem "base64"
 
 group :jekyll_plugins do
 	gem "jekyll-redirect-from"
