@@ -1,8 +1,10 @@
 source "https://rubygems.org"
 
 gem "jekyll"
-gem "webrick"
+gem "webrick", "~> 1.7"
 gem "json"
+gem "sassc", "2.1"
+gem "bigdecimal"
 
 group :jekyll_plugins do
 	gem "jekyll-redirect-from"
