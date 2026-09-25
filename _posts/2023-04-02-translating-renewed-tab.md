@@ -28,10 +28,7 @@ translate_gallery:
 
 Renewed Tab supports localization, allowing users to use it in their own language.
 This is super important for accessibility and allows Renewed Tab to reach a
-wider audience.
-
-Renewed Tab is an open source project by a solo developer who unfortunately can
-only speak English. The community can help by providing translations for Renewed
+wider audience. The community can help by providing translations for Renewed
 Tab using Weblate.
 
 

@@ -87,10 +87,6 @@ Developed by [rubenwardy](https://rubenwardy.com)
 
 Thanks to Font-Awesome for icons, React for UI, and WebPack for builds.
 
-You can see a full list of used libraries in the
-[package.json](https://gitlab.com/renewedtab/renewedtab/-/blob/master/package.json)
-file.
-
 ### APIs
 
 Thanks to Unsplash, OpenStreetMap, OpenWeatherMap, Quotes.Rest,

@@ -24,7 +24,6 @@ nav.blog: Blog
 
 help.issue_tracker: Issue Tracker
 help.contact_me: Contact Me
-help.github: GitHub (mirror)
 
 gallery.screenshot.png: "A variety of widgets: The news, weather, and more"
 gallery.sidebar_icons.png: "Icon links: Quick links or bookmarks"
@@ -80,21 +79,6 @@ features.customisable.desc: |
 
   There are also global settings, allowing you to customise the theme,
   change language, or choose a background.
-
-features.foss.title: Free and Open Source
-features.foss.desc: |
-  Anyone can read the code, modify it, and contribute to development.
-
-  Written using TypeScript and React.
-
-  <a href="https://gitlab.com/renewedtab/renewedtab" class="button is-primary">
-    <i class="fab fa-gitlab mr-2"></i>
-    GitLab
-  </a>
-  <a href="https://github.com/rubenwardy/renewedtab" class="button">
-    <i class="fab fa-github mr-2"></i>
-    GitHub (mirror)
-  </a>
 
 features.locale.title: Multi-lingual
 features.locale.desc: |
@@ -243,14 +227,6 @@ faq.browser.desc: |
   Renewed Tab is built using cross-platform technologies, meaning that it is likely
   that it will work on your browser despite not being supported.
 
-  You can download .zips of the browser extension:
-
-  1. Go to [GitLab pipelines](https://gitlab.com/renewedtab/renewedtab/-/pipelines).
-  2. Find the commit you're interested in. Typically, you want a release commit
-    like "Release 1.2.3".
-  3. Click the download button (<i class="tag fas fa-ellipsis-v"></i>) to the right of the row.
-  4. Select "Download webext:archive artifact".
-
   If you have a problem with an unsupported browser, then we are unlikely to be
   able to help. However, we may accept patches/PRs to fix issues on unsupported
   platforms as long as it doesn't introduce architectural problems, and the
@@ -306,7 +282,7 @@ get_involved.contrib.review: >-
   Review Renewed Tab on the <a firefox>Firefox</a> and <a chrome>Chrome</a>
   stores. I appreciate seeing reviews, and it helps inform potential new users.
 
-get_involved.patches: You can submit code or issues using GitLab, GitHub, email, or Discord/Matrix.
+get_involved.patches: You can submit code or issues using email or Discord/Matrix.
 get_involved.help_translate: Help Translate
 
 donate.costs_1: Cover my costs

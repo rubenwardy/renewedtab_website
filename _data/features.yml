@@ -16,9 +16,6 @@
 - id: customisable
   image: /static/images/features/settings.png
 
-- id: foss
-  image_link: https://gitlab.com/renewedtab/renewedtab
-
 - id: locale
 
 - id: privacy

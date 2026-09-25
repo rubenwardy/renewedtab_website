@@ -72,5 +72,3 @@ had an idea of how to make the process more user-friendly.
 
 I plan to continue developing Renewed Tab, to build on its solid foundation
 without losing touch with the original goals.
-Interested in what's coming next? Development is done publicly on GitLab, with
-the [roadmap](https://gitlab.com/renewedtab/renewedtab/-/boards) fully visible.
