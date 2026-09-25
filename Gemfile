@@ -5,6 +5,7 @@ gem "webrick", "~> 1.7"
 gem "json"
 gem "sassc", "2.1"
 gem "bigdecimal"
+gem "csv"
 
 group :jekyll_plugins do
 	gem "jekyll-redirect-from"

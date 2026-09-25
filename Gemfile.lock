@@ -100,6 +100,7 @@ PLATFORMS
 
 DEPENDENCIES
   bigdecimal
+  csv
   jekyll
   jekyll-redirect-from
   jekyll-sass-converter (~> 2.0)
